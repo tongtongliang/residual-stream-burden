@@ -4418,7 +4418,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 2977
+      "bytes": 3108
     },
     {
       "path": "SOURCE_INVENTORY.json",
@@ -7350,7 +7350,7 @@
     },
     {
       "path": "docs/PAPER_EXPERIMENTS.md",
-      "bytes": 3503
+      "bytes": 3490
     },
     {
       "path": "docs/RELEASE_VALIDATION.md",
@@ -7395,6 +7395,10 @@
     {
       "path": "hub/collaborator-flagship.json",
       "bytes": 7136
+    },
+    {
+      "path": "hub/collection.json",
+      "bytes": 359
     },
     {
       "path": "hub/metadata_updates.json",
@@ -8018,7 +8022,7 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 1000
+      "bytes": 1104
     },
     {
       "path": "requirements-tested.txt",

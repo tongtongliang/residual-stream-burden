@@ -7,6 +7,7 @@ SiHC models, training code, controlled experiments, and cached analyses accompan
 - [Model installation and API](docs/MODEL_QUICKSTART.md)
 - [Training and model sizes](docs/REPRODUCIBILITY.md): B / L / H without REPA; XL with DINOv3-L REPA.
 - [Paper experiments and figure reproduction](docs/PAPER_EXPERIMENTS.md)
+- [Hugging Face collection](https://huggingface.co/collections/TongtongLiang/residual-stream-burden-sihc-6abe6b2f99f62128cf8c14a7)
 - [Checkpoint catalog](hub/checkpoints.json) and [checkpoint guide](docs/CHECKPOINTS.md)
 - [Kernel benchmarks](docs/kernel_fusion/README.md)
 

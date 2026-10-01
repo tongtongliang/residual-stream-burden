@@ -15,7 +15,7 @@ The analysis cache preserves measurement values. Original measurement scripts in
 | Kernel fusion | `analysis_reports/18_kernel_fusion` | [Benchmark commands](kernel_fusion/README.md) |
 
 ```bash
-pip install numpy matplotlib pandas scipy
+pip install -e '.[research]'
 python paper/fig_table/code/render_dino_target_spectra.py
 python paper/fig_table/code/render_video_tubelet_spectra.py
 python paper/fig_table/code/render_learned_long_skip.py
