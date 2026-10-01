@@ -1,0 +1,7 @@
+model,t_clean,whiten_R,historical_plain_R,whiten_over_historical_plain_R,comparison_scope
+whiten_clean,0.25,0.8333237651345362,1.5008114283367735,0.5552488136754401,historical reference; plain models not rerun in current environment
+whiten_clean,0.5,2.326533149022285,4.392906656395912,0.5296113327686892,historical reference; plain models not rerun in current environment
+whiten_clean,0.75,6.516169533613173,17.68728393671395,0.36840984500098356,historical reference; plain models not rerun in current environment
+whiten_velocity,0.25,0.8366462740299418,1.042940562334687,0.802199381484461,historical reference; plain models not rerun in current environment
+whiten_velocity,0.5,2.4483873156986773,1.8944923531806117,1.2923711787952832,historical reference; plain models not rerun in current environment
+whiten_velocity,0.75,8.641855723528453,3.903063568110043,2.2141211826875384,historical reference; plain models not rerun in current environment

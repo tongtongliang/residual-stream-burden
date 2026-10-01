@@ -1,0 +1,247 @@
+[
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/metadata.json",
+    "bytes": 1247
+  },
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/training_data_snapshot.npz",
+    "bytes": 15392581
+  },
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/representation_metrics.csv",
+    "bytes": 11995
+  },
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/representation_stability.csv",
+    "bytes": 3521
+  },
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/sample_metrics.csv",
+    "bytes": 186
+  },
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/sample_quality_metrics.csv",
+    "bytes": 618
+  },
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/sample_subspace_metrics.csv",
+    "bytes": 311
+  },
+  {
+    "model": "FCN-256",
+    "path": "results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/samples.npz",
+    "bytes": 7800186
+  },
+  {
+    "model": "FCN-256 wide branch",
+    "path": "results/fcn_w256_branch1024_adaln/runs/fcn_w256_branch1024_adaln_v/metadata.json",
+    "bytes": 1267
+  },
+  {
+    "model": "FCN-256 wide branch",
+    "path": "results/fcn_w256_branch1024_adaln/runs/fcn_w256_branch1024_adaln_v/training_data_snapshot.npz",
+    "bytes": 15392581
+  },
+  {
+    "model": "FCN-256 wide branch",
+    "path": "results/fcn_w256_branch1024_adaln/runs/fcn_w256_branch1024_adaln_v/analysis/sample_metrics.csv",
+    "bytes": 139
+  },
+  {
+    "model": "FCN-256 wide branch",
+    "path": "results/fcn_w256_branch1024_adaln/runs/fcn_w256_branch1024_adaln_v/analysis/sample_quality_metrics.csv",
+    "bytes": 351
+  },
+  {
+    "model": "FCN-256 wide branch",
+    "path": "results/fcn_w256_branch1024_adaln/runs/fcn_w256_branch1024_adaln_v/analysis/sample_subspace_metrics.csv",
+    "bytes": 205
+  },
+  {
+    "model": "FCN-256 wide branch",
+    "path": "results/fcn_w256_branch1024_adaln/runs/fcn_w256_branch1024_adaln_v/analysis/samples.npz",
+    "bytes": 3958496
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/metadata.json",
+    "bytes": 1248
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/training_data_snapshot.npz",
+    "bytes": 15392581
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/analysis/representation_metrics.csv",
+    "bytes": 12044
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/analysis/representation_stability.csv",
+    "bytes": 3498
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/analysis/sample_metrics.csv",
+    "bytes": 183
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/analysis/sample_quality_metrics.csv",
+    "bytes": 616
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/analysis/sample_subspace_metrics.csv",
+    "bytes": 313
+  },
+  {
+    "model": "FCN-512",
+    "path": "results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/analysis/samples.npz",
+    "bytes": 7756172
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/metadata.json",
+    "bytes": 1251
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/training_data_snapshot.npz",
+    "bytes": 15392581
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/analysis/representation_metrics.csv",
+    "bytes": 12059
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/analysis/representation_stability.csv",
+    "bytes": 3512
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/analysis/sample_metrics.csv",
+    "bytes": 184
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/analysis/sample_quality_metrics.csv",
+    "bytes": 628
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/analysis/sample_subspace_metrics.csv",
+    "bytes": 311
+  },
+  {
+    "model": "FCN-1024",
+    "path": "results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/analysis/samples.npz",
+    "bytes": 7749153
+  },
+  {
+    "model": "SiHC N=4",
+    "path": "results/sihc_patch_adaln/runs/sihc_patch_adaln_xv/metadata.json",
+    "bytes": 1209
+  },
+  {
+    "model": "SiHC N=4",
+    "path": "results/sihc_patch_adaln/runs/sihc_patch_adaln_xv/training_data_snapshot.npz",
+    "bytes": 15392581
+  },
+  {
+    "model": "SiHC N=4",
+    "path": "results/sihc_patch_adaln/runs/sihc_patch_adaln_xv/analysis/sample_metrics.csv",
+    "bytes": 183
+  },
+  {
+    "model": "SiHC N=4",
+    "path": "results/sihc_patch_adaln/runs/sihc_patch_adaln_xv/analysis/sample_quality_metrics.csv",
+    "bytes": 638
+  },
+  {
+    "model": "SiHC N=4",
+    "path": "results/sihc_patch_adaln/runs/sihc_patch_adaln_xv/analysis/sample_subspace_metrics.csv",
+    "bytes": 309
+  },
+  {
+    "model": "SiHC N=4",
+    "path": "results/sihc_patch_adaln/runs/sihc_patch_adaln_xv/analysis/samples.npz",
+    "bytes": 7752753
+  },
+  {
+    "model": "MLP-Mixer",
+    "path": "results/mixer_p8_adaln/runs/mixer_p8_adaln_xv/metadata.json",
+    "bytes": 1349
+  },
+  {
+    "model": "MLP-Mixer",
+    "path": "results/mixer_p8_adaln/runs/mixer_p8_adaln_xv/training_data_snapshot.npz",
+    "bytes": 15392581
+  },
+  {
+    "model": "MLP-Mixer",
+    "path": "results/mixer_p8_adaln/runs/mixer_p8_adaln_xv/analysis/sample_metrics.csv",
+    "bytes": 184
+  },
+  {
+    "model": "MLP-Mixer",
+    "path": "results/mixer_p8_adaln/runs/mixer_p8_adaln_xv/analysis/sample_quality_metrics.csv",
+    "bytes": 642
+  },
+  {
+    "model": "MLP-Mixer",
+    "path": "results/mixer_p8_adaln/runs/mixer_p8_adaln_xv/analysis/sample_subspace_metrics.csv",
+    "bytes": 310
+  },
+  {
+    "model": "MLP-Mixer",
+    "path": "results/mixer_p8_adaln/runs/mixer_p8_adaln_xv/analysis/samples.npz",
+    "bytes": 7751554
+  },
+  {
+    "model": "shared known-plane visualization",
+    "path": "results/known_plane_offplane_pointclouds/single_panels/gt_distribution_equal_scale.png",
+    "bytes": 74105
+  },
+  {
+    "model": "shared known-plane visualization",
+    "path": "results/known_plane_offplane_pointclouds/single_panels/fcn256_x_equal_scale.png",
+    "bytes": 75399
+  },
+  {
+    "model": "shared known-plane visualization",
+    "path": "results/known_plane_offplane_pointclouds/single_panels/fcn256_v_equal_scale.png",
+    "bytes": 126697
+  },
+  {
+    "model": "shared known-plane visualization",
+    "path": "results/known_plane_offplane_pointclouds/single_panels/fcn256_wide_v_equal_scale.png",
+    "bytes": 128306
+  },
+  {
+    "model": "shared known-plane visualization",
+    "path": "results/known_plane_offplane_pointclouds/single_panels/fcn512_v_equal_scale.png",
+    "bytes": 103055
+  },
+  {
+    "model": "shared known-plane visualization",
+    "path": "results/known_plane_offplane_pointclouds/single_panels/fcn1024_v_equal_scale.png",
+    "bytes": 81673
+  },
+  {
+    "model": "shared known-plane visualization",
+    "path": "results/known_plane_offplane_pointclouds/single_panels/sihc_n4_v_equal_scale.png",
+    "bytes": 79269
+  }
+]

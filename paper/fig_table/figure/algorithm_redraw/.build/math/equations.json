@@ -1,0 +1,12 @@
+{
+  "h0": "\\boldsymbol{h}_{0}",
+  "hl": "\\boldsymbol{h}_{\\ell}",
+  "hn": "\\boldsymbol{h}_{\\ell+1}",
+  "a_hc": "\\boldsymbol{\\alpha}_{\\ell}\\in\\mathbb{R}^{1\\times 2}",
+  "b_hc": "\\boldsymbol{\\beta}_{\\ell}\\in\\mathbb{R}^{2\\times 1}",
+  "g_hc": "\\boldsymbol{\\gamma}_{\\ell}\\in\\mathbb{R}^{2\\times 2}",
+  "a_si": "\\boldsymbol{\\alpha}_{\\ell}\\in\\mathbb{R}^{c\\times 2}",
+  "b_si": "\\boldsymbol{\\beta}_{\\ell}\\in\\mathbb{R}^{c\\times 2}",
+  "one": "1\\times c",
+  "two": "2\\times c"
+}

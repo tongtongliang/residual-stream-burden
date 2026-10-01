@@ -1,0 +1,88 @@
+{
+  "run_id": "long_skip_jit_b16_fullpatch_velocity_20260830_1747",
+  "wandb": {
+    "entity": "tol011-uc-san-diego",
+    "project": "long_skip_jit",
+    "url": "https://wandb.ai/tol011-uc-san-diego/long_skip_jit/runs/long_skip_jit_b16_fullpatch_velocity_20260830_1747"
+  },
+  "model_key": "jit_b16_fullpatch_longskip",
+  "architecture": {
+    "backbone": "JiT-B/16",
+    "depth": 12,
+    "hidden_size": 768,
+    "num_heads": 12,
+    "patch_size": 16,
+    "full_patch_embed": true,
+    "bottleneck_dim": null,
+    "in_context_len": 0,
+    "long_skip": "TimeScalarSkip (sin-emb -> MLP -> alpha, beta=1+delta)",
+    "output": "v_hat = alpha(t)*x_t + beta(t)*nnet(x_t,t,y)"
+  },
+  "training": {
+    "prediction": "velocity",
+    "dataset": "ImageNet-1k 256 (live parquet)",
+    "global_batch": 1024,
+    "gpus": 4,
+    "lr": 0.0002,
+    "optimizer": "AdamW",
+    "ema": [
+      0.9999,
+      0.9996
+    ],
+    "epochs": 400,
+    "steps_per_epoch": 1251,
+    "max_steps": 500400,
+    "P_mean": -0.8,
+    "P_std": 0.8,
+    "noise_scale": 1.0,
+    "t_eps": 0.05,
+    "label_drop_prob": 0.1,
+    "repa": false
+  },
+  "eval": {
+    "schedule_epochs": [
+      40,
+      80,
+      120,
+      160,
+      200,
+      240,
+      280,
+      320,
+      360,
+      400
+    ],
+    "num_samples": 50000,
+    "state": "ema",
+    "sampler": "Heun",
+    "steps": 50,
+    "cfg": 2.9,
+    "interval": [
+      0.1,
+      1.0
+    ],
+    "fid_stats": "jit_in256_stats.npz",
+    "best_fid_e400": 6.7031203188908535,
+    "best_is_e400": 187.4649617338303
+  },
+  "skip_logging": {
+    "wandb_keys": "skip/clean_alpha_effective_t_* = -(1-t)*alpha(t); skip/clean_beta_effective_t_* = (1-t)*beta(t)",
+    "t_grid": "linspace(0.05, 0.95, 20)",
+    "history_source": "W&B run.history sampled (~5002 steps); local skip_curves.csv deleted with run dir",
+    "reconstruction": "alpha = -clean_alpha_eff/(1-t); -alpha -> 1/(1-t) when analytic",
+    "note": "Endpoints match paper: larger t is cleaner, not noisier."
+  },
+  "exclusions": [
+    "No .pt checkpoints (repo policy)",
+    "No ImageNet data",
+    "No W&B credentials"
+  ],
+  "time_convention": {
+    "formula": "x_t = t*x + (1-t)*eps",
+    "t0": "noise",
+    "t1": "clean",
+    "velocity_target": "v = (x - x_t)/(1-t)",
+    "alpha_analytic": "-1/(1-t)",
+    "source": "meta/train_xt_snippet.py (from scripts/train_imagenet256.py)"
+  }
+}

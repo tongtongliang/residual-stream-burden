@@ -1,0 +1,18 @@
+{
+  "recorded_at_packaging": true,
+  "packages": {
+    "torch": "2.13.0",
+    "numpy": "2.2.6",
+    "triton": "3.7.1",
+    "transformer-engine": "2.18.0",
+    "torchvision": "0.28.0"
+  },
+  "worker_python": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/.venv/bin/python",
+  "sample_seed": 20260914,
+  "sample_population": 1281167,
+  "sampling": "numpy default_rng choice without replacement",
+  "tf32_enabled": true,
+  "noise_seed_formula": "(1234567 + image_index * 1000003) % (2**63-1)",
+  "cache_root": "/data/tongtong/latent_caches/raev1_dinov2b_normalized_fp32_noflip",
+  "wandb": false
+}

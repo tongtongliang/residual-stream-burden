@@ -1,0 +1,193 @@
+[
+  {
+    "model": "plain_jit_clean",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/plain_jit_clean/noise25",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "plain_jit_clean",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/plain_jit_clean/noise50",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "plain_jit_clean",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/plain_jit_clean/noise75",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "plain_jit_velocity",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/plain_jit_velocity/noise25",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "plain_jit_velocity",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/plain_jit_velocity/noise50",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "plain_jit_velocity",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/plain_jit_velocity/noise75",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "sihc_sublayer_p4",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/sihc_sublayer_p4/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_sihc_sublayer_b16_velocity_p4_seed0/checkpoints/step_00250200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "sihc_sublayer_p4",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/sihc_sublayer_p4/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_sihc_sublayer_b16_velocity_p4_seed0/checkpoints/step_00250200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "sihc_sublayer_p4",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/sihc_sublayer_p4/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_sihc_sublayer_b16_velocity_p4_seed0/checkpoints/step_00250200.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "distributed_resume.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 6
+    }
+  }
+]

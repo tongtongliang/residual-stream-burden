@@ -1,0 +1,17 @@
+{
+  "start_epoch": 9,
+  "world": 2,
+  "global_batch": 4096,
+  "microbatch": 128,
+  "checkpoint": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/latest.pt",
+  "label": "raev1-g2b-02-jit-b-mhc4-velocity-epoch200",
+  "alpha": 0.75,
+  "cache": "/data/tongtong/latent_caches/raev1_dinov2b_normalized_fp32_noflip",
+  "shuffle": "same global randperm seed42+epoch; assign whole microbatches round-robin",
+  "noise": "both ranks advance same seed700001+epoch through ALL global microbatches",
+  "gradients": "local loss sum/actual global examples; SUM reduce once per optimizer update",
+  "numerical": "same inputs/noise; gradient summation order differs from single GPU",
+  "backbone": "BF16 compiled frozen",
+  "heads": "FP32 resumed AdamW",
+  "wandb": false
+}

@@ -1,0 +1,42 @@
+{
+  "model": {
+    "label": "pixeldit_b_velocity",
+    "display": "PixelDiT-B velocity",
+    "family": "external",
+    "model_kind": "pixeldit_b",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "group": 1
+  },
+  "alpha": 0.75,
+  "epochs": 40,
+  "points": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "checkpoint_state": "model",
+  "condition": "null1000",
+  "pooling": "semantic block post-update residual, spatial256 tokens only; patch RMS eps1e-6 then GAP",
+  "semantic_depth": 12,
+  "registers_excluded": false,
+  "microbatch": 128,
+  "effective_batch": 4096,
+  "world": 2,
+  "optimizer": "fresh zero heads AdamW cosine .01 -> .0001 epoch/39; wd0, default betas",
+  "precision": "BF16 autocast frozen semantic backbone; FP32 probes",
+  "compile": "default",
+  "data": "ImageNet1281167 train, 50000 val; existing uint8 center-crop cache, no flip",
+  "noise": "input z=(1-alpha)x+alpha epsilon; pixel x in [-1,1], t=1-alpha",
+  "rng": "Group1 distributed protocol: seed700001+epoch+rank*10000000; same within these four 2-GPU runs, not bitwise identical to different world sizes",
+  "validation": "3 matched-noise full50k views, seed800001..800003 + rank*10000000; separate auxiliary clean view",
+  "wandb": false
+}

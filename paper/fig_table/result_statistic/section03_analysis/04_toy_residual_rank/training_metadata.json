@@ -1,0 +1,53 @@
+{
+  "created_at": "2026-09-01T22:56:30",
+  "data_path": "results/fcn_w256_adaln/data/swissroll_D512_n8192_seed42.npz",
+  "modes": [
+    "x",
+    "v"
+  ],
+  "experiment_type": "representation_training",
+  "optimizer": "adamw_manual",
+  "model_config": {
+    "ambient_dim": 512,
+    "width": 256,
+    "depth": 5,
+    "time_embed_dim": 256,
+    "zero_init_output": true
+  },
+  "train_config": {
+    "steps": 200000,
+    "batch_size": 256,
+    "lr": 0.0001,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "grad_clip_norm": 1.0,
+    "loss_every": 100,
+    "print_every": 1000,
+    "fast_chunk_size": 1000,
+    "t_min": 0.001,
+    "t_sampling": "sigmoid_normal"
+  },
+  "analysis_config": {
+    "repr_n_samples": 2048,
+    "repr_batch_size": 512,
+    "repr_t_values": [
+      0.1,
+      0.3,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "stability_n_clean": 256,
+    "stability_n_noise": 8,
+    "sample_n": 2048,
+    "sample_steps": 100,
+    "rank95_threshold": 0.95,
+    "rank90_threshold": 0.9
+  },
+  "notes": "Long training run for representation/stability/sampling only. No gradient-rank logs are collected here.",
+  "parameter_count": 2039296,
+  "flops_fwd": 4063232,
+  "flops_method": "linear MAC formula, B=1"
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "index": 0,
+    "model": "JiT-B clean",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "weight_key": "x_embedder.proj.weight"
+  },
+  {
+    "index": 1,
+    "model": "JiT-B velocity",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "weight_key": "x_embedder.proj.weight"
+  },
+  {
+    "index": 2,
+    "model": "DeCO-B",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_deco_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "weight_key": "s_embedder.proj.weight"
+  },
+  {
+    "index": 3,
+    "model": "PixelDiT-B",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "weight_key": "s_embedder.proj.weight"
+  },
+  {
+    "index": 4,
+    "model": "DiP-B",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "weight_key": "s_embedder.proj.weight"
+  },
+  {
+    "index": 5,
+    "model": "HyperDiT-B",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/checkpoints/step_00250200.pt",
+    "state_key": "model",
+    "weight_key": "large_embedder.proj.weight"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "batch_size": 128,
+  "grad_accum": 1,
+  "num_workers": 12,
+  "max_steps": 750600,
+  "save_every": 12510,
+  "log_every": 100,
+  "lr": 0.0002,
+  "warmup_steps": 6250,
+  "weight_decay": 0.0,
+  "ema_decay": 0.9999,
+  "ema_decay2": 0.9996,
+  "prediction": "velocity",
+  "patch_embed_type": "direct",
+  "compile": true,
+  "compile_mode": "default",
+  "attn_backend": "flash",
+  "activation_checkpoint": "none",
+  "ddp_gradient_as_bucket_view": true,
+  "log_cuda_memory": true,
+  "model": "sihc_1x12_d768_b4"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "complete",
+  "model": "dip_b",
+  "display_name": "DiP-B",
+  "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+  "checkpoint_state": "model",
+  "semantic_endpoint": "silu(t_embedding + semantic_block_output), immediately before the separate pixel decoder",
+  "decoder_excluded": true,
+  "selection": "/data/tongtong/sihc_artifacts/analysis/group3/imagenet_train100k_rgb_p16_pca/selection.npz",
+  "raw_pca": "/data/tongtong/sihc_artifacts/analysis/group3/imagenet_train100k_rgb_p16_pca/pca.npz",
+  "cache": "/data/tongtong/flowmatching_shc_work/rebuildable/imagenet256_tensor_cache_full",
+  "t_clean_values": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "true_class_conditioning": true,
+  "world_size": 8,
+  "audit": {
+    "status": "pass",
+    "model": "dip_b",
+    "checkpoint_state": "model",
+    "selection_hash": "1ff3e31c1a6d79ed0399d8b7eb157fca7e5739cec6aba3c5096ad6cd653f4f7f",
+    "world_size": 8,
+    "image_count": 100000,
+    "patch_count_per_t": 25600000,
+    "t_clean_values": [
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "maximum_covariance_symmetry_relative_error": 0.0,
+    "minimum_raw_covariance_eigenvalue": 1.7935446104169057e-06,
+    "all_metrics_finite": true
+  }
+}

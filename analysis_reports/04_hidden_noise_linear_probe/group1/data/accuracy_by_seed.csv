@@ -1,0 +1,397 @@
+model,alpha,after_block,mode,view,seed_base,rng,top1,top5
+plain_jit_clean,0.25,1,clean,0,,single GPU,1.1300000000000001,3.7920000000000003
+plain_jit_clean,0.25,2,clean,0,,single GPU,0.508,2.094
+plain_jit_clean,0.25,3,clean,0,,single GPU,0.184,1.552
+plain_jit_clean,0.25,4,clean,0,,single GPU,0.304,1.024
+plain_jit_clean,0.25,5,clean,0,,single GPU,0.334,1.268
+plain_jit_clean,0.25,6,clean,0,,single GPU,0.30800000000000005,1.356
+plain_jit_clean,0.25,7,clean,0,,single GPU,0.38200000000000006,1.3840000000000001
+plain_jit_clean,0.25,8,clean,0,,single GPU,0.466,1.33
+plain_jit_clean,0.25,9,clean,0,,single GPU,0.17400000000000002,0.9800000000000001
+plain_jit_clean,0.25,10,clean,0,,single GPU,0.23000000000000004,1.1880000000000002
+plain_jit_clean,0.25,11,clean,0,,single GPU,0.36600000000000005,1.686
+plain_jit_clean,0.25,1,matched_noise,1,800001,single GPU,6.928000000000001,16.828000000000003
+plain_jit_clean,0.25,2,matched_noise,1,800001,single GPU,11.314,25.260000000000005
+plain_jit_clean,0.25,3,matched_noise,1,800001,single GPU,14.762,30.774
+plain_jit_clean,0.25,4,matched_noise,1,800001,single GPU,17.298000000000002,34.81
+plain_jit_clean,0.25,5,matched_noise,1,800001,single GPU,20.748,39.81
+plain_jit_clean,0.25,6,matched_noise,1,800001,single GPU,24.218,45.136
+plain_jit_clean,0.25,7,matched_noise,1,800001,single GPU,28.058,50.272000000000006
+plain_jit_clean,0.25,8,matched_noise,1,800001,single GPU,32.2,55.61200000000001
+plain_jit_clean,0.25,9,matched_noise,1,800001,single GPU,31.718000000000004,54.91600000000001
+plain_jit_clean,0.25,10,matched_noise,1,800001,single GPU,29.69,52.45000000000001
+plain_jit_clean,0.25,11,matched_noise,1,800001,single GPU,25.404000000000003,46.614000000000004
+plain_jit_clean,0.25,1,matched_noise,2,800002,single GPU,6.870000000000001,16.774
+plain_jit_clean,0.25,2,matched_noise,2,800002,single GPU,11.38,25.114000000000004
+plain_jit_clean,0.25,3,matched_noise,2,800002,single GPU,14.696000000000002,30.782000000000004
+plain_jit_clean,0.25,4,matched_noise,2,800002,single GPU,17.374000000000002,34.870000000000005
+plain_jit_clean,0.25,5,matched_noise,2,800002,single GPU,20.490000000000002,39.794000000000004
+plain_jit_clean,0.25,6,matched_noise,2,800002,single GPU,24.246000000000002,45.068000000000005
+plain_jit_clean,0.25,7,matched_noise,2,800002,single GPU,27.938000000000002,50.444
+plain_jit_clean,0.25,8,matched_noise,2,800002,single GPU,32.224000000000004,55.598000000000006
+plain_jit_clean,0.25,9,matched_noise,2,800002,single GPU,31.610000000000007,54.834
+plain_jit_clean,0.25,10,matched_noise,2,800002,single GPU,29.710000000000004,52.42800000000001
+plain_jit_clean,0.25,11,matched_noise,2,800002,single GPU,25.274,46.43600000000001
+plain_jit_clean,0.25,1,matched_noise,3,800003,single GPU,6.968000000000001,16.836000000000002
+plain_jit_clean,0.25,2,matched_noise,3,800003,single GPU,11.326,24.958000000000002
+plain_jit_clean,0.25,3,matched_noise,3,800003,single GPU,14.828000000000003,30.808000000000003
+plain_jit_clean,0.25,4,matched_noise,3,800003,single GPU,17.312,34.790000000000006
+plain_jit_clean,0.25,5,matched_noise,3,800003,single GPU,20.578000000000003,39.828
+plain_jit_clean,0.25,6,matched_noise,3,800003,single GPU,24.196,44.878
+plain_jit_clean,0.25,7,matched_noise,3,800003,single GPU,27.868000000000002,50.32600000000001
+plain_jit_clean,0.25,8,matched_noise,3,800003,single GPU,31.972,55.61200000000001
+plain_jit_clean,0.25,9,matched_noise,3,800003,single GPU,31.564000000000004,54.614000000000004
+plain_jit_clean,0.25,10,matched_noise,3,800003,single GPU,29.576,52.358000000000004
+plain_jit_clean,0.25,11,matched_noise,3,800003,single GPU,25.272,46.30800000000001
+plain_jit_clean,0.5,1,clean,0,,single GPU,0.6240000000000001,2.3960000000000004
+plain_jit_clean,0.5,2,clean,0,,single GPU,0.35400000000000004,0.9520000000000001
+plain_jit_clean,0.5,3,clean,0,,single GPU,0.1,1.012
+plain_jit_clean,0.5,4,clean,0,,single GPU,0.21200000000000002,0.8820000000000001
+plain_jit_clean,0.5,5,clean,0,,single GPU,0.126,0.748
+plain_jit_clean,0.5,6,clean,0,,single GPU,0.21000000000000002,0.894
+plain_jit_clean,0.5,7,clean,0,,single GPU,0.35000000000000003,1.1440000000000001
+plain_jit_clean,0.5,8,clean,0,,single GPU,0.29200000000000004,1.012
+plain_jit_clean,0.5,9,clean,0,,single GPU,0.13200000000000003,0.924
+plain_jit_clean,0.5,10,clean,0,,single GPU,0.218,0.9340000000000002
+plain_jit_clean,0.5,11,clean,0,,single GPU,0.20800000000000002,1.1840000000000002
+plain_jit_clean,0.5,1,matched_noise,1,800001,single GPU,6.7299999999999995,16.616
+plain_jit_clean,0.5,2,matched_noise,1,800001,single GPU,10.822000000000001,24.42
+plain_jit_clean,0.5,3,matched_noise,1,800001,single GPU,14.642000000000003,30.924000000000003
+plain_jit_clean,0.5,4,matched_noise,1,800001,single GPU,17.708000000000002,35.81
+plain_jit_clean,0.5,5,matched_noise,1,800001,single GPU,21.634,41.370000000000005
+plain_jit_clean,0.5,6,matched_noise,1,800001,single GPU,26.168000000000003,48.178000000000004
+plain_jit_clean,0.5,7,matched_noise,1,800001,single GPU,30.504000000000005,53.898
+plain_jit_clean,0.5,8,matched_noise,1,800001,single GPU,34.838,59.192
+plain_jit_clean,0.5,9,matched_noise,1,800001,single GPU,34.828,58.852000000000004
+plain_jit_clean,0.5,10,matched_noise,1,800001,single GPU,32.76,56.25600000000001
+plain_jit_clean,0.5,11,matched_noise,1,800001,single GPU,27.552000000000003,49.766000000000005
+plain_jit_clean,0.5,1,matched_noise,2,800002,single GPU,6.638000000000001,16.512
+plain_jit_clean,0.5,2,matched_noise,2,800002,single GPU,10.808000000000002,24.432000000000002
+plain_jit_clean,0.5,3,matched_noise,2,800002,single GPU,14.498000000000003,30.748000000000005
+plain_jit_clean,0.5,4,matched_noise,2,800002,single GPU,17.87,35.93
+plain_jit_clean,0.5,5,matched_noise,2,800002,single GPU,21.606,41.57
+plain_jit_clean,0.5,6,matched_noise,2,800002,single GPU,26.108000000000004,48.150000000000006
+plain_jit_clean,0.5,7,matched_noise,2,800002,single GPU,30.484,53.992000000000004
+plain_jit_clean,0.5,8,matched_noise,2,800002,single GPU,35.064,59.108000000000004
+plain_jit_clean,0.5,9,matched_noise,2,800002,single GPU,34.762,58.84400000000001
+plain_jit_clean,0.5,10,matched_noise,2,800002,single GPU,32.86,56.26000000000001
+plain_jit_clean,0.5,11,matched_noise,2,800002,single GPU,27.542,49.57
+plain_jit_clean,0.5,1,matched_noise,3,800003,single GPU,6.784000000000001,16.502
+plain_jit_clean,0.5,2,matched_noise,3,800003,single GPU,10.788,24.384000000000004
+plain_jit_clean,0.5,3,matched_noise,3,800003,single GPU,14.562,30.864000000000004
+plain_jit_clean,0.5,4,matched_noise,3,800003,single GPU,17.728,35.900000000000006
+plain_jit_clean,0.5,5,matched_noise,3,800003,single GPU,21.618000000000002,41.548
+plain_jit_clean,0.5,6,matched_noise,3,800003,single GPU,26.242000000000004,48.160000000000004
+plain_jit_clean,0.5,7,matched_noise,3,800003,single GPU,30.522000000000006,53.986000000000004
+plain_jit_clean,0.5,8,matched_noise,3,800003,single GPU,35.25600000000001,59.10200000000001
+plain_jit_clean,0.5,9,matched_noise,3,800003,single GPU,34.78000000000001,58.752
+plain_jit_clean,0.5,10,matched_noise,3,800003,single GPU,32.81400000000001,56.162
+plain_jit_clean,0.5,11,matched_noise,3,800003,single GPU,27.522000000000002,49.584
+plain_jit_clean,0.75,1,clean,0,,single GPU,0.37,1.4560000000000002
+plain_jit_clean,0.75,2,clean,0,,single GPU,0.30800000000000005,1.37
+plain_jit_clean,0.75,3,clean,0,,single GPU,0.13200000000000003,0.786
+plain_jit_clean,0.75,4,clean,0,,single GPU,0.13200000000000003,0.676
+plain_jit_clean,0.75,5,clean,0,,single GPU,0.07800000000000001,0.634
+plain_jit_clean,0.75,6,clean,0,,single GPU,0.17,0.7540000000000001
+plain_jit_clean,0.75,7,clean,0,,single GPU,0.16,0.932
+plain_jit_clean,0.75,8,clean,0,,single GPU,0.19200000000000003,0.822
+plain_jit_clean,0.75,9,clean,0,,single GPU,0.20400000000000001,0.8620000000000001
+plain_jit_clean,0.75,10,clean,0,,single GPU,0.17,0.89
+plain_jit_clean,0.75,11,clean,0,,single GPU,0.21000000000000002,0.9120000000000001
+plain_jit_clean,0.75,1,matched_noise,1,800001,single GPU,5.406000000000001,13.968
+plain_jit_clean,0.75,2,matched_noise,1,800001,single GPU,8.044,19.532000000000004
+plain_jit_clean,0.75,3,matched_noise,1,800001,single GPU,11.118000000000002,25.048000000000002
+plain_jit_clean,0.75,4,matched_noise,1,800001,single GPU,13.900000000000002,29.784000000000006
+plain_jit_clean,0.75,5,matched_noise,1,800001,single GPU,16.836000000000002,34.682
+plain_jit_clean,0.75,6,matched_noise,1,800001,single GPU,20.792,40.726
+plain_jit_clean,0.75,7,matched_noise,1,800001,single GPU,23.964000000000002,45.23800000000001
+plain_jit_clean,0.75,8,matched_noise,1,800001,single GPU,27.136000000000003,49.324000000000005
+plain_jit_clean,0.75,9,matched_noise,1,800001,single GPU,27.478,49.914
+plain_jit_clean,0.75,10,matched_noise,1,800001,single GPU,26.032,48.242000000000004
+plain_jit_clean,0.75,11,matched_noise,1,800001,single GPU,22.858,43.826
+plain_jit_clean,0.75,1,matched_noise,2,800002,single GPU,5.428,14.066
+plain_jit_clean,0.75,2,matched_noise,2,800002,single GPU,8.162,19.438000000000002
+plain_jit_clean,0.75,3,matched_noise,2,800002,single GPU,11.092,24.982000000000003
+plain_jit_clean,0.75,4,matched_noise,2,800002,single GPU,13.738,29.694000000000003
+plain_jit_clean,0.75,5,matched_noise,2,800002,single GPU,16.998,34.722
+plain_jit_clean,0.75,6,matched_noise,2,800002,single GPU,20.626,40.738
+plain_jit_clean,0.75,7,matched_noise,2,800002,single GPU,23.912000000000003,45.036
+plain_jit_clean,0.75,8,matched_noise,2,800002,single GPU,27.078000000000003,49.194
+plain_jit_clean,0.75,9,matched_noise,2,800002,single GPU,27.16,49.56
+plain_jit_clean,0.75,10,matched_noise,2,800002,single GPU,26.034000000000002,48.318000000000005
+plain_jit_clean,0.75,11,matched_noise,2,800002,single GPU,22.768,43.88400000000001
+plain_jit_clean,0.75,1,matched_noise,3,800003,single GPU,5.36,14.042000000000002
+plain_jit_clean,0.75,2,matched_noise,3,800003,single GPU,8.136000000000001,19.408
+plain_jit_clean,0.75,3,matched_noise,3,800003,single GPU,11.016,24.970000000000002
+plain_jit_clean,0.75,4,matched_noise,3,800003,single GPU,13.640000000000002,29.754
+plain_jit_clean,0.75,5,matched_noise,3,800003,single GPU,16.840000000000003,34.712
+plain_jit_clean,0.75,6,matched_noise,3,800003,single GPU,20.878000000000004,40.57000000000001
+plain_jit_clean,0.75,7,matched_noise,3,800003,single GPU,23.724,45.222
+plain_jit_clean,0.75,8,matched_noise,3,800003,single GPU,27.042000000000005,49.406000000000006
+plain_jit_clean,0.75,9,matched_noise,3,800003,single GPU,27.416,49.776
+plain_jit_clean,0.75,10,matched_noise,3,800003,single GPU,26.116,48.394000000000005
+plain_jit_clean,0.75,11,matched_noise,3,800003,single GPU,22.822,44.008
+plain_jit_velocity,0.25,1,clean,0,,single GPU,0.6180000000000001,2.116
+plain_jit_velocity,0.25,2,clean,0,,single GPU,0.9080000000000001,3.02
+plain_jit_velocity,0.25,3,clean,0,,single GPU,0.8960000000000001,3.144
+plain_jit_velocity,0.25,4,clean,0,,single GPU,0.5280000000000001,1.9720000000000002
+plain_jit_velocity,0.25,5,clean,0,,single GPU,0.16600000000000004,0.906
+plain_jit_velocity,0.25,6,clean,0,,single GPU,0.51,2.04
+plain_jit_velocity,0.25,7,clean,0,,single GPU,0.48000000000000004,1.8060000000000003
+plain_jit_velocity,0.25,8,clean,0,,single GPU,0.324,1.5240000000000002
+plain_jit_velocity,0.25,9,clean,0,,single GPU,0.22,1.438
+plain_jit_velocity,0.25,10,clean,0,,single GPU,0.318,1.6660000000000001
+plain_jit_velocity,0.25,11,clean,0,,single GPU,0.374,1.58
+plain_jit_velocity,0.25,1,matched_noise,1,800001,single GPU,1.9680000000000004,6.292000000000001
+plain_jit_velocity,0.25,2,matched_noise,1,800001,single GPU,3.4600000000000004,10.010000000000002
+plain_jit_velocity,0.25,3,matched_noise,1,800001,single GPU,5.0200000000000005,13.616
+plain_jit_velocity,0.25,4,matched_noise,1,800001,single GPU,6.478000000000001,16.436
+plain_jit_velocity,0.25,5,matched_noise,1,800001,single GPU,6.728000000000001,17.072000000000003
+plain_jit_velocity,0.25,6,matched_noise,1,800001,single GPU,7.2059999999999995,17.906000000000002
+plain_jit_velocity,0.25,7,matched_noise,1,800001,single GPU,7.2620000000000005,18.236
+plain_jit_velocity,0.25,8,matched_noise,1,800001,single GPU,7.486000000000001,18.636000000000003
+plain_jit_velocity,0.25,9,matched_noise,1,800001,single GPU,7.542,18.852000000000004
+plain_jit_velocity,0.25,10,matched_noise,1,800001,single GPU,6.420000000000001,16.884
+plain_jit_velocity,0.25,11,matched_noise,1,800001,single GPU,5.414000000000001,14.512
+plain_jit_velocity,0.25,1,matched_noise,2,800002,single GPU,2.0360000000000005,6.338000000000001
+plain_jit_velocity,0.25,2,matched_noise,2,800002,single GPU,3.542,10.132000000000001
+plain_jit_velocity,0.25,3,matched_noise,2,800002,single GPU,4.962000000000001,13.544
+plain_jit_velocity,0.25,4,matched_noise,2,800002,single GPU,6.454,16.372
+plain_jit_velocity,0.25,5,matched_noise,2,800002,single GPU,6.702000000000001,16.998
+plain_jit_velocity,0.25,6,matched_noise,2,800002,single GPU,7.23,17.822000000000003
+plain_jit_velocity,0.25,7,matched_noise,2,800002,single GPU,7.2620000000000005,18.020000000000003
+plain_jit_velocity,0.25,8,matched_noise,2,800002,single GPU,7.418000000000001,18.524
+plain_jit_velocity,0.25,9,matched_noise,2,800002,single GPU,7.484,18.776
+plain_jit_velocity,0.25,10,matched_noise,2,800002,single GPU,6.5600000000000005,16.912000000000003
+plain_jit_velocity,0.25,11,matched_noise,2,800002,single GPU,5.446,14.420000000000002
+plain_jit_velocity,0.25,1,matched_noise,3,800003,single GPU,2.048,6.19
+plain_jit_velocity,0.25,2,matched_noise,3,800003,single GPU,3.45,10.138000000000002
+plain_jit_velocity,0.25,3,matched_noise,3,800003,single GPU,5.016,13.490000000000002
+plain_jit_velocity,0.25,4,matched_noise,3,800003,single GPU,6.478000000000001,16.46
+plain_jit_velocity,0.25,5,matched_noise,3,800003,single GPU,6.764,17.004
+plain_jit_velocity,0.25,6,matched_noise,3,800003,single GPU,7.154000000000001,17.924
+plain_jit_velocity,0.25,7,matched_noise,3,800003,single GPU,7.158,18.038
+plain_jit_velocity,0.25,8,matched_noise,3,800003,single GPU,7.500000000000001,18.444000000000003
+plain_jit_velocity,0.25,9,matched_noise,3,800003,single GPU,7.614,18.772000000000002
+plain_jit_velocity,0.25,10,matched_noise,3,800003,single GPU,6.593999999999999,16.898000000000003
+plain_jit_velocity,0.25,11,matched_noise,3,800003,single GPU,5.284000000000001,14.608000000000002
+plain_jit_velocity,0.5,1,clean,0,,single GPU,0.194,0.78
+plain_jit_velocity,0.5,2,clean,0,,single GPU,0.682,2.748
+plain_jit_velocity,0.5,3,clean,0,,single GPU,0.5,1.9100000000000001
+plain_jit_velocity,0.5,4,clean,0,,single GPU,0.434,1.6720000000000002
+plain_jit_velocity,0.5,5,clean,0,,single GPU,0.136,0.8240000000000001
+plain_jit_velocity,0.5,6,clean,0,,single GPU,0.162,0.684
+plain_jit_velocity,0.5,7,clean,0,,single GPU,0.324,1.262
+plain_jit_velocity,0.5,8,clean,0,,single GPU,0.24400000000000002,1.1320000000000001
+plain_jit_velocity,0.5,9,clean,0,,single GPU,0.20400000000000001,1.008
+plain_jit_velocity,0.5,10,clean,0,,single GPU,0.158,1.1440000000000001
+plain_jit_velocity,0.5,11,clean,0,,single GPU,0.394,1.302
+plain_jit_velocity,0.5,1,matched_noise,1,800001,single GPU,1.5000000000000002,5.026000000000001
+plain_jit_velocity,0.5,2,matched_noise,1,800001,single GPU,2.8180000000000005,8.288
+plain_jit_velocity,0.5,3,matched_noise,1,800001,single GPU,4.224000000000001,11.842
+plain_jit_velocity,0.5,4,matched_noise,1,800001,single GPU,5.402,14.246
+plain_jit_velocity,0.5,5,matched_noise,1,800001,single GPU,5.926000000000001,15.112
+plain_jit_velocity,0.5,6,matched_noise,1,800001,single GPU,6.358000000000001,16.252000000000002
+plain_jit_velocity,0.5,7,matched_noise,1,800001,single GPU,6.446000000000001,16.448
+plain_jit_velocity,0.5,8,matched_noise,1,800001,single GPU,6.670000000000001,16.926000000000002
+plain_jit_velocity,0.5,9,matched_noise,1,800001,single GPU,6.802000000000001,17.206000000000003
+plain_jit_velocity,0.5,10,matched_noise,1,800001,single GPU,5.908,15.668000000000001
+plain_jit_velocity,0.5,11,matched_noise,1,800001,single GPU,4.586,12.744
+plain_jit_velocity,0.5,1,matched_noise,2,800002,single GPU,1.476,4.872000000000001
+plain_jit_velocity,0.5,2,matched_noise,2,800002,single GPU,2.8040000000000003,8.384
+plain_jit_velocity,0.5,3,matched_noise,2,800002,single GPU,4.132000000000001,11.798000000000002
+plain_jit_velocity,0.5,4,matched_noise,2,800002,single GPU,5.316000000000001,14.264000000000001
+plain_jit_velocity,0.5,5,matched_noise,2,800002,single GPU,5.814,15.232000000000001
+plain_jit_velocity,0.5,6,matched_noise,2,800002,single GPU,6.456,16.288000000000004
+plain_jit_velocity,0.5,7,matched_noise,2,800002,single GPU,6.496,16.53
+plain_jit_velocity,0.5,8,matched_noise,2,800002,single GPU,6.752000000000001,16.894000000000002
+plain_jit_velocity,0.5,9,matched_noise,2,800002,single GPU,6.8740000000000006,17.166
+plain_jit_velocity,0.5,10,matched_noise,2,800002,single GPU,5.982,15.616000000000001
+plain_jit_velocity,0.5,11,matched_noise,2,800002,single GPU,4.61,12.526000000000002
+plain_jit_velocity,0.5,1,matched_noise,3,800003,single GPU,1.4980000000000002,4.840000000000001
+plain_jit_velocity,0.5,2,matched_noise,3,800003,single GPU,2.698,8.438
+plain_jit_velocity,0.5,3,matched_noise,3,800003,single GPU,4.210000000000001,11.760000000000002
+plain_jit_velocity,0.5,4,matched_noise,3,800003,single GPU,5.49,14.456000000000003
+plain_jit_velocity,0.5,5,matched_noise,3,800003,single GPU,5.7860000000000005,15.208000000000002
+plain_jit_velocity,0.5,6,matched_noise,3,800003,single GPU,6.166,16.32
+plain_jit_velocity,0.5,7,matched_noise,3,800003,single GPU,6.3340000000000005,16.520000000000003
+plain_jit_velocity,0.5,8,matched_noise,3,800003,single GPU,6.418,16.91
+plain_jit_velocity,0.5,9,matched_noise,3,800003,single GPU,6.736000000000001,17.252000000000002
+plain_jit_velocity,0.5,10,matched_noise,3,800003,single GPU,5.880000000000001,15.67
+plain_jit_velocity,0.5,11,matched_noise,3,800003,single GPU,4.482,12.764000000000001
+plain_jit_velocity,0.75,1,clean,0,,single GPU,0.15400000000000003,0.6880000000000001
+plain_jit_velocity,0.75,2,clean,0,,single GPU,0.666,2.5940000000000003
+plain_jit_velocity,0.75,3,clean,0,,single GPU,0.27,1.326
+plain_jit_velocity,0.75,4,clean,0,,single GPU,0.23800000000000002,1.086
+plain_jit_velocity,0.75,5,clean,0,,single GPU,0.17800000000000002,0.7560000000000001
+plain_jit_velocity,0.75,6,clean,0,,single GPU,0.10400000000000001,0.7520000000000001
+plain_jit_velocity,0.75,7,clean,0,,single GPU,0.14200000000000002,0.792
+plain_jit_velocity,0.75,8,clean,0,,single GPU,0.23000000000000004,1.118
+plain_jit_velocity,0.75,9,clean,0,,single GPU,0.17600000000000002,1.05
+plain_jit_velocity,0.75,10,clean,0,,single GPU,0.28,1.112
+plain_jit_velocity,0.75,11,clean,0,,single GPU,0.30600000000000005,1.2900000000000003
+plain_jit_velocity,0.75,1,matched_noise,1,800001,single GPU,1.274,4.398000000000001
+plain_jit_velocity,0.75,2,matched_noise,1,800001,single GPU,2.2060000000000004,6.882000000000001
+plain_jit_velocity,0.75,3,matched_noise,1,800001,single GPU,3.152,9.308000000000002
+plain_jit_velocity,0.75,4,matched_noise,1,800001,single GPU,4.032,11.096
+plain_jit_velocity,0.75,5,matched_noise,1,800001,single GPU,4.37,12.034000000000002
+plain_jit_velocity,0.75,6,matched_noise,1,800001,single GPU,4.888000000000001,12.976
+plain_jit_velocity,0.75,7,matched_noise,1,800001,single GPU,4.978000000000001,13.268000000000002
+plain_jit_velocity,0.75,8,matched_noise,1,800001,single GPU,5.0840000000000005,13.432000000000002
+plain_jit_velocity,0.75,9,matched_noise,1,800001,single GPU,5.276,13.798000000000002
+plain_jit_velocity,0.75,10,matched_noise,1,800001,single GPU,4.724,12.772
+plain_jit_velocity,0.75,11,matched_noise,1,800001,single GPU,3.4640000000000004,10.224000000000002
+plain_jit_velocity,0.75,1,matched_noise,2,800002,single GPU,1.2780000000000002,4.336
+plain_jit_velocity,0.75,2,matched_noise,2,800002,single GPU,2.204,6.920000000000001
+plain_jit_velocity,0.75,3,matched_noise,2,800002,single GPU,3.06,9.216000000000001
+plain_jit_velocity,0.75,4,matched_noise,2,800002,single GPU,3.8360000000000003,10.974
+plain_jit_velocity,0.75,5,matched_noise,2,800002,single GPU,4.3100000000000005,11.950000000000001
+plain_jit_velocity,0.75,6,matched_noise,2,800002,single GPU,4.718000000000001,13.010000000000002
+plain_jit_velocity,0.75,7,matched_noise,2,800002,single GPU,4.856000000000001,13.242
+plain_jit_velocity,0.75,8,matched_noise,2,800002,single GPU,4.916,13.386000000000001
+plain_jit_velocity,0.75,9,matched_noise,2,800002,single GPU,5.046,13.770000000000001
+plain_jit_velocity,0.75,10,matched_noise,2,800002,single GPU,4.538,12.680000000000003
+plain_jit_velocity,0.75,11,matched_noise,2,800002,single GPU,3.5020000000000002,10.158000000000001
+plain_jit_velocity,0.75,1,matched_noise,3,800003,single GPU,1.2440000000000002,4.16
+plain_jit_velocity,0.75,2,matched_noise,3,800003,single GPU,2.152,6.93
+plain_jit_velocity,0.75,3,matched_noise,3,800003,single GPU,3.0540000000000003,9.326
+plain_jit_velocity,0.75,4,matched_noise,3,800003,single GPU,3.9060000000000006,11.032000000000002
+plain_jit_velocity,0.75,5,matched_noise,3,800003,single GPU,4.196000000000001,11.9
+plain_jit_velocity,0.75,6,matched_noise,3,800003,single GPU,4.63,12.882000000000001
+plain_jit_velocity,0.75,7,matched_noise,3,800003,single GPU,4.7940000000000005,13.25
+plain_jit_velocity,0.75,8,matched_noise,3,800003,single GPU,4.8500000000000005,13.384000000000002
+plain_jit_velocity,0.75,9,matched_noise,3,800003,single GPU,5.112000000000001,13.666
+plain_jit_velocity,0.75,10,matched_noise,3,800003,single GPU,4.590000000000001,12.674000000000001
+plain_jit_velocity,0.75,11,matched_noise,3,800003,single GPU,3.4300000000000006,10.128
+sihc_sublayer_p4,0.25,1,clean,0,,single GPU,1.76,5.542000000000001
+sihc_sublayer_p4,0.25,2,clean,0,,single GPU,0.7220000000000001,2.668
+sihc_sublayer_p4,0.25,3,clean,0,,single GPU,0.734,2.662
+sihc_sublayer_p4,0.25,4,clean,0,,single GPU,0.6900000000000001,2.2840000000000003
+sihc_sublayer_p4,0.25,5,clean,0,,single GPU,0.65,2.5260000000000002
+sihc_sublayer_p4,0.25,6,clean,0,,single GPU,0.558,2.068
+sihc_sublayer_p4,0.25,7,clean,0,,single GPU,0.498,1.924
+sihc_sublayer_p4,0.25,8,clean,0,,single GPU,0.342,1.556
+sihc_sublayer_p4,0.25,9,clean,0,,single GPU,0.404,1.9780000000000002
+sihc_sublayer_p4,0.25,10,clean,0,,single GPU,0.276,1.6340000000000001
+sihc_sublayer_p4,0.25,11,clean,0,,single GPU,0.326,1.48
+sihc_sublayer_p4,0.25,1,matched_noise,1,800001,single GPU,9.690000000000001,22.156000000000002
+sihc_sublayer_p4,0.25,2,matched_noise,1,800001,single GPU,16.606,33.574000000000005
+sihc_sublayer_p4,0.25,3,matched_noise,1,800001,single GPU,19.658,38.126000000000005
+sihc_sublayer_p4,0.25,4,matched_noise,1,800001,single GPU,23.242,43.508
+sihc_sublayer_p4,0.25,5,matched_noise,1,800001,single GPU,28.658,50.63000000000001
+sihc_sublayer_p4,0.25,6,matched_noise,1,800001,single GPU,31.520000000000003,54.78200000000001
+sihc_sublayer_p4,0.25,7,matched_noise,1,800001,single GPU,33.708000000000006,57.09000000000001
+sihc_sublayer_p4,0.25,8,matched_noise,1,800001,single GPU,33.712,57.13600000000001
+sihc_sublayer_p4,0.25,9,matched_noise,1,800001,single GPU,29.832000000000004,52.498
+sihc_sublayer_p4,0.25,10,matched_noise,1,800001,single GPU,26.258000000000003,47.86
+sihc_sublayer_p4,0.25,11,matched_noise,1,800001,single GPU,25.466,46.69200000000001
+sihc_sublayer_p4,0.25,1,matched_noise,2,800002,single GPU,9.764000000000001,22.124000000000002
+sihc_sublayer_p4,0.25,2,matched_noise,2,800002,single GPU,16.650000000000002,33.5
+sihc_sublayer_p4,0.25,3,matched_noise,2,800002,single GPU,19.498,38.004000000000005
+sihc_sublayer_p4,0.25,4,matched_noise,2,800002,single GPU,23.150000000000002,43.346000000000004
+sihc_sublayer_p4,0.25,5,matched_noise,2,800002,single GPU,28.482000000000003,50.626000000000005
+sihc_sublayer_p4,0.25,6,matched_noise,2,800002,single GPU,31.782000000000004,54.748000000000005
+sihc_sublayer_p4,0.25,7,matched_noise,2,800002,single GPU,33.804,57.042
+sihc_sublayer_p4,0.25,8,matched_noise,2,800002,single GPU,33.848,57.168000000000006
+sihc_sublayer_p4,0.25,9,matched_noise,2,800002,single GPU,29.994000000000003,52.507999999999996
+sihc_sublayer_p4,0.25,10,matched_noise,2,800002,single GPU,26.362000000000002,47.822
+sihc_sublayer_p4,0.25,11,matched_noise,2,800002,single GPU,25.742000000000004,46.878
+sihc_sublayer_p4,0.25,1,matched_noise,3,800003,single GPU,9.642000000000001,22.146
+sihc_sublayer_p4,0.25,2,matched_noise,3,800003,single GPU,16.588,33.512
+sihc_sublayer_p4,0.25,3,matched_noise,3,800003,single GPU,19.582,38.102000000000004
+sihc_sublayer_p4,0.25,4,matched_noise,3,800003,single GPU,23.106,43.444
+sihc_sublayer_p4,0.25,5,matched_noise,3,800003,single GPU,28.368000000000006,50.78600000000001
+sihc_sublayer_p4,0.25,6,matched_noise,3,800003,single GPU,31.632000000000005,54.644000000000005
+sihc_sublayer_p4,0.25,7,matched_noise,3,800003,single GPU,33.736000000000004,57.22600000000001
+sihc_sublayer_p4,0.25,8,matched_noise,3,800003,single GPU,33.672000000000004,57.27000000000001
+sihc_sublayer_p4,0.25,9,matched_noise,3,800003,single GPU,29.892000000000003,52.486
+sihc_sublayer_p4,0.25,10,matched_noise,3,800003,single GPU,26.202,47.778000000000006
+sihc_sublayer_p4,0.25,11,matched_noise,3,800003,single GPU,25.332000000000004,46.456
+sihc_sublayer_p4,0.5,1,clean,0,,single GPU,1.1440000000000001,3.7920000000000003
+sihc_sublayer_p4,0.5,2,clean,0,,single GPU,0.248,1.1680000000000001
+sihc_sublayer_p4,0.5,3,clean,0,,single GPU,0.22200000000000003,0.8780000000000001
+sihc_sublayer_p4,0.5,4,clean,0,,single GPU,0.2,1.17
+sihc_sublayer_p4,0.5,5,clean,0,,single GPU,0.34400000000000003,1.318
+sihc_sublayer_p4,0.5,6,clean,0,,single GPU,0.214,1.166
+sihc_sublayer_p4,0.5,7,clean,0,,single GPU,0.20600000000000002,1.008
+sihc_sublayer_p4,0.5,8,clean,0,,single GPU,0.168,0.8660000000000001
+sihc_sublayer_p4,0.5,9,clean,0,,single GPU,0.322,1.22
+sihc_sublayer_p4,0.5,10,clean,0,,single GPU,0.16,0.8420000000000001
+sihc_sublayer_p4,0.5,11,clean,0,,single GPU,0.22800000000000004,0.8840000000000001
+sihc_sublayer_p4,0.5,1,matched_noise,1,800001,single GPU,9.030000000000001,20.964000000000002
+sihc_sublayer_p4,0.5,2,matched_noise,1,800001,single GPU,16.55,33.980000000000004
+sihc_sublayer_p4,0.5,3,matched_noise,1,800001,single GPU,20.164,39.226000000000006
+sihc_sublayer_p4,0.5,4,matched_noise,1,800001,single GPU,24.464000000000002,45.214000000000006
+sihc_sublayer_p4,0.5,5,matched_noise,1,800001,single GPU,30.406000000000006,53.36000000000001
+sihc_sublayer_p4,0.5,6,matched_noise,1,800001,single GPU,33.85,57.88000000000001
+sihc_sublayer_p4,0.5,7,matched_noise,1,800001,single GPU,36.208,60.462
+sihc_sublayer_p4,0.5,8,matched_noise,1,800001,single GPU,35.978,60.132000000000005
+sihc_sublayer_p4,0.5,9,matched_noise,1,800001,single GPU,32.272,55.996
+sihc_sublayer_p4,0.5,10,matched_noise,1,800001,single GPU,28.606000000000005,51.592000000000006
+sihc_sublayer_p4,0.5,11,matched_noise,1,800001,single GPU,27.714,50.49
+sihc_sublayer_p4,0.5,1,matched_noise,2,800002,single GPU,9.066,21.064000000000004
+sihc_sublayer_p4,0.5,2,matched_noise,2,800002,single GPU,16.268,33.694
+sihc_sublayer_p4,0.5,3,matched_noise,2,800002,single GPU,20.080000000000002,39.178000000000004
+sihc_sublayer_p4,0.5,4,matched_noise,2,800002,single GPU,24.430000000000003,45.30200000000001
+sihc_sublayer_p4,0.5,5,matched_noise,2,800002,single GPU,30.526000000000003,53.38400000000001
+sihc_sublayer_p4,0.5,6,matched_noise,2,800002,single GPU,33.752,57.982
+sihc_sublayer_p4,0.5,7,matched_noise,2,800002,single GPU,36.164,60.584
+sihc_sublayer_p4,0.5,8,matched_noise,2,800002,single GPU,35.806000000000004,60.462
+sihc_sublayer_p4,0.5,9,matched_noise,2,800002,single GPU,32.304,56.02
+sihc_sublayer_p4,0.5,10,matched_noise,2,800002,single GPU,28.614,51.50800000000001
+sihc_sublayer_p4,0.5,11,matched_noise,2,800002,single GPU,27.784000000000002,50.224000000000004
+sihc_sublayer_p4,0.5,1,matched_noise,3,800003,single GPU,8.97,20.806
+sihc_sublayer_p4,0.5,2,matched_noise,3,800003,single GPU,16.308,33.654
+sihc_sublayer_p4,0.5,3,matched_noise,3,800003,single GPU,20.182000000000002,39.406
+sihc_sublayer_p4,0.5,4,matched_noise,3,800003,single GPU,24.53,45.416000000000004
+sihc_sublayer_p4,0.5,5,matched_noise,3,800003,single GPU,30.422000000000004,53.400000000000006
+sihc_sublayer_p4,0.5,6,matched_noise,3,800003,single GPU,33.856,57.812000000000005
+sihc_sublayer_p4,0.5,7,matched_noise,3,800003,single GPU,36.178000000000004,60.464000000000006
+sihc_sublayer_p4,0.5,8,matched_noise,3,800003,single GPU,35.882000000000005,60.38
+sihc_sublayer_p4,0.5,9,matched_noise,3,800003,single GPU,32.504000000000005,56.072
+sihc_sublayer_p4,0.5,10,matched_noise,3,800003,single GPU,28.696000000000005,51.39600000000001
+sihc_sublayer_p4,0.5,11,matched_noise,3,800003,single GPU,27.926000000000002,50.25000000000001
+sihc_sublayer_p4,0.75,1,clean,0,,rank-specific after distributed resume,0.996,3.298
+sihc_sublayer_p4,0.75,2,clean,0,,rank-specific after distributed resume,0.3,0.9420000000000002
+sihc_sublayer_p4,0.75,3,clean,0,,rank-specific after distributed resume,0.15600000000000003,0.7320000000000001
+sihc_sublayer_p4,0.75,4,clean,0,,rank-specific after distributed resume,0.322,1.094
+sihc_sublayer_p4,0.75,5,clean,0,,rank-specific after distributed resume,0.22,1.084
+sihc_sublayer_p4,0.75,6,clean,0,,rank-specific after distributed resume,0.28,1.1720000000000002
+sihc_sublayer_p4,0.75,7,clean,0,,rank-specific after distributed resume,0.20400000000000001,1.0020000000000002
+sihc_sublayer_p4,0.75,8,clean,0,,rank-specific after distributed resume,0.254,1.074
+sihc_sublayer_p4,0.75,9,clean,0,,rank-specific after distributed resume,0.092,0.93
+sihc_sublayer_p4,0.75,10,clean,0,,rank-specific after distributed resume,0.22800000000000004,0.876
+sihc_sublayer_p4,0.75,11,clean,0,,rank-specific after distributed resume,0.19000000000000003,0.8460000000000001
+sihc_sublayer_p4,0.75,1,matched_noise,1,800001,rank-specific after distributed resume,6.704000000000001,16.834000000000003
+sihc_sublayer_p4,0.75,2,matched_noise,1,800001,rank-specific after distributed resume,12.526000000000002,27.146000000000004
+sihc_sublayer_p4,0.75,3,matched_noise,1,800001,rank-specific after distributed resume,15.322000000000003,31.996000000000002
+sihc_sublayer_p4,0.75,4,matched_noise,1,800001,rank-specific after distributed resume,18.976000000000003,37.35000000000001
+sihc_sublayer_p4,0.75,5,matched_noise,1,800001,rank-specific after distributed resume,23.672,44.452000000000005
+sihc_sublayer_p4,0.75,6,matched_noise,1,800001,rank-specific after distributed resume,26.198000000000004,48.266000000000005
+sihc_sublayer_p4,0.75,7,matched_noise,1,800001,rank-specific after distributed resume,27.674000000000003,50.11600000000001
+sihc_sublayer_p4,0.75,8,matched_noise,1,800001,rank-specific after distributed resume,27.746000000000002,50.232
+sihc_sublayer_p4,0.75,9,matched_noise,1,800001,rank-specific after distributed resume,25.698000000000004,47.586000000000006
+sihc_sublayer_p4,0.75,10,matched_noise,1,800001,rank-specific after distributed resume,23.462000000000003,44.69200000000001
+sihc_sublayer_p4,0.75,11,matched_noise,1,800001,rank-specific after distributed resume,23.008,43.958000000000006
+sihc_sublayer_p4,0.75,1,matched_noise,2,800002,rank-specific after distributed resume,6.614000000000001,16.706000000000003
+sihc_sublayer_p4,0.75,2,matched_noise,2,800002,rank-specific after distributed resume,12.464000000000002,27.190000000000005
+sihc_sublayer_p4,0.75,3,matched_noise,2,800002,rank-specific after distributed resume,15.47,32.386
+sihc_sublayer_p4,0.75,4,matched_noise,2,800002,rank-specific after distributed resume,18.786,37.598000000000006
+sihc_sublayer_p4,0.75,5,matched_noise,2,800002,rank-specific after distributed resume,23.564,44.612
+sihc_sublayer_p4,0.75,6,matched_noise,2,800002,rank-specific after distributed resume,26.214000000000006,48.45
+sihc_sublayer_p4,0.75,7,matched_noise,2,800002,rank-specific after distributed resume,27.888,50.440000000000005
+sihc_sublayer_p4,0.75,8,matched_noise,2,800002,rank-specific after distributed resume,27.844,50.342000000000006
+sihc_sublayer_p4,0.75,9,matched_noise,2,800002,rank-specific after distributed resume,25.862000000000002,47.56400000000001
+sihc_sublayer_p4,0.75,10,matched_noise,2,800002,rank-specific after distributed resume,23.44,44.474000000000004
+sihc_sublayer_p4,0.75,11,matched_noise,2,800002,rank-specific after distributed resume,22.952,44.026
+sihc_sublayer_p4,0.75,1,matched_noise,3,800003,rank-specific after distributed resume,6.758,16.868000000000002
+sihc_sublayer_p4,0.75,2,matched_noise,3,800003,rank-specific after distributed resume,12.314000000000002,27.192
+sihc_sublayer_p4,0.75,3,matched_noise,3,800003,rank-specific after distributed resume,15.194000000000003,32.056000000000004
+sihc_sublayer_p4,0.75,4,matched_noise,3,800003,rank-specific after distributed resume,18.756,37.264
+sihc_sublayer_p4,0.75,5,matched_noise,3,800003,rank-specific after distributed resume,23.474000000000004,44.37800000000001
+sihc_sublayer_p4,0.75,6,matched_noise,3,800003,rank-specific after distributed resume,26.200000000000003,48.386
+sihc_sublayer_p4,0.75,7,matched_noise,3,800003,rank-specific after distributed resume,27.736,50.3
+sihc_sublayer_p4,0.75,8,matched_noise,3,800003,rank-specific after distributed resume,27.802000000000003,50.49
+sihc_sublayer_p4,0.75,9,matched_noise,3,800003,rank-specific after distributed resume,25.464000000000002,47.736000000000004
+sihc_sublayer_p4,0.75,10,matched_noise,3,800003,rank-specific after distributed resume,23.244,44.464000000000006
+sihc_sublayer_p4,0.75,11,matched_noise,3,800003,rank-specific after distributed resume,22.678,43.96600000000001

@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "streaming_code_byte_identical_to_archive": true,
+  "geometry": {
+    "version": {
+      "equal": true,
+      "value": 1
+    },
+    "mode": {
+      "equal": true,
+      "value": "whiten"
+    },
+    "random_seed": {
+      "equal": true,
+      "value": 20260916
+    },
+    "patch_layout": {
+      "equal": true,
+      "value": "CHW-p16"
+    },
+    "basis": {
+      "equal": true,
+      "shape": [
+        768,
+        768
+      ],
+      "max_abs_difference": 0.0
+    },
+    "mean": {
+      "equal": true,
+      "shape": [
+        768
+      ],
+      "max_abs_difference": 0.0
+    },
+    "scales": {
+      "equal": true,
+      "shape": [
+        768
+      ],
+      "max_abs_difference": 0.0
+    }
+  }
+}

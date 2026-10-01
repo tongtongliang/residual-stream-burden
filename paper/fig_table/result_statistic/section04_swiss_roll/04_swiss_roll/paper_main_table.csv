@@ -1,0 +1,7 @@
+model,target,state_coordinates,branch_width,parameters,forward_flops,chamfer_512,compute_source,metric_source
+FCN-256,x,256,256,2039296,4063232,0.5234833359718323,experiment_report.md; not recomputed,/data/tongtong/JIT_ToyExperiments/results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/sample_quality_metrics.csv
+FCN-256,v,256,256,2039296,4063232,30.5637264251709,experiment_report.md; not recomputed,/data/tongtong/JIT_ToyExperiments/results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/analysis/sample_quality_metrics.csv
+FCN-256 wide,v,256,1024,4009216,7995392,30.488014221191406,experiment_report.md; not recomputed,/data/tongtong/JIT_ToyExperiments/results/fcn_w256_branch1024_adaln/runs/fcn_w256_branch1024_adaln_v/analysis/sample_quality_metrics.csv
+FCN-512,v,512,512,7485952,14942208,1.644779920578003,experiment_report.md; not recomputed,/data/tongtong/JIT_ToyExperiments/results/fcn_w512_adaln/runs/fcn_w512_adaln_xv/analysis/sample_quality_metrics.csv
+FCN-1024,v,1024,1024,28602880,57147392,0.7280716300010681,experiment_report.md; not recomputed,/data/tongtong/JIT_ToyExperiments/results/fcn_w1024_adaln/runs/fcn_w1024_adaln_xv/analysis/sample_quality_metrics.csv
+SiHC N=4,v,1024,256,2050304,4147073,0.5947796106338501,experiment_report.md; not recomputed,/data/tongtong/JIT_ToyExperiments/results/sihc_patch_adaln/runs/sihc_patch_adaln_xv/analysis/sample_quality_metrics.csv

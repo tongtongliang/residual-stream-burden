@@ -1,0 +1,12 @@
+{
+  "slides": 1,
+  "native_shapes": 194,
+  "native_text_runs": 69,
+  "embedded_pictures": 0,
+  "svg_parts": 0,
+  "out_of_canvas": 0,
+  "fonts": [
+    "Arial",
+    "Times New Roman"
+  ]
+}

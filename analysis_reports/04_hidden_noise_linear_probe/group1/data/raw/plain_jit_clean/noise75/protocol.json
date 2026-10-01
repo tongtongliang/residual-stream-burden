@@ -1,0 +1,46 @@
+{
+  "model": {
+    "label": "plain_jit_clean",
+    "display": "JiT-B clean",
+    "family": "internal",
+    "config": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/config.json",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "group": 1,
+    "kind": "plain"
+  },
+  "alpha": 0.75,
+  "online": true,
+  "points": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "condition": "null",
+  "pooling": "patch RMS eps1e-6 then GAP",
+  "epochs": 40,
+  "microbatch": 128,
+  "effective_batch": 4096,
+  "optimizer": "AdamW lr cosine .01 to .0001, wd0, default betas",
+  "noise": "fresh CUDA normal per epoch; shared seed and shuffle across models/t",
+  "train_seed_base": 700001,
+  "validation_seeds": [
+    800001,
+    800002,
+    800003
+  ],
+  "backbone": "BF16 autocast",
+  "encoder": "FP32",
+  "heads": "FP32",
+  "checkpoint_state": "model",
+  "cache": false,
+  "wandb": false
+}

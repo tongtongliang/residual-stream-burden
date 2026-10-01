@@ -1,0 +1,4 @@
+"""Model registry key used by the launcher."""
+    "jit_b16_fullpatch_longskip",
+    if name == "jit_b16_fullpatch_longskip":
+        return JiT_models["JiT-B/16-FullPatch-LongSkip"](**kwargs)

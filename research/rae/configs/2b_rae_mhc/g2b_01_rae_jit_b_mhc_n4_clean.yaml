@@ -1,0 +1,10 @@
+_base_: ../shared/base_rae_dinov2_b.yaml
+stage_2:
+  target: sihc.rae.models.RAEMHCJiTB
+  params:
+    prediction_target: clean
+    clean_eps: 0.05
+    mhc_n: 4
+    mhc_backend: nvidia_fused
+    class_dropout_prob: 0.1
+    attn_backend: flash

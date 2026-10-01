@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 60.324,
+    "top5": 83.45,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 80.87533333333333,
+    "top5": 95.87066666666668,
+    "top1_seed_std": 0.08698403429493237,
+    "top5_seed_std": 0.02927266453346553
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 51.806000000000004,
+    "top5": 77.424,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 79.70666666666669,
+    "top5": 95.16600000000001,
+    "top1_seed_std": 0.027920522121828065,
+    "top5_seed_std": 0.039225841822275814
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 32.182,
+    "top5": 54.252,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 79.28800000000001,
+    "top5": 95.00266666666668,
+    "top1_seed_std": 0.07162867209900395,
+    "top5_seed_std": 0.002494438257854875
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 35.89000000000001,
+    "top5": 60.550000000000004,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 79.10333333333335,
+    "top5": 94.82666666666667,
+    "top1_seed_std": 0.08604391643547604,
+    "top5_seed_std": 0.018354533197247305
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 72.66,
+    "top5": 91.468,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 80.72933333333334,
+    "top5": 95.75266666666668,
+    "top1_seed_std": 0.06913432979031156,
+    "top5_seed_std": 0.02028683207294041
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 44.410000000000004,
+    "top5": 69.796,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 80.07466666666669,
+    "top5": 95.45533333333334,
+    "top1_seed_std": 0.05543364401596643,
+    "top5_seed_std": 0.018061622912191433
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 56.486000000000004,
+    "top5": 80.244,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 80.57733333333334,
+    "top5": 95.65533333333333,
+    "top1_seed_std": 0.03449959742115848,
+    "top5_seed_std": 0.026246692913372893
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 46.904,
+    "top5": 71.152,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 79.57333333333334,
+    "top5": 95.16600000000001,
+    "top1_seed_std": 0.05076306618880407,
+    "top5_seed_std": 0.02315167380557478
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 50.68600000000001,
+    "top5": 75.69600000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 79.73933333333333,
+    "top5": 95.26400000000001,
+    "top1_seed_std": 0.08624512868691112,
+    "top5_seed_std": 0.04140853374205008
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 64.72200000000001,
+    "top5": 87.72800000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 80.21733333333334,
+    "top5": 95.48733333333332,
+    "top1_seed_std": 0.027776888874659456,
+    "top5_seed_std": 0.019754043186707645
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 37.644000000000005,
+    "top5": 58.518,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 78.62933333333335,
+    "top5": 94.76200000000001,
+    "top1_seed_std": 0.10372185026416192,
+    "top5_seed_std": 0.04445222154178743
+  }
+]

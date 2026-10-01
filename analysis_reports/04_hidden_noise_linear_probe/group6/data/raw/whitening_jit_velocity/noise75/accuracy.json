@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 0.218,
+    "top5": 1.338,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 2.0060000000000002,
+    "top5": 6.334666666666667,
+    "top1_seed_std": 0.0444522215417857,
+    "top5_seed_std": 0.041611964091539125
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 0.35200000000000004,
+    "top5": 1.514,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 2.9586666666666672,
+    "top5": 8.878000000000002,
+    "top1_seed_std": 0.043706089074890174,
+    "top5_seed_std": 0.030243456592569936
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 0.20600000000000002,
+    "top5": 0.796,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 3.5580000000000003,
+    "top5": 10.231333333333334,
+    "top1_seed_std": 0.030243456592569905,
+    "top5_seed_std": 0.045087569117096125
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 0.29800000000000004,
+    "top5": 1.1340000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 4.713333333333334,
+    "top5": 12.746000000000002,
+    "top1_seed_std": 0.01975404318670515,
+    "top5_seed_std": 0.08954700813911393
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 0.22200000000000003,
+    "top5": 0.8460000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 5.335333333333334,
+    "top5": 14.206666666666669,
+    "top1_seed_std": 0.019067132861433498,
+    "top5_seed_std": 0.03865517070486495
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 0.20600000000000002,
+    "top5": 0.8360000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 5.775333333333333,
+    "top5": 14.948,
+    "top1_seed_std": 0.015434449203720392,
+    "top5_seed_std": 0.0855258245599927
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 0.10600000000000001,
+    "top5": 0.53,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 6.215333333333334,
+    "top5": 15.908666666666667,
+    "top1_seed_std": 0.07043357785097176,
+    "top5_seed_std": 0.07677383813658238
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 0.29200000000000004,
+    "top5": 1.1280000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 6.743333333333335,
+    "top5": 16.647333333333336,
+    "top1_seed_std": 0.03039005685344391,
+    "top5_seed_std": 0.05076306618880485
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 0.20600000000000002,
+    "top5": 0.9420000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 7.413333333333333,
+    "top5": 18.060666666666666,
+    "top1_seed_std": 0.08240280469876128,
+    "top5_seed_std": 0.12779497468819218
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 0.22400000000000003,
+    "top5": 1.0140000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 7.402000000000001,
+    "top5": 17.69066666666667,
+    "top1_seed_std": 0.07622772898799138,
+    "top5_seed_std": 0.10864416945034663
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 0.17,
+    "top5": 0.67,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 6.436,
+    "top5": 16.12066666666667,
+    "top1_seed_std": 0.0643324697696788,
+    "top5_seed_std": 0.14334418563567838
+  }
+]

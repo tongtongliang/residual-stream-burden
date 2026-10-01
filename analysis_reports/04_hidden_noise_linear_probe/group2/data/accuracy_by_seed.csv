@@ -1,0 +1,529 @@
+model,alpha,after_block,mode,view,seed_base,rng,top1,top5
+raev1-g2a-01-jit-b-clean-epoch200,0.25,1,clean,0,,single GPU,81.30000000000001,95.90200000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.25,2,clean,0,,single GPU,81.164,95.9
+raev1-g2a-01-jit-b-clean-epoch200,0.25,3,clean,0,,single GPU,81.146,95.93800000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.25,4,clean,0,,single GPU,80.60400000000001,95.744
+raev1-g2a-01-jit-b-clean-epoch200,0.25,5,clean,0,,single GPU,80.474,95.696
+raev1-g2a-01-jit-b-clean-epoch200,0.25,6,clean,0,,single GPU,80.412,95.69000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,7,clean,0,,single GPU,80.176,95.546
+raev1-g2a-01-jit-b-clean-epoch200,0.25,8,clean,0,,single GPU,80.17800000000001,95.50200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,9,clean,0,,single GPU,79.86800000000001,95.418
+raev1-g2a-01-jit-b-clean-epoch200,0.25,10,clean,0,,single GPU,79.59400000000001,95.03
+raev1-g2a-01-jit-b-clean-epoch200,0.25,11,clean,0,,single GPU,79.65200000000002,95.20200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,1,matched_noise,1,800001,single GPU,81.61,96.084
+raev1-g2a-01-jit-b-clean-epoch200,0.25,2,matched_noise,1,800001,single GPU,81.614,96.086
+raev1-g2a-01-jit-b-clean-epoch200,0.25,3,matched_noise,1,800001,single GPU,81.61600000000001,96.138
+raev1-g2a-01-jit-b-clean-epoch200,0.25,4,matched_noise,1,800001,single GPU,81.30000000000001,95.998
+raev1-g2a-01-jit-b-clean-epoch200,0.25,5,matched_noise,1,800001,single GPU,81.33,96.01400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,6,matched_noise,1,800001,single GPU,81.30400000000002,95.992
+raev1-g2a-01-jit-b-clean-epoch200,0.25,7,matched_noise,1,800001,single GPU,81.302,95.968
+raev1-g2a-01-jit-b-clean-epoch200,0.25,8,matched_noise,1,800001,single GPU,81.144,95.87
+raev1-g2a-01-jit-b-clean-epoch200,0.25,9,matched_noise,1,800001,single GPU,80.77600000000001,95.72600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,10,matched_noise,1,800001,single GPU,80.24600000000001,95.44200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,11,matched_noise,1,800001,single GPU,80.144,95.49600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,1,matched_noise,2,800002,single GPU,81.62,96.12
+raev1-g2a-01-jit-b-clean-epoch200,0.25,2,matched_noise,2,800002,single GPU,81.542,96.084
+raev1-g2a-01-jit-b-clean-epoch200,0.25,3,matched_noise,2,800002,single GPU,81.662,96.138
+raev1-g2a-01-jit-b-clean-epoch200,0.25,4,matched_noise,2,800002,single GPU,81.34800000000001,96.034
+raev1-g2a-01-jit-b-clean-epoch200,0.25,5,matched_noise,2,800002,single GPU,81.31200000000001,96.03
+raev1-g2a-01-jit-b-clean-epoch200,0.25,6,matched_noise,2,800002,single GPU,81.256,95.98200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,7,matched_noise,2,800002,single GPU,81.286,95.964
+raev1-g2a-01-jit-b-clean-epoch200,0.25,8,matched_noise,2,800002,single GPU,81.12800000000001,95.864
+raev1-g2a-01-jit-b-clean-epoch200,0.25,9,matched_noise,2,800002,single GPU,80.79,95.736
+raev1-g2a-01-jit-b-clean-epoch200,0.25,10,matched_noise,2,800002,single GPU,80.21400000000001,95.45000000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.25,11,matched_noise,2,800002,single GPU,80.15,95.456
+raev1-g2a-01-jit-b-clean-epoch200,0.25,1,matched_noise,3,800003,single GPU,81.57200000000002,96.10600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,2,matched_noise,3,800003,single GPU,81.55600000000001,96.11000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,3,matched_noise,3,800003,single GPU,81.58800000000001,96.144
+raev1-g2a-01-jit-b-clean-epoch200,0.25,4,matched_noise,3,800003,single GPU,81.272,96.02600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,5,matched_noise,3,800003,single GPU,81.24600000000001,96.02600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,6,matched_noise,3,800003,single GPU,81.254,95.97800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,7,matched_noise,3,800003,single GPU,81.28200000000001,95.952
+raev1-g2a-01-jit-b-clean-epoch200,0.25,8,matched_noise,3,800003,single GPU,81.11,95.87400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.25,9,matched_noise,3,800003,single GPU,80.79,95.73
+raev1-g2a-01-jit-b-clean-epoch200,0.25,10,matched_noise,3,800003,single GPU,80.304,95.492
+raev1-g2a-01-jit-b-clean-epoch200,0.25,11,matched_noise,3,800003,single GPU,80.152,95.47200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,1,clean,0,,single GPU,78.322,94.66000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,2,clean,0,,single GPU,77.97,94.40400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,3,clean,0,,single GPU,77.84200000000001,94.45400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,4,clean,0,,single GPU,76.668,93.792
+raev1-g2a-01-jit-b-clean-epoch200,0.5,5,clean,0,,single GPU,76.56200000000001,93.78
+raev1-g2a-01-jit-b-clean-epoch200,0.5,6,clean,0,,single GPU,76.402,93.772
+raev1-g2a-01-jit-b-clean-epoch200,0.5,7,clean,0,,single GPU,76.08,93.48
+raev1-g2a-01-jit-b-clean-epoch200,0.5,8,clean,0,,single GPU,75.86200000000001,93.49000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,9,clean,0,,single GPU,75.38,93.436
+raev1-g2a-01-jit-b-clean-epoch200,0.5,10,clean,0,,single GPU,75.05400000000002,93.0
+raev1-g2a-01-jit-b-clean-epoch200,0.5,11,clean,0,,single GPU,76.414,93.854
+raev1-g2a-01-jit-b-clean-epoch200,0.5,1,matched_noise,1,800001,single GPU,81.30400000000002,95.956
+raev1-g2a-01-jit-b-clean-epoch200,0.5,2,matched_noise,1,800001,single GPU,81.252,95.94200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,3,matched_noise,1,800001,single GPU,81.284,95.98200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,4,matched_noise,1,800001,single GPU,81.012,95.86200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,5,matched_noise,1,800001,single GPU,81.114,95.908
+raev1-g2a-01-jit-b-clean-epoch200,0.5,6,matched_noise,1,800001,single GPU,81.20600000000002,95.94200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,7,matched_noise,1,800001,single GPU,81.01,95.84800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,8,matched_noise,1,800001,single GPU,80.95800000000001,95.748
+raev1-g2a-01-jit-b-clean-epoch200,0.5,9,matched_noise,1,800001,single GPU,80.48,95.63600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,10,matched_noise,1,800001,single GPU,80.144,95.31
+raev1-g2a-01-jit-b-clean-epoch200,0.5,11,matched_noise,1,800001,single GPU,80.134,95.41400000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.5,1,matched_noise,2,800002,single GPU,81.29400000000001,96.01600000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.5,2,matched_noise,2,800002,single GPU,81.23800000000001,95.94800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,3,matched_noise,2,800002,single GPU,81.302,96.01600000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.5,4,matched_noise,2,800002,single GPU,81.046,95.888
+raev1-g2a-01-jit-b-clean-epoch200,0.5,5,matched_noise,2,800002,single GPU,81.07600000000001,95.896
+raev1-g2a-01-jit-b-clean-epoch200,0.5,6,matched_noise,2,800002,single GPU,81.196,95.92200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,7,matched_noise,2,800002,single GPU,80.964,95.83200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,8,matched_noise,2,800002,single GPU,80.878,95.73800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,9,matched_noise,2,800002,single GPU,80.43800000000002,95.608
+raev1-g2a-01-jit-b-clean-epoch200,0.5,10,matched_noise,2,800002,single GPU,80.06,95.28200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,11,matched_noise,2,800002,single GPU,80.02600000000001,95.39200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,1,matched_noise,3,800003,single GPU,81.27000000000001,96.02000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,2,matched_noise,3,800003,single GPU,81.176,95.98200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,3,matched_noise,3,800003,single GPU,81.22,96.03200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,4,matched_noise,3,800003,single GPU,80.91000000000001,95.932
+raev1-g2a-01-jit-b-clean-epoch200,0.5,5,matched_noise,3,800003,single GPU,81.016,95.97200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,6,matched_noise,3,800003,single GPU,81.08400000000002,95.95400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,7,matched_noise,3,800003,single GPU,80.968,95.888
+raev1-g2a-01-jit-b-clean-epoch200,0.5,8,matched_noise,3,800003,single GPU,80.858,95.77600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,9,matched_noise,3,800003,single GPU,80.58000000000001,95.61800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.5,10,matched_noise,3,800003,single GPU,79.98400000000001,95.302
+raev1-g2a-01-jit-b-clean-epoch200,0.5,11,matched_noise,3,800003,single GPU,80.098,95.42200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,1,clean,0,,single GPU,71.554,90.296
+raev1-g2a-01-jit-b-clean-epoch200,0.75,2,clean,0,,single GPU,71.994,90.64200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,3,clean,0,,single GPU,71.73400000000001,90.38600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,4,clean,0,,single GPU,69.76400000000001,89.42800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,5,clean,0,,single GPU,68.97800000000001,89.4
+raev1-g2a-01-jit-b-clean-epoch200,0.75,6,clean,0,,single GPU,70.63400000000001,90.47600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,7,clean,0,,single GPU,69.872,90.13600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,8,clean,0,,single GPU,70.36,90.31000000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.75,9,clean,0,,single GPU,71.21000000000001,91.17600000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.75,10,clean,0,,single GPU,71.096,90.88000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,11,clean,0,,single GPU,73.09,92.244
+raev1-g2a-01-jit-b-clean-epoch200,0.75,1,matched_noise,1,800001,single GPU,81.152,95.936
+raev1-g2a-01-jit-b-clean-epoch200,0.75,2,matched_noise,1,800001,single GPU,80.96600000000001,95.91600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,3,matched_noise,1,800001,single GPU,80.808,95.89200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,4,matched_noise,1,800001,single GPU,80.744,95.72800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,5,matched_noise,1,800001,single GPU,80.74000000000001,95.71400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,6,matched_noise,1,800001,single GPU,80.71400000000001,95.71400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,7,matched_noise,1,800001,single GPU,80.62400000000001,95.632
+raev1-g2a-01-jit-b-clean-epoch200,0.75,8,matched_noise,1,800001,single GPU,80.622,95.60400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,9,matched_noise,1,800001,single GPU,80.322,95.49000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,10,matched_noise,1,800001,single GPU,79.822,95.224
+raev1-g2a-01-jit-b-clean-epoch200,0.75,11,matched_noise,1,800001,single GPU,80.024,95.364
+raev1-g2a-01-jit-b-clean-epoch200,0.75,1,matched_noise,2,800002,single GPU,81.02000000000001,95.98400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,2,matched_noise,2,800002,single GPU,80.834,95.87200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,3,matched_noise,2,800002,single GPU,80.752,95.864
+raev1-g2a-01-jit-b-clean-epoch200,0.75,4,matched_noise,2,800002,single GPU,80.56200000000001,95.75800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,5,matched_noise,2,800002,single GPU,80.56,95.81600000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.75,6,matched_noise,2,800002,single GPU,80.70400000000001,95.72800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,7,matched_noise,2,800002,single GPU,80.536,95.712
+raev1-g2a-01-jit-b-clean-epoch200,0.75,8,matched_noise,2,800002,single GPU,80.61800000000001,95.69200000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,9,matched_noise,2,800002,single GPU,80.17800000000001,95.54400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,10,matched_noise,2,800002,single GPU,79.81400000000001,95.27600000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,11,matched_noise,2,800002,single GPU,80.138,95.364
+raev1-g2a-01-jit-b-clean-epoch200,0.75,1,matched_noise,3,800003,single GPU,80.998,95.91000000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,2,matched_noise,3,800003,single GPU,80.92200000000001,95.90200000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.75,3,matched_noise,3,800003,single GPU,80.662,95.83800000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,4,matched_noise,3,800003,single GPU,80.546,95.78000000000002
+raev1-g2a-01-jit-b-clean-epoch200,0.75,5,matched_noise,3,800003,single GPU,80.642,95.778
+raev1-g2a-01-jit-b-clean-epoch200,0.75,6,matched_noise,3,800003,single GPU,80.82000000000001,95.748
+raev1-g2a-01-jit-b-clean-epoch200,0.75,7,matched_noise,3,800003,single GPU,80.62400000000001,95.70400000000001
+raev1-g2a-01-jit-b-clean-epoch200,0.75,8,matched_noise,3,800003,single GPU,80.5,95.62
+raev1-g2a-01-jit-b-clean-epoch200,0.75,9,matched_noise,3,800003,single GPU,80.29,95.534
+raev1-g2a-01-jit-b-clean-epoch200,0.75,10,matched_noise,3,800003,single GPU,79.888,95.236
+raev1-g2a-01-jit-b-clean-epoch200,0.75,11,matched_noise,3,800003,single GPU,80.022,95.352
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,1,clean,0,,single GPU,73.126,92.61800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,2,clean,0,,single GPU,73.29,92.776
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,3,clean,0,,single GPU,72.32600000000001,92.36800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,4,clean,0,,single GPU,72.31,92.26
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,5,clean,0,,single GPU,71.63000000000001,91.894
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,6,clean,0,,single GPU,71.12200000000001,91.4
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,7,clean,0,,single GPU,71.566,91.59800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,8,clean,0,,single GPU,72.766,92.166
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,9,clean,0,,single GPU,73.578,92.74600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,10,clean,0,,single GPU,73.89800000000001,92.88600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,11,clean,0,,single GPU,74.11000000000001,92.87200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,1,matched_noise,1,800001,single GPU,80.32600000000001,95.55000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,2,matched_noise,1,800001,single GPU,80.48400000000001,95.638
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,3,matched_noise,1,800001,single GPU,80.47800000000001,95.69200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,4,matched_noise,1,800001,single GPU,80.69800000000001,95.78800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,5,matched_noise,1,800001,single GPU,80.70400000000001,95.77000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,6,matched_noise,1,800001,single GPU,80.92800000000001,95.79200000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,7,matched_noise,1,800001,single GPU,80.77600000000001,95.78800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,8,matched_noise,1,800001,single GPU,80.72600000000001,95.78800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,9,matched_noise,1,800001,single GPU,80.878,95.774
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,10,matched_noise,1,800001,single GPU,81.05000000000001,95.834
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,11,matched_noise,1,800001,single GPU,81.12800000000001,95.736
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,1,matched_noise,2,800002,single GPU,80.354,95.55000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,2,matched_noise,2,800002,single GPU,80.50200000000001,95.638
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,3,matched_noise,2,800002,single GPU,80.43400000000001,95.688
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,4,matched_noise,2,800002,single GPU,80.61,95.75600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,5,matched_noise,2,800002,single GPU,80.67200000000001,95.75800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,6,matched_noise,2,800002,single GPU,80.83200000000001,95.79200000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,7,matched_noise,2,800002,single GPU,80.744,95.79200000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,8,matched_noise,2,800002,single GPU,80.75000000000001,95.786
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,9,matched_noise,2,800002,single GPU,80.822,95.81200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,10,matched_noise,2,800002,single GPU,81.08400000000002,95.852
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,11,matched_noise,2,800002,single GPU,81.08400000000002,95.754
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,1,matched_noise,3,800003,single GPU,80.292,95.542
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,2,matched_noise,3,800003,single GPU,80.42200000000001,95.652
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,3,matched_noise,3,800003,single GPU,80.426,95.68
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,4,matched_noise,3,800003,single GPU,80.634,95.802
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,5,matched_noise,3,800003,single GPU,80.68,95.73800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,6,matched_noise,3,800003,single GPU,80.78800000000001,95.834
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,7,matched_noise,3,800003,single GPU,80.674,95.78800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,8,matched_noise,3,800003,single GPU,80.774,95.79
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,9,matched_noise,3,800003,single GPU,80.852,95.75000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,10,matched_noise,3,800003,single GPU,81.03800000000001,95.84400000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.25,11,matched_noise,3,800003,single GPU,81.06400000000001,95.74000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,1,clean,0,,single GPU,74.37400000000001,93.078
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,2,clean,0,,single GPU,74.68400000000001,93.142
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,3,clean,0,,single GPU,73.52000000000001,92.444
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,4,clean,0,,single GPU,73.108,92.37200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,5,clean,0,,single GPU,72.63400000000001,92.00800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,6,clean,0,,single GPU,72.63400000000001,92.08200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,7,clean,0,,single GPU,73.066,92.168
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,8,clean,0,,single GPU,73.51200000000001,92.382
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,9,clean,0,,single GPU,74.47800000000001,92.976
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,10,clean,0,,single GPU,74.132,92.93
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,11,clean,0,,single GPU,74.56,92.96200000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,1,matched_noise,1,800001,single GPU,80.546,95.638
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,2,matched_noise,1,800001,single GPU,80.7,95.68200000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,3,matched_noise,1,800001,single GPU,80.632,95.75000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,4,matched_noise,1,800001,single GPU,80.81600000000002,95.82600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,5,matched_noise,1,800001,single GPU,80.84400000000001,95.79
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,6,matched_noise,1,800001,single GPU,80.93400000000001,95.87
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,7,matched_noise,1,800001,single GPU,80.736,95.79
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,8,matched_noise,1,800001,single GPU,80.852,95.778
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,9,matched_noise,1,800001,single GPU,80.93400000000001,95.83
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,10,matched_noise,1,800001,single GPU,80.956,95.85600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,11,matched_noise,1,800001,single GPU,81.162,95.79200000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,1,matched_noise,2,800002,single GPU,80.51,95.638
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,2,matched_noise,2,800002,single GPU,80.554,95.656
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,3,matched_noise,2,800002,single GPU,80.47800000000001,95.73
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,4,matched_noise,2,800002,single GPU,80.78200000000001,95.802
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,5,matched_noise,2,800002,single GPU,80.78,95.784
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,6,matched_noise,2,800002,single GPU,81.00200000000001,95.86200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,7,matched_noise,2,800002,single GPU,80.70400000000001,95.786
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,8,matched_noise,2,800002,single GPU,80.796,95.81600000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,9,matched_noise,2,800002,single GPU,80.88400000000001,95.818
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,10,matched_noise,2,800002,single GPU,80.92600000000002,95.84400000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,11,matched_noise,2,800002,single GPU,81.018,95.83
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,1,matched_noise,3,800003,single GPU,80.44800000000001,95.62200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,2,matched_noise,3,800003,single GPU,80.58200000000001,95.69400000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,3,matched_noise,3,800003,single GPU,80.474,95.774
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,4,matched_noise,3,800003,single GPU,80.708,95.83
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,5,matched_noise,3,800003,single GPU,80.66600000000001,95.79
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,6,matched_noise,3,800003,single GPU,80.852,95.85000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,7,matched_noise,3,800003,single GPU,80.708,95.796
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,8,matched_noise,3,800003,single GPU,80.88400000000001,95.81400000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,9,matched_noise,3,800003,single GPU,80.924,95.802
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,10,matched_noise,3,800003,single GPU,80.964,95.846
+raev1-g2a-02-jit-b-velocity-epoch200,0.5,11,matched_noise,3,800003,single GPU,81.04400000000001,95.81200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,1,clean,0,,single GPU,71.83200000000001,90.86800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,2,clean,0,,single GPU,72.98400000000001,91.894
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,3,clean,0,,single GPU,71.35400000000001,91.05000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,4,clean,0,,single GPU,72.20400000000001,91.70800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,5,clean,0,,single GPU,72.23600000000002,91.67600000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,6,clean,0,,single GPU,73.376,92.48200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,7,clean,0,,single GPU,73.83200000000001,92.71600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,8,clean,0,,single GPU,74.138,92.516
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,9,clean,0,,single GPU,74.668,92.84800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,10,clean,0,,single GPU,73.652,92.822
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,11,clean,0,,single GPU,73.82600000000001,92.792
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,1,matched_noise,1,800001,single GPU,80.72,95.766
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,2,matched_noise,1,800001,single GPU,80.664,95.696
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,3,matched_noise,1,800001,single GPU,80.61,95.70400000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,4,matched_noise,1,800001,single GPU,80.696,95.80600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,5,matched_noise,1,800001,single GPU,80.69000000000001,95.84400000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,6,matched_noise,1,800001,single GPU,81.01,95.87800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,7,matched_noise,1,800001,single GPU,80.664,95.786
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,8,matched_noise,1,800001,single GPU,80.72,95.744
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,9,matched_noise,1,800001,single GPU,80.59200000000001,95.736
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,10,matched_noise,1,800001,single GPU,80.852,95.786
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,11,matched_noise,1,800001,single GPU,80.882,95.74000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,1,matched_noise,2,800002,single GPU,80.552,95.834
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,2,matched_noise,2,800002,single GPU,80.524,95.70400000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,3,matched_noise,2,800002,single GPU,80.54,95.778
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,4,matched_noise,2,800002,single GPU,80.646,95.81
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,5,matched_noise,2,800002,single GPU,80.70400000000001,95.81600000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,6,matched_noise,2,800002,single GPU,80.94600000000001,95.85000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,7,matched_noise,2,800002,single GPU,80.73,95.786
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,8,matched_noise,2,800002,single GPU,80.72800000000001,95.80600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,9,matched_noise,2,800002,single GPU,80.63,95.86200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,10,matched_noise,2,800002,single GPU,80.736,95.818
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,11,matched_noise,2,800002,single GPU,80.95000000000002,95.81400000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,1,matched_noise,3,800003,single GPU,80.602,95.77000000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,2,matched_noise,3,800003,single GPU,80.51800000000001,95.72
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,3,matched_noise,3,800003,single GPU,80.468,95.732
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,4,matched_noise,3,800003,single GPU,80.58200000000001,95.72
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,5,matched_noise,3,800003,single GPU,80.674,95.78000000000002
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,6,matched_noise,3,800003,single GPU,80.792,95.82600000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,7,matched_noise,3,800003,single GPU,80.61600000000001,95.76800000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,8,matched_noise,3,800003,single GPU,80.68200000000002,95.778
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,9,matched_noise,3,800003,single GPU,80.662,95.818
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,10,matched_noise,3,800003,single GPU,80.798,95.87200000000001
+raev1-g2a-02-jit-b-velocity-epoch200,0.75,11,matched_noise,3,800003,single GPU,80.96200000000002,95.76800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,1,clean,0,,single GPU,79.614,95.218
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,2,clean,0,,single GPU,73.49600000000001,93.052
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,3,clean,0,,single GPU,77.16400000000002,94.38000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,4,clean,0,,single GPU,70.298,91.97800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,5,clean,0,,single GPU,76.324,93.86200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,6,clean,0,,single GPU,61.50600000000001,84.138
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,7,clean,0,,single GPU,62.358000000000004,85.11400000000002
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,8,clean,0,,single GPU,68.186,88.67600000000002
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,9,clean,0,,single GPU,79.284,94.92200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,10,clean,0,,single GPU,79.42,95.03600000000002
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,11,clean,0,,single GPU,76.986,94.16000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,1,matched_noise,1,800001,single GPU,80.528,95.586
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,2,matched_noise,1,800001,single GPU,80.976,95.732
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,3,matched_noise,1,800001,single GPU,80.276,95.44
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,4,matched_noise,1,800001,single GPU,81.01,95.766
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,5,matched_noise,1,800001,single GPU,81.59400000000001,96.058
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,6,matched_noise,1,800001,single GPU,80.21000000000001,95.224
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,7,matched_noise,1,800001,single GPU,81.168,95.842
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,8,matched_noise,1,800001,single GPU,80.656,95.546
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,9,matched_noise,1,800001,single GPU,81.09200000000001,95.796
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,10,matched_noise,1,800001,single GPU,79.888,95.27600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,11,matched_noise,1,800001,single GPU,81.396,95.98400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,1,matched_noise,2,800002,single GPU,80.51400000000001,95.61
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,2,matched_noise,2,800002,single GPU,80.94800000000001,95.74600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,3,matched_noise,2,800002,single GPU,80.212,95.45800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,4,matched_noise,2,800002,single GPU,80.97800000000001,95.76
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,5,matched_noise,2,800002,single GPU,81.58000000000001,96.03200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,6,matched_noise,2,800002,single GPU,80.232,95.20200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,7,matched_noise,2,800002,single GPU,81.14000000000001,95.846
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,8,matched_noise,2,800002,single GPU,80.71400000000001,95.53800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,9,matched_noise,2,800002,single GPU,81.11200000000001,95.81200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,10,matched_noise,2,800002,single GPU,79.93,95.27600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,11,matched_noise,2,800002,single GPU,81.46000000000001,95.97800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,1,matched_noise,3,800003,single GPU,80.468,95.60400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,2,matched_noise,3,800003,single GPU,81.0,95.74000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,3,matched_noise,3,800003,single GPU,80.25800000000001,95.44
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,4,matched_noise,3,800003,single GPU,80.98400000000001,95.75200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,5,matched_noise,3,800003,single GPU,81.552,96.07200000000002
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,6,matched_noise,3,800003,single GPU,80.264,95.22600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,7,matched_noise,3,800003,single GPU,81.134,95.82600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,8,matched_noise,3,800003,single GPU,80.67200000000001,95.542
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,9,matched_noise,3,800003,single GPU,81.08000000000001,95.82400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,10,matched_noise,3,800003,single GPU,79.902,95.32400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.25,11,matched_noise,3,800003,single GPU,81.396,95.964
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,1,clean,0,,single GPU,67.97800000000001,89.626
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,2,clean,0,,single GPU,58.074000000000005,82.684
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,3,clean,0,,single GPU,71.034,91.552
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,4,clean,0,,single GPU,34.886,71.28000000000002
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,5,clean,0,,single GPU,54.25000000000001,80.552
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,6,clean,0,,single GPU,30.816000000000006,55.672
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,7,clean,0,,single GPU,37.580000000000005,61.57600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,8,clean,0,,single GPU,46.7,70.94200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,9,clean,0,,single GPU,73.81400000000001,92.178
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,10,clean,0,,single GPU,76.78800000000001,93.646
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,11,clean,0,,single GPU,61.126000000000005,84.15
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,1,matched_noise,1,800001,single GPU,80.516,95.58800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,2,matched_noise,1,800001,single GPU,80.96200000000002,95.742
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,3,matched_noise,1,800001,single GPU,80.58800000000001,95.59400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,4,matched_noise,1,800001,single GPU,80.744,95.574
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,5,matched_noise,1,800001,single GPU,81.474,95.974
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,6,matched_noise,1,800001,single GPU,80.22,95.32800000000002
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,7,matched_noise,1,800001,single GPU,80.912,95.81200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,8,matched_noise,1,800001,single GPU,80.44000000000001,95.46000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,9,matched_noise,1,800001,single GPU,80.98,95.76800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,10,matched_noise,1,800001,single GPU,80.376,95.534
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,11,matched_noise,1,800001,single GPU,80.992,95.76400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,1,matched_noise,2,800002,single GPU,80.426,95.596
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,2,matched_noise,2,800002,single GPU,80.874,95.744
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,3,matched_noise,2,800002,single GPU,80.46200000000002,95.64200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,4,matched_noise,2,800002,single GPU,80.774,95.58000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,5,matched_noise,2,800002,single GPU,81.44800000000001,95.98200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,6,matched_noise,2,800002,single GPU,80.24600000000001,95.37200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,7,matched_noise,2,800002,single GPU,80.924,95.748
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,8,matched_noise,2,800002,single GPU,80.34000000000002,95.39200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,9,matched_noise,2,800002,single GPU,80.944,95.784
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,10,matched_noise,2,800002,single GPU,80.34800000000001,95.498
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,11,matched_noise,2,800002,single GPU,81.096,95.82600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,1,matched_noise,3,800003,single GPU,80.43,95.61600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,2,matched_noise,3,800003,single GPU,80.996,95.786
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,3,matched_noise,3,800003,single GPU,80.516,95.64
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,4,matched_noise,3,800003,single GPU,80.69200000000001,95.54400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,5,matched_noise,3,800003,single GPU,81.476,95.962
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,6,matched_noise,3,800003,single GPU,80.36000000000001,95.346
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,7,matched_noise,3,800003,single GPU,80.91600000000001,95.76400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,8,matched_noise,3,800003,single GPU,80.296,95.42
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,9,matched_noise,3,800003,single GPU,80.97000000000001,95.76400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,10,matched_noise,3,800003,single GPU,80.28800000000001,95.50600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.5,11,matched_noise,3,800003,single GPU,81.02600000000001,95.75000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,1,clean,0,,global microbatch RNG preserved across ranks,46.13,70.15
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,2,clean,0,,global microbatch RNG preserved across ranks,47.7,72.538
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,3,clean,0,,global microbatch RNG preserved across ranks,69.578,90.202
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,4,clean,0,,global microbatch RNG preserved across ranks,19.564,43.202
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,5,clean,0,,global microbatch RNG preserved across ranks,33.306000000000004,56.34400000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,6,clean,0,,global microbatch RNG preserved across ranks,9.81,22.82
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,7,clean,0,,global microbatch RNG preserved across ranks,17.446,38.61600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,8,clean,0,,global microbatch RNG preserved across ranks,29.158,49.86800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,9,clean,0,,global microbatch RNG preserved across ranks,67.64800000000001,88.36
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,10,clean,0,,global microbatch RNG preserved across ranks,71.97800000000001,90.718
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,11,clean,0,,global microbatch RNG preserved across ranks,40.426,62.936
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,1,matched_noise,1,800001,global microbatch RNG preserved across ranks,81.034,95.84800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,2,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.85000000000001,95.876
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,3,matched_noise,1,800001,global microbatch RNG preserved across ranks,81.02600000000001,95.858
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,4,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.31400000000001,95.408
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,5,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.83800000000001,95.76
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,6,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.09,95.272
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,7,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.20400000000001,95.51200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,8,matched_noise,1,800001,global microbatch RNG preserved across ranks,79.976,95.31200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,9,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.474,95.516
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,10,matched_noise,1,800001,global microbatch RNG preserved across ranks,81.00200000000001,95.884
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,11,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.55000000000001,95.53
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,1,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.82400000000001,95.85000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,2,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.81800000000001,95.72800000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,3,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.896,95.86000000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,4,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.24000000000001,95.358
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,5,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.99000000000001,95.748
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,6,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.93,95.28200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,7,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.32400000000001,95.464
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,8,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.94800000000001,95.346
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,9,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.378,95.542
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,10,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.93800000000002,95.854
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,11,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.53,95.58200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,1,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.69200000000001,95.88600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,2,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.888,95.822
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,3,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.81200000000001,95.854
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,4,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.18,95.37200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,5,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.89,95.71600000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,6,matched_noise,3,800003,global microbatch RNG preserved across ranks,79.89600000000002,95.278
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,7,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.19200000000001,95.40200000000002
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,8,matched_noise,3,800003,global microbatch RNG preserved across ranks,79.898,95.302
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,9,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.34000000000002,95.51200000000001
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,10,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.842,95.882
+raev1-g2b-01-jit-b-mhc4-clean-epoch200,0.75,11,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.412,95.558
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,1,clean,0,,global microbatch RNG preserved across ranks,71.89000000000001,91.22000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,2,clean,0,,global microbatch RNG preserved across ranks,69.262,90.06200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,3,clean,0,,global microbatch RNG preserved across ranks,54.976,79.268
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,4,clean,0,,global microbatch RNG preserved across ranks,56.67000000000001,80.86800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,5,clean,0,,global microbatch RNG preserved across ranks,76.724,94.022
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,6,clean,0,,global microbatch RNG preserved across ranks,63.94800000000001,86.07400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,7,clean,0,,global microbatch RNG preserved across ranks,68.86800000000001,89.682
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,8,clean,0,,global microbatch RNG preserved across ranks,63.94800000000001,86.16
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,9,clean,0,,global microbatch RNG preserved across ranks,64.87400000000001,87.018
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,10,clean,0,,global microbatch RNG preserved across ranks,75.138,93.20200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,11,clean,0,,global microbatch RNG preserved across ranks,57.676,80.174
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,1,matched_noise,1,800001,global microbatch RNG preserved across ranks,81.284,95.9
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,2,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.58000000000001,95.50200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,3,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.598,95.62400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,4,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.854,95.76400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,5,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.10600000000001,95.492
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,6,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.808,95.72
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,7,matched_noise,1,800001,global microbatch RNG preserved across ranks,81.036,95.78200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,8,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.41,95.59400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,9,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.59,95.62200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,10,matched_noise,1,800001,global microbatch RNG preserved across ranks,81.058,95.778
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,11,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.264,95.388
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,1,matched_noise,2,800002,global microbatch RNG preserved across ranks,81.244,95.9
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,2,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.61600000000001,95.52800000000002
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,3,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.662,95.63000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,4,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.84800000000001,95.77600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,5,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.138,95.49000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,6,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.76,95.75000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,7,matched_noise,2,800002,global microbatch RNG preserved across ranks,81.04,95.79400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,8,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.35600000000001,95.57600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,9,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.566,95.59200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,10,matched_noise,2,800002,global microbatch RNG preserved across ranks,81.042,95.79
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,11,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.232,95.38000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,1,matched_noise,3,800003,global microbatch RNG preserved across ranks,81.272,95.882
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,2,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.59200000000001,95.54
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,3,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.60000000000001,95.65800000000002
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,4,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.88000000000001,95.77200000000002
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,5,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.126,95.492
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,6,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.81600000000002,95.748
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,7,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.97200000000001,95.81400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,8,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.34800000000001,95.56800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,9,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.558,95.554
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,10,matched_noise,3,800003,global microbatch RNG preserved across ranks,81.004,95.78200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.25,11,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.32800000000002,95.38400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,1,clean,0,,global microbatch RNG preserved across ranks,66.312,88.27600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,2,clean,0,,global microbatch RNG preserved across ranks,64.266,87.052
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,3,clean,0,,global microbatch RNG preserved across ranks,50.48400000000001,74.024
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,4,clean,0,,global microbatch RNG preserved across ranks,48.316,72.522
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,5,clean,0,,global microbatch RNG preserved across ranks,73.958,92.418
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,6,clean,0,,global microbatch RNG preserved across ranks,57.47800000000001,80.92200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,7,clean,0,,global microbatch RNG preserved across ranks,63.604000000000006,85.87
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,8,clean,0,,global microbatch RNG preserved across ranks,56.98800000000001,80.248
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,9,clean,0,,global microbatch RNG preserved across ranks,58.986000000000004,82.456
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,10,clean,0,,global microbatch RNG preserved across ranks,72.184,91.70200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,11,clean,0,,global microbatch RNG preserved across ranks,53.31400000000001,75.356
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,1,matched_noise,1,800001,global microbatch RNG preserved across ranks,81.174,95.802
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,2,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.48,95.45000000000002
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,3,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.154,95.468
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,4,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.266,95.50800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,5,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.464,95.61600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,6,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.668,95.578
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,7,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.90400000000001,95.72800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,8,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.02,95.452
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,9,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.292,95.49000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,10,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.742,95.696
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,11,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.02600000000001,95.26800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,1,matched_noise,2,800002,global microbatch RNG preserved across ranks,81.22800000000001,95.83
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,2,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.536,95.47800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,3,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.08400000000002,95.432
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,4,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.42200000000001,95.53800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,5,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.5,95.67200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,6,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.674,95.61200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,7,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.95800000000001,95.744
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,8,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.06800000000001,95.43400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,9,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.19600000000001,95.49400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,10,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.772,95.674
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,11,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.908,95.21400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,1,matched_noise,3,800003,global microbatch RNG preserved across ranks,81.146,95.82600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,2,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.39,95.492
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,3,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.086,95.43
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,4,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.4,95.492
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,5,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.492,95.63600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,6,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.64000000000001,95.574
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,7,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.898,95.75200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,8,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.04,95.432
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,9,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.27000000000001,95.45400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,10,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.67,95.66600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.5,11,matched_noise,3,800003,global microbatch RNG preserved across ranks,79.99600000000001,95.29400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,1,clean,0,,global microbatch RNG preserved across ranks,60.324,83.45
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,2,clean,0,,global microbatch RNG preserved across ranks,51.806000000000004,77.424
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,3,clean,0,,global microbatch RNG preserved across ranks,32.182,54.252
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,4,clean,0,,global microbatch RNG preserved across ranks,35.89000000000001,60.550000000000004
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,5,clean,0,,global microbatch RNG preserved across ranks,72.66,91.468
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,6,clean,0,,global microbatch RNG preserved across ranks,44.410000000000004,69.796
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,7,clean,0,,global microbatch RNG preserved across ranks,56.486000000000004,80.244
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,8,clean,0,,global microbatch RNG preserved across ranks,46.904,71.152
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,9,clean,0,,global microbatch RNG preserved across ranks,50.68600000000001,75.69600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,10,clean,0,,global microbatch RNG preserved across ranks,64.72200000000001,87.72800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,11,clean,0,,global microbatch RNG preserved across ranks,37.644000000000005,58.518
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,1,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.902,95.852
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,2,matched_noise,1,800001,global microbatch RNG preserved across ranks,79.74600000000001,95.22
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,3,matched_noise,1,800001,global microbatch RNG preserved across ranks,79.388,95.00600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,4,matched_noise,1,800001,global microbatch RNG preserved across ranks,79.17200000000001,94.83200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,5,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.786,95.724
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,6,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.14800000000001,95.45800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,7,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.55600000000001,95.64200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,8,matched_noise,1,800001,global microbatch RNG preserved across ranks,79.50200000000001,95.188
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,9,matched_noise,1,800001,global microbatch RNG preserved across ranks,79.854,95.322
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,10,matched_noise,1,800001,global microbatch RNG preserved across ranks,80.18400000000001,95.50600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,11,matched_noise,1,800001,global microbatch RNG preserved across ranks,78.72800000000001,94.70400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,1,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.96600000000001,95.912
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,2,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.69000000000001,95.12800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,3,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.224,95.0
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,4,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.156,94.846
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,5,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.77000000000001,95.766
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,6,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.06200000000001,95.476
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,7,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.626,95.632
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,8,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.602,95.176
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,9,matched_noise,2,800002,global microbatch RNG preserved across ranks,79.646,95.242
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,10,matched_noise,2,800002,global microbatch RNG preserved across ranks,80.252,95.46000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,11,matched_noise,2,800002,global microbatch RNG preserved across ranks,78.48600000000002,94.77000000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,1,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.75800000000001,95.84800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,2,matched_noise,3,800003,global microbatch RNG preserved across ranks,79.68400000000001,95.15
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,3,matched_noise,3,800003,global microbatch RNG preserved across ranks,79.25200000000001,95.00200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,4,matched_noise,3,800003,global microbatch RNG preserved across ranks,78.98200000000001,94.802
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,5,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.632,95.76800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,6,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.01400000000001,95.432
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,7,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.55000000000001,95.69200000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,8,matched_noise,3,800003,global microbatch RNG preserved across ranks,79.61600000000001,95.13400000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,9,matched_noise,3,800003,global microbatch RNG preserved across ranks,79.71800000000002,95.22800000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,10,matched_noise,3,800003,global microbatch RNG preserved across ranks,80.21600000000001,95.49600000000001
+raev1-g2b-02-jit-b-mhc4-velocity-epoch200,0.75,11,matched_noise,3,800003,global microbatch RNG preserved across ranks,78.674,94.81200000000001

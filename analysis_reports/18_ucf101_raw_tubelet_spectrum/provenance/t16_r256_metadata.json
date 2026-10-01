@@ -1,0 +1,23 @@
+{
+  "protocol": "one deterministic random tubelet per balanced video; centered population PCA",
+  "video_count_requested": 5050,
+  "video_count_analyzed": 5050,
+  "decode_failures": 0,
+  "frames": 16,
+  "frame_stride": 4,
+  "short_video_fallback": "16 indices uniformly spanning the video",
+  "spatial_preprocessing": "bicubic resize short side to 256, center crop 256x256",
+  "pixel_scaling": "uint8 / 127.5 - 1",
+  "tubelet_flatten_order": "channel, time, height, width",
+  "tubelet_shape": [
+    4,
+    16,
+    16
+  ],
+  "tubelet_dimension_with_rgb": 3072,
+  "tokens_per_clip": 1024,
+  "seed": 2021,
+  "randomized_components": 512,
+  "imagenet_reference": "ImageNet validation r1024 p32 from raw_pixel_patch_profile",
+  "elapsed_seconds": 417.03176069259644
+}

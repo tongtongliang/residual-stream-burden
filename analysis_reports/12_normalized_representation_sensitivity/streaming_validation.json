@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "max_absolute_error": 4.440892098500626e-16,
+  "oracle": "FP64 explicit per-image unbiased noise covariance and unbiased covariance of image means; forward and reversed image orders"
+}

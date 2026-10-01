@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 0.526,
+    "top5": 2.0300000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 2.768666666666667,
+    "top5": 8.244,
+    "top1_seed_std": 0.012472191289246403,
+    "top5_seed_std": 0.03050682983639337
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 0.6200000000000001,
+    "top5": 2.332,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 4.022000000000001,
+    "top5": 11.237333333333334,
+    "top1_seed_std": 0.035440090293338555,
+    "top5_seed_std": 0.043492017147467345
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 0.214,
+    "top5": 0.9940000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 4.734666666666667,
+    "top5": 12.815333333333335,
+    "top1_seed_std": 0.009428090415820432,
+    "top5_seed_std": 0.10684984271812802
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 0.4940000000000001,
+    "top5": 1.804,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 5.654666666666667,
+    "top5": 14.988666666666667,
+    "top1_seed_std": 0.017461067804945034,
+    "top5_seed_std": 0.037959042254630884
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 0.24000000000000002,
+    "top5": 1.2020000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 6.457333333333334,
+    "top5": 16.59266666666667,
+    "top1_seed_std": 0.030652170486860735,
+    "top5_seed_std": 0.05667058809960823
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 0.232,
+    "top5": 1.06,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 6.817333333333334,
+    "top5": 17.368,
+    "top1_seed_std": 0.028767265347188813,
+    "top5_seed_std": 0.07002856560004744
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 0.274,
+    "top5": 1.03,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 7.263333333333333,
+    "top5": 18.051333333333336,
+    "top1_seed_std": 0.05188020388891653,
+    "top5_seed_std": 0.08040453276332679
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 0.466,
+    "top5": 1.6560000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 8.000666666666667,
+    "top5": 19.329333333333334,
+    "top1_seed_std": 0.057092517509350835,
+    "top5_seed_std": 0.03757067414294717
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 0.47600000000000003,
+    "top5": 1.53,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 8.754666666666667,
+    "top5": 20.782666666666668,
+    "top1_seed_std": 0.018926759422104165,
+    "top5_seed_std": 0.026042699979499356
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 0.546,
+    "top5": 1.6900000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 8.580666666666668,
+    "top5": 20.506000000000004,
+    "top1_seed_std": 0.022881336402307335,
+    "top5_seed_std": 0.027471197037382142
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 0.248,
+    "top5": 1.1900000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 7.488,
+    "top5": 18.246,
+    "top1_seed_std": 0.06125357132445462,
+    "top5_seed_std": 0.04673328578219012
+  }
+]

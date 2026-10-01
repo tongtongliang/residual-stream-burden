@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sihc"
+version = "0.1.0"
+description = "Spatially Indexed Hyperconnections with fused block and sublayer routing"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.8", "torchvision", "triton", "numpy", "pillow"]
+
+[project.optional-dependencies]
+eval = ["torch-fidelity==0.4.0"]
+parquet = ["pyarrow"]
+tracking = ["wandb"]
+repa = ["transformers==4.57.3"]
+dev = ["pytest"]
+bench = ["einops==0.8.2"]
+
+[project.scripts]
+sihc-train = "training.train:main"
+sihc-sample = "evaluation.sample:main"
+sihc-evaluate = "evaluation.evaluate:main"
+sihc-export = "evaluation.export_checkpoint:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "LICENSES/*.txt", "THIRD_PARTY_NOTICES.md"]
+
+[tool.setuptools.packages.find]
+include = ["sihc*", "training*", "evaluation*", "research*", "data*", "bench*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

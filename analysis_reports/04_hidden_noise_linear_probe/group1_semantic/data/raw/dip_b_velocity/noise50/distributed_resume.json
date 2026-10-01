@@ -1,0 +1,15 @@
+{
+  "start_epoch": 0,
+  "world": 2,
+  "global_batch": 4096,
+  "microbatch": 128,
+  "resume": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/dip_b_velocity/noise50/initial.pt",
+  "alpha": 0.5,
+  "optimizer": "resumed AdamW",
+  "gradient": "local loss SUM / actual global batch; all_reduce SUM, no world division",
+  "shuffle": "same seed42+epoch global permutation; each example exactly once",
+  "noise": "fresh CUDA Gaussian, seed700001+epoch+rank*10000000; not bitwise single-GPU noise",
+  "scope": "dip_b_velocity",
+  "points": 11,
+  "smoke_steps": 0
+}

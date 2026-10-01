@@ -1,0 +1,313 @@
+{
+  "source": "fig_table/result_statistic/section03_analysis/04_toy_residual_rank/residual_rank_metrics.csv",
+  "measurements": 50,
+  "shared_z_range": [
+    0,
+    240
+  ],
+  "t_one_is_clean": true,
+  "front_time": 0.9,
+  "horizontal_axis": "Residual stream, layers 1 to 5, arrow along x axis",
+  "bar_top_labels": [
+    {
+      "prediction": "clean",
+      "layer": 1,
+      "t": 0.1,
+      "rank": 110
+    },
+    {
+      "prediction": "clean",
+      "layer": 2,
+      "t": 0.1,
+      "rank": 95
+    },
+    {
+      "prediction": "clean",
+      "layer": 3,
+      "t": 0.1,
+      "rank": 90
+    },
+    {
+      "prediction": "clean",
+      "layer": 4,
+      "t": 0.1,
+      "rank": 73
+    },
+    {
+      "prediction": "clean",
+      "layer": 5,
+      "t": 0.1,
+      "rank": 58
+    },
+    {
+      "prediction": "clean",
+      "layer": 1,
+      "t": 0.3,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 2,
+      "t": 0.3,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 3,
+      "t": 0.3,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 4,
+      "t": 0.3,
+      "rank": 3
+    },
+    {
+      "prediction": "clean",
+      "layer": 5,
+      "t": 0.3,
+      "rank": 4
+    },
+    {
+      "prediction": "clean",
+      "layer": 1,
+      "t": 0.5,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 2,
+      "t": 0.5,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 3,
+      "t": 0.5,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 4,
+      "t": 0.5,
+      "rank": 3
+    },
+    {
+      "prediction": "clean",
+      "layer": 5,
+      "t": 0.5,
+      "rank": 3
+    },
+    {
+      "prediction": "clean",
+      "layer": 1,
+      "t": 0.7,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 2,
+      "t": 0.7,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 3,
+      "t": 0.7,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 4,
+      "t": 0.7,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 5,
+      "t": 0.7,
+      "rank": 3
+    },
+    {
+      "prediction": "clean",
+      "layer": 1,
+      "t": 0.9,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 2,
+      "t": 0.9,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 3,
+      "t": 0.9,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 4,
+      "t": 0.9,
+      "rank": 2
+    },
+    {
+      "prediction": "clean",
+      "layer": 5,
+      "t": 0.9,
+      "rank": 3
+    },
+    {
+      "prediction": "velocity",
+      "layer": 1,
+      "t": 0.1,
+      "rank": 216
+    },
+    {
+      "prediction": "velocity",
+      "layer": 2,
+      "t": 0.1,
+      "rank": 209
+    },
+    {
+      "prediction": "velocity",
+      "layer": 3,
+      "t": 0.1,
+      "rank": 198
+    },
+    {
+      "prediction": "velocity",
+      "layer": 4,
+      "t": 0.1,
+      "rank": 192
+    },
+    {
+      "prediction": "velocity",
+      "layer": 5,
+      "t": 0.1,
+      "rank": 186
+    },
+    {
+      "prediction": "velocity",
+      "layer": 1,
+      "t": 0.3,
+      "rank": 199
+    },
+    {
+      "prediction": "velocity",
+      "layer": 2,
+      "t": 0.3,
+      "rank": 204
+    },
+    {
+      "prediction": "velocity",
+      "layer": 3,
+      "t": 0.3,
+      "rank": 176
+    },
+    {
+      "prediction": "velocity",
+      "layer": 4,
+      "t": 0.3,
+      "rank": 176
+    },
+    {
+      "prediction": "velocity",
+      "layer": 5,
+      "t": 0.3,
+      "rank": 175
+    },
+    {
+      "prediction": "velocity",
+      "layer": 1,
+      "t": 0.5,
+      "rank": 129
+    },
+    {
+      "prediction": "velocity",
+      "layer": 2,
+      "t": 0.5,
+      "rank": 164
+    },
+    {
+      "prediction": "velocity",
+      "layer": 3,
+      "t": 0.5,
+      "rank": 131
+    },
+    {
+      "prediction": "velocity",
+      "layer": 4,
+      "t": 0.5,
+      "rank": 139
+    },
+    {
+      "prediction": "velocity",
+      "layer": 5,
+      "t": 0.5,
+      "rank": 150
+    },
+    {
+      "prediction": "velocity",
+      "layer": 1,
+      "t": 0.7,
+      "rank": 2
+    },
+    {
+      "prediction": "velocity",
+      "layer": 2,
+      "t": 0.7,
+      "rank": 29
+    },
+    {
+      "prediction": "velocity",
+      "layer": 3,
+      "t": 0.7,
+      "rank": 51
+    },
+    {
+      "prediction": "velocity",
+      "layer": 4,
+      "t": 0.7,
+      "rank": 86
+    },
+    {
+      "prediction": "velocity",
+      "layer": 5,
+      "t": 0.7,
+      "rank": 122
+    },
+    {
+      "prediction": "velocity",
+      "layer": 1,
+      "t": 0.9,
+      "rank": 2
+    },
+    {
+      "prediction": "velocity",
+      "layer": 2,
+      "t": 0.9,
+      "rank": 2
+    },
+    {
+      "prediction": "velocity",
+      "layer": 3,
+      "t": 0.9,
+      "rank": 26
+    },
+    {
+      "prediction": "velocity",
+      "layer": 4,
+      "t": 0.9,
+      "rank": 67
+    },
+    {
+      "prediction": "velocity",
+      "layer": 5,
+      "t": 0.9,
+      "rank": 111
+    }
+  ]
+}

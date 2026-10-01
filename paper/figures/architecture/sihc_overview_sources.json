@@ -1,0 +1,10 @@
+{
+  "editable_base": "paper/fig_table/figure/algorithm_redraw/output/sihc-algorithm-v25.pptx",
+  "renderer": "paper/fig_table/code/render_sihc_overview.mjs",
+  "pdf_wrapper": "paper/fig_table/code/render_sihc_overview_labels.py",
+  "native_candidate": "paper/build/figure6-r97/candidate.pptx",
+  "image": "paper/figures/architecture/sihc_overview.png",
+  "added_header_points": 0,
+  "change": "White panel backgrounds, no extra state/workspace header, and (ours) appended to panel (c). Diagram equations, arrows and spatial-state colors preserved.",
+  "editable_current": "paper/figures/architecture/sihc_overview.pptx"
+}

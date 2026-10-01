@@ -1,0 +1,218 @@
+[
+  {
+    "model": "deco_b_velocity",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/deco_b_velocity/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_deco_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "deco_b_velocity",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/deco_b_velocity/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_deco_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "deco_b_velocity",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/deco_b_velocity/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_deco_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "dip_b_velocity",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/dip_b_velocity/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "dip_b_velocity",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/dip_b_velocity/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "dip_b_velocity",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/dip_b_velocity/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "hyperdit_b_velocity",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/hyperdit_b_velocity/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/checkpoints/step_00250200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "model": "hyperdit_b_velocity",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/hyperdit_b_velocity/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/checkpoints/step_00250200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "model": "hyperdit_b_velocity",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/hyperdit_b_velocity/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/checkpoints/step_00250200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  },
+  {
+    "model": "pixeldit_b_velocity",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/pixeldit_b_velocity/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "pixeldit_b_velocity",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/pixeldit_b_velocity/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  },
+  {
+    "model": "pixeldit_b_velocity",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/semantic_runs/pixeldit_b_velocity/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "points": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ]
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 0.37,
+    "top5": 1.4560000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 5.398,
+    "top5": 14.025333333333334,
+    "top1_seed_std": 0.028331372481167592,
+    "top5_seed_std": 0.04170797951897927
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 0.30800000000000005,
+    "top5": 1.37,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 8.114000000000003,
+    "top5": 19.459333333333337,
+    "top1_seed_std": 0.050622788017519196,
+    "top5_seed_std": 0.05282255410544173
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 0.13200000000000003,
+    "top5": 0.786,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 11.075333333333333,
+    "top5": 25.0,
+    "top1_seed_std": 0.043276886312314036,
+    "top5_seed_std": 0.034292856398964136
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 0.13200000000000003,
+    "top5": 0.676,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 13.759333333333336,
+    "top5": 29.744000000000003,
+    "top1_seed_std": 0.10721111053534631,
+    "top5_seed_std": 0.03741657386774052
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 0.07800000000000001,
+    "top5": 0.634,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 16.891333333333336,
+    "top5": 34.705333333333336,
+    "top1_seed_std": 0.07544239892497748,
+    "top5_seed_std": 0.01699673171197582
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 0.17,
+    "top5": 0.7540000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 20.765333333333334,
+    "top5": 40.678000000000004,
+    "top1_seed_std": 0.10459233029030257,
+    "top5_seed_std": 0.07652450587883218
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 0.16,
+    "top5": 0.932,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 23.86666666666667,
+    "top5": 45.165333333333336,
+    "top1_seed_std": 0.10309003616041541,
+    "top5_seed_std": 0.09168545262048106
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 0.19200000000000003,
+    "top5": 0.822,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 27.085333333333338,
+    "top5": 49.308,
+    "top1_seed_std": 0.03872409528388606,
+    "top5_seed_std": 0.08728497388821807
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 0.20400000000000001,
+    "top5": 0.8620000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 27.351333333333333,
+    "top5": 49.75,
+    "top1_seed_std": 0.1376404333358807,
+    "top5_seed_std": 0.14568459081179427
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 0.17,
+    "top5": 0.89,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 26.060666666666666,
+    "top5": 48.318000000000005,
+    "top1_seed_std": 0.0391350936571704,
+    "top5_seed_std": 0.062053740150507596
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 0.21000000000000002,
+    "top5": 0.9120000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 22.816000000000003,
+    "top5": 43.906000000000006,
+    "top1_seed_std": 0.03698648401781372,
+    "top5_seed_std": 0.07591223002037756
+  }
+]

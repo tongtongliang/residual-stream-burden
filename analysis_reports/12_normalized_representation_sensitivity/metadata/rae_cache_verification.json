@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "split": "train",
+      "count": 16,
+      "max_abs": 0.0
+    },
+    {
+      "split": "train",
+      "count": 128,
+      "max_abs": 0.0
+    },
+    {
+      "split": "val",
+      "count": 16,
+      "max_abs": 0.0
+    },
+    {
+      "split": "val",
+      "count": 128,
+      "max_abs": 0.0
+    }
+  ],
+  "seed": 51,
+  "noise_seed": 700010
+}

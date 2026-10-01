@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 0.996,
+    "top5": 3.298,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 6.692,
+    "top5": 16.80266666666667,
+    "top1_seed_std": 0.059396969619669705,
+    "top5_seed_std": 0.06974875546480273
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 0.3,
+    "top5": 0.9420000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 12.434666666666667,
+    "top5": 27.176000000000005,
+    "top1_seed_std": 0.08899937577808555,
+    "top5_seed_std": 0.021228911104119935
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 0.15600000000000003,
+    "top5": 0.7320000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 15.328666666666669,
+    "top5": 32.14600000000001,
+    "top1_seed_std": 0.11277509575354851,
+    "top5_seed_std": 0.17146428199482233
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 0.322,
+    "top5": 1.094,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 18.839333333333332,
+    "top5": 37.404,
+    "top1_seed_std": 0.09741092797468398,
+    "top5_seed_std": 0.14160037664733408
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 0.22,
+    "top5": 1.084,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 23.570000000000004,
+    "top5": 44.48066666666667,
+    "top1_seed_std": 0.08094442537939102,
+    "top5_seed_std": 0.09765699610825872
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 0.28,
+    "top5": 1.1720000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 26.204000000000004,
+    "top5": 48.367333333333335,
+    "top1_seed_std": 0.007118052168021921,
+    "top5_seed_std": 0.07626853144573272
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 0.20400000000000001,
+    "top5": 1.0020000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 27.766000000000002,
+    "top5": 50.285333333333334,
+    "top1_seed_std": 0.08990365213197184,
+    "top5_seed_std": 0.13267839144169358
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 0.254,
+    "top5": 1.074,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 27.797333333333338,
+    "top5": 50.354666666666674,
+    "top1_seed_std": 0.0401441845795319,
+    "top5_seed_std": 0.10570819373266394
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 0.092,
+    "top5": 0.93,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 25.674666666666667,
+    "top5": 47.628666666666675,
+    "top1_seed_std": 0.16331836666122057,
+    "top5_seed_std": 0.07642570829824688
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 0.22800000000000004,
+    "top5": 0.876,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 23.382,
+    "top5": 44.543333333333344,
+    "top1_seed_std": 0.09799319704278922,
+    "top5_seed_std": 0.10520245033056881
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 0.19000000000000003,
+    "top5": 0.8460000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 22.879333333333335,
+    "top5": 43.98333333333334,
+    "top1_seed_std": 0.1441881486885178,
+    "top5_seed_std": 0.030346151137974592
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "source": "analysis_reports/16_dinov2b_input_patch_spectrum/data/spectra/dino_rae_position_normalized.npz",
+  "source_commit": "39d19c6",
+  "observations": 25600000,
+  "covariance": "globally centered bag of 256 tokens/image; 100000 images",
+  "normalization": "RAE position normalization after DINOv2-B final LayerNorm; no additional per-token RMS",
+  "velocity": "analytic covariance eigenvalues = measured clean eigenvalues + 1",
+  "statistics": {
+    "Clean target": {
+      "ER": 579.6073862220011,
+      "SR": 66.84190462776847,
+      "r90": 563,
+      "r95": 649,
+      "r99": 735,
+      "trace": 793.5774015608404
+    },
+    "Velocity target": {
+      "ER": 708.3333049977725,
+      "SR": 121.31155936792494,
+      "r90": 651,
+      "r95": 708,
+      "r99": 755,
+      "trace": 1561.5774015608404
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "tasks": 33,
+  "images_per_task": 2048,
+  "noises": 128
+}

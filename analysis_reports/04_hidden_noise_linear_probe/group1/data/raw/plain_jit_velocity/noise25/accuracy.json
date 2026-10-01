@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 0.6180000000000001,
+    "top5": 2.116,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 2.0173333333333336,
+    "top5": 6.273333333333334,
+    "top1_seed_std": 0.03522625283632765,
+    "top5_seed_std": 0.06184568609764886
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 0.9080000000000001,
+    "top5": 3.02,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 3.4840000000000004,
+    "top5": 10.093333333333335,
+    "top1_seed_std": 0.04121488404286307,
+    "top5_seed_std": 0.058976454812257266
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 0.8960000000000001,
+    "top5": 3.144,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 4.999333333333333,
+    "top5": 13.550000000000002,
+    "top1_seed_std": 0.026449112566502987,
+    "top5_seed_std": 0.05161395160225483
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 0.5280000000000001,
+    "top5": 1.9720000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 6.47,
+    "top5": 16.422666666666668,
+    "top1_seed_std": 0.01131370849898519,
+    "top5_seed_std": 0.03714236873915798
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 0.16600000000000004,
+    "top5": 0.906,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 6.7313333333333345,
+    "top5": 17.024666666666672,
+    "top1_seed_std": 0.02542090128658324,
+    "top5_seed_std": 0.03355923452974263
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 0.51,
+    "top5": 2.04,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 7.196666666666666,
+    "top5": 17.884000000000004,
+    "top1_seed_std": 0.03172100600898726,
+    "top5_seed_std": 0.04445222154178471
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 0.48000000000000004,
+    "top5": 1.8060000000000003,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 7.227333333333334,
+    "top5": 18.098,
+    "top1_seed_std": 0.049026070162267336,
+    "top5_seed_std": 0.09785703858179998
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 0.324,
+    "top5": 1.5240000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 7.468000000000001,
+    "top5": 18.53466666666667,
+    "top1_seed_std": 0.03581433604950201,
+    "top5_seed_std": 0.07874572298791162
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 0.22,
+    "top5": 1.438,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 7.546666666666667,
+    "top5": 18.8,
+    "top1_seed_std": 0.05317476427362467,
+    "top5_seed_std": 0.03680579664491405
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 0.318,
+    "top5": 1.6660000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 6.524666666666666,
+    "top5": 16.898000000000003,
+    "top1_seed_std": 0.07530087796448426,
+    "top5_seed_std": 0.011430952132989081
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 0.374,
+    "top5": 1.58,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 5.381333333333333,
+    "top5": 14.513333333333335,
+    "top1_seed_std": 0.0700539474659031,
+    "top5_seed_std": 0.07675646914466294
+  }
+]

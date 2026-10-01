@@ -1,0 +1,70 @@
+{
+  "retrieved": "2026-09-24",
+  "source": "W&B rendered config/summary files and chart CSV export previews",
+  "runs": [
+    {
+      "model": "DeCo",
+      "run_id": "bsize_deco_b16_velocity_seed0",
+      "url": "https://wandb.ai/tol011-uc-san-diego/residual-stream-training-dynamics/runs/bsize_deco_b16_velocity_seed0",
+      "parameters": 135952803,
+      "semantic_depth": 12,
+      "hidden_size": 768,
+      "max_steps": 250200,
+      "epochs": 200,
+      "seed": 0,
+      "prediction_target": "velocity",
+      "repa": false,
+      "ema_decay": 0.9999,
+      "lr": 0.0002,
+      "weight_decay": 0,
+      "warmup_steps": 6255
+    },
+    {
+      "model": "DiP",
+      "run_id": "bsize_dip_b16_velocity_seed0",
+      "url": "https://wandb.ai/tol011-uc-san-diego/residual-stream-training-dynamics/runs/bsize_dip_b16_velocity_seed0",
+      "parameters": 136405251,
+      "semantic_depth": 12,
+      "hidden_size": 768,
+      "max_steps": 250200,
+      "epochs": 200,
+      "seed": 0,
+      "prediction_target": "velocity",
+      "repa": false,
+      "ema_decay": 0.9999,
+      "lr": 0.0002,
+      "weight_decay": 0,
+      "warmup_steps": 6255
+    },
+    {
+      "model": "PixelDiT",
+      "run_id": "bsize_pixeldit_b16_velocity_seed0",
+      "url": "https://wandb.ai/tol011-uc-san-diego/residual-stream-training-dynamics/runs/bsize_pixeldit_b16_velocity_seed0",
+      "parameters": 184749155,
+      "semantic_depth": 12,
+      "hidden_size": 768,
+      "max_steps": 250200,
+      "epochs": 200,
+      "seed": 0,
+      "prediction_target": "velocity",
+      "repa": false,
+      "ema_decay": 0.9999,
+      "lr": 0.0002,
+      "weight_decay": 0,
+      "warmup_steps": 6255
+    }
+  ],
+  "evaluation": {
+    "state_key": "ema",
+    "samples": 50000,
+    "sampler": "Heun",
+    "steps": 50,
+    "cfg": 2.9,
+    "guidance_interval": [
+      0.1,
+      1.0
+    ],
+    "reference": "JiT jit_in256_stats.npz"
+  },
+  "protocol_evidence": "DiP and PixelDiT W&B evaluator arguments; cached evaluate_bsize_decoupled.py; manuscript shared pixel protocol. DeCo latest writer is a metric re-log, not an evaluator invocation."
+}

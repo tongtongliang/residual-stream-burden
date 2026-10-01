@@ -1,0 +1,22 @@
+{
+  "encoder": "official RAE Dinov2withNorm, DINOv2-with-registers base, normalize=true",
+  "feature_shape": [768, 16, 16],
+  "encoder_resize": 224,
+  "train_images": 1281167,
+  "validation_images": 50000,
+  "noise_levels": [0.0, 0.25, 0.5, 0.75],
+  "feature": "GAP over 256 normalized DINOv2-B patch tokens",
+  "noise": "(1-alpha)*GAP(x)+(alpha/16)*Normal(0,I), exactly equivalent in distribution to GAP after iid patch noise",
+  "epochs": 40,
+  "global_batch": 4096,
+  "world_size": 8,
+  "seed": 42,
+  "optimizer": "AdamW, betas=(0.9,0.999), eps=1e-8, weight_decay=0",
+  "lr": "cosine 0.01 to 0.0001 over 40 epochs",
+  "probe": "four independent zero-initialized affine 768-to-1000 classifiers",
+  "precision": "FP32; TF32 disabled; no autocast",
+  "augmentation": "ADM center crop, no random flip",
+  "checkpoint_selection": "fixed epoch 40; no validation tuning",
+  "validation": "full ImageNet-1k validation; three independent matched-noise seeds",
+  "wandb": false
+}

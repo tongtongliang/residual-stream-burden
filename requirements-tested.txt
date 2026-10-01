@@ -1,0 +1,12 @@
+# Tested CUDA 12.8 stack. Install torch/torchvision from the cu128 wheel index:
+# python -m pip install torch==2.9.1 torchvision==0.24.1 --index-url https://download.pytorch.org/whl/cu128
+torch==2.9.1
+torchvision==0.24.1
+triton==3.5.1
+numpy==2.2.6
+pillow==12.3.0
+pytest==9.1.1
+torch-fidelity==0.4.0
+
+# Optional official JiT comparison worker.
+einops==0.8.2

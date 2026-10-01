@@ -1,0 +1,18 @@
+[
+  {
+    "repo_id": "TongtongLiang/sihc-group5-flagship-ckpt",
+    "commit_url": "https://huggingface.co/TongtongLiang/sihc-group5-flagship-ckpt/commit/e5a8fac07f05b2121aac5f04bdde17d83fbc889e"
+  },
+  {
+    "repo_id": "TongtongLiang/sihc-group8-longskip",
+    "commit_url": "https://huggingface.co/TongtongLiang/sihc-group8-longskip/commit/21c714d06d32de19b0b78115971c483a66fcb755"
+  },
+  {
+    "repo_id": "TongtongLiang/sihc-research-checkpoints",
+    "commit_url": "https://huggingface.co/TongtongLiang/sihc-research-checkpoints/commit/d311ec4b30773a6566cefd9e1e876905143b1cbb"
+  },
+  {
+    "repo_id": "TongtongLiang/sihc-sublayer-h-wide-ckpt",
+    "commit_url": "https://huggingface.co/TongtongLiang/sihc-sublayer-h-wide-ckpt/commit/efb69e8f9062f52c30ff3fa8b505f4bd5b665bd0"
+  }
+]

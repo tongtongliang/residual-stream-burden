@@ -1,0 +1,47 @@
+{
+  "final_ln": {
+    "count": 25600000,
+    "dim": 768,
+    "effective_rank": 493.03632460434454,
+    "stable_rank": 37.749849882521424,
+    "r90": 510,
+    "r95": 597,
+    "r99": 698,
+    "pca1_share": 0.026490171566563248,
+    "top64_share": 0.3280904623768172,
+    "top128_share": 0.4703275244516346,
+    "top512_share": 0.9015253808690122,
+    "total_variance": 605.016529887624,
+    "mean_per_coordinate_variance": 0.7877819399578437
+  },
+  "rae_position_normalized": {
+    "count": 25600000,
+    "dim": 768,
+    "effective_rank": 579.6073862220011,
+    "stable_rank": 66.84190462776847,
+    "r90": 563,
+    "r95": 649,
+    "r99": 735,
+    "pca1_share": 0.014960674827697307,
+    "top64_share": 0.27639442659928515,
+    "top128_share": 0.4180973039101166,
+    "top512_share": 0.865105031876153,
+    "total_variance": 793.5774015608404,
+    "mean_per_coordinate_variance": 1.0333039082823443
+  },
+  "rae_norm_per_token_rms": {
+    "count": 25600000,
+    "dim": 768,
+    "effective_rank": 578.6626187046745,
+    "stable_rank": 64.4273438754095,
+    "r90": 564,
+    "r95": 649,
+    "r99": 735,
+    "pca1_share": 0.015521360028962452,
+    "top64_share": 0.2771593249164989,
+    "top128_share": 0.4186056728345096,
+    "top512_share": 0.8649768770510204,
+    "total_variance": 610.3770183458399,
+    "mean_per_coordinate_variance": 0.7947617426378124
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "start_epoch": 0,
+  "world": 2,
+  "global_batch": 4096,
+  "microbatch": 128,
+  "checkpoint": null,
+  "model": {
+    "label": "whitening_jit_velocity",
+    "kind": "plain",
+    "group": 1,
+    "state_key": "model",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/checkpoints/step_00250200.pt",
+    "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/config.json",
+    "input_geometry": "full768_PCA_whiten",
+    "noise_space": "whitened",
+    "prediction": "velocity"
+  },
+  "label": "whitening_jit_velocity",
+  "alpha": 0.25,
+  "cache": false,
+  "input_geometry": "checkpoint full768 whitening",
+  "compile_policy": "forced default, user authorized removing relative-error gate",
+  "precision_note": "BF16 compiled backbone; FP32 whitening and heads",
+  "shuffle": "same global randperm seed42+epoch; assign whole microbatches round-robin",
+  "noise": "both ranks advance same seed700001+epoch through ALL global microbatches",
+  "gradients": "local loss sum/actual global examples; SUM reduce once per optimizer update",
+  "numerical": "same inputs/noise; gradient summation order differs from single GPU",
+  "backbone": "BF16 compiled frozen",
+  "heads": "FP32 resumed AdamW",
+  "wandb": false
+}

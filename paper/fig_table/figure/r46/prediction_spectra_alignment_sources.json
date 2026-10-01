@@ -1,0 +1,45 @@
+{
+  "models": [
+    "Pixel $\\boldsymbol{x}$-pred.",
+    "Pixel $\\boldsymbol{v}$-pred.",
+    "Whitened $\\boldsymbol{x}$-pred.",
+    "Whitened $\\boldsymbol{v}$-pred."
+  ],
+  "sources": [
+    "paper/fig_table/result_statistic/section03_analysis/01_patch_embedding_matrix/data/raw_pixel_patch_pca.npz",
+    "paper/fig_table/result_statistic/section03_analysis/01_patch_embedding_matrix/data/patch_embedding_matrices.npz",
+    "analysis_reports/14_whitening_patch_embedding/data/embedding_matrices.npz"
+  ],
+  "weights": "raw epoch 200, native training coordinates",
+  "heatmap": "Squared overlaps of the first 64 input-reference directions with the first 64 eigenvectors of W.T W, transposed: x input rank, y embedding-Gram eigenvector rank. Rank 1 lower left.",
+  "raw_reference": "Raw clean covariance eigenvectors in descending eigenvalue order.",
+  "whitened_reference": "Coordinate axes inherited from the fitted PCA whitening transform; not a numerically selected eigenbasis of identity covariance.",
+  "color_scale": {
+    "log_min": 1e-06,
+    "max": 1
+  },
+  "gram_effective_ranks": [
+    175.06182736328742,
+    696.2417663029322,
+    738.0714378448143,
+    747.69251283457
+  ],
+  "heatmap_shapes": [
+    [
+      64,
+      64
+    ],
+    [
+      64,
+      64
+    ],
+    [
+      64,
+      64
+    ],
+    [
+      64,
+      64
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "model": "whitening_clean",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/checkpoints/step_00250200.pt",
+    "step": 250200,
+    "model_kwargs": {
+      "attn_backend": "flash",
+      "attn_drop": 0.0,
+      "proj_drop": 0.0
+    },
+    "weight_key": "x_embedder.proj.weight"
+  },
+  {
+    "model": "pixel_clean",
+    "source": "/data/tongtong/sihc_artifacts/transport_burden_spectral_analysis/reports/epoch200_raw_patch_analytic_t01_t10/compact_arrays.npz",
+    "state": "model"
+  },
+  {
+    "model": "whitening_velocity",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/checkpoints/step_00250200.pt",
+    "step": 250200,
+    "model_kwargs": {
+      "attn_backend": "flash",
+      "attn_drop": 0.0,
+      "proj_drop": 0.0
+    },
+    "weight_key": "x_embedder.proj.weight"
+  },
+  {
+    "model": "pixel_velocity",
+    "source": "/data/tongtong/sihc_artifacts/transport_burden_spectral_analysis/reports/epoch200_raw_patch_analytic_t01_t10/compact_arrays.npz",
+    "state": "model"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "snapshot_revision": "46595e1a407b0335af5fb068eac81ab5b5516e73",
+  "checkpoints": [
+    {
+      "repo_id": "TongtongLiang/sihc-sublayer-h-wide-ckpt",
+      "revision": "46595e1a407b0335af5fb068eac81ab5b5516e73",
+      "file": "checkpoints/step_00100080.pt",
+      "bytes": 19076154721,
+      "model": "sihc_sublayer_8x12x12_d1280_b4_ctx32s8",
+      "topology": "sublayer",
+      "role": "resume",
+      "status": "available",
+      "step": 100080,
+      "epoch": 80.0,
+      "prediction": "velocity",
+      "available_states": null,
+      "state_schema_source": "not_inspected_this_release",
+      "configuration": {
+        "model": "sihc_sublayer_8x12x12_d1280_b4_ctx32s8",
+        "prediction": "velocity",
+        "attn_backend": "flash",
+        "batch_size": 128,
+        "grad_accum": 1,
+        "num_workers": 12,
+        "blr": 5e-05,
+        "warmup_steps": 6250,
+        "weight_decay": 0.0,
+        "optimizer": "adamw",
+        "ema_decay": 0.9999,
+        "ema_decay2": 0.9996,
+        "noise_scale": 1.0,
+        "P_mean": -0.8,
+        "P_std": 0.8,
+        "label_drop_prob": 0.1,
+        "attn_drop": 0.0,
+        "proj_drop": 0.0,
+        "activation_checkpoint": "mlp",
+        "compile": true,
+        "compile_mode": "default",
+        "save_every": 12510,
+        "log_every": 100,
+        "max_steps": 250200,
+        "seed": 0,
+        "depth": 32,
+        "hidden_size": 1280,
+        "num_heads": 16,
+        "patch_size": 4,
+        "stage_sizes": [
+          8,
+          12,
+          12
+        ],
+        "input_size": 256,
+        "workspace_grid": 16
+      },
+      "download_url": "https://huggingface.co/TongtongLiang/sihc-sublayer-h-wide-ckpt/resolve/46595e1a407b0335af5fb068eac81ab5b5516e73/checkpoints/step_00100080.pt"
+    }
+  ],
+  "paper_flagship": {
+    "repo_id": "xiziqiao/sihc-group5-flagship-ckpt",
+    "revision": "73ad9f390370a1b626ac299089e085c374d361e7",
+    "file": "checkpoints/step_00650520.pt",
+    "state_key": "ema"
+  }
+}

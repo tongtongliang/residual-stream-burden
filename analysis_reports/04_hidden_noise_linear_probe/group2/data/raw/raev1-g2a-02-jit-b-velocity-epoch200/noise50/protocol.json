@@ -1,0 +1,48 @@
+{
+  "model": {
+    "label": "raev1-g2a-02-jit-b-velocity-epoch200",
+    "group": 2,
+    "kind": "plain",
+    "state_key": "model",
+    "config": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/config.yaml",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/checkpoints/ep-last.pt"
+  },
+  "alpha": 0.5,
+  "online": true,
+  "points": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "condition": "null",
+  "pooling": "patch RMS eps1e-6 then GAP",
+  "epochs": 40,
+  "microbatch": 128,
+  "effective_batch": 4096,
+  "optimizer": "AdamW lr cosine .01 to .0001, wd0, default betas",
+  "noise": "fresh CUDA normal per epoch; shared seed and shuffle across models/t",
+  "train_seed_base": 700001,
+  "validation_seeds": [
+    800001,
+    800002,
+    800003
+  ],
+  "backbone": "BF16 autocast",
+  "encoder": "FP32",
+  "heads": "FP32",
+  "checkpoint_state": "model",
+  "cache": "/data/tongtong/latent_caches/raev1_dinov2b_normalized_fp32_noflip",
+  "hidden_cache": false,
+  "wandb": false,
+  "fast_latent_loader": true,
+  "ring_loader": true,
+  "loader_policy": "same sampler/microbatch; fixed pinned ring, two ordered gather threads, CUDA copy stream"
+}

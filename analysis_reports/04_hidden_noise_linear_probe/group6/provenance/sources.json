@@ -1,0 +1,128 @@
+[
+  {
+    "model": {
+      "label": "whitening_jit_clean",
+      "kind": "plain",
+      "group": 1,
+      "state_key": "model",
+      "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/checkpoints/step_00250200.pt",
+      "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/config.json",
+      "input_geometry": "full768_PCA_whiten",
+      "noise_space": "whitened",
+      "prediction": "clean"
+    },
+    "probe_directory": "/data/tongtong/sihc_artifacts/whitening_representation/probes/noise25",
+    "probe_checkpoint": "/data/tongtong/sihc_artifacts/whitening_representation/probes/noise25/latest.pt",
+    "probe_epoch": 40,
+    "completed": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 4
+    }
+  },
+  {
+    "model": {
+      "label": "whitening_jit_clean",
+      "kind": "plain",
+      "group": 1,
+      "state_key": "model",
+      "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/checkpoints/step_00250200.pt",
+      "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/config.json",
+      "input_geometry": "full768_PCA_whiten",
+      "noise_space": "whitened",
+      "prediction": "clean"
+    },
+    "probe_directory": "/data/tongtong/sihc_artifacts/whitening_representation/probes/noise50",
+    "probe_checkpoint": "/data/tongtong/sihc_artifacts/whitening_representation/probes/noise50/latest.pt",
+    "probe_epoch": 40,
+    "completed": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  },
+  {
+    "model": {
+      "label": "whitening_jit_clean",
+      "kind": "plain",
+      "group": 1,
+      "state_key": "model",
+      "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/checkpoints/step_00250200.pt",
+      "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/config.json",
+      "input_geometry": "full768_PCA_whiten",
+      "noise_space": "whitened",
+      "prediction": "clean"
+    },
+    "probe_directory": "/data/tongtong/sihc_artifacts/whitening_representation/probes/noise75",
+    "probe_checkpoint": "/data/tongtong/sihc_artifacts/whitening_representation/probes/noise75/latest.pt",
+    "probe_epoch": 40,
+    "completed": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  },
+  {
+    "model": {
+      "label": "whitening_jit_velocity",
+      "kind": "plain",
+      "group": 1,
+      "state_key": "model",
+      "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/checkpoints/step_00250200.pt",
+      "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/config.json",
+      "input_geometry": "full768_PCA_whiten",
+      "noise_space": "whitened",
+      "prediction": "velocity"
+    },
+    "probe_directory": "/data/tongtong/sihc_artifacts/whitening_representation/velocity_probes/noise25",
+    "probe_checkpoint": "/data/tongtong/sihc_artifacts/whitening_representation/velocity_probes/noise25/latest.pt",
+    "probe_epoch": 40,
+    "completed": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  },
+  {
+    "model": {
+      "label": "whitening_jit_velocity",
+      "kind": "plain",
+      "group": 1,
+      "state_key": "model",
+      "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/checkpoints/step_00250200.pt",
+      "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/config.json",
+      "input_geometry": "full768_PCA_whiten",
+      "noise_space": "whitened",
+      "prediction": "velocity"
+    },
+    "probe_directory": "/data/tongtong/sihc_artifacts/whitening_representation/velocity_probes/noise50",
+    "probe_checkpoint": "/data/tongtong/sihc_artifacts/whitening_representation/velocity_probes/noise50/latest.pt",
+    "probe_epoch": 40,
+    "completed": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  },
+  {
+    "model": {
+      "label": "whitening_jit_velocity",
+      "kind": "plain",
+      "group": 1,
+      "state_key": "model",
+      "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/checkpoints/step_00250200.pt",
+      "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_velocity_seed0/config.json",
+      "input_geometry": "full768_PCA_whiten",
+      "noise_space": "whitened",
+      "prediction": "velocity"
+    },
+    "probe_directory": "/data/tongtong/sihc_artifacts/whitening_representation/velocity_probes/noise75",
+    "probe_checkpoint": "/data/tongtong/sihc_artifacts/whitening_representation/velocity_probes/noise75/latest.pt",
+    "probe_epoch": 40,
+    "completed": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  }
+]

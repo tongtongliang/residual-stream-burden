@@ -1,0 +1,74 @@
+[
+  {
+    "model": "whiten_clean",
+    "t_clean": 0.25,
+    "scope": "workspace",
+    "points": 24,
+    "B_per_coordinate": 0.09237689443058231,
+    "W_per_coordinate": 0.27701141042567584,
+    "mean_point_ratio": 0.8333237651345362,
+    "ratio_of_mean_traces": 0.333476856742577,
+    "last_point": "workspace/b12_mlp",
+    "last_ratio": 3.684248149278462
+  },
+  {
+    "model": "whiten_clean",
+    "t_clean": 0.5,
+    "scope": "workspace",
+    "points": 24,
+    "B_per_coordinate": 0.21981938234822507,
+    "W_per_coordinate": 0.17325174874584257,
+    "mean_point_ratio": 2.326533149022285,
+    "ratio_of_mean_traces": 1.2687859368778809,
+    "last_point": "workspace/b12_mlp",
+    "last_ratio": 8.11561360833109
+  },
+  {
+    "model": "whiten_clean",
+    "t_clean": 0.75,
+    "scope": "workspace",
+    "points": 24,
+    "B_per_coordinate": 0.34063384975280747,
+    "W_per_coordinate": 0.07262050125043525,
+    "mean_point_ratio": 6.516169533613173,
+    "ratio_of_mean_traces": 4.690601743137457,
+    "last_point": "workspace/b12_mlp",
+    "last_ratio": 19.258452713270266
+  },
+  {
+    "model": "whiten_velocity",
+    "t_clean": 0.25,
+    "scope": "workspace",
+    "points": 24,
+    "B_per_coordinate": 0.08135280290757448,
+    "W_per_coordinate": 0.28521690379069103,
+    "mean_point_ratio": 0.8366462740299418,
+    "ratio_of_mean_traces": 0.2852313513902947,
+    "last_point": "workspace/b12_mlp",
+    "last_ratio": 3.9293859483009306
+  },
+  {
+    "model": "whiten_velocity",
+    "t_clean": 0.5,
+    "scope": "workspace",
+    "points": 24,
+    "B_per_coordinate": 0.1774157224723162,
+    "W_per_coordinate": 0.14754370002035672,
+    "mean_point_ratio": 2.4483873156986773,
+    "ratio_of_mean_traces": 1.202462202370132,
+    "last_point": "workspace/b12_mlp",
+    "last_ratio": 9.132240065752304
+  },
+  {
+    "model": "whiten_velocity",
+    "t_clean": 0.75,
+    "scope": "workspace",
+    "points": 24,
+    "B_per_coordinate": 0.25573598286934396,
+    "W_per_coordinate": 0.04587019492339377,
+    "mean_point_ratio": 8.641855723528453,
+    "ratio_of_mean_traces": 5.575210292793388,
+    "last_point": "workspace/b12_mlp",
+    "last_ratio": 22.286566257120576
+  }
+]

@@ -1,0 +1,7 @@
+_base_: ../shared/base_rae_dinov2_b.yaml
+stage_2:
+  target: sihc.rae.models.RAEJiTB
+  params:
+    prediction_target: velocity
+    class_dropout_prob: 0.1
+    attn_backend: flash

@@ -1,0 +1,102 @@
+[
+  {
+    "label": "plain_jit_clean",
+    "display": "JiT-B clean",
+    "family": "internal",
+    "config": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/config.json",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "group": 1,
+    "kind": "plain"
+  },
+  {
+    "label": "plain_jit_velocity",
+    "display": "JiT-B velocity",
+    "family": "internal",
+    "config": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/config.json",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "group": 1,
+    "kind": "plain"
+  },
+  {
+    "label": "sihc_sublayer_p4",
+    "group": 1,
+    "kind": "sihc",
+    "state_key": "model",
+    "config": "/data/tongtong/sihc_artifacts/runs/group1/g1_sihc_sublayer_b16_velocity_p4_seed0/config.json",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_sihc_sublayer_b16_velocity_p4_seed0/checkpoints/step_00250200.pt"
+  },
+  {
+    "label": "raev1-g2a-01-jit-b-clean-epoch200",
+    "group": 2,
+    "kind": "plain",
+    "state_key": "model",
+    "config": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-01-jit-b-clean-epoch200/config.yaml",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-01-jit-b-clean-epoch200/checkpoints/ep-last.pt"
+  },
+  {
+    "label": "raev1-g2a-02-jit-b-velocity-epoch200",
+    "group": 2,
+    "kind": "plain",
+    "state_key": "model",
+    "config": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/config.yaml",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/checkpoints/ep-last.pt"
+  },
+  {
+    "label": "raev1-g2b-01-jit-b-mhc4-clean-epoch200",
+    "group": 2,
+    "kind": "mhc",
+    "state_key": "model",
+    "config": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-01-jit-b-mhc4-clean-epoch200/config.yaml",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-01-jit-b-mhc4-clean-epoch200/checkpoints/ep-last.pt"
+  },
+  {
+    "label": "raev1-g2b-02-jit-b-mhc4-velocity-epoch200",
+    "group": 2,
+    "kind": "mhc",
+    "state_key": "model",
+    "config": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/config.yaml",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/checkpoints/ep-last.pt"
+  },
+  {
+    "label": "deco_b_velocity",
+    "display": "DeCO-B velocity",
+    "family": "external",
+    "model_kind": "deco_b",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_deco_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "group": 1,
+    "kind": "external"
+  },
+  {
+    "label": "pixeldit_b_velocity",
+    "display": "PixelDiT-B velocity",
+    "family": "external",
+    "model_kind": "pixeldit_b",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "group": 1,
+    "kind": "external"
+  },
+  {
+    "label": "dip_b_velocity",
+    "display": "DiP-B velocity",
+    "family": "external",
+    "model_kind": "dip_b",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "state_key": "model",
+    "group": 1,
+    "kind": "external"
+  },
+  {
+    "label": "hyperdit_b_velocity",
+    "display": "HyperDiT-B velocity",
+    "family": "internal",
+    "config": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/config.json",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/checkpoints/step_00250200.pt",
+    "state_key": "model",
+    "group": 1,
+    "kind": "hyper"
+  }
+]

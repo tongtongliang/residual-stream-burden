@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 0.554,
+    "top5": 2.116,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 5.538666666666667,
+    "top5": 14.251333333333335,
+    "top1_seed_std": 0.04161196409153936,
+    "top5_seed_std": 0.018926759422104103
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 0.398,
+    "top5": 1.6340000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 9.712000000000002,
+    "top5": 22.439333333333337,
+    "top1_seed_std": 0.04348179695765413,
+    "top5_seed_std": 0.06775117875153251
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 0.22600000000000003,
+    "top5": 1.044,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 13.559333333333335,
+    "top5": 28.874000000000006,
+    "top1_seed_std": 0.051441444596960186,
+    "top5_seed_std": 0.06707210050883076
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 0.138,
+    "top5": 0.7000000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 18.913333333333334,
+    "top5": 37.54533333333334,
+    "top1_seed_std": 0.11092740368767658,
+    "top5_seed_std": 0.09928186586124102
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 0.19600000000000004,
+    "top5": 0.898,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 23.159333333333336,
+    "top5": 43.88466666666667,
+    "top1_seed_std": 0.09999111071601496,
+    "top5_seed_std": 0.10433706063629816
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 0.316,
+    "top5": 1.292,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 29.435333333333336,
+    "top5": 52.33533333333333,
+    "top1_seed_std": 0.051051172584202414,
+    "top5_seed_std": 0.08902933349307955
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 0.398,
+    "top5": 1.4480000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 34.26133333333333,
+    "top5": 58.37200000000001,
+    "top1_seed_std": 0.08448010942753781,
+    "top5_seed_std": 0.10591820743699441
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 0.252,
+    "top5": 0.856,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 33.681333333333335,
+    "top5": 57.96733333333333,
+    "top1_seed_std": 0.08060328088166885,
+    "top5_seed_std": 0.12200910712820663
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 0.22200000000000003,
+    "top5": 0.88,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 32.339333333333336,
+    "top5": 56.044000000000004,
+    "top1_seed_std": 0.043029705501614196,
+    "top5_seed_std": 0.11186897097348936
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 0.12000000000000001,
+    "top5": 0.7280000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 26.174666666666667,
+    "top5": 47.967333333333336,
+    "top1_seed_std": 0.14711748895204635,
+    "top5_seed_std": 0.1019847483150725
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 0.134,
+    "top5": 0.8820000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 20.696,
+    "top5": 40.466,
+    "top1_seed_std": 0.2027872448322781,
+    "top5_seed_std": 0.07919595949289632
+  }
+]

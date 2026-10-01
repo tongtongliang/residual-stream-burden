@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "tasks": 6,
+  "records": 144,
+  "original_sample_ids_labels_exact": true,
+  "task_audits": [
+    {
+      "model": "clean",
+      "t_clean": 0.25,
+      "status": "complete",
+      "images": 2048,
+      "noises": 128,
+      "points": 24,
+      "seconds": 327.7622307019992,
+      "peak_allocated_gib": 1.3997950553894043,
+      "peak_reserved_gib": 1.7734375,
+      "reduction_validation": {
+        "passed": true,
+        "mean_max_abs": 1.430511474609375e-06,
+        "within_abs": 0.04169736057519913
+      }
+    },
+    {
+      "model": "clean",
+      "t_clean": 0.5,
+      "status": "complete",
+      "images": 2048,
+      "noises": 128,
+      "points": 24,
+      "seconds": 320.85400908099837,
+      "peak_allocated_gib": 1.3997950553894043,
+      "peak_reserved_gib": 1.7734375,
+      "reduction_validation": {
+        "passed": true,
+        "mean_max_abs": 1.9073486328125e-06,
+        "within_abs": 0.02070741355419159
+      }
+    },
+    {
+      "model": "clean",
+      "t_clean": 0.75,
+      "status": "complete",
+      "images": 2048,
+      "noises": 128,
+      "points": 24,
+      "seconds": 322.6056751750002,
+      "peak_allocated_gib": 1.3997950553894043,
+      "peak_reserved_gib": 1.7734375,
+      "reduction_validation": {
+        "passed": true,
+        "mean_max_abs": 2.1457672119140625e-06,
+        "within_abs": 0.00763548887334764
+      }
+    },
+    {
+      "model": "velocity",
+      "t_clean": 0.25,
+      "status": "complete",
+      "images": 2048,
+      "noises": 128,
+      "points": 24,
+      "seconds": 328.59118824000325,
+      "peak_allocated_gib": 1.3997950553894043,
+      "peak_reserved_gib": 1.7734375,
+      "reduction_validation": {
+        "passed": true,
+        "mean_max_abs": 1.6689300537109375e-06,
+        "within_abs": 0.04080289602279663
+      }
+    },
+    {
+      "model": "velocity",
+      "t_clean": 0.5,
+      "status": "complete",
+      "images": 2048,
+      "noises": 128,
+      "points": 24,
+      "seconds": 321.79438619599387,
+      "peak_allocated_gib": 1.3997950553894043,
+      "peak_reserved_gib": 1.7734375,
+      "reduction_validation": {
+        "passed": true,
+        "mean_max_abs": 2.1457672119140625e-06,
+        "within_abs": 0.020492304116487503
+      }
+    },
+    {
+      "model": "velocity",
+      "t_clean": 0.75,
+      "status": "complete",
+      "images": 2048,
+      "noises": 128,
+      "points": 24,
+      "seconds": 321.0590058420057,
+      "peak_allocated_gib": 1.3997950553894043,
+      "peak_reserved_gib": 1.7734375,
+      "reduction_validation": {
+        "passed": true,
+        "mean_max_abs": 2.1457672119140625e-06,
+        "within_abs": 0.0072881917003542185
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "convention": "One 256x256 image, one denoiser forward, 2 FLOPs/MAC. Matrix operations plus leading unfused SiHC read/write arithmetic. Normalization and pointwise nonlinearities excluded.",
+  "sihc_revision": "21a534249933467c71208cb6621856d45287a860",
+  "dip_source": "https://github.com/NJU-PCALab/DiP/blob/main/src/models/transformer/dip.py",
+  "dip_results": "https://arxiv.org/html/2511.18822v2#S4.T2",
+  "rows": [
+    {
+      "model": "SiHC-B",
+      "depth": 12,
+      "width": 768,
+      "parameters": 131000112,
+      "matrix_flops": 50647007232,
+      "interface_flops": 301989888,
+      "flops": 50948997120,
+      "status": "source-defined denoiser; no REPA projector or encoder"
+    },
+    {
+      "model": "SiHC-L",
+      "depth": 24,
+      "width": 1024,
+      "parameters": 459532304,
+      "matrix_flops": 176173875200,
+      "interface_flops": 805306368,
+      "flops": 176979181568,
+      "status": "source-defined denoiser; no REPA projector or encoder"
+    },
+    {
+      "model": "SiHC-XL",
+      "depth": 40,
+      "width": 1024,
+      "parameters": 762840400,
+      "matrix_flops": 297756262400,
+      "interface_flops": 1342177280,
+      "flops": 299098439680,
+      "status": "source-defined denoiser; no REPA projector or encoder"
+    },
+    {
+      "model": "SiHC-H",
+      "depth": 32,
+      "width": 1280,
+      "parameters": 953750640,
+      "matrix_flops": 366821376000,
+      "interface_flops": 1342177280,
+      "flops": 368163553280,
+      "status": "source-defined denoiser; no REPA projector or encoder"
+    },
+    {
+      "model": "DiP DiT-only",
+      "depth": 26,
+      "width": 1152,
+      "reported_parameters": "629M",
+      "fid": 5.28,
+      "inception_score": 243.8,
+      "flops": 221177217024,
+      "status": "analytical estimate: published shape, released backbone, direct P16 head"
+    },
+    {
+      "model": "DiP DiT-only",
+      "depth": 32,
+      "width": 1152,
+      "reported_parameters": "772M",
+      "fid": 4.91,
+      "inception_score": 251.7,
+      "flops": 272007069696,
+      "status": "analytical estimate: published shape, released backbone, direct P16 head"
+    },
+    {
+      "model": "DiP DiT-only",
+      "depth": 26,
+      "width": 1280,
+      "reported_parameters": "776M",
+      "fid": 4.28,
+      "inception_score": 249.6,
+      "flops": 271959982080,
+      "status": "analytical estimate: published shape, released backbone, direct P16 head"
+    },
+    {
+      "model": "DiP DiT-only",
+      "depth": 26,
+      "width": 1536,
+      "reported_parameters": "1.1B",
+      "fid": 2.83,
+      "inception_score": 285.6,
+      "flops": 389311365120,
+      "status": "analytical estimate: published shape, released backbone, direct P16 head"
+    }
+  ]
+}

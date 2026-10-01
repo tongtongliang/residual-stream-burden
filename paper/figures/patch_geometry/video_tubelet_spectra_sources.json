@@ -1,0 +1,11 @@
+{
+  "source": "analysis_reports/18_ucf101_raw_tubelet_spectrum/data/spectra/ucf101_t16_r256_pt4_p16.npz",
+  "setting": "UCF101, 50 videos/class, one 4x16x16 RGB tubelet per video from 16x256x256 clips (frame stride 4)",
+  "samples": 5050,
+  "dimension": 3072,
+  "ranks": {
+    "r90": 9,
+    "r95": 29,
+    "r99": 151
+  }
+}

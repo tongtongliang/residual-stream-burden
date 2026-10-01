@@ -1,0 +1,114 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 0.738,
+    "top5": 2.8180000000000005,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 7.464666666666667,
+    "top5": 18.311333333333334,
+    "top1_seed_std": 0.014817407180595,
+    "top5_seed_std": 0.06458758050550797
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 0.168,
+    "top5": 1.058,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 13.53266666666667,
+    "top5": 28.976000000000003,
+    "top1_seed_std": 0.15976927809257374,
+    "top5_seed_std": 0.07021870595978469
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 0.134,
+    "top5": 0.8100000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 17.199333333333335,
+    "top5": 35.18,
+    "top1_seed_std": 0.09961704450321511,
+    "top5_seed_std": 0.07207403600927856
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 0.248,
+    "top5": 1.31,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 20.74466666666667,
+    "top5": 40.41133333333334,
+    "top1_seed_std": 0.10716135290091948,
+    "top5_seed_std": 0.06661998365521982
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 0.268,
+    "top5": 1.276,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 25.424000000000003,
+    "top5": 46.96000000000001,
+    "top1_seed_std": 0.053962950252926876,
+    "top5_seed_std": 0.11760952342391136
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 0.41000000000000003,
+    "top5": 1.53,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 27.376,
+    "top5": 49.68000000000001,
+    "top1_seed_std": 0.10123240587875114,
+    "top5_seed_std": 0.10254104869108115
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 0.504,
+    "top5": 1.9760000000000004,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 33.089333333333336,
+    "top5": 56.406000000000006,
+    "top1_seed_std": 0.18374136412057118,
+    "top5_seed_std": 0.0587877538267985
+  }
+]

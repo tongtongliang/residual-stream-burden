@@ -1,0 +1,43 @@
+{
+  "source": "scripts/plot_known_plane_offplane_pointclouds.py",
+  "coordinates": "known GT plane; signed off-plane norm, not third PCA coordinate",
+  "normal": "same FCN-256 velocity reference normal for all models",
+  "limits": [
+    [
+      -18.518581097676417,
+      21.64724050535152
+    ],
+    [
+      -18.54104650393336,
+      21.624775099094578
+    ],
+    [
+      -20.082910801513968,
+      20.082910801513968
+    ]
+  ],
+  "view": {
+    "elev": 22,
+    "azim": -58
+  },
+  "max_points": 1400,
+  "models": [
+    "gt_distribution",
+    "fcn256_x",
+    "fcn256_v",
+    "fcn256_wide_v",
+    "fcn512_v",
+    "fcn1024_v",
+    "sihc_n4_v",
+    "mixer_x",
+    "mixer_v"
+  ],
+  "title_in_image": false,
+  "box_aspect": [
+    1,
+    1,
+    0.65
+  ],
+  "crop": "rendered nonwhite bounds plus 5 pixels; same PDF/PNG bounds",
+  "source_samples": "archived analysis/samples.npz; no new sampling"
+}

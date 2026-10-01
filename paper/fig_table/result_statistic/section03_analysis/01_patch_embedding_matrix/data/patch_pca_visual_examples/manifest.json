@@ -1,0 +1,56 @@
+{
+  "pca_source": "/data/tongtong/sihc_artifacts/transport_burden_study/01_patch_embedding_matrix/data/raw_pixel_patch_pca.npz",
+  "pca_sha256": "a6b7f77f832bdf2b9a35249383ad31e4b7ea5c24771405a9ce136801285dc52c",
+  "patch_size": 16,
+  "display_crop": "center-crop 256x256",
+  "pixel_normalization": "uint8 / 127.5 - 1",
+  "ranks": [
+    8,
+    16,
+    32,
+    64,
+    128
+  ],
+  "examples": [
+    {
+      "row": "Dog",
+      "wnid": "n02099601",
+      "class_name": "golden retriever",
+      "source_split": "ImageNet-1K train",
+      "stored_file": "data/patch_pca_visual_examples/dog.jpg",
+      "sha256": "8e4ae36af9becdc49d60a8dff41ff7d5a6a00c7b1edcdfbc149dba855902c957"
+    },
+    {
+      "row": "Volcano",
+      "wnid": "n09472597",
+      "class_name": "volcano",
+      "source_split": "ImageNet-1K train",
+      "stored_file": "data/patch_pca_visual_examples/volcano.jpg",
+      "sha256": "2ece913b1c64dc77aa9f56b3ec6a6fb22731ae839769846050d14126166fbe8e"
+    },
+    {
+      "row": "Bird",
+      "wnid": "n01833805",
+      "class_name": "hummingbird",
+      "source_split": "ImageNet-1K train",
+      "stored_file": "data/patch_pca_visual_examples/bird.jpg",
+      "sha256": "6790865a7f07703baf2bd4214758c12dc16431e74878a61f63e0e75ac23384e7"
+    },
+    {
+      "row": "Spider",
+      "wnid": "n01773797",
+      "class_name": "garden spider",
+      "source_split": "ImageNet-1K train",
+      "stored_file": "data/patch_pca_visual_examples/spider.jpg",
+      "sha256": "92c9001c0c07f0d696e4edd7331143c3ee3214d8b1d52853663265b61b72db77"
+    },
+    {
+      "row": "Fish",
+      "wnid": "n01443537",
+      "class_name": "goldfish",
+      "source_split": "ImageNet-1K train",
+      "stored_file": "data/patch_pca_visual_examples/fish.jpg",
+      "sha256": "aadefb43cca2b76a14e341ce414c120232e4481c68266110148a7755c802aba9"
+    }
+  ]
+}

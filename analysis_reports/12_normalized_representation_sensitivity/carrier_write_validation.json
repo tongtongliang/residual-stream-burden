@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "max_absolute_error": 0.0,
+  "events": 4,
+  "layout": "B,G,K,G,K,C; beta[event,channel,slot]; FP32 carrier and BF16 updates/coefficients"
+}

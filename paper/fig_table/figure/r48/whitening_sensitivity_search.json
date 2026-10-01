@@ -1,0 +1,42 @@
+{
+  "remote_branches": [
+    "main"
+  ],
+  "whitening_folder": [
+    "analysis_reports/14_whitening_patch_embedding/README.md",
+    "analysis_reports/14_whitening_patch_embedding/REPORT.md",
+    "analysis_reports/14_whitening_patch_embedding/data/embedding_matrices.npz",
+    "analysis_reports/14_whitening_patch_embedding/data/evaluation_history.csv",
+    "analysis_reports/14_whitening_patch_embedding/data/pixel_reference_metrics.csv",
+    "analysis_reports/14_whitening_patch_embedding/data/run_metadata.json",
+    "analysis_reports/14_whitening_patch_embedding/data/spectra.npz",
+    "analysis_reports/14_whitening_patch_embedding/data/spectrum_metrics.csv",
+    "analysis_reports/14_whitening_patch_embedding/figures/fid_is.pdf",
+    "analysis_reports/14_whitening_patch_embedding/figures/fid_is.png",
+    "analysis_reports/14_whitening_patch_embedding/figures/spectrum.pdf",
+    "analysis_reports/14_whitening_patch_embedding/figures/spectrum.png",
+    "analysis_reports/14_whitening_patch_embedding/provenance/pca_estimator.json",
+    "analysis_reports/14_whitening_patch_embedding/provenance/spectrum_sources.json",
+    "analysis_reports/14_whitening_patch_embedding/render.py"
+  ],
+  "sensitivity_models": [
+    "plain_jit_clean",
+    "plain_jit_velocity",
+    "sihc_sublayer_p4",
+    "raev1-g2a-01-jit-b-clean-epoch200",
+    "raev1-g2a-02-jit-b-velocity-epoch200",
+    "raev1-g2b-01-jit-b-mhc4-clean-epoch200",
+    "raev1-g2b-02-jit-b-mhc4-velocity-epoch200",
+    "deco_b_velocity",
+    "pixeldit_b_velocity",
+    "dip_b_velocity",
+    "hyperdit_b_velocity"
+  ],
+  "search_order": [
+    "analysis_reports/14_whitening_patch_embedding",
+    "analysis_reports/12_normalized_representation_sensitivity and supplements",
+    "experiment_records/snapshots/2026-09-17/sihc_artifacts/analysis/group6/whitening_patch_embedding_epoch200",
+    "all remote paths and contents matching whiten + sensitivity/per_event/streaming"
+  ],
+  "result": "No whitened between/within-state variance cache in the fetched remote. White embedding spectra/FID and group6 linear probes are present. No new experiment was run."
+}

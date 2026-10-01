@@ -1,0 +1,11 @@
+{
+  "native_max_abs": 0.0,
+  "shape": [
+    2,
+    11,
+    768
+  ],
+  "points": 11,
+  "spatial_tokens": 256,
+  "registers_excluded": false
+}

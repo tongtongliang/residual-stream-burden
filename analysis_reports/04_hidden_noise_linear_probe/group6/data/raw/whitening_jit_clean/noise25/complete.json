@@ -1,0 +1,5 @@
+{
+  "epochs": 40,
+  "test_images": 50000,
+  "world": 4
+}

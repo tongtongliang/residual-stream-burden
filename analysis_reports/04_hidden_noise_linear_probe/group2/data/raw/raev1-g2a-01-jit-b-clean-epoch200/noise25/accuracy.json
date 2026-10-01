@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 81.30000000000001,
+    "top5": 95.90200000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 81.60066666666667,
+    "top5": 96.10333333333334,
+    "top1_seed_std": 0.020677416559021267,
+    "top5_seed_std": 0.014817407180596091
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 81.164,
+    "top5": 95.9,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 81.57066666666667,
+    "top5": 96.09333333333335,
+    "top1_seed_std": 0.031169785940162256,
+    "top5_seed_std": 0.011813363431118783
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 81.146,
+    "top5": 95.93800000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 81.62200000000001,
+    "top5": 96.14,
+    "top1_seed_std": 0.030506829836392243,
+    "top5_seed_std": 0.002828427124746297
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 80.60400000000001,
+    "top5": 95.744,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 81.30666666666667,
+    "top5": 96.01933333333334,
+    "top1_seed_std": 0.03138293945584245,
+    "top5_seed_std": 0.015434449203721567
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 80.474,
+    "top5": 95.696,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 81.296,
+    "top5": 96.02333333333335,
+    "top1_seed_std": 0.036110940170532485,
+    "top5_seed_std": 0.006798692684787541
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 80.412,
+    "top5": 95.69000000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 81.27133333333335,
+    "top5": 95.984,
+    "top1_seed_std": 0.023113247764486006,
+    "top5_seed_std": 0.00588784057754944
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 80.176,
+    "top5": 95.546,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 81.29,
+    "top5": 95.96133333333334,
+    "top1_seed_std": 0.008640987597876744,
+    "top5_seed_std": 0.006798692684792185
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 80.17800000000001,
+    "top5": 95.50200000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 81.12733333333334,
+    "top5": 95.86933333333333,
+    "top1_seed_std": 0.013888444437335754,
+    "top5_seed_std": 0.0041096093353146
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 79.86800000000001,
+    "top5": 95.418,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 80.78533333333336,
+    "top5": 95.73066666666666,
+    "top1_seed_std": 0.006599663291072461,
+    "top5_seed_std": 0.004109609335309221
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 79.59400000000001,
+    "top5": 95.03,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 80.25466666666668,
+    "top5": 95.46133333333334,
+    "top1_seed_std": 0.03724990678585949,
+    "top5_seed_std": 0.021929178937861695
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 79.65200000000002,
+    "top5": 95.20200000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 80.14866666666667,
+    "top5": 95.47466666666666,
+    "top1_seed_std": 0.0033993463423937706,
+    "top5_seed_std": 0.01643843734125302
+  }
+]

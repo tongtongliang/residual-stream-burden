@@ -1,0 +1,29 @@
+{
+  "analysis_date_utc": "2026-09-19",
+  "python": "3.10.21 (main, Sep  1 2026, 14:16:49) [Clang 22.1.3 ]",
+  "packages": {
+    "torch": "2.9.1+cu128",
+    "torchvision": "0.24.1+cu128",
+    "triton": "3.5.1",
+    "numpy": "2.2.6"
+  },
+  "raw_state_key": "model",
+  "training_code": {
+    "source_archive_commit": "b90811d9b24a8e48091c689f5dd092f736af82d0",
+    "path_at_execution": "/data/tongtong/project/sihc-recovery-b90811d"
+  },
+  "checkpoint_repository": "TongtongLiang/sihc-research-checkpoints",
+  "checkpoint_revision": "d4601d0fc44f7f552fd446376707c7f733149d3d",
+  "dataset_repository": "ILSVRC/imagenet-1k",
+  "dataset_revision": "49e2ee26f3810fb5a7536bbf732a7b07389a47b5",
+  "cache_layout": "chw_uint8_adm_center_crop_no_flip",
+  "dataset_samples": 1281167,
+  "sample_ids_labels_equal_to_parent_archive": true,
+  "random_seed_formula": "(1234567 + image_index * 1000003) % (2**63-1)",
+  "tf32_enabled": true,
+  "precision": "BF16 autocast; FP32 whitening/RMS/moments; FP64 cross-image streaming",
+  "allocator_cap_gib_per_analysis_process": 2,
+  "wandb": false,
+  "optimizer_updates": false,
+  "checkpoint_writes": false
+}

@@ -1,0 +1,19 @@
+{
+  "source_run": "/data/tongtong/JIT_ToyExperiments/results/fcn_w256_adaln/runs/fcn_w256_adaln_xv",
+  "checkpoints": [
+    "/data/tongtong/JIT_ToyExperiments/results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/checkpoints/x_final.pkl",
+    "/data/tongtong/JIT_ToyExperiments/results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/checkpoints/v_final.pkl"
+  ],
+  "sample_source": "/data/tongtong/JIT_ToyExperiments/results/fcn_w256_adaln/runs/fcn_w256_adaln_xv/training_data_snapshot.npz",
+  "N": 8192,
+  "noise_draws_per_sample": 1,
+  "seed": 20260909,
+  "paired_noise_across_models_and_times": true,
+  "t_definition": "x_t=t*x0+(1-t)*epsilon; model receives t_toy=1-t",
+  "tap": "blocks[b].h_in; persistent residual before AdaLN",
+  "block_indices": "0..4; excludes final output",
+  "covariance": "globally centered FP64 H.T@H/(N-1); FP32 forward",
+  "eigenvalue_handling": "clamp negative roundoff; no positive eigenvalue threshold",
+  "device": "CPU",
+  "training_steps": 200000
+}

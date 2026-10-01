@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "tasks": 6,
+  "per_event_records": 144,
+  "summary_rows": 6,
+  "csv_fields_identical_to_completed_source": true,
+  "json_npz_byte_identical_to_completed_source": true,
+  "csv_line_endings": "LF",
+  "fixed_samples_equal_to_parent_protocol": true,
+  "markdown_relative_links_resolve": true,
+  "portable_renderer_test": "executed from /tmp using only packaged CSVs; 2 PNG and 2 PDF outputs",
+  "checkpoints_credentials_environments_excluded": true,
+  "file_hashes_computed": false
+}

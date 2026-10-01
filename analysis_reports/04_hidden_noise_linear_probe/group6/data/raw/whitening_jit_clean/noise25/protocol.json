@@ -1,0 +1,51 @@
+{
+  "model": {
+    "label": "whitening_jit_clean",
+    "kind": "plain",
+    "group": 1,
+    "state_key": "model",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/checkpoints/step_00250200.pt",
+    "config": "/data/tongtong/sihc_artifacts/runs/group6/g6_jit_b16_whiten_clean_seed0/config.json",
+    "input_geometry": "full768_PCA_whiten",
+    "noise_space": "whitened"
+  },
+  "alpha": 0.25,
+  "online": true,
+  "points": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "condition": "null",
+  "pooling": "patch RMS eps1e-6 then GAP",
+  "epochs": 40,
+  "microbatch": 128,
+  "effective_batch": 4096,
+  "optimizer": "AdamW lr cosine .01 to .0001, wd0, default betas",
+  "noise": "fresh CUDA normal per epoch; shared seed and shuffle across models/t",
+  "train_seed_base": 700001,
+  "validation_seeds": [
+    800001,
+    800002,
+    800003
+  ],
+  "backbone": "BF16 autocast",
+  "encoder": "FP32",
+  "heads": "FP32",
+  "checkpoint_state": "model",
+  "input_geometry": "checkpoint full768 whitening before Gaussian corruption",
+  "cache": false,
+  "hidden_cache": false,
+  "wandb": false,
+  "fast_latent_loader": false,
+  "ring_loader": false,
+  "loader_policy": "same sampler/microbatch; fixed pinned ring, two ordered gather threads, CUDA copy stream"
+}

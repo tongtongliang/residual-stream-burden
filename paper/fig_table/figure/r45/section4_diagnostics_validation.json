@@ -1,0 +1,14 @@
+{
+  "plain_target_diagnostics": {
+    "sensitivity_rows": 144,
+    "probe_rows": 132
+  },
+  "decoupled_diagnostics": {
+    "sensitivity_rows": 204,
+    "probe_rows": 186
+  },
+  "decoupled_embedding_filtering": {
+    "heatmaps": 5,
+    "gain_bars": 10
+  }
+}

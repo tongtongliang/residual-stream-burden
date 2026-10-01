@@ -1,0 +1,205 @@
+{
+  "sources": [
+    "paper/fig_table/result_statistic/section03_analysis/01_patch_embedding_matrix/data/raw_pixel_patch_pca.npz",
+    "paper/fig_table/result_statistic/section03_analysis/01_patch_embedding_matrix/data/patch_embedding_matrices.npz",
+    "paper/fig_table/result_statistic/section03_analysis/01_patch_embedding_matrix/data/rankwise_embedding_metrics.csv",
+    "paper/fig_table/result_statistic/section03_analysis/01_patch_embedding_matrix/data/gain_rank_bins.csv"
+  ],
+  "models": [
+    "JiT-B velocity",
+    "JiT-B clean",
+    "DeCO-B",
+    "PixelDiT-B",
+    "DiP-B"
+  ],
+  "counts": {
+    "rankwise_rows": 768,
+    "selected_gain_bin_rows": 10,
+    "heatmaps": 5,
+    "overlap_entries_per_heatmap": 4096
+  },
+  "heatmap": "Squared overlap of top-64 eigenvectors. Transposed for display: x clean-patch PCA rank; y input-weight right-singular direction rank. Rank 1 at lower left.",
+  "color_scale": {
+    "type": "logarithmic",
+    "floor": 1e-06,
+    "maximum": 1
+  },
+  "bars": "Gain sums in ranks 1-64 and 705-768, each divided by the sum over all 768 input directions",
+  "checks": "10 recomputed gain shares match archived bins at rtol 1e-10; W.T@W matches input Gram to relative error <1e-5; all bars and heatmap values within axes/color maximum",
+  "matrix_checks": [
+    {
+      "model": "JiT-B velocity",
+      "input_gram_relative_error": 3.457772471717251e-07,
+      "overlap_min": 2.6177122527608166e-10,
+      "overlap_max": 0.1485561810856789,
+      "heatmap_shape": [
+        64,
+        64
+      ]
+    },
+    {
+      "model": "JiT-B clean",
+      "input_gram_relative_error": 2.646275463717342e-07,
+      "overlap_min": 8.696449105006535e-13,
+      "overlap_max": 0.9351329074288621,
+      "heatmap_shape": [
+        64,
+        64
+      ]
+    },
+    {
+      "model": "DeCO-B",
+      "input_gram_relative_error": 2.5184788354846926e-07,
+      "overlap_min": 6.05481426909476e-13,
+      "overlap_max": 0.9728588377064292,
+      "heatmap_shape": [
+        64,
+        64
+      ]
+    },
+    {
+      "model": "PixelDiT-B",
+      "input_gram_relative_error": 2.314167088889025e-07,
+      "overlap_min": 2.825163818197054e-11,
+      "overlap_max": 0.9594569387302474,
+      "heatmap_shape": [
+        64,
+        64
+      ]
+    },
+    {
+      "model": "DiP-B",
+      "input_gram_relative_error": 2.231022899186427e-07,
+      "overlap_min": 1.0392889044609154e-11,
+      "overlap_max": 0.9282336639542559,
+      "heatmap_shape": [
+        64,
+        64
+      ]
+    }
+  ],
+  "gain_shares": [
+    {
+      "model": "JiT-B velocity",
+      "rank_bin": "Top 64",
+      "raw_gain_sum": 984.0300194701106,
+      "total_gain": 9853.398207169637,
+      "gain_share": 0.09986707111401424
+    },
+    {
+      "model": "JiT-B velocity",
+      "rank_bin": "Bottom 64",
+      "raw_gain_sum": 688.5814048412984,
+      "total_gain": 9853.398207169637,
+      "gain_share": 0.06988263240394216
+    },
+    {
+      "model": "JiT-B clean",
+      "rank_bin": "Top 64",
+      "raw_gain_sum": 2008.1149464024943,
+      "total_gain": 3266.5141773676974,
+      "gain_share": 0.6147577623620549
+    },
+    {
+      "model": "JiT-B clean",
+      "rank_bin": "Bottom 64",
+      "raw_gain_sum": 1.467372354920295,
+      "total_gain": 3266.5141773676974,
+      "gain_share": 0.00044921658846212907
+    },
+    {
+      "model": "DeCO-B",
+      "rank_bin": "Top 64",
+      "raw_gain_sum": 1310.8009227692223,
+      "total_gain": 1972.913252113143,
+      "gain_share": 0.6643986608966476
+    },
+    {
+      "model": "DeCO-B",
+      "rank_bin": "Bottom 64",
+      "raw_gain_sum": 1.1845441011961275,
+      "total_gain": 1972.913252113143,
+      "gain_share": 0.0006004035402607737
+    },
+    {
+      "model": "PixelDiT-B",
+      "rank_bin": "Top 64",
+      "raw_gain_sum": 2380.690853376555,
+      "total_gain": 3152.3978269885156,
+      "gain_share": 0.7552000045789995
+    },
+    {
+      "model": "PixelDiT-B",
+      "rank_bin": "Bottom 64",
+      "raw_gain_sum": 2.4786997370156376,
+      "total_gain": 3152.3978269885156,
+      "gain_share": 0.0007862902695195481
+    },
+    {
+      "model": "DiP-B",
+      "rank_bin": "Top 64",
+      "raw_gain_sum": 1129.8589395024164,
+      "total_gain": 1850.6271729913692,
+      "gain_share": 0.6105275854542345
+    },
+    {
+      "model": "DiP-B",
+      "rank_bin": "Bottom 64",
+      "raw_gain_sum": 72.84530836111763,
+      "total_gain": 1850.6271729913692,
+      "gain_share": 0.03936249798135724
+    }
+  ],
+  "selected_gain_bin_rows": [
+    {
+      "model": "JiT-B velocity",
+      "rank_bin": "Top 64",
+      "gain_share": "0.09986707111401424"
+    },
+    {
+      "model": "JiT-B velocity",
+      "rank_bin": "Bottom 64",
+      "gain_share": "0.06988263240394216"
+    },
+    {
+      "model": "JiT-B clean",
+      "rank_bin": "Top 64",
+      "gain_share": "0.6147577623620549"
+    },
+    {
+      "model": "JiT-B clean",
+      "rank_bin": "Bottom 64",
+      "gain_share": "0.00044921658846212815"
+    },
+    {
+      "model": "DeCO-B",
+      "rank_bin": "Top 64",
+      "gain_share": "0.6643986608966477"
+    },
+    {
+      "model": "DeCO-B",
+      "rank_bin": "Bottom 64",
+      "gain_share": "0.0006004035402607723"
+    },
+    {
+      "model": "PixelDiT-B",
+      "rank_bin": "Top 64",
+      "gain_share": "0.7552000045789996"
+    },
+    {
+      "model": "PixelDiT-B",
+      "rank_bin": "Bottom 64",
+      "gain_share": "0.0007862902695195471"
+    },
+    {
+      "model": "DiP-B",
+      "rank_bin": "Top 64",
+      "gain_share": "0.6105275854542345"
+    },
+    {
+      "model": "DiP-B",
+      "rank_bin": "Bottom 64",
+      "gain_share": "0.03936249798135724"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "status": "pass",
+  "model": "deco_b",
+  "checkpoint_state": "model",
+  "selection_hash": "1ff3e31c1a6d79ed0399d8b7eb157fca7e5739cec6aba3c5096ad6cd653f4f7f",
+  "world_size": 8,
+  "image_count": 100000,
+  "patch_count_per_t": 25600000,
+  "t_clean_values": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "maximum_covariance_symmetry_relative_error": 0.0,
+  "minimum_raw_covariance_eigenvalue": 8.867140758893204e-06,
+  "all_metrics_finite": true
+}

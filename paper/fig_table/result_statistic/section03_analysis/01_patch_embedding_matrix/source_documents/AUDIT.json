@@ -1,0 +1,41 @@
+{
+  "status": "pass",
+  "models": [
+    "JiT-B clean",
+    "JiT-B velocity",
+    "DeCO-B",
+    "PixelDiT-B",
+    "DiP-B",
+    "HyperDiT-B"
+  ],
+  "matrix_shapes": {
+    "weight_0": [
+      768,
+      768
+    ],
+    "weight_1": [
+      768,
+      768
+    ],
+    "weight_2": [
+      768,
+      768
+    ],
+    "weight_3": [
+      768,
+      768
+    ],
+    "weight_4": [
+      768,
+      768
+    ],
+    "weight_5": [
+      768,
+      768
+    ]
+  },
+  "pca_sha256": "a6b7f77f832bdf2b9a35249383ad31e4b7ea5c24771405a9ce136801285dc52c",
+  "raw_states_only": true,
+  "rows_main": 6,
+  "rows_topk": 30
+}

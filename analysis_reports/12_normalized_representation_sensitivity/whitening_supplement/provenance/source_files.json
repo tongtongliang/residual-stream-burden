@@ -1,0 +1,290 @@
+[
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/REPORT.md",
+    "file": "REPORT.md",
+    "bytes": 4580,
+    "source_bytes": 4576
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/summary.csv",
+    "file": "summary.csv",
+    "bytes": 992,
+    "source_bytes": 999
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/summary.json",
+    "file": "summary.json",
+    "bytes": 2164,
+    "source_bytes": 2164
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/per_event.csv",
+    "file": "per_event.csv",
+    "bytes": 29798,
+    "source_bytes": 29943
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/historical_plain_comparison.csv",
+    "file": "historical_plain_comparison.csv",
+    "bytes": 948,
+    "source_bytes": 955
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/audit.json",
+    "file": "audit.json",
+    "bytes": 2695,
+    "source_bytes": 2695
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/geometry_and_source_validation.json",
+    "file": "geometry_and_source_validation.json",
+    "bytes": 725,
+    "source_bytes": 725
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/samples.npz",
+    "file": "samples.npz",
+    "bytes": 33280,
+    "source_bytes": 33280
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/figures/ratio_by_depth.pdf",
+    "file": "figures/ratio_by_depth.pdf",
+    "bytes": 15779,
+    "source_bytes": 15779
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/figures/ratio_by_depth.png",
+    "file": "figures/ratio_by_depth.png",
+    "bytes": 156876,
+    "source_bytes": 156876
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/figures/variance_by_depth.pdf",
+    "file": "figures/variance_by_depth.pdf",
+    "bytes": 18402,
+    "source_bytes": 18402
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/figures/variance_by_depth.png",
+    "file": "figures/variance_by_depth.png",
+    "bytes": 329229,
+    "source_bytes": 329229
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t025/manifest.json",
+    "file": "data/whiten_clean_t025/manifest.json",
+    "bytes": 1696,
+    "source_bytes": 1696
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t025/metrics.json",
+    "file": "data/whiten_clean_t025/metrics.json",
+    "bytes": 11274,
+    "source_bytes": 11274
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t025/metrics.csv",
+    "file": "data/whiten_clean_t025/metrics.csv",
+    "bytes": 4679,
+    "source_bytes": 4704
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t025/complete.json",
+    "file": "data/whiten_clean_t025/complete.json",
+    "bytes": 188,
+    "source_bytes": 188
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t025/reduction_validation.json",
+    "file": "data/whiten_clean_t025/reduction_validation.json",
+    "bytes": 99,
+    "source_bytes": 99
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t050/manifest.json",
+    "file": "data/whiten_clean_t050/manifest.json",
+    "bytes": 1694,
+    "source_bytes": 1694
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t050/metrics.json",
+    "file": "data/whiten_clean_t050/metrics.json",
+    "bytes": 11236,
+    "source_bytes": 11236
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t050/metrics.csv",
+    "file": "data/whiten_clean_t050/metrics.csv",
+    "bytes": 4641,
+    "source_bytes": 4666
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t050/complete.json",
+    "file": "data/whiten_clean_t050/complete.json",
+    "bytes": 189,
+    "source_bytes": 189
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t050/reduction_validation.json",
+    "file": "data/whiten_clean_t050/reduction_validation.json",
+    "bytes": 97,
+    "source_bytes": 97
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t075/manifest.json",
+    "file": "data/whiten_clean_t075/manifest.json",
+    "bytes": 1696,
+    "source_bytes": 1696
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t075/metrics.json",
+    "file": "data/whiten_clean_t075/metrics.json",
+    "bytes": 11210,
+    "source_bytes": 11210
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t075/metrics.csv",
+    "file": "data/whiten_clean_t075/metrics.csv",
+    "bytes": 4615,
+    "source_bytes": 4640
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t075/complete.json",
+    "file": "data/whiten_clean_t075/complete.json",
+    "bytes": 188,
+    "source_bytes": 188
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_clean_t075/reduction_validation.json",
+    "file": "data/whiten_clean_t075/reduction_validation.json",
+    "bytes": 100,
+    "source_bytes": 100
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t025/manifest.json",
+    "file": "data/whiten_velocity_t025/manifest.json",
+    "bytes": 1702,
+    "source_bytes": 1702
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t025/metrics.json",
+    "file": "data/whiten_velocity_t025/metrics.json",
+    "bytes": 11288,
+    "source_bytes": 11288
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t025/metrics.csv",
+    "file": "data/whiten_velocity_t025/metrics.csv",
+    "bytes": 4693,
+    "source_bytes": 4718
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t025/complete.json",
+    "file": "data/whiten_velocity_t025/complete.json",
+    "bytes": 189,
+    "source_bytes": 189
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t025/reduction_validation.json",
+    "file": "data/whiten_velocity_t025/reduction_validation.json",
+    "bytes": 100,
+    "source_bytes": 100
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t050/manifest.json",
+    "file": "data/whiten_velocity_t050/manifest.json",
+    "bytes": 1700,
+    "source_bytes": 1700
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t050/metrics.json",
+    "file": "data/whiten_velocity_t050/metrics.json",
+    "bytes": 11238,
+    "source_bytes": 11238
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t050/metrics.csv",
+    "file": "data/whiten_velocity_t050/metrics.csv",
+    "bytes": 4643,
+    "source_bytes": 4668
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t050/complete.json",
+    "file": "data/whiten_velocity_t050/complete.json",
+    "bytes": 189,
+    "source_bytes": 189
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t050/reduction_validation.json",
+    "file": "data/whiten_velocity_t050/reduction_validation.json",
+    "bytes": 101,
+    "source_bytes": 101
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t075/manifest.json",
+    "file": "data/whiten_velocity_t075/manifest.json",
+    "bytes": 1702,
+    "source_bytes": 1702
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t075/metrics.json",
+    "file": "data/whiten_velocity_t075/metrics.json",
+    "bytes": 11228,
+    "source_bytes": 11228
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t075/metrics.csv",
+    "file": "data/whiten_velocity_t075/metrics.csv",
+    "bytes": 4633,
+    "source_bytes": 4658
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t075/complete.json",
+    "file": "data/whiten_velocity_t075/complete.json",
+    "bytes": 188,
+    "source_bytes": 188
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/runs/whiten_velocity_t075/reduction_validation.json",
+    "file": "data/whiten_velocity_t075/reduction_validation.json",
+    "bytes": 102,
+    "source_bytes": 102
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/code/collect.py",
+    "file": "provenance/code/collect.py",
+    "bytes": 5912,
+    "source_bytes": 5912
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/code/streaming_stats.py",
+    "file": "provenance/code/streaming_stats.py",
+    "bytes": 1452,
+    "source_bytes": 1452
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/code/summarize.py",
+    "file": "provenance/code/summarize.py",
+    "bytes": 8437,
+    "source_bytes": 8437
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/run.sh",
+    "file": "provenance/run.sh",
+    "bytes": 542,
+    "source_bytes": 542
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/logs/clean.log",
+    "file": "provenance/logs/clean.txt",
+    "bytes": 16912,
+    "source_bytes": 16912
+  },
+  {
+    "source": "/data/tongtong/artifacts/analysis/whiten_sensitivity/normalized_N2048_K128/logs/velocity.log",
+    "file": "provenance/logs/velocity.txt",
+    "bytes": 17207,
+    "source_bytes": 17207
+  }
+]

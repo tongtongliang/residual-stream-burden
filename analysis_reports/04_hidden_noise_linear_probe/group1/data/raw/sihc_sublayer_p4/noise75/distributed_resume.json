@@ -1,0 +1,14 @@
+{
+  "start_epoch": 5,
+  "world": 6,
+  "global_batch": 4096,
+  "microbatch": 128,
+  "resume": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/sihc_sublayer_p4/noise75/latest.pt",
+  "alpha": 0.75,
+  "optimizer": "resumed AdamW",
+  "gradient": "local loss SUM / actual global batch; all_reduce SUM, no world division",
+  "shuffle": "same seed42+epoch global permutation; each example exactly once",
+  "noise": "fresh CUDA Gaussian, seed700001+epoch+rank*10000000; not bitwise single-GPU noise",
+  "scope": "SiHC only, Group2 remains paused",
+  "smoke_steps": 0
+}

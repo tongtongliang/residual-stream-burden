@@ -1,0 +1,334 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 5104
+  },
+  {
+    "path": "SUPPLEMENT.md",
+    "bytes": 1156
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1079
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 1714
+  },
+  {
+    "path": "pyproject.toml",
+    "bytes": 1000
+  },
+  {
+    "path": "requirements-tested.txt",
+    "bytes": 357
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 168
+  },
+  {
+    "path": "sihc/__init__.py",
+    "bytes": 293
+  },
+  {
+    "path": "sihc/activation_checkpointing.py",
+    "bytes": 2335
+  },
+  {
+    "path": "sihc/checkpoint.py",
+    "bytes": 11622
+  },
+  {
+    "path": "sihc/config.py",
+    "bytes": 2680
+  },
+  {
+    "path": "sihc/imagenet.py",
+    "bytes": 17237
+  },
+  {
+    "path": "sihc/metrics.py",
+    "bytes": 4074
+  },
+  {
+    "path": "sihc/models/__init__.py",
+    "bytes": 781
+  },
+  {
+    "path": "sihc/models/sihc/__init__.py",
+    "bytes": 757
+  },
+  {
+    "path": "sihc/models/sihc/blockwise_kernels.py",
+    "bytes": 1520
+  },
+  {
+    "path": "sihc/models/sihc/components.py",
+    "bytes": 11270
+  },
+  {
+    "path": "sihc/models/sihc/kernels.py",
+    "bytes": 79938
+  },
+  {
+    "path": "sihc/models/sihc/model.py",
+    "bytes": 35056
+  },
+  {
+    "path": "sihc/models/sihc/reference.py",
+    "bytes": 9526
+  },
+  {
+    "path": "sihc/models/sihc/sublayer.py",
+    "bytes": 8216
+  },
+  {
+    "path": "sihc/models/sihc/sublayer_kernels.py",
+    "bytes": 18449
+  },
+  {
+    "path": "sihc/objectives.py",
+    "bytes": 1769
+  },
+  {
+    "path": "sihc/presets.py",
+    "bytes": 2585
+  },
+  {
+    "path": "sihc/sampling.py",
+    "bytes": 3866
+  },
+  {
+    "path": "training/FLAGSHIP.md",
+    "bytes": 4173
+  },
+  {
+    "path": "training/README.md",
+    "bytes": 5164
+  },
+  {
+    "path": "training/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "training/flagship.py",
+    "bytes": 5559
+  },
+  {
+    "path": "training/train.py",
+    "bytes": 32435
+  },
+  {
+    "path": "evaluation/README.md",
+    "bytes": 4162
+  },
+  {
+    "path": "evaluation/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "evaluation/evaluate.py",
+    "bytes": 18955
+  },
+  {
+    "path": "evaluation/export_checkpoint.py",
+    "bytes": 3295
+  },
+  {
+    "path": "evaluation/sample.py",
+    "bytes": 6499
+  },
+  {
+    "path": "evaluation/verify_checkpoint.py",
+    "bytes": 2847
+  },
+  {
+    "path": "research/README.md",
+    "bytes": 575
+  },
+  {
+    "path": "research/__init__.py",
+    "bytes": 73
+  },
+  {
+    "path": "research/toy/README.md",
+    "bytes": 7031
+  },
+  {
+    "path": "research/toy/__init__.py",
+    "bytes": 67
+  },
+  {
+    "path": "research/toy/analyze.py",
+    "bytes": 4654
+  },
+  {
+    "path": "research/toy/data.py",
+    "bytes": 2724
+  },
+  {
+    "path": "research/toy/diagnostics.py",
+    "bytes": 3729
+  },
+  {
+    "path": "research/toy/models.py",
+    "bytes": 6617
+  },
+  {
+    "path": "research/toy/sample.py",
+    "bytes": 3234
+  },
+  {
+    "path": "research/toy/train.py",
+    "bytes": 6239
+  },
+  {
+    "path": "data/README.md",
+    "bytes": 1072
+  },
+  {
+    "path": "data/__init__.py",
+    "bytes": 0
+  },
+  {
+    "path": "data/prepare_cache.py",
+    "bytes": 3584
+  },
+  {
+    "path": "bench/checkpoint_forward.py",
+    "bytes": 3846
+  },
+  {
+    "path": "bench/fusion_controls.py",
+    "bytes": 5669
+  },
+  {
+    "path": "bench/fusion_observer.py",
+    "bytes": 697
+  },
+  {
+    "path": "bench/fusion_profile.py",
+    "bytes": 12197
+  },
+  {
+    "path": "bench/jit_profile.py",
+    "bytes": 12366
+  },
+  {
+    "path": "configs/blockwise_b.json",
+    "bytes": 508
+  },
+  {
+    "path": "configs/sublayer_b.json",
+    "bytes": 953
+  },
+  {
+    "path": "configs/sublayer_h.json",
+    "bytes": 973
+  },
+  {
+    "path": "configs/sublayer_l.json",
+    "bytes": 963
+  },
+  {
+    "path": "configs/sublayer_xl_repa.json",
+    "bytes": 1137
+  },
+  {
+    "path": "docs/REPRODUCIBILITY.md",
+    "bytes": 2034
+  },
+  {
+    "path": "docs/kernel_fusion/README.md",
+    "bytes": 11955
+  },
+  {
+    "path": "tests/conftest.py",
+    "bytes": 701
+  },
+  {
+    "path": "tests/test_activation_checkpointing.py",
+    "bytes": 2832
+  },
+  {
+    "path": "tests/test_blockwise_kernels.py",
+    "bytes": 2877
+  },
+  {
+    "path": "tests/test_blockwise_tuple_kernels.py",
+    "bytes": 18582
+  },
+  {
+    "path": "tests/test_evaluation_status.py",
+    "bytes": 6302
+  },
+  {
+    "path": "tests/test_flagship_workflow.py",
+    "bytes": 2738
+  },
+  {
+    "path": "tests/test_p8_kernels.py",
+    "bytes": 4272
+  },
+  {
+    "path": "tests/test_public_interface.py",
+    "bytes": 4791
+  },
+  {
+    "path": "tests/test_reference_variants.py",
+    "bytes": 5673
+  },
+  {
+    "path": "tests/test_release_audit.py",
+    "bytes": 4746
+  },
+  {
+    "path": "tests/test_runtime_compatibility.py",
+    "bytes": 11033
+  },
+  {
+    "path": "tests/test_sampling.py",
+    "bytes": 3181
+  },
+  {
+    "path": "tests/test_scaling_presets.py",
+    "bytes": 3660
+  },
+  {
+    "path": "tests/test_sublayer_context.py",
+    "bytes": 5750
+  },
+  {
+    "path": "tests/test_sublayer_kernels.py",
+    "bytes": 16228
+  },
+  {
+    "path": "tests/test_sublayer_model.py",
+    "bytes": 4344
+  },
+  {
+    "path": "tests/test_supplement_package.py",
+    "bytes": 2913
+  },
+  {
+    "path": "tests/test_toy.py",
+    "bytes": 6382
+  },
+  {
+    "path": "tools/audit_release.py",
+    "bytes": 13254
+  },
+  {
+    "path": "tools/build_supplement.py",
+    "bytes": 5198
+  },
+  {
+    "path": "LICENSES/JiT.txt",
+    "bytes": 1067
+  },
+  {
+    "path": "LICENSES/guided-diffusion.txt",
+    "bytes": 1062
+  }
+]

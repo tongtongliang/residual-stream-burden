@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "images": 2048,
+  "noises": 128,
+  "points": 24,
+  "seconds": 321.0590058420057,
+  "peak_allocated_gib": 1.3997950553894043,
+  "peak_reserved_gib": 1.7734375
+}

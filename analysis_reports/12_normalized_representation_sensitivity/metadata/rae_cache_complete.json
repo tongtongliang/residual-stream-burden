@@ -1,0 +1,115 @@
+{
+  "dtype": "float32",
+  "shape": [
+    768,
+    16,
+    16
+  ],
+  "flip": false,
+  "normalization": "RAE.encode",
+  "encoder": "/data/tongtong/sihc_artifacts/teachers/dinov2-with-registers-base",
+  "stats": "/data/tongtong/sihc_artifacts/dinov2_noise_linear_probe/models/stats/dinov2/wReg_base/imagenet1k/stat.pt",
+  "train_source": "/data/tongtong/flowmatching_shc_work/rebuildable/imagenet256_tensor_cache_full",
+  "val_source": "/data/tongtong/RAEv2/data/imagenet-256/imagenet-latents-images/val",
+  "tf32": false,
+  "train": [
+    {
+      "start": 0,
+      "end": 160145,
+      "latents": "train_00.npy",
+      "labels": "train_00_labels.npy"
+    },
+    {
+      "start": 160145,
+      "end": 320291,
+      "latents": "train_01.npy",
+      "labels": "train_01_labels.npy"
+    },
+    {
+      "start": 320291,
+      "end": 480437,
+      "latents": "train_02.npy",
+      "labels": "train_02_labels.npy"
+    },
+    {
+      "start": 480437,
+      "end": 640583,
+      "latents": "train_03.npy",
+      "labels": "train_03_labels.npy"
+    },
+    {
+      "start": 640583,
+      "end": 800729,
+      "latents": "train_04.npy",
+      "labels": "train_04_labels.npy"
+    },
+    {
+      "start": 800729,
+      "end": 960875,
+      "latents": "train_05.npy",
+      "labels": "train_05_labels.npy"
+    },
+    {
+      "start": 960875,
+      "end": 1121021,
+      "latents": "train_06.npy",
+      "labels": "train_06_labels.npy"
+    },
+    {
+      "start": 1121021,
+      "end": 1281167,
+      "latents": "train_07.npy",
+      "labels": "train_07_labels.npy"
+    }
+  ],
+  "val": [
+    {
+      "start": 0,
+      "end": 6250,
+      "latents": "val_00.npy",
+      "labels": "val_00_labels.npy"
+    },
+    {
+      "start": 6250,
+      "end": 12500,
+      "latents": "val_01.npy",
+      "labels": "val_01_labels.npy"
+    },
+    {
+      "start": 12500,
+      "end": 18750,
+      "latents": "val_02.npy",
+      "labels": "val_02_labels.npy"
+    },
+    {
+      "start": 18750,
+      "end": 25000,
+      "latents": "val_03.npy",
+      "labels": "val_03_labels.npy"
+    },
+    {
+      "start": 25000,
+      "end": 31250,
+      "latents": "val_04.npy",
+      "labels": "val_04_labels.npy"
+    },
+    {
+      "start": 31250,
+      "end": 37500,
+      "latents": "val_05.npy",
+      "labels": "val_05_labels.npy"
+    },
+    {
+      "start": 37500,
+      "end": 43750,
+      "latents": "val_06.npy",
+      "labels": "val_06_labels.npy"
+    },
+    {
+      "start": 43750,
+      "end": 50000,
+      "latents": "val_07.npy",
+      "labels": "val_07_labels.npy"
+    }
+  ]
+}

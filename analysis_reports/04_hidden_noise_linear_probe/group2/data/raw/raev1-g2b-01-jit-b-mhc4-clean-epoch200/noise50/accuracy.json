@@ -1,0 +1,178 @@
+[
+  {
+    "after_block": 1,
+    "mode": "clean",
+    "top1": 67.97800000000001,
+    "top5": 89.626,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 1,
+    "mode": "matched_noise",
+    "top1": 80.45733333333334,
+    "top5": 95.60000000000002,
+    "top1_seed_std": 0.04151572660517457,
+    "top5_seed_std": 0.011775681155106923
+  },
+  {
+    "after_block": 2,
+    "mode": "clean",
+    "top1": 58.074000000000005,
+    "top5": 82.684,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 2,
+    "mode": "matched_noise",
+    "top1": 80.944,
+    "top5": 95.75733333333334,
+    "top1_seed_std": 0.05140687372975457,
+    "top5_seed_std": 0.020286832072936828
+  },
+  {
+    "after_block": 3,
+    "mode": "clean",
+    "top1": 71.034,
+    "top5": 91.552,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 3,
+    "mode": "matched_noise",
+    "top1": 80.522,
+    "top5": 95.62533333333334,
+    "top1_seed_std": 0.05161395160225221,
+    "top5_seed_std": 0.022171052197753272
+  },
+  {
+    "after_block": 4,
+    "mode": "clean",
+    "top1": 34.886,
+    "top5": 71.28000000000002,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 4,
+    "mode": "matched_noise",
+    "top1": 80.73666666666666,
+    "top5": 95.56599999999999,
+    "top1_seed_std": 0.033875589375763786,
+    "top5_seed_std": 0.015748015748021812
+  },
+  {
+    "after_block": 5,
+    "mode": "clean",
+    "top1": 54.25000000000001,
+    "top5": 80.552,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 5,
+    "mode": "matched_noise",
+    "top1": 81.46600000000001,
+    "top5": 95.97266666666667,
+    "top1_seed_std": 0.012754084313136346,
+    "top5_seed_std": 0.0082192186706292
+  },
+  {
+    "after_block": 6,
+    "mode": "clean",
+    "top1": 30.816000000000006,
+    "top5": 55.672,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 6,
+    "mode": "matched_noise",
+    "top1": 80.27533333333334,
+    "top5": 95.34866666666669,
+    "top1_seed_std": 0.0608020467491804,
+    "top5_seed_std": 0.018061622912191433
+  },
+  {
+    "after_block": 7,
+    "mode": "clean",
+    "top1": 37.580000000000005,
+    "top5": 61.57600000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 7,
+    "mode": "matched_noise",
+    "top1": 80.91733333333333,
+    "top5": 95.77466666666668,
+    "top1_seed_std": 0.004988876515698355,
+    "top5_seed_std": 0.027194770739164098
+  },
+  {
+    "after_block": 8,
+    "mode": "clean",
+    "top1": 46.7,
+    "top5": 70.94200000000001,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 8,
+    "mode": "matched_noise",
+    "top1": 80.35866666666668,
+    "top5": 95.42400000000002,
+    "top1_seed_std": 0.060251325481041326,
+    "top5_seed_std": 0.027904599381941272
+  },
+  {
+    "after_block": 9,
+    "mode": "clean",
+    "top1": 73.81400000000001,
+    "top5": 92.178,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 9,
+    "mode": "matched_noise",
+    "top1": 80.96466666666667,
+    "top5": 95.772,
+    "top1_seed_std": 0.015173075568989742,
+    "top5_seed_std": 0.008640987597874551
+  },
+  {
+    "after_block": 10,
+    "mode": "clean",
+    "top1": 76.78800000000001,
+    "top5": 93.646,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 10,
+    "mode": "matched_noise",
+    "top1": 80.33733333333335,
+    "top5": 95.51266666666668,
+    "top1_seed_std": 0.03670906639449461,
+    "top5_seed_std": 0.015434449203719522
+  },
+  {
+    "after_block": 11,
+    "mode": "clean",
+    "top1": 61.126000000000005,
+    "top5": 84.15,
+    "top1_seed_std": 0.0,
+    "top5_seed_std": 0.0
+  },
+  {
+    "after_block": 11,
+    "mode": "matched_noise",
+    "top1": 81.03800000000001,
+    "top5": 95.78000000000002,
+    "top1_seed_std": 0.04329742101634447,
+    "top5_seed_std": 0.033025242870666514
+  }
+]

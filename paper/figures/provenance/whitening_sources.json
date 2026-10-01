@@ -1,0 +1,11 @@
+{
+  "whitening_root": "analysis_reports/14_whitening_patch_embedding",
+  "endpoint_source": "paper/fig_table/result_statistic/section03_analysis/03_semantic_endpoint_patch_pca/all_endpoint_metrics.csv",
+  "final_fid": {
+    "clean": 132.94993521097024,
+    "velocity": 212.535562934228
+  },
+  "raw_clean_fid": 10.192,
+  "spectrum": "saved whitening scales squared and ideal normalized whitened covariance; model raw-weight native-coordinate Gram energy",
+  "min_scale": 0.006928013172000647
+}

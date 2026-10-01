@@ -1,0 +1,36 @@
+{
+  "source": "analysis_reports/12_normalized_representation_sensitivity/per_event.csv",
+  "source_rows": 840,
+  "selected_rows": 408,
+  "main_rows": 180,
+  "models": [
+    "plain_jit_velocity",
+    "plain_jit_clean",
+    "deco_b_velocity",
+    "pixeldit_b_velocity",
+    "dip_b_velocity",
+    "hyperdit_b_velocity"
+  ],
+  "main_models": [
+    "plain_jit_velocity",
+    "plain_jit_clean",
+    "deco_b_velocity",
+    "pixeldit_b_velocity",
+    "dip_b_velocity"
+  ],
+  "times_clean": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "main_metric": "ratio_corrected = (between_raw - within/128) / within",
+  "appendix_metrics": "W/D, B/D, corrected B/W",
+  "normalization": "per patch RMS, eps1e-6, no affine, no GAP",
+  "main_observation": "MLP input before native normalization/modulation, one per block",
+  "appendix_observation": "attention input then MLP input, in native depth order",
+  "x_axis": "native block index in main, native observation index in appendix; HyperDiT not stretched",
+  "y_axis": "main: linear, panel-specific ranges starting at zero; appendix: logarithmic, shared across times",
+  "uncertainty": "No CIs in the new archive; none synthesized.",
+  "preserved_fields": "all original covariance traces, per-coordinate values and ratios",
+  "checks": "408 rows, 180 main markers, formulas, sample counts, native observation counts"
+}

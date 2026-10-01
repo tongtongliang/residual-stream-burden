@@ -1,0 +1,266 @@
+[
+  {
+    "model": "raev1-g2a-01-jit-b-clean-epoch200",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2a-01-jit-b-clean-epoch200/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-01-jit-b-clean-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2a-01-jit-b-clean-epoch200",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2a-01-jit-b-clean-epoch200/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-01-jit-b-clean-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2a-01-jit-b-clean-epoch200",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2a-01-jit-b-clean-epoch200/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-01-jit-b-clean-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2a-02-jit-b-velocity-epoch200",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2a-02-jit-b-velocity-epoch200/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2a-02-jit-b-velocity-epoch200",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2a-02-jit-b-velocity-epoch200/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2a-02-jit-b-velocity-epoch200",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2a-02-jit-b-velocity-epoch200/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2b-01-jit-b-mhc4-clean-epoch200",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-01-jit-b-mhc4-clean-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2b-01-jit-b-mhc4-clean-epoch200",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-01-jit-b-mhc4-clean-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000
+    }
+  },
+  {
+    "model": "raev1-g2b-01-jit-b-mhc4-clean-epoch200",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-01-jit-b-mhc4-clean-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "distributed_resume.json",
+      "paired_resume.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  },
+  {
+    "model": "raev1-g2b-02-jit-b-mhc4-velocity-epoch200",
+    "alpha": 0.25,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "distributed_resume.json",
+      "paired_resume.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  },
+  {
+    "model": "raev1-g2b-02-jit-b-mhc4-velocity-epoch200",
+    "alpha": 0.5,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "distributed_resume.json",
+      "paired_resume.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  },
+  {
+    "model": "raev1-g2b-02-jit-b-mhc4-velocity-epoch200",
+    "alpha": 0.75,
+    "source": "/data/tongtong/sihc_artifacts/hidden_noise_linear_probe/online_runs/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/checkpoints/ep-last.pt",
+    "state_key": "model",
+    "files": [
+      "accuracy.json",
+      "complete.json",
+      "protocol.json",
+      "compile.json",
+      "distributed_resume.json",
+      "paired_resume.json",
+      "validation_view0.json",
+      "validation_view1.json",
+      "validation_view2.json",
+      "validation_view3.json"
+    ],
+    "complete": {
+      "epochs": 40,
+      "test_images": 50000,
+      "world": 2
+    }
+  }
+]

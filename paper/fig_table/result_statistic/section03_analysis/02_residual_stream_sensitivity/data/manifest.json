@@ -1,0 +1,20 @@
+{
+  "run_root": "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/runs/epoch200_raw_null_N8192_K128",
+  "notebook": "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/residual_stream_noise_sensitivity_report.ipynb",
+  "figures": [
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/jit_clean_velocity_t075.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/all_six_models_t075.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/per_image_jit_t075.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/jit_clean_velocity_t050.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/all_six_models_t050.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/per_image_jit_t050.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/jit_clean_velocity_t025.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/all_six_models_t025.png",
+    "/data/tongtong/sihc_artifacts/residual_stream_noise_sensitivity/reports/epoch200_raw_null_N8192_K128/figures/per_image_jit_t025.png"
+  ],
+  "tables": [
+    "all_aggregate_metrics.csv",
+    "bootstrap_intervals.csv",
+    "paired_velocity_minus_clean.csv"
+  ]
+}
