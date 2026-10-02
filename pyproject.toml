@@ -27,10 +27,16 @@ sihc-evaluate = "evaluation.evaluate:main"
 sihc-export = "evaluation.export_checkpoint:main"
 
 [tool.setuptools]
+packages = ["bench", "data", "evaluation", "research", "research.long_skip", "research.long_skip.vendor", "research.long_skip.vendor.flowmatching_lthc", "research.long_skip.vendor.flowmatching_lthc.models", "research.long_skip.vendor.scripts", "research.pixel", "research.rae", "research.toy", "sihc", "sihc.models", "sihc.models.sihc", "sihc.optim", "sihc.rae", "training"]
 license-files = ["LICENSE", "LICENSES/*.txt", "THIRD_PARTY_NOTICES.md"]
 
-[tool.setuptools.packages.find]
-include = ["sihc*", "training*", "evaluation*", "research*", "data*", "bench*"]
+[tool.setuptools.package-dir]
+sihc = "sihc/src/sihc"
+training = "sihc/training"
+evaluation = "sihc/evaluation"
+data = "sihc/data"
+bench = "sihc/bench"
+research = "research"
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["sihc/tests"]

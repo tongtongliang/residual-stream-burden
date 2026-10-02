@@ -7,7 +7,7 @@ stage_1:
     encoder_params:
       dinov2_path: ${oc.env:DINOV2_B_ROOT}
       normalize: true
-    decoder_config_path: ${oc.env:RAE_ROOT}/configs/decoder/ViTXL
+    decoder_config_path: ${oc.env:RAE_ROOT}/sihc/configs/decoder/ViTXL
     pretrained_decoder_path: ${oc.env:RAE_MODELS}/decoders/dinov2/wReg_base/ViTXL_n08/model.pt
     noise_tau: 0.0
     reshape_to_2d: true

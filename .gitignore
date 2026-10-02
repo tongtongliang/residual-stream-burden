@@ -17,10 +17,7 @@ wandb/
 *.safetensors
 *.npz
 *.npy
-!analysis_reports/**/*.npz
-!analysis_reports/**/*.npy
-!paper/fig_table/**/*.npz
-!paper/fig_table/**/*.npy
-!toy/**/*.npz
-!toy/**/*.npy
 *.log
+
+!research/**/*.npz
+!research/**/*.npy

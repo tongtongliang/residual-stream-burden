@@ -1,0 +1,264 @@
+_wandb:
+    value:
+        cli_version: 0.24.0
+        e:
+            8wou7duhvhisau7lt4tuyqtjt0h6jsi4:
+                args:
+                    - --checkpoint
+                    - /root/tongtong/projects/flowmatching_lthc/runs/long_skip_jit_b16_fullpatch_velocity_20260830_1747/checkpoints/step_00500400.pt
+                    - --output_dir
+                    - /root/tongtong/projects/flowmatching_lthc/runs/long_skip_jit_b16_fullpatch_velocity_20260830_1747/sihc/evaluation/step_00500400
+                    - --state_key
+                    - ema
+                    - --model
+                    - auto
+                    - --prediction
+                    - auto
+                    - --num_samples
+                    - "50000"
+                    - --batch_size
+                    - "256"
+                    - --steps
+                    - "50"
+                    - --cfg
+                    - "2.9"
+                    - --interval_min
+                    - "0.1"
+                    - --interval_max
+                    - "1.0"
+                    - --noise_scale
+                    - "1.0"
+                    - --fid_stats
+                    - /root/tongtong/projects/flowmatching_lthc/fid_stats/jit_in256_stats.npz
+                    - --csv_file
+                    - metrics_history.csv
+                    - --attn_backend
+                    - flash
+                    - --compile
+                    - --compile_mode
+                    - reduce-overhead
+                    - --fake_stats_dir
+                    - /root/tongtong/projects/flowmatching_lthc/runs/long_skip_jit_b16_fullpatch_velocity_20260830_1747/sihc/evaluation/step_00500400/fake_stats
+                    - --wandb
+                    - --wandb_project
+                    - long_skip_jit
+                    - --wandb_entity
+                    - tol011-uc-san-diego
+                    - --wandb_run_id
+                    - long_skip_jit_b16_fullpatch_velocity_20260830_1747
+                    - --wandb_run_name
+                    - long_skip_jit_b16_fullpatch_velocity_20260830_1747
+                codePath: scripts/evaluate_fid.py
+                codePathLocal: scripts/evaluate_fid.py
+                cpu_count: 32
+                cpu_count_logical: 48
+                cudaVersion: "13.0"
+                disk:
+                    /:
+                        total: "3778190245888"
+                        used: "1078616109056"
+                email: tol011@ucsd.edu
+                executable: /root/.conda/envs/jit/bin/python3.10
+                git:
+                    commit: 29130b4a8017e8f31c47e6de662cd912e4fbf179
+                    remote: https://github.com/tongtongliang/flowmatching_lthc.git
+                gpu: NVIDIA H100 NVL
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-aaac57f8-d6bd-dfdd-d583-c1a472e47240
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-87b1c9d9-846f-1c4a-e2e9-241fc1259763
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-1b3ae908-a6c6-a62f-269b-9330485df0a4
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-d009f55a-5185-d6ae-37f0-8cbef0c3a10a
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-114f8bb6-a085-74ef-5828-774b4fa077f0
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-4df86a10-42b6-1b9f-8a5c-ce5e54272135
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-369982fa-31aa-e14b-3da6-40a0f8cde8fc
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "100485038080"
+                      name: NVIDIA H100 NVL
+                      uuid: GPU-b8eceade-5c48-573f-dd15-6f57078e912e
+                host: jupyter-deployment-f7c5b17a8f58-0
+                memory:
+                    total: "824633720832"
+                os: Linux-6.8.0-90-generic-x86_64-with-glibc2.35
+                program: /root/tongtong/projects/flowmatching_lthc/scripts/evaluate_fid.py
+                python: CPython 3.10.19
+                root: /root/tongtong/projects/flowmatching_lthc/wandb
+                startedAt: "2026-09-01T11:59:41.414576Z"
+                writerId: 8wou7duhvhisau7lt4tuyqtjt0h6jsi4
+        m:
+            - "1": eval/checkpoint_step
+              "6":
+                - 3
+              "7": []
+            - "1": eval_50k/checkpoint_step
+              "6":
+                - 3
+              "7": []
+            - "2": eval/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+            - "2": eval_50k/*
+              "5": 2
+              "6":
+                - 1
+              "7": []
+        python_version: 3.10.19
+        t:
+            "1":
+                - 1
+                - 41
+            "2":
+                - 1
+                - 41
+            "3":
+                - 2
+                - 5
+                - 7
+                - 13
+                - 14
+                - 16
+                - 61
+                - 62
+            "4": 3.10.19
+            "5": 0.24.0
+            "12": 0.24.0
+            "13": linux-x86_64
+P_mean:
+    value: -0.8
+P_std:
+    value: 0.8
+attn_backend:
+    value: flash
+batch_size:
+    value: 256
+blr:
+    value: 5e-05
+compile:
+    value: true
+compile_mode:
+    value: default
+data_path:
+    value: /root/tongtong/data/imagenet-1k-original
+ema_decay:
+    value: 0.9999
+ema_decay2:
+    value: 0.9996
+eval_script:
+    value: fid_eval/evaluate.py
+grad_accum:
+    value: 1
+label_drop_prob:
+    value: 0.1
+log_every:
+    value: 100
+lr:
+    value: 0.0002
+max_steps:
+    value: 500400
+model:
+    value: jit_b16_fullpatch_longskip
+model/class:
+    value: LongSkipVelocityJiT
+model/depth:
+    value: 12
+model/has_long_skip:
+    value: true
+model/hidden_size:
+    value: 768
+model/in_context_len:
+    value: 0
+model/in_context_start:
+    value: 0
+model/num_heads:
+    value: 12
+model/num_parameters:
+    value: 131722114
+muon_adjust_lr_fn:
+    value: original
+muon_aux_lr:
+    value: 0
+muon_momentum:
+    value: 0.95
+muon_ns_steps:
+    value: 5
+noise_scale:
+    value: 1
+num_workers:
+    value: 12
+optimizer:
+    value: adamw
+prediction:
+    value: velocity
+repa:
+    value: false
+repa_coeff:
+    value: 0.5
+repa_depth:
+    value: 8
+repa_dinov2_path:
+    value: facebook/dinov2-base
+repa_dinov3_path:
+    value: /root/tongtong/external_repo/dinov3/checkpoints/dinov3-vitb16-pretrain-lvd1689m
+repa_encoder:
+    value: dinov3_vitb16
+repa_projector_dim:
+    value: 2048
+repa_source:
+    value: z_plus_dz
+repa_z_dim:
+    value: 768
+resume:
+    value: /root/tongtong/projects/flowmatching_lthc/runs/long_skip_jit_b16_fullpatch_velocity_20260830_1747/checkpoints/step_00450360.pt
+run_dir:
+    value: /root/tongtong/projects/flowmatching_lthc/runs/long_skip_jit_b16_fullpatch_velocity_20260830_1747
+run_name:
+    value: long_skip_jit_b16_fullpatch_velocity_20260830_1747
+save_every:
+    value: 50040
+t_eps:
+    value: 0.05
+wandb:
+    value: true
+wandb_entity:
+    value: tol011-uc-san-diego
+wandb_group:
+    value: jit-b16-fullpatch-longskip-velocity
+wandb_id:
+    value: long_skip_jit_b16_fullpatch_velocity_20260830_1747
+wandb_project:
+    value: long_skip_jit
+warmup_steps:
+    value: 6250
+weight_decay:
+    value: 0

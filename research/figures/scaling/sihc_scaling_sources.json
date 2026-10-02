@@ -1,0 +1,6 @@
+{
+  "source": "research/scaling/data/fid_history.csv",
+  "costs": "research/scaling/data/compute/counts.json",
+  "protocol": "Sublayer SiHC, ctx32, no REPA; 50K samples, Heun50; CFG B/L/H=2.9/2.4/2.1.",
+  "display": "Measured points joined by straight segments; no fitted scaling exponent or smoothed trajectory."
+}

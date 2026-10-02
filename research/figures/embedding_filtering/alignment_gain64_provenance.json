@@ -1,0 +1,19 @@
+{
+  "sources": [
+    "research/patch_embedding/figure_cache/data/raw_pixel_patch_pca.npz",
+    "research/patch_embedding/figure_cache/data/patch_embedding_matrices.npz",
+    "research/patch_embedding/figure_cache/data/rankwise_embedding_metrics.csv",
+    "research/patch_embedding/figure_cache/data/gain_rank_bins.csv"
+  ],
+  "models": [
+    "JiT-B velocity",
+    "JiT-B clean",
+    "DeCO-B",
+    "PixelDiT-B",
+    "DiP-B"
+  ],
+  "directions": 768,
+  "heatmap": "squared overlap of top-64 eigenvectors, transposed: x raw patch PCA rank; y W_in PCA rank; heatmap and bar widths equal",
+  "bars": "sum of directional gains in ranks 1-64 or 705-768, divided by sum over all 768",
+  "checks": "10 shares recomputed from rankwise cache agree with archived bins at rtol 1e-10"
+}

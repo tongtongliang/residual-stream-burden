@@ -1,0 +1,3835 @@
+{
+  "source_repository": "tongtongliang/sihc",
+  "source_revision": "21a534249933467c71208cb6621856d45287a860",
+  "core_source": "previously checked sihc-supplement package",
+  "release_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 207
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1079
+    },
+    {
+      "path": "LICENSES/JiT.txt",
+      "bytes": 1067
+    },
+    {
+      "path": "LICENSES/guided-diffusion.txt",
+      "bytes": 1062
+    },
+    {
+      "path": "README.md",
+      "bytes": 1753
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2120
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 1545
+    },
+    {
+      "path": "requirements-tested.txt",
+      "bytes": 357
+    },
+    {
+      "path": "research/README.md",
+      "bytes": 3278
+    },
+    {
+      "path": "research/__init__.py",
+      "bytes": 73
+    },
+    {
+      "path": "research/decoder_comparison/README.md",
+      "bytes": 2698
+    },
+    {
+      "path": "research/decoder_comparison/deco_wandb_export.csv",
+      "bytes": 693
+    },
+    {
+      "path": "research/decoder_comparison/dip_wandb_export.csv",
+      "bytes": 695
+    },
+    {
+      "path": "research/decoder_comparison/fid_history.csv",
+      "bytes": 1374
+    },
+    {
+      "path": "research/decoder_comparison/pixeldit_wandb_export.csv",
+      "bytes": 716
+    },
+    {
+      "path": "research/decoder_comparison/run_metadata.json",
+      "bytes": 2113
+    },
+    {
+      "path": "research/dino_spectrum/README.md",
+      "bytes": 774
+    },
+    {
+      "path": "research/dino_spectrum/REPORT.md",
+      "bytes": 3787
+    },
+    {
+      "path": "research/dino_spectrum/data/metrics/input_patch_spectrum_metrics.csv",
+      "bytes": 2741
+    },
+    {
+      "path": "research/dino_spectrum/data/noise_sweep/analytic_direct_noise_metrics.csv",
+      "bytes": 3140
+    },
+    {
+      "path": "research/dino_spectrum/data/noise_sweep/dino_mean_direction_metrics.csv",
+      "bytes": 2323
+    },
+    {
+      "path": "research/dino_spectrum/data/noise_sweep/dino_noise_sweep_metrics.csv",
+      "bytes": 9976
+    },
+    {
+      "path": "research/dino_spectrum/data/noise_sweep/input_noise_sweep_metrics_full.csv",
+      "bytes": 16103
+    },
+    {
+      "path": "research/dino_spectrum/data/snr/dino_rae_patch_eigenvalues_all_noise.csv",
+      "bytes": 9477398
+    },
+    {
+      "path": "research/dino_spectrum/data/snr/dino_rae_patch_eigenvalues_clean.csv",
+      "bytes": 75666
+    },
+    {
+      "path": "research/dino_spectrum/data/snr/dino_source_statistics.csv",
+      "bytes": 608
+    },
+    {
+      "path": "research/dino_spectrum/data/snr/per_mode_snr_counts.csv",
+      "bytes": 37977
+    },
+    {
+      "path": "research/dino_spectrum/data/snr/per_mode_snr_modes.csv",
+      "bytes": 234180
+    },
+    {
+      "path": "research/dino_spectrum/data/snr/source_statistics_all_spaces.csv",
+      "bytes": 1200
+    },
+    {
+      "path": "research/dino_spectrum/data/spectra/dino_final_ln.npz",
+      "bytes": 25912
+    },
+    {
+      "path": "research/dino_spectrum/data/spectra/dino_rae_position_normalized.npz",
+      "bytes": 25912
+    },
+    {
+      "path": "research/dino_spectrum/data/spectra/dino_rae_position_normalized_per_token_rms.npz",
+      "bytes": 25912
+    },
+    {
+      "path": "research/dino_spectrum/data/spectra/dinov2b_patch_covariance_moments.npz",
+      "bytes": 13655864
+    },
+    {
+      "path": "research/dino_spectrum/data/spectra/dinov2b_patch_eigenvalues.csv",
+      "bytes": 213045
+    },
+    {
+      "path": "research/dino_spectrum/provenance/input_patch_spectrum_provenance.json",
+      "bytes": 3962
+    },
+    {
+      "path": "research/dino_spectrum/provenance/input_patch_spectrum_resolved_config.json",
+      "bytes": 1253
+    },
+    {
+      "path": "research/dino_spectrum/provenance/spectrum_summary.json",
+      "bytes": 1357
+    },
+    {
+      "path": "research/dino_spectrum/reports/PER_MODE_SNR.md",
+      "bytes": 7251
+    },
+    {
+      "path": "research/dino_spectrum/reports/input_noise_sweep_RESULTS.md",
+      "bytes": 5122
+    },
+    {
+      "path": "research/dino_spectrum/reports/input_patch_spectrum_RESULTS.md",
+      "bytes": 5790
+    },
+    {
+      "path": "research/docs/RELEASE_VALIDATION.md",
+      "bytes": 2295
+    },
+    {
+      "path": "research/figures/architecture/sihc_overview_sources.json",
+      "bytes": 616
+    },
+    {
+      "path": "research/figures/embedding_filtering/alignment_gain64.pdf",
+      "bytes": 46215
+    },
+    {
+      "path": "research/figures/embedding_filtering/alignment_gain64.png",
+      "bytes": 162531
+    },
+    {
+      "path": "research/figures/embedding_filtering/alignment_gain64_provenance.json",
+      "bytes": 773
+    },
+    {
+      "path": "research/figures/embedding_filtering/alignment_gain64_values.csv",
+      "bytes": 822
+    },
+    {
+      "path": "research/figures/endpoint_spectra/endpoint_embedding_spectra.pdf",
+      "bytes": 25353
+    },
+    {
+      "path": "research/figures/endpoint_spectra/endpoint_embedding_spectra.png",
+      "bytes": 107475
+    },
+    {
+      "path": "research/figures/endpoint_spectra/endpoint_embedding_spectra_sources.json",
+      "bytes": 1261
+    },
+    {
+      "path": "research/figures/manuscript_panels/alignment_gain64_provenance.json",
+      "bytes": 909
+    },
+    {
+      "path": "research/figures/manuscript_panels/alignment_gain64_values.csv",
+      "bytes": 811
+    },
+    {
+      "path": "research/figures/manuscript_panels/toy_rank_3d_display.json",
+      "bytes": 5043
+    },
+    {
+      "path": "research/figures/manuscript_panels/toy_samples_display.json",
+      "bytes": 2911
+    },
+    {
+      "path": "research/figures/manuscript_rewrite_2026_09_14/plain_probes_sources.json",
+      "bytes": 13315
+    },
+    {
+      "path": "research/figures/manuscript_rewrite_2026_09_14/representation_six_sources.json",
+      "bytes": 151920
+    },
+    {
+      "path": "research/figures/manuscript_rewrite_2026_09_14/sihc_sensitivity_provenance.json",
+      "bytes": 124243
+    },
+    {
+      "path": "research/figures/manuscript_rewrite_2026_09_14/workspace_r22_provenance.json",
+      "bytes": 124279
+    },
+    {
+      "path": "research/figures/normalized_sensitivity/main_values.csv",
+      "bytes": 37588
+    },
+    {
+      "path": "research/figures/normalized_sensitivity/provenance.json",
+      "bytes": 1316
+    },
+    {
+      "path": "research/figures/normalized_sensitivity/source_values.csv",
+      "bytes": 85233
+    },
+    {
+      "path": "research/figures/patch_geometry/dino_target_spectra.pdf",
+      "bytes": 23913
+    },
+    {
+      "path": "research/figures/patch_geometry/dino_target_spectra.png",
+      "bytes": 74018
+    },
+    {
+      "path": "research/figures/patch_geometry/dino_target_spectra_sources.json",
+      "bytes": 795
+    },
+    {
+      "path": "research/figures/patch_geometry/learned_long_skip.pdf",
+      "bytes": 95410
+    },
+    {
+      "path": "research/figures/patch_geometry/learned_long_skip.png",
+      "bytes": 202214
+    },
+    {
+      "path": "research/figures/patch_geometry/learned_long_skip_sources.json",
+      "bytes": 4292
+    },
+    {
+      "path": "research/figures/patch_geometry/video_tubelet_spectra.pdf",
+      "bytes": 21368
+    },
+    {
+      "path": "research/figures/patch_geometry/video_tubelet_spectra.png",
+      "bytes": 53169
+    },
+    {
+      "path": "research/figures/patch_geometry/video_tubelet_spectra_sources.json",
+      "bytes": 299
+    },
+    {
+      "path": "research/figures/patch_geometry/whitening_geometry_and_fid.pdf",
+      "bytes": 18264
+    },
+    {
+      "path": "research/figures/patch_geometry/whitening_geometry_and_fid.png",
+      "bytes": 74540
+    },
+    {
+      "path": "research/figures/provenance/whitening_sources.json",
+      "bytes": 333
+    },
+    {
+      "path": "research/figures/scaling/sihc_scaling.pdf",
+      "bytes": 17703
+    },
+    {
+      "path": "research/figures/scaling/sihc_scaling.png",
+      "bytes": 51720
+    },
+    {
+      "path": "research/figures/scaling/sihc_scaling_sources.json",
+      "bytes": 316
+    },
+    {
+      "path": "research/figures/section4_gain/prediction_covariance_gram.pdf",
+      "bytes": 18632
+    },
+    {
+      "path": "research/figures/section4_gain/prediction_covariance_gram.png",
+      "bytes": 94585
+    },
+    {
+      "path": "research/figures/section4_gain/prediction_spectra_alignment.pdf",
+      "bytes": 58278
+    },
+    {
+      "path": "research/figures/section4_gain/prediction_spectra_alignment.png",
+      "bytes": 136215
+    },
+    {
+      "path": "research/figures/section4_gain/sources.json",
+      "bytes": 864
+    },
+    {
+      "path": "research/figures/toy/residual_rank_compact_sources.json",
+      "bytes": 247
+    },
+    {
+      "path": "research/kernel_fusion/REPORT.md",
+      "bytes": 4688
+    },
+    {
+      "path": "research/kernel_fusion/SUPPLEMENT.md",
+      "bytes": 1602
+    },
+    {
+      "path": "research/kernel_fusion/data/aggregate.csv",
+      "bytes": 9950
+    },
+    {
+      "path": "research/kernel_fusion/data/replicates.csv",
+      "bytes": 36853
+    },
+    {
+      "path": "research/kernel_fusion/render_assets.py",
+      "bytes": 5714
+    },
+    {
+      "path": "research/linear_probes/README.md",
+      "bytes": 2282
+    },
+    {
+      "path": "research/linear_probes/REPORT.md",
+      "bytes": 6113
+    },
+    {
+      "path": "research/linear_probes/dinov2_baseline/REPORT.md",
+      "bytes": 3593
+    },
+    {
+      "path": "research/linear_probes/dinov2_baseline/data/accuracy.csv",
+      "bytes": 446
+    },
+    {
+      "path": "research/linear_probes/dinov2_baseline/data/accuracy_by_seed.csv",
+      "bytes": 901
+    },
+    {
+      "path": "research/linear_probes/dinov2_baseline/data/training.csv",
+      "bytes": 4829
+    },
+    {
+      "path": "research/linear_probes/dinov2_baseline/protocol.json",
+      "bytes": 973
+    },
+    {
+      "path": "research/linear_probes/dinov2_baseline/provenance/train.py",
+      "bytes": 13362
+    },
+    {
+      "path": "research/linear_probes/group1/REPORT.md",
+      "bytes": 8811
+    },
+    {
+      "path": "research/linear_probes/group1/data/accuracy.csv",
+      "bytes": 17296
+    },
+    {
+      "path": "research/linear_probes/group1/data/accuracy_by_seed.csv",
+      "bytes": 33456
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/accuracy.json",
+      "bytes": 3929
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/compile.json",
+      "bytes": 1479
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/protocol.json",
+      "bytes": 1068
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/validation_view0.json",
+      "bytes": 467
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/validation_view1.json",
+      "bytes": 478
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/validation_view2.json",
+      "bytes": 555
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise25/validation_view3.json",
+      "bytes": 519
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/accuracy.json",
+      "bytes": 3972
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/compile.json",
+      "bytes": 1481
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/protocol.json",
+      "bytes": 1067
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/validation_view0.json",
+      "bytes": 520
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/validation_view1.json",
+      "bytes": 507
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/validation_view2.json",
+      "bytes": 479
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise50/validation_view3.json",
+      "bytes": 518
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/accuracy.json",
+      "bytes": 3928
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/compile.json",
+      "bytes": 1482
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/protocol.json",
+      "bytes": 1068
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/validation_view0.json",
+      "bytes": 477
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/validation_view1.json",
+      "bytes": 496
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/validation_view2.json",
+      "bytes": 446
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_clean/noise75/validation_view3.json",
+      "bytes": 471
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/accuracy.json",
+      "bytes": 3916
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/compile.json",
+      "bytes": 1478
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/protocol.json",
+      "bytes": 1080
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/validation_view0.json",
+      "bytes": 460
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/validation_view1.json",
+      "bytes": 540
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/validation_view2.json",
+      "bytes": 489
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise25/validation_view3.json",
+      "bytes": 472
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/accuracy.json",
+      "bytes": 3893
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/compile.json",
+      "bytes": 1480
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/protocol.json",
+      "bytes": 1079
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/validation_view0.json",
+      "bytes": 423
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/validation_view1.json",
+      "bytes": 500
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/validation_view2.json",
+      "bytes": 498
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise50/validation_view3.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/accuracy.json",
+      "bytes": 3968
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/compile.json",
+      "bytes": 1462
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/protocol.json",
+      "bytes": 1080
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/validation_view0.json",
+      "bytes": 507
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/validation_view1.json",
+      "bytes": 499
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/validation_view2.json",
+      "bytes": 512
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/plain_jit_velocity/noise75/validation_view3.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/accuracy.json",
+      "bytes": 3850
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/compile.json",
+      "bytes": 1476
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/protocol.json",
+      "bytes": 999
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/validation_view0.json",
+      "bytes": 420
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/validation_view1.json",
+      "bytes": 504
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/validation_view2.json",
+      "bytes": 532
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise25/validation_view3.json",
+      "bytes": 507
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/accuracy.json",
+      "bytes": 3906
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/compile.json",
+      "bytes": 1481
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/protocol.json",
+      "bytes": 998
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/validation_view0.json",
+      "bytes": 475
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/validation_view1.json",
+      "bytes": 493
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/validation_view2.json",
+      "bytes": 482
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise50/validation_view3.json",
+      "bytes": 505
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/accuracy.json",
+      "bytes": 3912
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/compile.json",
+      "bytes": 1485
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/distributed_resume.json",
+      "bytes": 581
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/protocol.json",
+      "bytes": 999
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/validation_view0.json",
+      "bytes": 449
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/validation_view1.json",
+      "bytes": 579
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/validation_view2.json",
+      "bytes": 482
+    },
+    {
+      "path": "research/linear_probes/group1/data/raw/sihc_sublayer_p4/noise75/validation_view3.json",
+      "bytes": 493
+    },
+    {
+      "path": "research/linear_probes/group1/data/training.csv",
+      "bytes": 101175
+    },
+    {
+      "path": "research/linear_probes/group1/provenance/distributed_job.py",
+      "bytes": 8520
+    },
+    {
+      "path": "research/linear_probes/group1/provenance/job.py",
+      "bytes": 11182
+    },
+    {
+      "path": "research/linear_probes/group1/provenance/models.py",
+      "bytes": 6205
+    },
+    {
+      "path": "research/linear_probes/group1/provenance/online_job.py",
+      "bytes": 11113
+    },
+    {
+      "path": "research/linear_probes/group1/provenance/sources.json",
+      "bytes": 5811
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/ANALYSIS.md",
+      "bytes": 4635
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/README.md",
+      "bytes": 835
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/REPORT.md",
+      "bytes": 2227
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/accuracy.csv",
+      "bytes": 21326
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/accuracy_by_seed.csv",
+      "bytes": 48543
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/accuracy.json",
+      "bytes": 3953
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/compile.json",
+      "bytes": 372
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/distributed_resume.json",
+      "bytes": 582
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/protocol.json",
+      "bytes": 1397
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/validation_view0.json",
+      "bytes": 489
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/validation_view1.json",
+      "bytes": 505
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/validation_view2.json",
+      "bytes": 469
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise25/validation_view3.json",
+      "bytes": 506
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/accuracy.json",
+      "bytes": 4002
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/compile.json",
+      "bytes": 372
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/distributed_resume.json",
+      "bytes": 581
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/protocol.json",
+      "bytes": 1396
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/validation_view0.json",
+      "bytes": 531
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/validation_view1.json",
+      "bytes": 544
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/validation_view2.json",
+      "bytes": 554
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise50/validation_view3.json",
+      "bytes": 457
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/accuracy.json",
+      "bytes": 3964
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/compile.json",
+      "bytes": 365
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/distributed_resume.json",
+      "bytes": 582
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/protocol.json",
+      "bytes": 1397
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/validation_view0.json",
+      "bytes": 494
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/validation_view1.json",
+      "bytes": 419
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/validation_view2.json",
+      "bytes": 483
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/deco_b_velocity/noise75/validation_view3.json",
+      "bytes": 505
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/accuracy.json",
+      "bytes": 4009
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/compile.json",
+      "bytes": 372
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/distributed_resume.json",
+      "bytes": 580
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/protocol.json",
+      "bytes": 1393
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/validation_view0.json",
+      "bytes": 517
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/validation_view1.json",
+      "bytes": 516
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/validation_view2.json",
+      "bytes": 506
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise25/validation_view3.json",
+      "bytes": 503
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/accuracy.json",
+      "bytes": 3925
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/compile.json",
+      "bytes": 370
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/distributed_resume.json",
+      "bytes": 579
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/protocol.json",
+      "bytes": 1392
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/validation_view0.json",
+      "bytes": 453
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/validation_view1.json",
+      "bytes": 428
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/validation_view2.json",
+      "bytes": 421
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise50/validation_view3.json",
+      "bytes": 466
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/accuracy.json",
+      "bytes": 3972
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/compile.json",
+      "bytes": 370
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/distributed_resume.json",
+      "bytes": 580
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/protocol.json",
+      "bytes": 1393
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/validation_view0.json",
+      "bytes": 521
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/validation_view1.json",
+      "bytes": 495
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/validation_view2.json",
+      "bytes": 468
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/dip_b_velocity/noise75/validation_view3.json",
+      "bytes": 472
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/accuracy.json",
+      "bytes": 2475
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/compile.json",
+      "bytes": 262
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/distributed_resume.json",
+      "bytes": 589
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/extraction_verified.json",
+      "bytes": 138
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/protocol.json",
+      "bytes": 1411
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/validation_view0.json",
+      "bytes": 288
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/validation_view1.json",
+      "bytes": 260
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/validation_view2.json",
+      "bytes": 294
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise25/validation_view3.json",
+      "bytes": 294
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/accuracy.json",
+      "bytes": 2514
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/compile.json",
+      "bytes": 264
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/distributed_resume.json",
+      "bytes": 588
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/extraction_verified.json",
+      "bytes": 138
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/protocol.json",
+      "bytes": 1410
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/validation_view0.json",
+      "bytes": 319
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/validation_view1.json",
+      "bytes": 308
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/validation_view2.json",
+      "bytes": 305
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise50/validation_view3.json",
+      "bytes": 352
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/accuracy.json",
+      "bytes": 2457
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/compile.json",
+      "bytes": 263
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/distributed_resume.json",
+      "bytes": 589
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/extraction_verified.json",
+      "bytes": 138
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/protocol.json",
+      "bytes": 1411
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/validation_view0.json",
+      "bytes": 264
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/validation_view1.json",
+      "bytes": 332
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/validation_view2.json",
+      "bytes": 307
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/hyperdit_b_velocity/noise75/validation_view3.json",
+      "bytes": 322
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/accuracy.json",
+      "bytes": 3956
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/compile.json",
+      "bytes": 370
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/distributed_resume.json",
+      "bytes": 590
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/protocol.json",
+      "bytes": 1413
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/validation_view0.json",
+      "bytes": 475
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/validation_view1.json",
+      "bytes": 468
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/validation_view2.json",
+      "bytes": 458
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise25/validation_view3.json",
+      "bytes": 506
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/accuracy.json",
+      "bytes": 3950
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/compile.json",
+      "bytes": 371
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/distributed_resume.json",
+      "bytes": 589
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/protocol.json",
+      "bytes": 1412
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/validation_view0.json",
+      "bytes": 502
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/validation_view1.json",
+      "bytes": 493
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/validation_view2.json",
+      "bytes": 494
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise50/validation_view3.json",
+      "bytes": 483
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/accuracy.json",
+      "bytes": 3912
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/compile.json",
+      "bytes": 370
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/distributed_resume.json",
+      "bytes": 590
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/extraction_verified.json",
+      "bytes": 141
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/protocol.json",
+      "bytes": 1413
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/validation_view0.json",
+      "bytes": 456
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/validation_view1.json",
+      "bytes": 466
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/validation_view2.json",
+      "bytes": 457
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/raw/pixeldit_b_velocity/noise75/validation_view3.json",
+      "bytes": 480
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/data/training.csv",
+      "bytes": 124074
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/provenance/job.py",
+      "bytes": 11182
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/provenance/models.py",
+      "bytes": 6205
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/provenance/semantic_distributed.py",
+      "bytes": 10133
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/provenance/semantic_models.py",
+      "bytes": 3471
+    },
+    {
+      "path": "research/linear_probes/group1_semantic/provenance/sources.json",
+      "bytes": 5336
+    },
+    {
+      "path": "research/linear_probes/group2/README.md",
+      "bytes": 410
+    },
+    {
+      "path": "research/linear_probes/group2/REPORT.md",
+      "bytes": 6355
+    },
+    {
+      "path": "research/linear_probes/group2/data/accuracy.csv",
+      "bytes": 28690
+    },
+    {
+      "path": "research/linear_probes/group2/data/accuracy_by_seed.csv",
+      "bytes": 58788
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/accuracy.json",
+      "bytes": 3924
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/compile.json",
+      "bytes": 1466
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/protocol.json",
+      "bytes": 1278
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/validation_view0.json",
+      "bytes": 473
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/validation_view1.json",
+      "bytes": 451
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/validation_view2.json",
+      "bytes": 416
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise25/validation_view3.json",
+      "bytes": 484
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/accuracy.json",
+      "bytes": 3881
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/compile.json",
+      "bytes": 1475
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/protocol.json",
+      "bytes": 1277
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/validation_view0.json",
+      "bytes": 436
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/validation_view1.json",
+      "bytes": 462
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/validation_view2.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise50/validation_view3.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/accuracy.json",
+      "bytes": 3945
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/compile.json",
+      "bytes": 1462
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/protocol.json",
+      "bytes": 1278
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/validation_view0.json",
+      "bytes": 494
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/validation_view1.json",
+      "bytes": 476
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/validation_view2.json",
+      "bytes": 508
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-01-jit-b-clean-epoch200/noise75/validation_view3.json",
+      "bytes": 439
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/accuracy.json",
+      "bytes": 3947
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/compile.json",
+      "bytes": 1452
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/protocol.json",
+      "bytes": 1287
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/validation_view0.json",
+      "bytes": 471
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/validation_view1.json",
+      "bytes": 542
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/validation_view2.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise25/validation_view3.json",
+      "bytes": 451
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/accuracy.json",
+      "bytes": 3942
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/compile.json",
+      "bytes": 1461
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/protocol.json",
+      "bytes": 1286
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/validation_view0.json",
+      "bytes": 474
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/validation_view1.json",
+      "bytes": 448
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/validation_view2.json",
+      "bytes": 450
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise50/validation_view3.json",
+      "bytes": 463
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/accuracy.json",
+      "bytes": 3966
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/compile.json",
+      "bytes": 1451
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/protocol.json",
+      "bytes": 1287
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/validation_view0.json",
+      "bytes": 509
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/validation_view1.json",
+      "bytes": 428
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/validation_view2.json",
+      "bytes": 461
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2a-02-jit-b-velocity-epoch200/noise75/validation_view3.json",
+      "bytes": 474
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/accuracy.json",
+      "bytes": 3988
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/compile.json",
+      "bytes": 1455
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/protocol.json",
+      "bytes": 1291
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/validation_view0.json",
+      "bytes": 487
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/validation_view1.json",
+      "bytes": 408
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/validation_view2.json",
+      "bytes": 528
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise25/validation_view3.json",
+      "bytes": 484
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/accuracy.json",
+      "bytes": 3937
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/compile.json",
+      "bytes": 1466
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/complete.json",
+      "bytes": 43
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/protocol.json",
+      "bytes": 1290
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/validation_view0.json",
+      "bytes": 477
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/validation_view1.json",
+      "bytes": 463
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/validation_view2.json",
+      "bytes": 476
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise50/validation_view3.json",
+      "bytes": 484
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/accuracy.json",
+      "bytes": 3878
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/compile.json",
+      "bytes": 1463
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/distributed_resume.json",
+      "bytes": 822
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/paired_resume.json",
+      "bytes": 822
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/protocol.json",
+      "bytes": 1291
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/validation_view0.json",
+      "bytes": 414
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/validation_view1.json",
+      "bytes": 462
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/validation_view2.json",
+      "bytes": 485
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-01-jit-b-mhc4-clean-epoch200/noise75/validation_view3.json",
+      "bytes": 463
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/accuracy.json",
+      "bytes": 3940
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/compile.json",
+      "bytes": 1458
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/distributed_resume.json",
+      "bytes": 827
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/paired_resume.json",
+      "bytes": 827
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/protocol.json",
+      "bytes": 1300
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/validation_view0.json",
+      "bytes": 475
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/validation_view1.json",
+      "bytes": 438
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/validation_view2.json",
+      "bytes": 482
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise25/validation_view3.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/accuracy.json",
+      "bytes": 3923
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/compile.json",
+      "bytes": 1456
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/distributed_resume.json",
+      "bytes": 826
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/paired_resume.json",
+      "bytes": 826
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/protocol.json",
+      "bytes": 1299
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/validation_view0.json",
+      "bytes": 455
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/validation_view1.json",
+      "bytes": 441
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/validation_view2.json",
+      "bytes": 495
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise50/validation_view3.json",
+      "bytes": 448
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/accuracy.json",
+      "bytes": 3956
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/compile.json",
+      "bytes": 1452
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/distributed_resume.json",
+      "bytes": 827
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/paired_resume.json",
+      "bytes": 827
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/protocol.json",
+      "bytes": 1300
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/validation_view0.json",
+      "bytes": 468
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/validation_view1.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/validation_view2.json",
+      "bytes": 441
+    },
+    {
+      "path": "research/linear_probes/group2/data/raw/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/noise75/validation_view3.json",
+      "bytes": 541
+    },
+    {
+      "path": "research/linear_probes/group2/data/training.csv",
+      "bytes": 149846
+    },
+    {
+      "path": "research/linear_probes/group2/provenance/distributed_job.py",
+      "bytes": 8520
+    },
+    {
+      "path": "research/linear_probes/group2/provenance/job.py",
+      "bytes": 11182
+    },
+    {
+      "path": "research/linear_probes/group2/provenance/models.py",
+      "bytes": 6205
+    },
+    {
+      "path": "research/linear_probes/group2/provenance/online_job.py",
+      "bytes": 12578
+    },
+    {
+      "path": "research/linear_probes/group2/provenance/paired_probe.py",
+      "bytes": 8677
+    },
+    {
+      "path": "research/linear_probes/group2/provenance/ring_latent_loader.py",
+      "bytes": 2906
+    },
+    {
+      "path": "research/linear_probes/group2/provenance/sources.json",
+      "bytes": 8511
+    },
+    {
+      "path": "research/linear_probes/group6/REPORT.md",
+      "bytes": 5020
+    },
+    {
+      "path": "research/linear_probes/group6/data/accuracy.csv",
+      "bytes": 12810
+    },
+    {
+      "path": "research/linear_probes/group6/data/accuracy_by_seed.csv",
+      "bytes": 21925
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/accuracy.json",
+      "bytes": 3911
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/compile.json",
+      "bytes": 810
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/distributed_resume.json",
+      "bytes": 902
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/protocol.json",
+      "bytes": 1330
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/validation_view0.json",
+      "bytes": 461
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/validation_view1.json",
+      "bytes": 485
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/validation_view2.json",
+      "bytes": 488
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise25/validation_view3.json",
+      "bytes": 471
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/accuracy.json",
+      "bytes": 3937
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/compile.json",
+      "bytes": 1466
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/distributed_resume.json",
+      "bytes": 902
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/protocol.json",
+      "bytes": 1329
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/validation_view0.json",
+      "bytes": 464
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/validation_view1.json",
+      "bytes": 451
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/validation_view2.json",
+      "bytes": 502
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise50/validation_view3.json",
+      "bytes": 487
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/accuracy.json",
+      "bytes": 3943
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/compile.json",
+      "bytes": 1458
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/distributed_resume.json",
+      "bytes": 903
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/protocol.json",
+      "bytes": 1330
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/validation_view0.json",
+      "bytes": 446
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/validation_view1.json",
+      "bytes": 488
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/validation_view2.json",
+      "bytes": 490
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_clean/noise75/validation_view3.json",
+      "bytes": 501
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/accuracy.json",
+      "bytes": 3879
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/distributed_resume.json",
+      "bytes": 1282
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/execution_protocol.json",
+      "bytes": 1634
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/validation_view0.json",
+      "bytes": 432
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/validation_view1.json",
+      "bytes": 495
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/validation_view2.json",
+      "bytes": 485
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise25/validation_view3.json",
+      "bytes": 448
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/accuracy.json",
+      "bytes": 3916
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/distributed_resume.json",
+      "bytes": 1281
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/execution_protocol.json",
+      "bytes": 1633
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/validation_view0.json",
+      "bytes": 462
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/validation_view1.json",
+      "bytes": 478
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/validation_view2.json",
+      "bytes": 496
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise50/validation_view3.json",
+      "bytes": 509
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/accuracy.json",
+      "bytes": 4004
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/complete.json",
+      "bytes": 57
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/distributed_resume.json",
+      "bytes": 1282
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/execution_protocol.json",
+      "bytes": 1634
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/validation_view0.json",
+      "bytes": 534
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/validation_view1.json",
+      "bytes": 497
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/validation_view2.json",
+      "bytes": 472
+    },
+    {
+      "path": "research/linear_probes/group6/data/raw/whitening_jit_velocity/noise75/validation_view3.json",
+      "bytes": 490
+    },
+    {
+      "path": "research/linear_probes/group6/data/training.csv",
+      "bytes": 270621
+    },
+    {
+      "path": "research/linear_probes/group6/provenance/code/distributed_probe.py",
+      "bytes": 10095
+    },
+    {
+      "path": "research/linear_probes/group6/provenance/code/extractor_models.py",
+      "bytes": 6205
+    },
+    {
+      "path": "research/linear_probes/group6/provenance/code/patch_geometry.py",
+      "bytes": 5251
+    },
+    {
+      "path": "research/linear_probes/group6/provenance/code/probe.py",
+      "bytes": 12853
+    },
+    {
+      "path": "research/linear_probes/group6/provenance/code/whitening_model.py",
+      "bytes": 966
+    },
+    {
+      "path": "research/linear_probes/group6/provenance/sources.json",
+      "bytes": 4821
+    },
+    {
+      "path": "research/linear_probes/group6/render.py",
+      "bytes": 1464
+    },
+    {
+      "path": "research/linear_probes/scripts/render_comparison.py",
+      "bytes": 11105
+    },
+    {
+      "path": "research/linear_probes/scripts/render_group1.py",
+      "bytes": 9777
+    },
+    {
+      "path": "research/long_skip/ANALYSIS.md",
+      "bytes": 3363
+    },
+    {
+      "path": "research/long_skip/MEASUREMENTS.md",
+      "bytes": 2930
+    },
+    {
+      "path": "research/long_skip/README.md",
+      "bytes": 1404
+    },
+    {
+      "path": "research/long_skip/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "research/long_skip/data/alpha_surface.npz",
+      "bytes": 58650
+    },
+    {
+      "path": "research/long_skip/data/alpha_surface_long.csv.gz",
+      "bytes": 3075223
+    },
+    {
+      "path": "research/long_skip/data/analytic_targets.csv",
+      "bytes": 654
+    },
+    {
+      "path": "research/long_skip/data/clean_alpha_eff_grid_2ep.csv",
+      "bytes": 45173
+    },
+    {
+      "path": "research/long_skip/data/fid_is_50k.csv",
+      "bytes": 949
+    },
+    {
+      "path": "research/long_skip/data/neg_alpha_grid_2ep.csv",
+      "bytes": 41751
+    },
+    {
+      "path": "research/long_skip/data/neg_alpha_grid_eval_epochs.csv",
+      "bytes": 2298
+    },
+    {
+      "path": "research/long_skip/data/neg_alpha_grid_full.csv",
+      "bytes": 1077165
+    },
+    {
+      "path": "research/long_skip/data/wandb_skip_history_sampled.csv.gz",
+      "bytes": 1683500
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/README.md",
+      "bytes": 4284
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/coefficients_final.csv",
+      "bytes": 912
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/config.json",
+      "bytes": 1831
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/raw/config.yaml",
+      "bytes": 8265
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/raw/history_manifest_v6.json",
+      "bytes": 230
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/raw/jit_shared_adaln.py",
+      "bytes": 12218
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/raw/wandb-summary.json",
+      "bytes": 3215
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/summary.csv",
+      "bytes": 3053
+    },
+    {
+      "path": "research/long_skip/earlier_parameterization/training_log_tail.csv",
+      "bytes": 25948
+    },
+    {
+      "path": "research/long_skip/meta/run_metadata.json",
+      "bytes": 2358
+    },
+    {
+      "path": "research/long_skip/meta/train_xt_snippet.py",
+      "bytes": 1028
+    },
+    {
+      "path": "research/long_skip/model/README.md",
+      "bytes": 866
+    },
+    {
+      "path": "research/long_skip/model/jit_standard.py",
+      "bytes": 23254
+    },
+    {
+      "path": "research/long_skip/model/registry_snippet.txt",
+      "bytes": 192
+    },
+    {
+      "path": "research/long_skip/run.py",
+      "bytes": 615
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/checkpoint.py",
+      "bytes": 2155
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/imagenet.py",
+      "bytes": 16992
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/models/__init__.py",
+      "bytes": 747
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/models/jit_shared_adaln.py",
+      "bytes": 12218
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/models/jit_standard.py",
+      "bytes": 23254
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/models/repa.py",
+      "bytes": 541
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/patch_noise.py",
+      "bytes": 4058
+    },
+    {
+      "path": "research/long_skip/vendor/flowmatching_lthc/sampling.py",
+      "bytes": 2755
+    },
+    {
+      "path": "research/long_skip/vendor/scripts/evaluate_fid.py",
+      "bytes": 19680
+    },
+    {
+      "path": "research/long_skip/vendor/scripts/train_imagenet256.py",
+      "bytes": 25412
+    },
+    {
+      "path": "research/normalized_sensitivity/README.md",
+      "bytes": 3216
+    },
+    {
+      "path": "research/normalized_sensitivity/REPORT.md",
+      "bytes": 3810
+    },
+    {
+      "path": "research/normalized_sensitivity/audit.json",
+      "bytes": 79
+    },
+    {
+      "path": "research/normalized_sensitivity/carrier_write_validation.json",
+      "bytes": 161
+    },
+    {
+      "path": "research/normalized_sensitivity/code/collect.py",
+      "bytes": 8093
+    },
+    {
+      "path": "research/normalized_sensitivity/code/finalize.py",
+      "bytes": 2026
+    },
+    {
+      "path": "research/normalized_sensitivity/code/package_metadata.py",
+      "bytes": 3401
+    },
+    {
+      "path": "research/normalized_sensitivity/code/prepare.py",
+      "bytes": 2131
+    },
+    {
+      "path": "research/normalized_sensitivity/code/streaming_stats.py",
+      "bytes": 1452
+    },
+    {
+      "path": "research/normalized_sensitivity/code/summarize.py",
+      "bytes": 2431
+    },
+    {
+      "path": "research/normalized_sensitivity/code/test_carrier_write.py",
+      "bytes": 1270
+    },
+    {
+      "path": "research/normalized_sensitivity/code/test_streaming.py",
+      "bytes": 1495
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t025/manifest.json",
+      "bytes": 1446
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t025/metrics.csv",
+      "bytes": 4667
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t025/metrics.json",
+      "bytes": 11261
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t050/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t050/manifest.json",
+      "bytes": 1444
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t050/metrics.csv",
+      "bytes": 4649
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t050/metrics.json",
+      "bytes": 11243
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t075/manifest.json",
+      "bytes": 1446
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t075/metrics.csv",
+      "bytes": 4675
+    },
+    {
+      "path": "research/normalized_sensitivity/data/deco_b_velocity_t075/metrics.json",
+      "bytes": 11269
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t025/manifest.json",
+      "bytes": 1442
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t025/metrics.csv",
+      "bytes": 4663
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t025/metrics.json",
+      "bytes": 11257
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t050/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t050/manifest.json",
+      "bytes": 1440
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t050/metrics.csv",
+      "bytes": 4649
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t050/metrics.json",
+      "bytes": 11243
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t075/manifest.json",
+      "bytes": 1442
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t075/metrics.csv",
+      "bytes": 4650
+    },
+    {
+      "path": "research/normalized_sensitivity/data/dip_b_velocity_t075/metrics.json",
+      "bytes": 11244
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t025/manifest.json",
+      "bytes": 1285
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t025/metrics.csv",
+      "bytes": 3148
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t025/metrics.json",
+      "bytes": 7486
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t050/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t050/manifest.json",
+      "bytes": 1283
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t050/metrics.csv",
+      "bytes": 3130
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t050/metrics.json",
+      "bytes": 7468
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t075/manifest.json",
+      "bytes": 1285
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t075/metrics.csv",
+      "bytes": 3114
+    },
+    {
+      "path": "research/normalized_sensitivity/data/hyperdit_b_velocity_t075/metrics.json",
+      "bytes": 7452
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t025/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t025/manifest.json",
+      "bytes": 1462
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t025/metrics.csv",
+      "bytes": 4639
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t025/metrics.json",
+      "bytes": 11233
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t050/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t050/manifest.json",
+      "bytes": 1460
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t050/metrics.csv",
+      "bytes": 4615
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t050/metrics.json",
+      "bytes": 11209
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t075/manifest.json",
+      "bytes": 1462
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t075/metrics.csv",
+      "bytes": 4639
+    },
+    {
+      "path": "research/normalized_sensitivity/data/pixeldit_b_velocity_t075/metrics.json",
+      "bytes": 11233
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t025/manifest.json",
+      "bytes": 1498
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t025/metrics.csv",
+      "bytes": 4654
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t025/metrics.json",
+      "bytes": 11248
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t050/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t050/manifest.json",
+      "bytes": 1496
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t050/metrics.csv",
+      "bytes": 4633
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t050/metrics.json",
+      "bytes": 11227
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t075/manifest.json",
+      "bytes": 1498
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t075/metrics.csv",
+      "bytes": 4651
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_clean_t075/metrics.json",
+      "bytes": 11245
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t025/manifest.json",
+      "bytes": 1510
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t025/metrics.csv",
+      "bytes": 4680
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t025/metrics.json",
+      "bytes": 11274
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t050/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t050/manifest.json",
+      "bytes": 1508
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t050/metrics.csv",
+      "bytes": 4662
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t050/metrics.json",
+      "bytes": 11256
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t075/manifest.json",
+      "bytes": 1510
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t075/metrics.csv",
+      "bytes": 4637
+    },
+    {
+      "path": "research/normalized_sensitivity/data/plain_jit_velocity_t075/metrics.json",
+      "bytes": 11231
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t025/manifest.json",
+      "bytes": 1432
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t025/metrics.csv",
+      "bytes": 4627
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t025/metrics.json",
+      "bytes": 11221
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t050/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t050/manifest.json",
+      "bytes": 1430
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t050/metrics.csv",
+      "bytes": 4625
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t050/metrics.json",
+      "bytes": 11219
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t075/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t075/manifest.json",
+      "bytes": 1432
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t075/metrics.csv",
+      "bytes": 4679
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-01-jit-b-clean-epoch200_t075/metrics.json",
+      "bytes": 11273
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t025/manifest.json",
+      "bytes": 1441
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t025/metrics.csv",
+      "bytes": 4593
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t025/metrics.json",
+      "bytes": 11187
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t050/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t050/manifest.json",
+      "bytes": 1439
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t050/metrics.csv",
+      "bytes": 4582
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t050/metrics.json",
+      "bytes": 11176
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t075/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t075/manifest.json",
+      "bytes": 1441
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t075/metrics.csv",
+      "bytes": 4629
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2a-02-jit-b-velocity-epoch200_t075/metrics.json",
+      "bytes": 11223
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t025/manifest.json",
+      "bytes": 1445
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t025/metrics.csv",
+      "bytes": 4624
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t025/metrics.json",
+      "bytes": 11218
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t050/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t050/manifest.json",
+      "bytes": 1443
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t050/metrics.csv",
+      "bytes": 4635
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t050/metrics.json",
+      "bytes": 11229
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t075/manifest.json",
+      "bytes": 1445
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t075/metrics.csv",
+      "bytes": 4642
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-01-jit-b-mhc4-clean-epoch200_t075/metrics.json",
+      "bytes": 11236
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t025/complete.json",
+      "bytes": 85
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t025/manifest.json",
+      "bytes": 1454
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t025/metrics.csv",
+      "bytes": 4629
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t025/metrics.json",
+      "bytes": 11223
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t050/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t050/manifest.json",
+      "bytes": 1452
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t050/metrics.csv",
+      "bytes": 4641
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t050/metrics.json",
+      "bytes": 11235
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t075/manifest.json",
+      "bytes": 1454
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t075/metrics.csv",
+      "bytes": 4653
+    },
+    {
+      "path": "research/normalized_sensitivity/data/raev1-g2b-02-jit-b-mhc4-velocity-epoch200_t075/metrics.json",
+      "bytes": 11247
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t025/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t025/manifest.json",
+      "bytes": 1993
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t025/metrics.csv",
+      "bytes": 9089
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t025/metrics.json",
+      "bytes": 22451
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t050/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t050/manifest.json",
+      "bytes": 1991
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t050/metrics.csv",
+      "bytes": 9078
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t050/metrics.json",
+      "bytes": 22440
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t075/complete.json",
+      "bytes": 86
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t075/manifest.json",
+      "bytes": 1993
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t075/metrics.csv",
+      "bytes": 9075
+    },
+    {
+      "path": "research/normalized_sensitivity/data/sihc_sublayer_p4_t075/metrics.json",
+      "bytes": 22437
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/checkpoint_inventory.json",
+      "bytes": 5137
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/deco_b_velocity.json",
+      "bytes": 1168
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/dip_b_velocity.json",
+      "bytes": 1163
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/hyperdit_b_velocity.json",
+      "bytes": 2072
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/pixeldit_b_velocity.json",
+      "bytes": 1188
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/plain_jit_clean.json",
+      "bytes": 1884
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/plain_jit_velocity.json",
+      "bytes": 1910
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/raev1-g2a-01-jit-b-clean-epoch200.yaml",
+      "bytes": 1968
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/raev1-g2a-02-jit-b-velocity-epoch200.yaml",
+      "bytes": 1951
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/raev1-g2b-01-jit-b-mhc4-clean-epoch200.yaml",
+      "bytes": 2014
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/raev1-g2b-02-jit-b-mhc4-velocity-epoch200.yaml",
+      "bytes": 1997
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/configs/sihc_sublayer_p4.json",
+      "bytes": 2102
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/environment.json",
+      "bytes": 605
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/rae_cache_complete.json",
+      "bytes": 2545
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/rae_cache_verification.json",
+      "bytes": 384
+    },
+    {
+      "path": "research/normalized_sensitivity/metadata/samples.csv",
+      "bytes": 58600
+    },
+    {
+      "path": "research/normalized_sensitivity/models.json",
+      "bytes": 4215
+    },
+    {
+      "path": "research/normalized_sensitivity/per_event.csv",
+      "bytes": 180802
+    },
+    {
+      "path": "research/normalized_sensitivity/production_reduction_validation.json",
+      "bytes": 188
+    },
+    {
+      "path": "research/normalized_sensitivity/samples.npz",
+      "bytes": 33280
+    },
+    {
+      "path": "research/normalized_sensitivity/streaming_validation.json",
+      "bytes": 206
+    },
+    {
+      "path": "research/normalized_sensitivity/summary.csv",
+      "bytes": 5704
+    },
+    {
+      "path": "research/normalized_sensitivity/summary.json",
+      "bytes": 13325
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/README.md",
+      "bytes": 3964
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/REPORT.md",
+      "bytes": 4580
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/audit.json",
+      "bytes": 2695
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t025/complete.json",
+      "bytes": 188
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t025/manifest.json",
+      "bytes": 1696
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t025/metrics.csv",
+      "bytes": 4679
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t025/metrics.json",
+      "bytes": 11274
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t025/reduction_validation.json",
+      "bytes": 99
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t050/complete.json",
+      "bytes": 189
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t050/manifest.json",
+      "bytes": 1694
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t050/metrics.csv",
+      "bytes": 4641
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t050/metrics.json",
+      "bytes": 11236
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t050/reduction_validation.json",
+      "bytes": 97
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t075/complete.json",
+      "bytes": 188
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t075/manifest.json",
+      "bytes": 1696
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t075/metrics.csv",
+      "bytes": 4615
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t075/metrics.json",
+      "bytes": 11210
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_clean_t075/reduction_validation.json",
+      "bytes": 100
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t025/complete.json",
+      "bytes": 189
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t025/manifest.json",
+      "bytes": 1702
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t025/metrics.csv",
+      "bytes": 4693
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t025/metrics.json",
+      "bytes": 11288
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t025/reduction_validation.json",
+      "bytes": 100
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t050/complete.json",
+      "bytes": 189
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t050/manifest.json",
+      "bytes": 1700
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t050/metrics.csv",
+      "bytes": 4643
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t050/metrics.json",
+      "bytes": 11238
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t050/reduction_validation.json",
+      "bytes": 101
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t075/complete.json",
+      "bytes": 188
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t075/manifest.json",
+      "bytes": 1702
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t075/metrics.csv",
+      "bytes": 4633
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t075/metrics.json",
+      "bytes": 11228
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/data/whiten_velocity_t075/reduction_validation.json",
+      "bytes": 102
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/geometry_and_source_validation.json",
+      "bytes": 725
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/historical_plain_comparison.csv",
+      "bytes": 948
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/per_event.csv",
+      "bytes": 29798
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/provenance/code/collect.py",
+      "bytes": 5912
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/provenance/code/streaming_stats.py",
+      "bytes": 1452
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/provenance/code/summarize.py",
+      "bytes": 8411
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/provenance/environment.json",
+      "bytes": 1136
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/provenance/package_validation.json",
+      "bytes": 506
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/provenance/source_files.json",
+      "bytes": 10867
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/render.py",
+      "bytes": 2191
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/samples.npz",
+      "bytes": 33280
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/summary.csv",
+      "bytes": 992
+    },
+    {
+      "path": "research/normalized_sensitivity/whitening_supplement/summary.json",
+      "bytes": 2164
+    },
+    {
+      "path": "research/patch_embedding/HYPERDIT_SMALL_EMBEDDER.md",
+      "bytes": 4351
+    },
+    {
+      "path": "research/patch_embedding/METRICS.md",
+      "bytes": 2332
+    },
+    {
+      "path": "research/patch_embedding/README.md",
+      "bytes": 1075
+    },
+    {
+      "path": "research/patch_embedding/RESULTS.md",
+      "bytes": 4791
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/clean_noisy_patch_statistics.csv",
+      "bytes": 3770
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/embedding_alignment_metrics.csv",
+      "bytes": 3555
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/embedding_topk_pca_alignment.csv",
+      "bytes": 3418
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/gain_rank_bins.csv",
+      "bytes": 1455
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/hyperdit_small_embedder/AUDIT.json",
+      "bytes": 2578
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/hyperdit_small_embedder/arrays.npz",
+      "bytes": 1499588
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/hyperdit_small_embedder/metrics.csv",
+      "bytes": 3222
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/hyperdit_small_embedder/rankwise_spectra.csv",
+      "bytes": 20744
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/matrix_sources.json",
+      "bytes": 1635
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/paper_gain_table.csv",
+      "bytes": 711
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/patch_embedding_matrices.npz",
+      "bytes": 26218274
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/patch_pca_visual_examples/manifest.json",
+      "bytes": 1836
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/rankwise_embedding_metrics.csv",
+      "bytes": 308491
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/raw_patch_noise_spectra.csv",
+      "bytes": 65296
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/data/raw_pixel_patch_pca.npz",
+      "bytes": 8913023
+    },
+    {
+      "path": "research/patch_embedding/figure_cache/source_documents/AUDIT.json",
+      "bytes": 594
+    },
+    {
+      "path": "research/pixel/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "research/pixel/configs/jit_b16_clean.json",
+      "bytes": 1313
+    },
+    {
+      "path": "research/pixel/configs/jit_b16_velocity.json",
+      "bytes": 1327
+    },
+    {
+      "path": "research/pixel/configs/mhc_n4_clean.json",
+      "bytes": 1376
+    },
+    {
+      "path": "research/pixel/configs/mhc_n4_velocity.json",
+      "bytes": 1379
+    },
+    {
+      "path": "research/pixel/configs/spatial_mhc_n4_velocity.json",
+      "bytes": 1425
+    },
+    {
+      "path": "research/pixel/test_baselines_source.py",
+      "bytes": 5693
+    },
+    {
+      "path": "research/pixel/train.py",
+      "bytes": 33049
+    },
+    {
+      "path": "research/plotting/README.md",
+      "bytes": 328
+    },
+    {
+      "path": "research/plotting/_alignment.py",
+      "bytes": 18335
+    },
+    {
+      "path": "research/plotting/render_dino_target_spectra.py",
+      "bytes": 2435
+    },
+    {
+      "path": "research/plotting/render_embedding_filtering.py",
+      "bytes": 5137
+    },
+    {
+      "path": "research/plotting/render_endpoint_spectra.py",
+      "bytes": 3516
+    },
+    {
+      "path": "research/plotting/render_geometry.py",
+      "bytes": 3237
+    },
+    {
+      "path": "research/plotting/render_learned_long_skip.py",
+      "bytes": 4421
+    },
+    {
+      "path": "research/plotting/render_normalized_sensitivity.py",
+      "bytes": 8215
+    },
+    {
+      "path": "research/plotting/render_plain_probes.py",
+      "bytes": 2790
+    },
+    {
+      "path": "research/plotting/render_sihc_probes.py",
+      "bytes": 2330
+    },
+    {
+      "path": "research/plotting/render_sihc_scaling.py",
+      "bytes": 2512
+    },
+    {
+      "path": "research/plotting/render_sihc_sensitivity.py",
+      "bytes": 2829
+    },
+    {
+      "path": "research/plotting/render_target_alignment_gain.py",
+      "bytes": 4112
+    },
+    {
+      "path": "research/plotting/render_toy_residual_rank_compact.py",
+      "bytes": 2287
+    },
+    {
+      "path": "research/plotting/render_video_tubelet_spectra.py",
+      "bytes": 1951
+    },
+    {
+      "path": "research/rae/README.md",
+      "bytes": 1084
+    },
+    {
+      "path": "research/rae/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "research/rae/configs/2a_rae_baselines/g2a_01_rae_jit_b_clean.yaml",
+      "bytes": 195
+    },
+    {
+      "path": "research/rae/configs/2a_rae_baselines/g2a_02_rae_jit_b_velocity.yaml",
+      "bytes": 178
+    },
+    {
+      "path": "research/rae/configs/2b_rae_mhc/g2b_01_rae_jit_b_mhc_n4_clean.yaml",
+      "bytes": 241
+    },
+    {
+      "path": "research/rae/configs/2b_rae_mhc/g2b_02_rae_jit_b_mhc_n4_velocity.yaml",
+      "bytes": 224
+    },
+    {
+      "path": "research/rae/configs/shared/base_rae_dinov2_b.yaml",
+      "bytes": 1804
+    },
+    {
+      "path": "research/rae/group2_eval_pixel.py",
+      "bytes": 6242
+    },
+    {
+      "path": "research/rae/group2_score_adm.py",
+      "bytes": 907
+    },
+    {
+      "path": "research/rae/train_group2_rae.py",
+      "bytes": 7894
+    },
+    {
+      "path": "research/reference_tables/group1_epoch200.csv",
+      "bytes": 4522
+    },
+    {
+      "path": "research/residual_sensitivity/METRICS.md",
+      "bytes": 1283
+    },
+    {
+      "path": "research/residual_sensitivity/README.md",
+      "bytes": 868
+    },
+    {
+      "path": "research/residual_sensitivity/RESULTS.md",
+      "bytes": 2614
+    },
+    {
+      "path": "research/residual_sensitivity/figure_cache/data/all_aggregate_metrics.csv",
+      "bytes": 94108
+    },
+    {
+      "path": "research/residual_sensitivity/figure_cache/data/bootstrap_intervals.csv",
+      "bytes": 35707
+    },
+    {
+      "path": "research/residual_sensitivity/figure_cache/data/depth_mean_metrics.csv",
+      "bytes": 1815
+    },
+    {
+      "path": "research/residual_sensitivity/figure_cache/data/manifest.json",
+      "bytes": 1692
+    },
+    {
+      "path": "research/residual_sensitivity/figure_cache/data/paired_velocity_minus_clean.csv",
+      "bytes": 5628
+    },
+    {
+      "path": "research/residual_sensitivity/figure_cache/data/paper_depth_mean_table.csv",
+      "bytes": 1779
+    },
+    {
+      "path": "research/residual_sensitivity/figure_cache/source_documents/AUDIT.json",
+      "bytes": 387
+    },
+    {
+      "path": "research/scaling/data/compute/counts.json",
+      "bytes": 2726
+    },
+    {
+      "path": "research/scaling/data/fid_history.csv",
+      "bytes": 1020
+    },
+    {
+      "path": "research/semantic_endpoints/METRICS.md",
+      "bytes": 1388
+    },
+    {
+      "path": "research/semantic_endpoints/README.md",
+      "bytes": 592
+    },
+    {
+      "path": "research/semantic_endpoints/RESULTS.md",
+      "bytes": 9809
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/all_endpoint_metrics.csv",
+      "bytes": 18495
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/deco_b_spectra.npz",
+      "bytes": 53303
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/dip_b_spectra.npz",
+      "bytes": 53362
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/paper_rank_table.csv",
+      "bytes": 1276
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/pixeldit_b_spectra.npz",
+      "bytes": 52728
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/provenance/deco_b/AUDIT.json",
+      "bytes": 492
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/provenance/deco_b/manifest.json",
+      "bytes": 1427
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/provenance/dip_b/AUDIT.json",
+      "bytes": 492
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/provenance/dip_b/manifest.json",
+      "bytes": 1424
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/provenance/pixeldit_b/AUDIT.json",
+      "bytes": 495
+    },
+    {
+      "path": "research/semantic_endpoints/figure_cache/provenance/pixeldit_b/manifest.json",
+      "bytes": 1442
+    },
+    {
+      "path": "research/toy/README.md",
+      "bytes": 7031
+    },
+    {
+      "path": "research/toy/__init__.py",
+      "bytes": 67
+    },
+    {
+      "path": "research/toy/analyze.py",
+      "bytes": 4654
+    },
+    {
+      "path": "research/toy/cache/original_fcn/artifact_manifest.json",
+      "bytes": 7419
+    },
+    {
+      "path": "research/toy/cache/original_fcn/assets/pointclouds/protocol.json",
+      "bytes": 892
+    },
+    {
+      "path": "research/toy/cache/original_fcn/assets/protocol.json",
+      "bytes": 970
+    },
+    {
+      "path": "research/toy/cache/original_fcn/assets/residual_rank_metrics.csv",
+      "bytes": 5258
+    },
+    {
+      "path": "research/toy/cache/original_fcn/assets/residual_spectra.npz",
+      "bytes": 108885
+    },
+    {
+      "path": "research/toy/cache/original_fcn/assets/sample_indices.npy",
+      "bytes": 65664
+    },
+    {
+      "path": "research/toy/cache/original_fcn/assets/section4_table.csv",
+      "bytes": 1384
+    },
+    {
+      "path": "research/toy/cache/original_fcn/assets/training_metadata.json",
+      "bytes": 1247
+    },
+    {
+      "path": "research/toy/cache/original_fcn/environment_versions.json",
+      "bytes": 159
+    },
+    {
+      "path": "research/toy/cache/swiss_roll/paper_main_table.csv",
+      "bytes": 1384
+    },
+    {
+      "path": "research/toy/data.py",
+      "bytes": 2724
+    },
+    {
+      "path": "research/toy/diagnostics.py",
+      "bytes": 3729
+    },
+    {
+      "path": "research/toy/figure_cache/protocol.json",
+      "bytes": 970
+    },
+    {
+      "path": "research/toy/figure_cache/residual_rank_metrics.csv",
+      "bytes": 5258
+    },
+    {
+      "path": "research/toy/figure_cache/residual_spectra.npz",
+      "bytes": 108885
+    },
+    {
+      "path": "research/toy/figure_cache/sample_indices.npy",
+      "bytes": 65664
+    },
+    {
+      "path": "research/toy/figure_cache/training_metadata.json",
+      "bytes": 1247
+    },
+    {
+      "path": "research/toy/models.py",
+      "bytes": 6617
+    },
+    {
+      "path": "research/toy/sample.py",
+      "bytes": 3234
+    },
+    {
+      "path": "research/toy/train.py",
+      "bytes": 6239
+    },
+    {
+      "path": "research/video_spectrum/README.md",
+      "bytes": 462
+    },
+    {
+      "path": "research/video_spectrum/REPORT.md",
+      "bytes": 5649
+    },
+    {
+      "path": "research/video_spectrum/data/manifests/t128_r128_sample_manifest.csv",
+      "bytes": 509692
+    },
+    {
+      "path": "research/video_spectrum/data/manifests/t16_r256_sample_manifest.csv",
+      "bytes": 471866
+    },
+    {
+      "path": "research/video_spectrum/data/metrics/all_comparison_metrics.csv",
+      "bytes": 2139
+    },
+    {
+      "path": "research/video_spectrum/data/metrics/t128_r128_comparison_metrics.csv",
+      "bytes": 1199
+    },
+    {
+      "path": "research/video_spectrum/data/metrics/t16_r256_comparison_metrics.csv",
+      "bytes": 1182
+    },
+    {
+      "path": "research/video_spectrum/data/spectra/imagenet_val_r1024_p32.npz",
+      "bytes": 4966
+    },
+    {
+      "path": "research/video_spectrum/data/spectra/tubelet_patch_eigenvalues.csv",
+      "bytes": 137269
+    },
+    {
+      "path": "research/video_spectrum/data/spectra/ucf101_t128_r128_pt16_p8.npz",
+      "bytes": 4937
+    },
+    {
+      "path": "research/video_spectrum/data/spectra/ucf101_t16_r256_pt4_p16.npz",
+      "bytes": 4950
+    },
+    {
+      "path": "research/video_spectrum/local_analysis/analyze.py",
+      "bytes": 2099
+    },
+    {
+      "path": "research/video_spectrum/local_analysis/verified_metrics.json",
+      "bytes": 1356
+    },
+    {
+      "path": "research/video_spectrum/provenance/spectrum_summary.json",
+      "bytes": 1908
+    },
+    {
+      "path": "research/video_spectrum/provenance/t128_r128_metadata.json",
+      "bytes": 789
+    },
+    {
+      "path": "research/video_spectrum/provenance/t16_r256_metadata.json",
+      "bytes": 763
+    },
+    {
+      "path": "research/video_spectrum/provenance/ucf101_MANIFEST.md",
+      "bytes": 860
+    },
+    {
+      "path": "research/video_spectrum/reports/RESULTS.md",
+      "bytes": 1703
+    },
+    {
+      "path": "research/video_spectrum/reports/experiment_README.md",
+      "bytes": 1561
+    },
+    {
+      "path": "research/whitening/README.md",
+      "bytes": 3217
+    },
+    {
+      "path": "research/whitening/REPORT.md",
+      "bytes": 4091
+    },
+    {
+      "path": "research/whitening/data/embedding_matrices.npz",
+      "bytes": 13181492
+    },
+    {
+      "path": "research/whitening/data/evaluation_history.csv",
+      "bytes": 6296
+    },
+    {
+      "path": "research/whitening/data/pixel_reference_metrics.csv",
+      "bytes": 3555
+    },
+    {
+      "path": "research/whitening/data/run_metadata.json",
+      "bytes": 3092
+    },
+    {
+      "path": "research/whitening/data/spectra.npz",
+      "bytes": 128986
+    },
+    {
+      "path": "research/whitening/data/spectrum_metrics.csv",
+      "bytes": 2035
+    },
+    {
+      "path": "research/whitening/provenance/pca_estimator.json",
+      "bytes": 3585
+    },
+    {
+      "path": "research/whitening/provenance/spectrum_sources.json",
+      "bytes": 1084
+    },
+    {
+      "path": "research/whitening/render.py",
+      "bytes": 2206
+    },
+    {
+      "path": "sihc/README.md",
+      "bytes": 1183
+    },
+    {
+      "path": "sihc/bench/checkpoint_forward.py",
+      "bytes": 3846
+    },
+    {
+      "path": "sihc/bench/fusion_controls.py",
+      "bytes": 5669
+    },
+    {
+      "path": "sihc/bench/fusion_observer.py",
+      "bytes": 697
+    },
+    {
+      "path": "sihc/bench/fusion_profile.py",
+      "bytes": 12197
+    },
+    {
+      "path": "sihc/bench/jit_profile.py",
+      "bytes": 12366
+    },
+    {
+      "path": "sihc/pretrained/checkpoints.json",
+      "bytes": 176433
+    },
+    {
+      "path": "sihc/pretrained/collaborator-flagship.json",
+      "bytes": 7136
+    },
+    {
+      "path": "sihc/pretrained/collection.json",
+      "bytes": 359
+    },
+    {
+      "path": "sihc/pretrained/metadata_updates.json",
+      "bytes": 785
+    },
+    {
+      "path": "sihc/pretrained/sihc-group5-flagship-ckpt/README.md",
+      "bytes": 2055
+    },
+    {
+      "path": "sihc/pretrained/sihc-group5-flagship-ckpt/catalog.json",
+      "bytes": 4635
+    },
+    {
+      "path": "sihc/pretrained/sihc-group8-longskip/README.md",
+      "bytes": 2170
+    },
+    {
+      "path": "sihc/pretrained/sihc-group8-longskip/catalog.json",
+      "bytes": 9330
+    },
+    {
+      "path": "sihc/pretrained/sihc-research-checkpoints/README.md",
+      "bytes": 13049
+    },
+    {
+      "path": "sihc/pretrained/sihc-research-checkpoints/catalog.json",
+      "bytes": 154064
+    },
+    {
+      "path": "sihc/pretrained/sihc-sublayer-h-wide-ckpt/README.md",
+      "bytes": 1687
+    },
+    {
+      "path": "sihc/pretrained/sihc-sublayer-h-wide-ckpt/catalog.json",
+      "bytes": 2005
+    },
+    {
+      "path": "sihc/configs/blockwise_b.json",
+      "bytes": 508
+    },
+    {
+      "path": "sihc/configs/sublayer_b.json",
+      "bytes": 953
+    },
+    {
+      "path": "sihc/configs/sublayer_h.json",
+      "bytes": 973
+    },
+    {
+      "path": "sihc/configs/sublayer_l.json",
+      "bytes": 963
+    },
+    {
+      "path": "sihc/configs/sublayer_xl_repa.json",
+      "bytes": 1137
+    },
+    {
+      "path": "sihc/data/README.md",
+      "bytes": 1072
+    },
+    {
+      "path": "sihc/data/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "sihc/data/prepare_cache.py",
+      "bytes": 3584
+    },
+    {
+      "path": "sihc/docs/CHECKPOINTS.md",
+      "bytes": 1849
+    },
+    {
+      "path": "sihc/docs/MODEL_QUICKSTART.md",
+      "bytes": 4510
+    },
+    {
+      "path": "sihc/docs/REPRODUCIBILITY.md",
+      "bytes": 2031
+    },
+    {
+      "path": "sihc/docs/kernel_fusion/README.md",
+      "bytes": 11979
+    },
+    {
+      "path": "sihc/evaluation/README.md",
+      "bytes": 4162
+    },
+    {
+      "path": "sihc/evaluation/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "sihc/evaluation/evaluate.py",
+      "bytes": 18960
+    },
+    {
+      "path": "sihc/evaluation/export_checkpoint.py",
+      "bytes": 3295
+    },
+    {
+      "path": "sihc/evaluation/sample.py",
+      "bytes": 6504
+    },
+    {
+      "path": "sihc/evaluation/verify_checkpoint.py",
+      "bytes": 2847
+    },
+    {
+      "path": "sihc/src/sihc/__init__.py",
+      "bytes": 293
+    },
+    {
+      "path": "sihc/src/sihc/activation_checkpointing.py",
+      "bytes": 2335
+    },
+    {
+      "path": "sihc/src/sihc/checkpoint.py",
+      "bytes": 11622
+    },
+    {
+      "path": "sihc/src/sihc/config.py",
+      "bytes": 2680
+    },
+    {
+      "path": "sihc/src/sihc/imagenet.py",
+      "bytes": 17237
+    },
+    {
+      "path": "sihc/src/sihc/metrics.py",
+      "bytes": 4074
+    },
+    {
+      "path": "sihc/src/sihc/models/__init__.py",
+      "bytes": 1203
+    },
+    {
+      "path": "sihc/src/sihc/models/baselines.py",
+      "bytes": 42137
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/__init__.py",
+      "bytes": 757
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/blockwise_kernels.py",
+      "bytes": 1520
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/components.py",
+      "bytes": 11270
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/kernels.py",
+      "bytes": 79938
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/model.py",
+      "bytes": 35056
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/reference.py",
+      "bytes": 9526
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/sublayer.py",
+      "bytes": 8216
+    },
+    {
+      "path": "sihc/src/sihc/models/sihc/sublayer_kernels.py",
+      "bytes": 18449
+    },
+    {
+      "path": "sihc/src/sihc/objectives.py",
+      "bytes": 1769
+    },
+    {
+      "path": "sihc/src/sihc/optim/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "sihc/src/sihc/optim/gmuon_chunked.py",
+      "bytes": 6090
+    },
+    {
+      "path": "sihc/src/sihc/optim/muon.py",
+      "bytes": 4473
+    },
+    {
+      "path": "sihc/src/sihc/presets.py",
+      "bytes": 2605
+    },
+    {
+      "path": "sihc/src/sihc/rae/__init__.py",
+      "bytes": 92
+    },
+    {
+      "path": "sihc/src/sihc/rae/models.py",
+      "bytes": 10166
+    },
+    {
+      "path": "sihc/src/sihc/rae/semantic_mhc.py",
+      "bytes": 3317
+    },
+    {
+      "path": "sihc/src/sihc/sampling.py",
+      "bytes": 3866
+    },
+    {
+      "path": "sihc/tests/conftest.py",
+      "bytes": 701
+    },
+    {
+      "path": "sihc/tests/test_activation_checkpointing.py",
+      "bytes": 2832
+    },
+    {
+      "path": "sihc/tests/test_blockwise_kernels.py",
+      "bytes": 2877
+    },
+    {
+      "path": "sihc/tests/test_blockwise_tuple_kernels.py",
+      "bytes": 18582
+    },
+    {
+      "path": "sihc/tests/test_evaluation_status.py",
+      "bytes": 6302
+    },
+    {
+      "path": "sihc/tests/test_p8_kernels.py",
+      "bytes": 4272
+    },
+    {
+      "path": "sihc/tests/test_public_interface.py",
+      "bytes": 4791
+    },
+    {
+      "path": "sihc/tests/test_reference_variants.py",
+      "bytes": 5673
+    },
+    {
+      "path": "sihc/tests/test_release_audit.py",
+      "bytes": 4746
+    },
+    {
+      "path": "sihc/tests/test_runtime_compatibility.py",
+      "bytes": 11033
+    },
+    {
+      "path": "sihc/tests/test_sampling.py",
+      "bytes": 3181
+    },
+    {
+      "path": "sihc/tests/test_scaling_presets.py",
+      "bytes": 3660
+    },
+    {
+      "path": "sihc/tests/test_sublayer_context.py",
+      "bytes": 5750
+    },
+    {
+      "path": "sihc/tests/test_sublayer_kernels.py",
+      "bytes": 16228
+    },
+    {
+      "path": "sihc/tests/test_sublayer_model.py",
+      "bytes": 4344
+    },
+    {
+      "path": "sihc/tests/test_toy.py",
+      "bytes": 6382
+    },
+    {
+      "path": "sihc/tests/test_xl_repa_workflow.py",
+      "bytes": 2731
+    },
+    {
+      "path": "sihc/tools/audit_release.py",
+      "bytes": 13259
+    },
+    {
+      "path": "sihc/tools/download_checkpoint.py",
+      "bytes": 1085
+    },
+    {
+      "path": "sihc/training/README.md",
+      "bytes": 5172
+    },
+    {
+      "path": "sihc/training/XL_REPA.md",
+      "bytes": 4174
+    },
+    {
+      "path": "sihc/training/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "sihc/training/train.py",
+      "bytes": 32435
+    },
+    {
+      "path": "sihc/training/xl_repa.py",
+      "bytes": 5564
+    }
+  ]
+}

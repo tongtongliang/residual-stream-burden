@@ -1,0 +1,90 @@
+[
+  {
+    "label": "plain_jit_clean",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/checkpoints/epoch_0200.pt",
+    "checkpoint_bytes": 2105838907,
+    "state_key": "model",
+    "config_source": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_clean_80ep_seed0/config.json",
+    "config_snapshot": "metadata/sihc/configs/plain_jit_clean.json"
+  },
+  {
+    "label": "plain_jit_velocity",
+    "checkpoint": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/checkpoints/epoch_0200.pt",
+    "checkpoint_bytes": 2105785435,
+    "state_key": "model",
+    "config_source": "/data/tongtong/transport_burden/jit_transport_burden/runs/jit_b16_plain_velocity_80ep_seed0/config.json",
+    "config_snapshot": "metadata/sihc/configs/plain_jit_velocity.json"
+  },
+  {
+    "label": "sihc_sublayer_p4",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_sihc_sublayer_b16_velocity_p4_seed0/checkpoints/step_00250200.pt",
+    "checkpoint_bytes": 2619937779,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/runs/group1/g1_sihc_sublayer_b16_velocity_p4_seed0/config.json",
+    "config_snapshot": "metadata/sihc/configs/sihc_sublayer_p4.json"
+  },
+  {
+    "label": "raev1-g2a-01-jit-b-clean-epoch200",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-01-jit-b-clean-epoch200/checkpoints/ep-last.pt",
+    "checkpoint_bytes": 2110458275,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-01-jit-b-clean-epoch200/config.yaml",
+    "config_snapshot": "metadata/sihc/configs/raev1-g2a-01-jit-b-clean-epoch200.yaml"
+  },
+  {
+    "label": "raev1-g2a-02-jit-b-velocity-epoch200",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/checkpoints/ep-last.pt",
+    "checkpoint_bytes": 2110458275,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2a-02-jit-b-velocity-epoch200/config.yaml",
+    "config_snapshot": "metadata/sihc/configs/raev1-g2a-02-jit-b-velocity-epoch200.yaml"
+  },
+  {
+    "label": "raev1-g2b-01-jit-b-mhc4-clean-epoch200",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-01-jit-b-mhc4-clean-epoch200/checkpoints/ep-last.pt",
+    "checkpoint_bytes": 2138884129,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-01-jit-b-mhc4-clean-epoch200/config.yaml",
+    "config_snapshot": "metadata/sihc/configs/raev1-g2b-01-jit-b-mhc4-clean-epoch200.yaml"
+  },
+  {
+    "label": "raev1-g2b-02-jit-b-mhc4-velocity-epoch200",
+    "checkpoint": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/checkpoints/ep-last.pt",
+    "checkpoint_bytes": 2138884129,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/checkpoints/hf_group2a2b/raev1-g2b-02-jit-b-mhc4-velocity-epoch200/config.yaml",
+    "config_snapshot": "metadata/sihc/configs/raev1-g2b-02-jit-b-mhc4-velocity-epoch200.yaml"
+  },
+  {
+    "label": "deco_b_velocity",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_deco_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "checkpoint_bytes": 2719396141,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_deco_b16_velocity_seed0/config.json",
+    "config_snapshot": "metadata/sihc/configs/deco_b_velocity.json"
+  },
+  {
+    "label": "pixeldit_b_velocity",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "checkpoint_bytes": 3695339007,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_pixeldit_b16_velocity_seed0/config.json",
+    "config_snapshot": "metadata/sihc/configs/pixeldit_b_velocity.json"
+  },
+  {
+    "label": "dip_b_velocity",
+    "checkpoint": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/checkpoints/epoch_0200.pt",
+    "checkpoint_bytes": 2728438261,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/external_semantic_flow/runs/bsize_decoupled_group1_protocol/bsize_dip_b16_velocity_seed0/config.json",
+    "config_snapshot": "metadata/sihc/configs/dip_b_velocity.json"
+  },
+  {
+    "label": "hyperdit_b_velocity",
+    "checkpoint": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/checkpoints/step_00250200.pt",
+    "checkpoint_bytes": 2640031931,
+    "state_key": "model",
+    "config_source": "/data/tongtong/sihc_artifacts/runs/group1/g1_hyperdit_b_p16p8_velocity_seed0/config.json",
+    "config_snapshot": "metadata/sihc/configs/hyperdit_b_velocity.json"
+  }
+]

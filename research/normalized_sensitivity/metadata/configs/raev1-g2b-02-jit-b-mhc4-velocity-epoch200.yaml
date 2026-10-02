@@ -1,0 +1,88 @@
+stage_1:
+  target: stage1.RAE
+  params:
+    encoder_cls: Dinov2withNorm
+    encoder_config_path: ${oc.env:DINOV2_B_ROOT}
+    encoder_input_size: 224
+    encoder_params:
+      dinov2_path: ${oc.env:DINOV2_B_ROOT}
+      normalize: true
+    decoder_config_path: ${oc.env:RAE_ROOT}/sihc/configs/decoder/ViTXL
+    pretrained_decoder_path: ${oc.env:RAE_MODELS}/decoders/dinov2/wReg_base/ViTXL_n08/model.pt
+    noise_tau: 0.0
+    reshape_to_2d: true
+    normalization_stat_path: ${oc.env:RAE_MODELS}/stats/dinov2/wReg_base/imagenet1k/stat.pt
+transport:
+  params:
+    path_type: Linear
+    prediction: velocity
+    loss_weight: null
+    time_dist_type: logit-normal_0_1
+sampler:
+  mode: ODE
+  params:
+    sampling_method: euler
+    num_steps: 50
+    atol: 1.0e-06
+    rtol: 0.001
+    reverse: false
+guidance:
+  method: cfg
+  scale: 1.0
+  t_min: 0.0
+  t_max: 1.0
+misc:
+  latent_size:
+  - 768
+  - 16
+  - 16
+  num_classes: 1000
+  time_dist_shift_dim: 196608
+  time_dist_shift_base: 4096
+eval:
+  eval_interval: 50040
+  eval_model: false
+  data_path: ${oc.env:IMAGENET_PARQUET_ROOT}/validation
+  reference_npz_path: ${oc.env:FID_STATS}
+  final_sampler: euler
+  final_steps: 50
+  final_num_samples: 50000
+  final_seed: 12345
+  final_guidance_scale: 1.0
+  final_state_key: ema
+  final_metric: torch_fidelity_fid50k
+  final_label_sampling: equal
+  final_samples_per_class: 50
+training:
+  epochs: 200
+  global_batch_size: 1024
+  grad_accum_steps: 1
+  ema_decay: 0.9999
+  num_workers: 12
+  log_interval: 100
+  checkpoint_interval: 20
+  sample_every: 12510
+  clip_grad: null
+  global_seed: 42
+  optimizer:
+    type: adamw
+    lr: 0.0002
+    betas:
+    - 0.9
+    - 0.95
+    weight_decay: 0.0
+  scheduler:
+    type: linear
+    warmup_epochs: 0
+    decay_end_epoch: 0
+    base_lr: 0.0002
+    final_lr: 0.0002
+    warmup_from_zero: false
+stage_2:
+  target: sihc.rae.models.RAEMHCJiTB
+  params:
+    prediction_target: velocity
+    mhc_n: 4
+    mhc_backend: nvidia_fused
+    class_dropout_prob: 0.1
+    attn_backend: math

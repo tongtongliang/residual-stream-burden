@@ -1,0 +1,60 @@
+{
+  "endpoints": [
+    {
+      "source": "research/semantic_endpoints/figure_cache/deco_b_spectra.npz",
+      "t": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "curves": 9
+    },
+    {
+      "source": "research/semantic_endpoints/figure_cache/pixeldit_b_spectra.npz",
+      "t": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "curves": 9
+    },
+    {
+      "source": "research/semantic_endpoints/figure_cache/dip_b_spectra.npz",
+      "t": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "curves": 9
+    }
+  ],
+  "target_source": "research/patch_embedding/figure_cache/data/raw_pixel_patch_pca.npz",
+  "embedding_source": "research/patch_embedding/figure_cache/data/patch_embedding_matrices.npz",
+  "embedding_models": [
+    "JiT clean",
+    "JiT velocity",
+    "DeCo",
+    "PixelDiT",
+    "DiP"
+  ],
+  "energy": "covariance eigenvalues for endpoints/targets; eigenvalues of W.T W for embeddings",
+  "checks": "27 endpoint curves; nine actual time points per model; all CDFs monotone and end at one"
+}

@@ -1,0 +1,33 @@
+{
+  "sources": [
+    "research/patch_embedding/figure_cache/data/raw_pixel_patch_pca.npz",
+    "research/patch_embedding/figure_cache/data/patch_embedding_matrices.npz",
+    "research/whitening/data/embedding_matrices.npz"
+  ],
+  "weights": "raw epoch 200; native training coordinates",
+  "models": [
+    "Pixel $\\boldsymbol{x}$-pred.",
+    "Pixel $\\boldsymbol{v}$-pred.",
+    "Whitened $\\boldsymbol{x}$-pred.",
+    "Whitened $\\boldsymbol{v}$-pred."
+  ],
+  "gain_top64_bottom64": [
+    [
+      0.614757762362055,
+      0.0004492165884626793
+    ],
+    [
+      0.09986707111401423,
+      0.06988263240391748
+    ],
+    [
+      0.10359782748049676,
+      0.06525875661594406
+    ],
+    [
+      0.09085751876620957,
+      0.07353114444378334
+    ]
+  ],
+  "whitened_reference": "Native axes in original clean-PCA order; gain normalized over all 768 directions."
+}

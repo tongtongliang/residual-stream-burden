@@ -1,0 +1,10 @@
+{
+  "whitening_root": "research/whitening",
+  "final_fid": {
+    "clean": 132.94993521097024,
+    "velocity": 212.535562934228
+  },
+  "raw_clean_fid": 10.192,
+  "spectrum": "saved whitening scales squared and ideal normalized whitened covariance; model raw-weight native-coordinate Gram energy",
+  "min_scale": 0.006928013172000647
+}

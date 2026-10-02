@@ -1,5 +1,0 @@
-{
-  "source": "paper/fig_table/result_statistic/section03_analysis/04_toy_residual_rank/residual_rank_metrics.csv",
-  "renderer": "paper/fig_table/code/render_toy_residual_rank_compact.py",
-  "content": "FCN-256 toy residual-state r90 at block inputs 0-4, t in {0.1,...,0.9}, x vs v prediction"
-}
