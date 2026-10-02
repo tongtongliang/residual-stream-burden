@@ -4,7 +4,7 @@ Training code, measurement scripts and cached results are grouped by experiment 
 
 | Topic | What it contains |
 |---|---|
-| [pixel/](pixel/) | Controlled JiT and dynamic mHC training, with matching configurations |
+| [pixel/](pixel/README.md) | Controlled JiT and dynamic mHC training, with matching configurations |
 | [rae/](rae/README.md) | DINOv2-B RAE controls and upstream RAE integration |
 | [long_skip/](long_skip/README.md) | Learned long-skip trainer, model, coefficient measurements and FID dynamics |
 | [patch_embedding/](patch_embedding/) | Embedding matrices, PCA alignment and gain analysis |
@@ -40,10 +40,10 @@ Install the repository first. JiT-B clean/velocity controls use full-rank patch 
 
 ```bash
 torchrun --standalone --nproc_per_node=4 -m research.pixel.train --config research/pixel/configs/jit_b16_velocity.json --data_path /path/to/imagenet --run_dir runs/jit-v
-torchrun --standalone --nproc_per_node=8 -m research.pixel.train --config research/pixel/configs/mhc_n4_velocity.json --mhc_backend reference --data_path /path/to/imagenet --run_dir runs/mhc-v
+torchrun --standalone --nproc_per_node=8 -m research.pixel.train --config research/pixel/configs/mhc_n4_velocity.json --mhc_backend nvidia_fused --max_steps 250200 --data_path /path/to/imagenet --run_dir runs/mhc-v
 ```
 
-Keep the archived effective batch size at 1024. For other pipelines see [long skip](long_skip/README.md), [RAE](rae/README.md) and [toy experiments](toy/README.md).
+The mHC command uses the original Transformer Engine backend; see [its setup and results](pixel/README.md). Keep the archived effective batch size at 1024. For other pipelines see [long skip](long_skip/README.md), [RAE](rae/README.md) and [toy experiments](toy/README.md).
 
 Original run identifiers and checkpoint steps are preserved for traceability. Measurement scripts imported from reports are source snapshots and may require their original dataset caches or external model repositories. The static scalar-access control factory and external B-size decoder training builder have not been recovered; their available records are indexed without advertising runnable replacements. Some paper scaling/DINO control weights are also absent from the currently inventoried HF collections.
 

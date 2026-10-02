@@ -48,19 +48,9 @@ Bottom100 receive10.44%/11.74%; equal allocation would be13.02%.
 The extreme top-PC preference of pixel clean (top64 gain61.48%) is absent.
 Directional gain shares and singular-energy shares are different statistics.
 
-## Interpretation and limits
+## Observed comparison
 
-Supported: the concentrated clean stem observed in pixel space is not invariant
-to invertible whitening. Clean targets in whitened coordinates have identity
-covariance under the fitted estimator; the learned stem broadly retains these
-coordinates, looking much closer to the velocity stem than pixel clean did.
-
-This supports a representation-dependent target-geometry interpretation, not
-"clean is intrinsically easy regardless of coordinates." It does NOT establish
-that this stem spectrum causes the poor FID, prove a causal transport burden
-mechanism, or demonstrate how later blocks represent noise. Whitening also
-changes the loss metric and RGB noise covariance, so it is not a pure target-only
-intervention. Native-coordinate spectra are descriptive, not coordinate-invariant.
+Whitened clean and velocity embeddings have broad native-coordinate spectra. Their first-64 directional gain shares are 10.36% and 9.09%, compared with 61.48% for the raw-pixel clean embedding. The corresponding generation measurements are recorded alongside these matrix statistics in `data/evaluation_history.csv`.
 
 ## Files
 

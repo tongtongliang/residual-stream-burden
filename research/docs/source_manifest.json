@@ -21,7 +21,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 1752
+      "bytes": 3557
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -29,7 +29,7 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 1540
+      "bytes": 1578
     },
     {
       "path": "requirements-tested.txt",
@@ -37,7 +37,7 @@
     },
     {
       "path": "research/README.md",
-      "bytes": 3414
+      "bytes": 3553
     },
     {
       "path": "research/__init__.py",
@@ -2969,7 +2969,7 @@
     },
     {
       "path": "research/patch_embedding/README.md",
-      "bytes": 1075
+      "bytes": 2153
     },
     {
       "path": "research/patch_embedding/RESULTS.md",
@@ -3038,6 +3038,10 @@
     {
       "path": "research/patch_embedding/figure_cache/source_documents/AUDIT.json",
       "bytes": 594
+    },
+    {
+      "path": "research/pixel/README.md",
+      "bytes": 2856
     },
     {
       "path": "research/pixel/__init__.py",
@@ -3517,11 +3521,11 @@
     },
     {
       "path": "research/whitening/README.md",
-      "bytes": 3217
+      "bytes": 2430
     },
     {
       "path": "research/whitening/REPORT.md",
-      "bytes": 4091
+      "bytes": 3617
     },
     {
       "path": "research/whitening/data/embedding_matrices.npz",

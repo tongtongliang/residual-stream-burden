@@ -18,6 +18,7 @@ tracking = ["wandb"]
 repa = ["transformers==4.57.3"]
 dev = ["pytest"]
 bench = ["einops==0.8.2"]
+mhc = ["transformer-engine[pytorch]"]
 research = ["matplotlib", "pandas", "scipy", "pyyaml", "omegaconf", "einops==0.8.2", "huggingface_hub"]
 
 [project.scripts]
