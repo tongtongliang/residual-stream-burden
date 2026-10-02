@@ -37,7 +37,7 @@
     },
     {
       "path": "research/README.md",
-      "bytes": 3691
+      "bytes": 3894
     },
     {
       "path": "research/__init__.py",
@@ -165,11 +165,11 @@
     },
     {
       "path": "research/docs/RELEASE_VALIDATION.md",
-      "bytes": 3575
+      "bytes": 3997
     },
     {
       "path": "research/docs/REPRODUCTION_COVERAGE.md",
-      "bytes": 3620
+      "bytes": 5266
     },
     {
       "path": "research/figures/architecture/sihc_overview_sources.json",

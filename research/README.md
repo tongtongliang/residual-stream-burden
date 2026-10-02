@@ -1,6 +1,6 @@
 # Research experiments
 
-Training code, measurement scripts and cached results are grouped by experiment topic. Directory names describe the experiment rather than the order in which reports were collected.
+Research materials support the main paper’s conclusions through experiment settings, recorded measurements and analysis code. Start with [the main-text evidence map](docs/REPRODUCTION_COVERAGE.md#follow-the-main-results), then use the topic folders below. Additional appendix and historical experiments are included as supporting material.
 
 | Topic | What it contains |
 |---|---|
@@ -20,7 +20,7 @@ Training code, measurement scripts and cached results are grouped by experiment 
 | [toy/](toy/README.md) | Independent toy training and diagnostics |
 | `plotting/`, `reference_tables/` | Shared figure renderers and comparison tables; each experiment owns its `figure_cache/` |
 
-See [reproduction coverage](docs/REPRODUCTION_COVERAGE.md) for the distinction between runnable training/evaluation and cached analysis.
+The [workflow inventory](docs/REPRODUCTION_COVERAGE.md#additional-available-material) distinguishes runnable training/evaluation from cached analysis.
 
 ## Recreate figures from cached measurements
 
@@ -29,9 +29,10 @@ No checkpoint download or GPU is needed:
 ```bash
 pip install numpy matplotlib pandas scipy
 python research/plotting/render_target_alignment_gain.py
-python research/plotting/render_dino_target_spectra.py
-python research/plotting/render_video_tubelet_spectra.py
-python research/plotting/render_learned_long_skip.py
+python research/plotting/render_geometry.py
+python research/plotting/render_embedding_filtering.py
+python research/plotting/render_plain_probes.py
+python research/plotting/render_sihc_probes.py
 ```
 
 Outputs go to `research/figures/`. Measurement values are unchanged; plotting reads existing arrays and tables.

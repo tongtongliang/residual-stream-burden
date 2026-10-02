@@ -27,4 +27,8 @@ Editable installation was checked from the repository root: `sihc`, `training`, 
 - Downloaded the pinned JiT ImageNet-256 reference statistics successfully; checked finite `mu[2048]` and `sigma[2048,2048]`.
 - **32 CPU tests passed**, including guidance-interval and pinned-asset downloader regression checks. Parsed all Python sources and checked local links in the entry guides, topic READMEs, SiHC documentation and checkpoint cards.
 - Fixed the RAE configuration path; archived the obsolete Group 2 pixel dispatcher as text rather than advertising it as a working RAE evaluator.
-- Full-paper reproduction gaps are tracked in [reproduction coverage](REPRODUCTION_COVERAGE.md). No GPU, model sampling or new FID/IS evaluation was run in this audit; multi-GB checkpoint tensors were not downloaded or revalidated here.
+- Available workflows and their dependencies are tracked in [release scope and main-text evidence](REPRODUCTION_COVERAGE.md). No GPU, model sampling or new FID/IS evaluation was run in this audit; multi-GB checkpoint tensors were not downloaded or revalidated here.
+
+## Agreed release scope
+
+SiHC supplies model training/inference/evaluation. Research materials focus on the main-text conclusions, with measurements, settings and analysis/plotting entry points. Recovering every historical trainer, appendix checkpoint or final sampler is not a publication prerequisite; workflow availability remains documented for users who want to rerun those experiments.
