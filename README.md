@@ -1,6 +1,8 @@
 # Residual-Stream Burden in Diffusion Transformers
 
-Code and experiments accompanying our study of residual-stream burden and Spatially Indexed Hyper-Connections (SiHC).
+Code and experiments for **[Residual-Stream Burden Shapes Representation Learning in Diffusion Transformers](https://arxiv.org/abs/2609.33895)**.
+
+[Paper](https://arxiv.org/abs/2609.33895) · [Checkpoints](https://huggingface.co/collections/TongtongLiang/residual-stream-burden-sihc-6abe6b2f99f62128cf8c14a7) · [Training](sihc/training/README.md) · [Evaluation](sihc/evaluation/README.md) · [Research results](research/docs/REPRODUCTION_COVERAGE.md)
 
 ## Main findings
 
