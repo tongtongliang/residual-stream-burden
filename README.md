@@ -2,7 +2,10 @@
 
 Code and experiments for **[Residual-Stream Burden Shapes Representation Learning in Diffusion Transformers](https://arxiv.org/abs/2609.33895)**.
 
-[Paper](https://arxiv.org/abs/2609.33895) · [Checkpoints](https://huggingface.co/collections/TongtongLiang/residual-stream-burden-sihc-6abe6b2f99f62128cf8c14a7) · [Training](sihc/training/README.md) · [Evaluation](sihc/evaluation/README.md) · [Research results](research/docs/REPRODUCTION_COVERAGE.md)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.33895-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2609.33895)
+[![Hugging Face Checkpoints](https://img.shields.io/badge/Hugging%20Face-Checkpoints-FFD21E.svg?logo=huggingface&logoColor=black)](https://huggingface.co/collections/TongtongLiang/residual-stream-burden-sihc-6abe6b2f99f62128cf8c14a7)
+
+[Generate images](#pretrained-sihc) · [Training](sihc/training/README.md) · [Evaluation](sihc/evaluation/README.md) · [Research results](research/docs/REPRODUCTION_COVERAGE.md)
 
 ## Main findings
 
@@ -27,6 +30,8 @@ The repository has two parts:
 Use Linux with a CUDA-matched PyTorch installation for image-model training and inference:
 
 ```bash
+git clone https://github.com/tongtongliang/residual-stream-burden.git
+cd residual-stream-burden
 pip install -e '.[eval,repa,research,dev]'
 ```
 
@@ -36,9 +41,24 @@ Fused SiHC requires Triton; see [the tested environment](requirements-tested.txt
 
 [Hugging Face collection](https://huggingface.co/collections/TongtongLiang/residual-stream-burden-sihc-6abe6b2f99f62128cf8c14a7) brings together model and research checkpoints. The selected SiHC-XL + REPA checkpoint is [hosted by our coauthor](https://huggingface.co/xiziqiao/sihc-group5-flagship-ckpt): `step_00650520.pt`, primary EMA, Heun-50 FID **1.71491**, IS **299.5535**.
 
+After installation, download the trained model and generate a 2×2 image grid on a CUDA GPU:
+
 ```bash
+# Download the pinned paper checkpoint from Hugging Face (~15.4 GB).
 python sihc/tools/download_checkpoint.py --id sihc-xl-repa --output checkpoints
+
+# Generate ImageNet-256 images with primary EMA and Heun-50.
+python -m evaluation.sample \
+  --checkpoint checkpoints/checkpoints/step_00650520.pt \
+  --output outputs/sihc-xl-samples.png \
+  --state_key ema --prediction velocity --device cuda \
+  --batch_size 4 --nrow 2 --class_id 207 --seed 0 \
+  --steps 50 --cfg 2.4 --interval_min 0.1 --interval_max 0.9
 ```
+
+Open `outputs/sihc-xl-samples.png` to view the generated images. This is an **ImageNet class-conditional model**: change `--class_id` (0–999) to choose a class, and `--seed` to generate different samples. Sampling needs neither the ImageNet dataset nor the REPA teacher. The download preserves the HF repository's directory structure, hence `checkpoints/checkpoints/` in the model path.
+
+The command produces a small preview grid. For the reported FID/IS, use the 50K evaluation workflow below.
 
 [Run the paper evaluation](sihc/evaluation/README.md#reproduce-the-papers-sihc-xl--repa-evaluation) for the complete checkpoint → reference statistics → FID/IS workflow. See [reproduction coverage](research/docs/REPRODUCTION_COVERAGE.md) for which research experiments can be rerun and which currently provide cached measurements.
 
