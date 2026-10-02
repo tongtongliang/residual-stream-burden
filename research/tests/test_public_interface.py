@@ -13,7 +13,7 @@ from sihc.models.sihc.model import SiHCInContextModel
 from sihc.checkpoint import build_model_from_checkpoint, load_model_state
 from evaluation.export_checkpoint import export_state
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 
 @pytest.mark.parametrize('state_key', ['model', 'ema', 'ema2'])
@@ -66,7 +66,7 @@ def test_cli_help(module):
 
 
 def test_public_config_defaults():
-    for path in (ROOT/'configs').glob('*.json'):
+    for path in (ROOT/'sihc/configs').glob('*.json'):
         config = json.loads(path.read_text())
         assert config['activation_checkpoint'] == 'none'
         assert config['patch_embed_type'] == 'direct'

@@ -131,12 +131,12 @@ with the same stored Conv2d projection parameters and optimizer-state layout.
 
 | Source | Responsibility |
 |---|---|
-| [`kernels.py`](../../src/sihc/models/sihc/kernels.py) | Legacy block-wise fused operators and backward |
-| [`blockwise_kernels.py`](../../src/sihc/models/sihc/blockwise_kernels.py) | 8/12-event block-wise interface to the shared tuple kernels |
-| [`sublayer_kernels.py`](../../src/sihc/models/sihc/sublayer_kernels.py) | Shared 8/12/16/24-event tuple kernels, fake implementations and autograd |
-| [`model.py`](../../src/sihc/models/sihc/model.py) | Block-wise schedule, carrier geometry and context handling |
-| [`sublayer.py`](../../src/sihc/models/sihc/sublayer.py) | Independent attention/MLP routing and direct GEMM patch stem |
-| [`reference.py`](../../src/sihc/models/sihc/reference.py) | Readable PyTorch recurrence and non-context reference models |
+| [`kernels.py`](../../models/sihc/kernels.py) | Legacy block-wise fused operators and backward |
+| [`blockwise_kernels.py`](../../models/sihc/blockwise_kernels.py) | 8/12-event block-wise interface to the shared tuple kernels |
+| [`sublayer_kernels.py`](../../models/sihc/sublayer_kernels.py) | Shared 8/12/16/24-event tuple kernels, fake implementations and autograd |
+| [`model.py`](../../models/sihc/model.py) | Block-wise schedule, carrier geometry and context handling |
+| [`sublayer.py`](../../models/sihc/sublayer.py) | Independent attention/MLP routing and direct GEMM patch stem |
+| [`reference.py`](../../models/sihc/reference.py) | Readable PyTorch recurrence and non-context reference models |
 
 The relative source links above resolve from the repository's `docs` tree.
 Production fused execution requires CUDA and Triton. Non-context models have

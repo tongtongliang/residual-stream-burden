@@ -46,3 +46,5 @@ torchrun --standalone --nproc_per_node=8 -m research.pixel.train --config resear
 Keep the archived effective batch size at 1024. For other pipelines see [long skip](long_skip/README.md), [RAE](rae/README.md) and [toy experiments](toy/README.md).
 
 Original run identifiers and checkpoint steps are preserved for traceability. Measurement scripts imported from reports are source snapshots and may require their original dataset caches or external model repositories. The static scalar-access control factory and external B-size decoder training builder have not been recovered; their available records are indexed without advertising runnable replacements. Some paper scaling/DINO control weights are also absent from the currently inventoried HF collections.
+
+Shared model and experiment correctness checks are under `tests/`: run `python -m pytest` from the repository root after installation.

@@ -6,7 +6,7 @@ from pathlib import Path
 import sys
 
 
-PATH = Path(__file__).resolve().parents[1] / "tools" / "audit_release.py"
+PATH = Path(__file__).resolve().parents[2] / "sihc" / "tools" / "audit_release.py"
 SPEC = importlib.util.spec_from_file_location("release_audit", PATH)
 audit = importlib.util.module_from_spec(SPEC)
 sys.modules[SPEC.name] = audit

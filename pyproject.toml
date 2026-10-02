@@ -39,4 +39,4 @@ bench = "sihc/bench"
 research = "research"
 
 [tool.pytest.ini_options]
-testpaths = ["sihc/tests"]
+testpaths = ["research/tests"]

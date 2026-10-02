@@ -29,7 +29,7 @@
     },
     {
       "path": "pyproject.toml",
-      "bytes": 1536
+      "bytes": 1540
     },
     {
       "path": "requirements-tested.txt",
@@ -37,7 +37,7 @@
     },
     {
       "path": "research/README.md",
-      "bytes": 3278
+      "bytes": 3414
     },
     {
       "path": "research/__init__.py",
@@ -3280,6 +3280,74 @@
       "bytes": 1442
     },
     {
+      "path": "research/tests/conftest.py",
+      "bytes": 701
+    },
+    {
+      "path": "research/tests/test_activation_checkpointing.py",
+      "bytes": 2832
+    },
+    {
+      "path": "research/tests/test_blockwise_kernels.py",
+      "bytes": 2877
+    },
+    {
+      "path": "research/tests/test_blockwise_tuple_kernels.py",
+      "bytes": 18582
+    },
+    {
+      "path": "research/tests/test_evaluation_status.py",
+      "bytes": 6302
+    },
+    {
+      "path": "research/tests/test_p8_kernels.py",
+      "bytes": 4272
+    },
+    {
+      "path": "research/tests/test_public_interface.py",
+      "bytes": 4796
+    },
+    {
+      "path": "research/tests/test_reference_variants.py",
+      "bytes": 5673
+    },
+    {
+      "path": "research/tests/test_release_audit.py",
+      "bytes": 4755
+    },
+    {
+      "path": "research/tests/test_runtime_compatibility.py",
+      "bytes": 11033
+    },
+    {
+      "path": "research/tests/test_sampling.py",
+      "bytes": 3181
+    },
+    {
+      "path": "research/tests/test_scaling_presets.py",
+      "bytes": 3660
+    },
+    {
+      "path": "research/tests/test_sublayer_context.py",
+      "bytes": 5750
+    },
+    {
+      "path": "research/tests/test_sublayer_kernels.py",
+      "bytes": 16228
+    },
+    {
+      "path": "research/tests/test_sublayer_model.py",
+      "bytes": 4344
+    },
+    {
+      "path": "research/tests/test_toy.py",
+      "bytes": 6382
+    },
+    {
+      "path": "research/tests/test_xl_repa_workflow.py",
+      "bytes": 2731
+    },
+    {
       "path": "research/toy/README.md",
       "bytes": 7031
     },
@@ -3493,7 +3561,7 @@
     },
     {
       "path": "sihc/README.md",
-      "bytes": 1199
+      "bytes": 1222
     },
     {
       "path": "sihc/__init__.py",
@@ -3577,7 +3645,7 @@
     },
     {
       "path": "sihc/docs/kernel_fusion/README.md",
-      "bytes": 11979
+      "bytes": 11925
     },
     {
       "path": "sihc/evaluation/README.md",
@@ -3734,74 +3802,6 @@
     {
       "path": "sihc/sampling.py",
       "bytes": 3866
-    },
-    {
-      "path": "sihc/tests/conftest.py",
-      "bytes": 701
-    },
-    {
-      "path": "sihc/tests/test_activation_checkpointing.py",
-      "bytes": 2832
-    },
-    {
-      "path": "sihc/tests/test_blockwise_kernels.py",
-      "bytes": 2877
-    },
-    {
-      "path": "sihc/tests/test_blockwise_tuple_kernels.py",
-      "bytes": 18582
-    },
-    {
-      "path": "sihc/tests/test_evaluation_status.py",
-      "bytes": 6302
-    },
-    {
-      "path": "sihc/tests/test_p8_kernels.py",
-      "bytes": 4272
-    },
-    {
-      "path": "sihc/tests/test_public_interface.py",
-      "bytes": 4791
-    },
-    {
-      "path": "sihc/tests/test_reference_variants.py",
-      "bytes": 5673
-    },
-    {
-      "path": "sihc/tests/test_release_audit.py",
-      "bytes": 4746
-    },
-    {
-      "path": "sihc/tests/test_runtime_compatibility.py",
-      "bytes": 11033
-    },
-    {
-      "path": "sihc/tests/test_sampling.py",
-      "bytes": 3181
-    },
-    {
-      "path": "sihc/tests/test_scaling_presets.py",
-      "bytes": 3660
-    },
-    {
-      "path": "sihc/tests/test_sublayer_context.py",
-      "bytes": 5750
-    },
-    {
-      "path": "sihc/tests/test_sublayer_kernels.py",
-      "bytes": 16228
-    },
-    {
-      "path": "sihc/tests/test_sublayer_model.py",
-      "bytes": 4344
-    },
-    {
-      "path": "sihc/tests/test_toy.py",
-      "bytes": 6382
-    },
-    {
-      "path": "sihc/tests/test_xl_repa_workflow.py",
-      "bytes": 2731
     },
     {
       "path": "sihc/tools/audit_release.py",
