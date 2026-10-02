@@ -1,6 +1,6 @@
 # Checkpoints
 
-The [catalog](../checkpoints/checkpoints.json) pins each file to its source revision and records architecture, prediction target and format. Existing archives retain their file paths.
+The [catalog](../pretrained/checkpoints.json) pins each file to its source revision and records architecture, prediction target and format. Existing archives retain their file paths.
 
 | Collection | Purpose |
 |---|---|
