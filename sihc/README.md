@@ -4,7 +4,7 @@ This directory contains the new model and its runnable workflows.
 
 | Directory | Contents |
 |---|---|
-| `src/sihc/` | Model definitions, spatial read/write kernels, checkpoint helpers and sampling utilities |
+| `models/` and shared modules | Model definitions, spatial read/write kernels, checkpoint helpers and sampling utilities |
 | `training/` | Training, resume and REPA integration |
 | `evaluation/` | Sampling, FID/IS evaluation and weight export |
 | `configs/` | B / L / H / XL model recipes |

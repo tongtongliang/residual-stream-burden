@@ -21,15 +21,15 @@
     },
     {
       "path": "README.md",
-      "bytes": 1753
+      "bytes": 1752
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "bytes": 2120
+      "bytes": 2102
     },
     {
       "path": "pyproject.toml",
-      "bytes": 1545
+      "bytes": 1536
     },
     {
       "path": "requirements-tested.txt",
@@ -165,7 +165,7 @@
     },
     {
       "path": "research/docs/RELEASE_VALIDATION.md",
-      "bytes": 2295
+      "bytes": 2439
     },
     {
       "path": "research/figures/architecture/sihc_overview_sources.json",
@@ -3493,7 +3493,15 @@
     },
     {
       "path": "sihc/README.md",
-      "bytes": 1183
+      "bytes": 1199
+    },
+    {
+      "path": "sihc/__init__.py",
+      "bytes": 293
+    },
+    {
+      "path": "sihc/activation_checkpointing.py",
+      "bytes": 2335
     },
     {
       "path": "sihc/bench/checkpoint_forward.py",
@@ -3514,6 +3522,154 @@
     {
       "path": "sihc/bench/jit_profile.py",
       "bytes": 12366
+    },
+    {
+      "path": "sihc/checkpoint.py",
+      "bytes": 11622
+    },
+    {
+      "path": "sihc/config.py",
+      "bytes": 2680
+    },
+    {
+      "path": "sihc/configs/blockwise_b.json",
+      "bytes": 508
+    },
+    {
+      "path": "sihc/configs/sublayer_b.json",
+      "bytes": 953
+    },
+    {
+      "path": "sihc/configs/sublayer_h.json",
+      "bytes": 973
+    },
+    {
+      "path": "sihc/configs/sublayer_l.json",
+      "bytes": 963
+    },
+    {
+      "path": "sihc/configs/sublayer_xl_repa.json",
+      "bytes": 1137
+    },
+    {
+      "path": "sihc/data/README.md",
+      "bytes": 1072
+    },
+    {
+      "path": "sihc/data/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "sihc/data/prepare_cache.py",
+      "bytes": 3584
+    },
+    {
+      "path": "sihc/docs/CHECKPOINTS.md",
+      "bytes": 1848
+    },
+    {
+      "path": "sihc/docs/MODEL_QUICKSTART.md",
+      "bytes": 4510
+    },
+    {
+      "path": "sihc/docs/REPRODUCIBILITY.md",
+      "bytes": 2031
+    },
+    {
+      "path": "sihc/docs/kernel_fusion/README.md",
+      "bytes": 11979
+    },
+    {
+      "path": "sihc/evaluation/README.md",
+      "bytes": 4162
+    },
+    {
+      "path": "sihc/evaluation/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "sihc/evaluation/evaluate.py",
+      "bytes": 18960
+    },
+    {
+      "path": "sihc/evaluation/export_checkpoint.py",
+      "bytes": 3295
+    },
+    {
+      "path": "sihc/evaluation/sample.py",
+      "bytes": 6504
+    },
+    {
+      "path": "sihc/evaluation/verify_checkpoint.py",
+      "bytes": 2847
+    },
+    {
+      "path": "sihc/imagenet.py",
+      "bytes": 17237
+    },
+    {
+      "path": "sihc/metrics.py",
+      "bytes": 4074
+    },
+    {
+      "path": "sihc/models/__init__.py",
+      "bytes": 1203
+    },
+    {
+      "path": "sihc/models/baselines.py",
+      "bytes": 42137
+    },
+    {
+      "path": "sihc/models/sihc/__init__.py",
+      "bytes": 757
+    },
+    {
+      "path": "sihc/models/sihc/blockwise_kernels.py",
+      "bytes": 1520
+    },
+    {
+      "path": "sihc/models/sihc/components.py",
+      "bytes": 11270
+    },
+    {
+      "path": "sihc/models/sihc/kernels.py",
+      "bytes": 79938
+    },
+    {
+      "path": "sihc/models/sihc/model.py",
+      "bytes": 35056
+    },
+    {
+      "path": "sihc/models/sihc/reference.py",
+      "bytes": 9526
+    },
+    {
+      "path": "sihc/models/sihc/sublayer.py",
+      "bytes": 8216
+    },
+    {
+      "path": "sihc/models/sihc/sublayer_kernels.py",
+      "bytes": 18449
+    },
+    {
+      "path": "sihc/objectives.py",
+      "bytes": 1769
+    },
+    {
+      "path": "sihc/optim/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "sihc/optim/gmuon_chunked.py",
+      "bytes": 6090
+    },
+    {
+      "path": "sihc/optim/muon.py",
+      "bytes": 4473
+    },
+    {
+      "path": "sihc/presets.py",
+      "bytes": 2605
     },
     {
       "path": "sihc/pretrained/checkpoints.json",
@@ -3564,175 +3720,19 @@
       "bytes": 2005
     },
     {
-      "path": "sihc/configs/blockwise_b.json",
-      "bytes": 508
-    },
-    {
-      "path": "sihc/configs/sublayer_b.json",
-      "bytes": 953
-    },
-    {
-      "path": "sihc/configs/sublayer_h.json",
-      "bytes": 973
-    },
-    {
-      "path": "sihc/configs/sublayer_l.json",
-      "bytes": 963
-    },
-    {
-      "path": "sihc/configs/sublayer_xl_repa.json",
-      "bytes": 1137
-    },
-    {
-      "path": "sihc/data/README.md",
-      "bytes": 1072
-    },
-    {
-      "path": "sihc/data/__init__.py",
-      "bytes": 0
-    },
-    {
-      "path": "sihc/data/prepare_cache.py",
-      "bytes": 3584
-    },
-    {
-      "path": "sihc/docs/CHECKPOINTS.md",
-      "bytes": 1849
-    },
-    {
-      "path": "sihc/docs/MODEL_QUICKSTART.md",
-      "bytes": 4510
-    },
-    {
-      "path": "sihc/docs/REPRODUCIBILITY.md",
-      "bytes": 2031
-    },
-    {
-      "path": "sihc/docs/kernel_fusion/README.md",
-      "bytes": 11979
-    },
-    {
-      "path": "sihc/evaluation/README.md",
-      "bytes": 4162
-    },
-    {
-      "path": "sihc/evaluation/__init__.py",
-      "bytes": 0
-    },
-    {
-      "path": "sihc/evaluation/evaluate.py",
-      "bytes": 18960
-    },
-    {
-      "path": "sihc/evaluation/export_checkpoint.py",
-      "bytes": 3295
-    },
-    {
-      "path": "sihc/evaluation/sample.py",
-      "bytes": 6504
-    },
-    {
-      "path": "sihc/evaluation/verify_checkpoint.py",
-      "bytes": 2847
-    },
-    {
-      "path": "sihc/src/sihc/__init__.py",
-      "bytes": 293
-    },
-    {
-      "path": "sihc/src/sihc/activation_checkpointing.py",
-      "bytes": 2335
-    },
-    {
-      "path": "sihc/src/sihc/checkpoint.py",
-      "bytes": 11622
-    },
-    {
-      "path": "sihc/src/sihc/config.py",
-      "bytes": 2680
-    },
-    {
-      "path": "sihc/src/sihc/imagenet.py",
-      "bytes": 17237
-    },
-    {
-      "path": "sihc/src/sihc/metrics.py",
-      "bytes": 4074
-    },
-    {
-      "path": "sihc/src/sihc/models/__init__.py",
-      "bytes": 1203
-    },
-    {
-      "path": "sihc/src/sihc/models/baselines.py",
-      "bytes": 42137
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/__init__.py",
-      "bytes": 757
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/blockwise_kernels.py",
-      "bytes": 1520
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/components.py",
-      "bytes": 11270
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/kernels.py",
-      "bytes": 79938
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/model.py",
-      "bytes": 35056
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/reference.py",
-      "bytes": 9526
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/sublayer.py",
-      "bytes": 8216
-    },
-    {
-      "path": "sihc/src/sihc/models/sihc/sublayer_kernels.py",
-      "bytes": 18449
-    },
-    {
-      "path": "sihc/src/sihc/objectives.py",
-      "bytes": 1769
-    },
-    {
-      "path": "sihc/src/sihc/optim/__init__.py",
-      "bytes": 0
-    },
-    {
-      "path": "sihc/src/sihc/optim/gmuon_chunked.py",
-      "bytes": 6090
-    },
-    {
-      "path": "sihc/src/sihc/optim/muon.py",
-      "bytes": 4473
-    },
-    {
-      "path": "sihc/src/sihc/presets.py",
-      "bytes": 2605
-    },
-    {
-      "path": "sihc/src/sihc/rae/__init__.py",
+      "path": "sihc/rae/__init__.py",
       "bytes": 92
     },
     {
-      "path": "sihc/src/sihc/rae/models.py",
+      "path": "sihc/rae/models.py",
       "bytes": 10166
     },
     {
-      "path": "sihc/src/sihc/rae/semantic_mhc.py",
+      "path": "sihc/rae/semantic_mhc.py",
       "bytes": 3317
     },
     {
-      "path": "sihc/src/sihc/sampling.py",
+      "path": "sihc/sampling.py",
       "bytes": 3866
     },
     {
@@ -3809,7 +3809,7 @@
     },
     {
       "path": "sihc/tools/download_checkpoint.py",
-      "bytes": 1085
+      "bytes": 1084
     },
     {
       "path": "sihc/training/README.md",

@@ -8,7 +8,7 @@ Upstream copyright notices are retained.
 
 The Transformer building blocks, timestep/class conditioning, context-token
 organization, initialization, and pixel-space flow conventions in
-`sihc/src/sihc/models/sihc/components.py`, `sihc/src/sihc/models/sihc/model.py`, and the training
+`sihc/models/sihc/components.py`, `sihc/models/sihc/model.py`, and the training
 and sampling utilities build on [JiT](https://github.com/LTH14/JiT).
 The SiHC implementation changes the residual carrier, spatial read/write
 connections, kernel execution, and attention implementation.

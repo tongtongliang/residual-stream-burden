@@ -31,7 +31,7 @@ packages = ["bench", "data", "evaluation", "research", "research.long_skip", "re
 license-files = ["LICENSE", "LICENSES/*.txt", "THIRD_PARTY_NOTICES.md"]
 
 [tool.setuptools.package-dir]
-sihc = "sihc/src/sihc"
+sihc = "sihc"
 training = "sihc/training"
 evaluation = "sihc/evaluation"
 data = "sihc/data"
