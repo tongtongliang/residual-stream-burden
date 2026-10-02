@@ -1,0 +1,8 @@
+{
+  "imagenet256-fid-stats": {
+    "repo_id": "TongtongLiang/sihc-research-checkpoints",
+    "revision": "d4601d0fc44f7f552fd446376707c7f733149d3d",
+    "file": "assets/fid_stats/jit_in256_stats.npz",
+    "purpose": "JiT ImageNet-256 FID reference statistics used by the paper"
+  }
+}

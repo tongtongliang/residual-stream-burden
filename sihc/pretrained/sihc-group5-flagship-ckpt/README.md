@@ -18,8 +18,8 @@ This collection retains earlier epoch-400/480 copies. The selected paper checkpo
 
 | Checkpoint | Epoch | Format | Architecture / status |
 |---|---:|---|---|
-| [checkpoints/step_00500400.pt](checkpoints/step_00500400.pt) | 400 | resume | sihc_sublayer_5x8_d1024_b4_ctx32s8 |
-| [checkpoints/step_00600480.pt](checkpoints/step_00600480.pt) | 480 | resume | sihc_sublayer_5x8_d1024_b4_ctx32s8 |
+| [checkpoints/step_00500400.pt](https://huggingface.co/TongtongLiang/sihc-group5-flagship-ckpt/resolve/f9cc4a4dd97cb4599e2470b3a7f383f97a1e67ee/checkpoints/step_00500400.pt) | 400 | resume | sihc_sublayer_5x8_d1024_b4_ctx32s8 |
+| [checkpoints/step_00600480.pt](https://huggingface.co/TongtongLiang/sihc-group5-flagship-ckpt/resolve/f9cc4a4dd97cb4599e2470b3a7f383f97a1e67ee/checkpoints/step_00600480.pt) | 480 | resume | sihc_sublayer_5x8_d1024_b4_ctx32s8 |
 
 [Machine-readable checkpoint catalog](catalog.json) records revisions, file sizes, configuration and architecture classification.
 

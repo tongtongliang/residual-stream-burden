@@ -10,7 +10,7 @@ Prepared on macOS ARM64 with Python 3.12, using CPU only. The model/kernel imple
 
 Full model/kernel tests require the Linux CUDA/Triton environment documented in `requirements-tested.txt`. On this Mac, full-suite collection stops at the missing Triton dependency; GPU correctness was not re-verified during packaging. CPU-only toy and cached plotting checks are independent of Triton.
 
-The catalog binds paper flagship metrics to the coauthor's exact step-650520 file and revision. Historical blockwise runs, early checkpoints and the separate Group 8 long-skip archive remain distinguishable. Missing static-scalar/external-decoder factories and missing paper scaling/DINO control weights are listed in the experiment/checkpoint guides.
+The catalog binds paper XL + REPA metrics to the coauthor's exact step-650520 file and revision. Historical blockwise runs, early checkpoints and the separate Group 8 long-skip archive remain distinguishable. Missing static-scalar/external-decoder factories and missing paper scaling/DINO control weights are listed in the experiment/checkpoint guides.
 
 ## Repository reorganization
 
@@ -19,3 +19,12 @@ The release now has `sihc/` for model training/inference/evaluation and `researc
 Post-reorganization checks: **30 CPU tests passed**; the package wheel builds and contains model, training, evaluation and archived long-skip modules. Cached gain, whitening, embedding, endpoint, DINO, video, long-skip and scaling renderers run at their new locations. All 10 model implementation files are byte-identical to the previous release.
 
 Editable installation was checked from the repository root: `sihc`, `training`, `evaluation` and `research` resolve to their intended modules.
+
+## Paper evaluation audit (2026-10-02)
+
+- Compared generation settings against the manuscript's sampling-protocol table. Corrected B/L preset intervals to [0.1, 1]; H/XL remain [0.1, 0.9]. Corrected B-size guide commands accordingly.
+- Added a complete pinned SiHC-XL + REPA checkpoint/reference-statistics/50K evaluation command and explicit raw-versus-EMA and grid-versus-metrics distinctions.
+- Downloaded the pinned JiT ImageNet-256 reference statistics successfully; checked finite `mu[2048]` and `sigma[2048,2048]`.
+- **32 CPU tests passed**, including guidance-interval and pinned-asset downloader regression checks. Parsed all Python sources and checked local links in the entry guides, topic READMEs, SiHC documentation and checkpoint cards.
+- Fixed the RAE configuration path; archived the obsolete Group 2 pixel dispatcher as text rather than advertising it as a working RAE evaluator.
+- Full-paper reproduction gaps are tracked in [reproduction coverage](REPRODUCTION_COVERAGE.md). No GPU, model sampling or new FID/IS evaluation was run in this audit; multi-GB checkpoint tensors were not downloaded or revalidated here.

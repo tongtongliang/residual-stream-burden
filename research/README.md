@@ -20,6 +20,8 @@ Training code, measurement scripts and cached results are grouped by experiment 
 | [toy/](toy/README.md) | Independent toy training and diagnostics |
 | `plotting/`, `reference_tables/` | Shared figure renderers and comparison tables; each experiment owns its `figure_cache/` |
 
+See [reproduction coverage](docs/REPRODUCTION_COVERAGE.md) for the distinction between runnable training/evaluation and cached analysis.
+
 ## Recreate figures from cached measurements
 
 No checkpoint download or GPU is needed:

@@ -14,7 +14,7 @@ The available checkpoint is epoch 80. Evaluation records in this repository must
 
 | Checkpoint | Epoch | Format | Architecture / status |
 |---|---:|---|---|
-| [checkpoints/step_00100080.pt](checkpoints/step_00100080.pt) | 80 | resume | sihc_sublayer_8x12x12_d1280_b4_ctx32s8 |
+| [checkpoints/step_00100080.pt](https://huggingface.co/TongtongLiang/sihc-sublayer-h-wide-ckpt/resolve/46595e1a407b0335af5fb068eac81ab5b5516e73/checkpoints/step_00100080.pt) | 80 | resume | sihc_sublayer_8x12x12_d1280_b4_ctx32s8 |
 
 [Machine-readable checkpoint catalog](catalog.json) records revisions, file sizes, configuration and architecture classification.
 

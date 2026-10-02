@@ -34,6 +34,6 @@ with their saved projector even when sampling; teacher weights are needed
 only for training. Block-wise and sublayer-wise checkpoints are distinct
 architectures and cannot be interchanged.
 
-The selected flagship checkpoint is epoch 520, step 650520, primary EMA.
+The selected XL + REPA checkpoint is epoch 520, step 650520, primary EMA.
 Weights are supplied separately. See [evaluation](../evaluation/README.md)
 for sampling, FID/IS and portable inference-weight export.

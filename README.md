@@ -38,6 +38,8 @@ Fused SiHC requires Triton; see [the tested environment](requirements-tested.txt
 python sihc/tools/download_checkpoint.py --id sihc-xl-repa --output checkpoints
 ```
 
+[Run the paper evaluation](sihc/evaluation/README.md#reproduce-the-papers-sihc-xl--repa-evaluation) for the complete checkpoint → reference statistics → FID/IS workflow. See [reproduction coverage](research/docs/REPRODUCTION_COVERAGE.md) for which research experiments can be rerun and which currently provide cached measurements.
+
 Checkpoint architectures, states and sampling settings are recorded in the [catalog](sihc/pretrained/checkpoints.json). Historical blockwise models retain separate identities from paper sublayerwise models.
 
 [MIT license](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Preparation checks](research/docs/RELEASE_VALIDATION.md)

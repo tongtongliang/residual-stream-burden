@@ -73,7 +73,7 @@ Configs use AdamW, BF16 and two EMAs, targeting 600 epochs at global batch
 
 ### Flagship XL + REPA
 
-The [flagship guide](../training/XL_REPA.md) covers the frozen DINOv3-L teacher,
+The [XL + REPA guide](../training/XL_REPA.md) covers the frozen DINOv3-L teacher,
 REPA loss, smoke/resume check, and the complete 600-epoch train/grid/eval schedule.
 After setting the data, teacher and FID-stat paths:
 
@@ -87,13 +87,13 @@ python -m training.xl_repa --run-dir ../outputs/xl_repa --execute
 ```bash
 python -m evaluation.sample --checkpoint /path/to/checkpoint.pt \
   --state_key ema --output outputs/samples.png --steps 50 \
-  --cfg 2.9 --interval_min 0.1 --interval_max 0.9
+  --cfg 2.9 --interval_min 0.1 --interval_max 1.0
 
 export FID_STATS=/path/to/inception_reference_stats.npz
 torchrun --standalone --nproc_per_node=8 -m evaluation.evaluate \
   --checkpoint /path/to/checkpoint.pt --output_dir outputs/evaluation \
   --state_key ema --num_samples 50000 --batch_size 32 --sampler heun --steps 50 \
-  --cfg 2.9 --interval_min 0.1 --interval_max 0.9 --compile --no_save_fake_features
+  --cfg 2.9 --interval_min 0.1 --interval_max 1.0 --compile --no_save_fake_features
 ```
 
 The example uses B's CFG 2.9; L/H use 2.4/2.1, and XL + REPA uses 2.4. FID statistics must match

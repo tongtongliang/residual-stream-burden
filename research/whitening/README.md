@@ -32,3 +32,7 @@ python research/plotting/render_target_alignment_gain.py
 ```
 
 These commands render cached results without training or checkpoint inference. `render.py` writes local `figures/`; the shared renderers write under `research/figures/`.
+
+## Reproduction coverage
+
+The commands above reproduce plots from cached measurements. The whitened-training transform and inverse-transform sampling pipeline still need to be recovered for this release. A whitened checkpoint cannot be evaluated as an ordinary RGB JiT checkpoint: outputs must be inverse-transformed before uint8 conversion and FID/IS. See the [paper evaluation protocols](../../sihc/evaluation/README.md).

@@ -21,7 +21,7 @@
     },
     {
       "path": "README.md",
-      "bytes": 3557
+      "bytes": 3893
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -37,7 +37,7 @@
     },
     {
       "path": "research/README.md",
-      "bytes": 3553
+      "bytes": 3691
     },
     {
       "path": "research/__init__.py",
@@ -165,7 +165,11 @@
     },
     {
       "path": "research/docs/RELEASE_VALIDATION.md",
-      "bytes": 2439
+      "bytes": 3575
+    },
+    {
+      "path": "research/docs/REPRODUCTION_COVERAGE.md",
+      "bytes": 3620
     },
     {
       "path": "research/figures/architecture/sihc_overview_sources.json",
@@ -1961,7 +1965,7 @@
     },
     {
       "path": "research/long_skip/README.md",
-      "bytes": 1404
+      "bytes": 2161
     },
     {
       "path": "research/long_skip/__init__.py",
@@ -3137,11 +3141,15 @@
     },
     {
       "path": "research/rae/README.md",
-      "bytes": 1084
+      "bytes": 1898
     },
     {
       "path": "research/rae/__init__.py",
       "bytes": 0
+    },
+    {
+      "path": "research/rae/archive/group2_eval_pixel.py.txt",
+      "bytes": 6242
     },
     {
       "path": "research/rae/configs/2a_rae_baselines/g2a_01_rae_jit_b_clean.yaml",
@@ -3162,10 +3170,6 @@
     {
       "path": "research/rae/configs/shared/base_rae_dinov2_b.yaml",
       "bytes": 1804
-    },
-    {
-      "path": "research/rae/group2_eval_pixel.py",
-      "bytes": 6242
     },
     {
       "path": "research/rae/group2_score_adm.py",
@@ -3306,6 +3310,10 @@
     {
       "path": "research/tests/test_p8_kernels.py",
       "bytes": 4272
+    },
+    {
+      "path": "research/tests/test_paper_protocols.py",
+      "bytes": 1499
     },
     {
       "path": "research/tests/test_public_interface.py",
@@ -3521,7 +3529,7 @@
     },
     {
       "path": "research/whitening/README.md",
-      "bytes": 2430
+      "bytes": 2855
     },
     {
       "path": "research/whitening/REPORT.md",
@@ -3641,11 +3649,11 @@
     },
     {
       "path": "sihc/docs/MODEL_QUICKSTART.md",
-      "bytes": 4510
+      "bytes": 4511
     },
     {
       "path": "sihc/docs/REPRODUCIBILITY.md",
-      "bytes": 2031
+      "bytes": 2032
     },
     {
       "path": "sihc/docs/kernel_fusion/README.md",
@@ -3653,7 +3661,7 @@
     },
     {
       "path": "sihc/evaluation/README.md",
-      "bytes": 4162
+      "bytes": 7254
     },
     {
       "path": "sihc/evaluation/__init__.py",
@@ -3741,7 +3749,15 @@
     },
     {
       "path": "sihc/presets.py",
-      "bytes": 2605
+      "bytes": 2632
+    },
+    {
+      "path": "sihc/pretrained/README.md",
+      "bytes": 706
+    },
+    {
+      "path": "sihc/pretrained/assets.json",
+      "bytes": 284
     },
     {
       "path": "sihc/pretrained/checkpoints.json",
@@ -3761,7 +3777,7 @@
     },
     {
       "path": "sihc/pretrained/sihc-group5-flagship-ckpt/README.md",
-      "bytes": 2055
+      "bytes": 2279
     },
     {
       "path": "sihc/pretrained/sihc-group5-flagship-ckpt/catalog.json",
@@ -3769,7 +3785,7 @@
     },
     {
       "path": "sihc/pretrained/sihc-group8-longskip/README.md",
-      "bytes": 2170
+      "bytes": 2705
     },
     {
       "path": "sihc/pretrained/sihc-group8-longskip/catalog.json",
@@ -3777,7 +3793,7 @@
     },
     {
       "path": "sihc/pretrained/sihc-research-checkpoints/README.md",
-      "bytes": 13049
+      "bytes": 19545
     },
     {
       "path": "sihc/pretrained/sihc-research-checkpoints/catalog.json",
@@ -3785,7 +3801,7 @@
     },
     {
       "path": "sihc/pretrained/sihc-sublayer-h-wide-ckpt/README.md",
-      "bytes": 1687
+      "bytes": 1799
     },
     {
       "path": "sihc/pretrained/sihc-sublayer-h-wide-ckpt/catalog.json",
@@ -3813,7 +3829,7 @@
     },
     {
       "path": "sihc/tools/download_checkpoint.py",
-      "bytes": 1084
+      "bytes": 1305
     },
     {
       "path": "sihc/training/README.md",

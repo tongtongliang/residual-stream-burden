@@ -16,11 +16,11 @@ Sampling: EMA, Heun-50, CFG 2.9, clean-time interval [0.1, 1.0].
 
 | Checkpoint | Epoch | Format | Architecture / status |
 |---|---:|---|---|
-| [checkpoints/step_00050040.pt](checkpoints/step_00050040.pt) | 40 | resume | jit_b16_fullpatch_longskip |
-| [checkpoints/step_00100080.pt](checkpoints/step_00100080.pt) | 80 | resume | jit_b16_fullpatch_longskip |
-| [checkpoints/step_00150120.pt](checkpoints/step_00150120.pt) | 120 | resume | jit_b16_fullpatch_longskip |
-| [checkpoints/step_00200160.pt](checkpoints/step_00200160.pt) | 160 | resume | jit_b16_fullpatch_longskip |
-| [checkpoints/step_00250200.pt](checkpoints/step_00250200.pt) | 200 | resume | jit_b16_fullpatch_longskip |
+| [checkpoints/step_00050040.pt](https://huggingface.co/TongtongLiang/sihc-group8-longskip/resolve/245c92906b898267ca26059dc83dcd15344742dd/checkpoints/step_00050040.pt) | 40 | resume | jit_b16_fullpatch_longskip |
+| [checkpoints/step_00100080.pt](https://huggingface.co/TongtongLiang/sihc-group8-longskip/resolve/245c92906b898267ca26059dc83dcd15344742dd/checkpoints/step_00100080.pt) | 80 | resume | jit_b16_fullpatch_longskip |
+| [checkpoints/step_00150120.pt](https://huggingface.co/TongtongLiang/sihc-group8-longskip/resolve/245c92906b898267ca26059dc83dcd15344742dd/checkpoints/step_00150120.pt) | 120 | resume | jit_b16_fullpatch_longskip |
+| [checkpoints/step_00200160.pt](https://huggingface.co/TongtongLiang/sihc-group8-longskip/resolve/245c92906b898267ca26059dc83dcd15344742dd/checkpoints/step_00200160.pt) | 160 | resume | jit_b16_fullpatch_longskip |
+| [checkpoints/step_00250200.pt](https://huggingface.co/TongtongLiang/sihc-group8-longskip/resolve/245c92906b898267ca26059dc83dcd15344742dd/checkpoints/step_00250200.pt) | 200 | resume | jit_b16_fullpatch_longskip |
 
 [Machine-readable checkpoint catalog](catalog.json) records revisions, file sizes, configuration and architecture classification.
 

@@ -1,6 +1,6 @@
 """Named sublayer SiHC recipes; long model names remain checkpoint identities.
 
-XL denotes the 40x1024, five-stage REPA flagship, not a generic DiT-XL.
+XL denotes the 40x1024, five-stage REPA model, not a generic DiT-XL.
 Presets specify model/projector construction. Training hyperparameters live
 in the corresponding portable configs; teacher weights remain external.
 """
@@ -33,7 +33,7 @@ def get_preset(size):
     if spec['repa']:
         spec['model_kwargs'].update(repa_depth=8, repa_z_dims=(1024,),
                                     repa_projector_dim=2048, repa_source='z_plus_dz')
-    spec['eval_interval'] = (0.1, 0.9)
+    spec['eval_interval'] = (0.1, 1.0 if key in {'B', 'L'} else 0.9)
     spec['activation_checkpoint'] = 'none'
     spec['recommended_checkpoint'] = (
         dict(epoch=520, step=650520, filename='step_00650520.pt', state_key='ema')
