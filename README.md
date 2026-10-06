@@ -5,7 +5,7 @@ Code and experiments for **[Residual-Stream Burden Shapes Representation Learnin
 [![arXiv](https://img.shields.io/badge/arXiv-2609.33895-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2609.33895)
 [![Hugging Face Checkpoints](https://img.shields.io/badge/Hugging%20Face-Checkpoints-FFD21E.svg?logo=huggingface&logoColor=black)](https://huggingface.co/collections/TongtongLiang/residual-stream-burden-sihc-6abe6b2f99f62128cf8c14a7)
 
-[Generate images](#pretrained-sihc) · [Training](sihc/training/README.md) · [Evaluation](sihc/evaluation/README.md) · [Research results](research/docs/REPRODUCTION_COVERAGE.md)
+[Project page / Blog](https://tongtongliang.github.io/residual-stream-burden/) · [Generate images](#pretrained-sihc) · [Training](sihc/training/README.md) · [Evaluation](sihc/evaluation/README.md) · [Research results](research/docs/REPRODUCTION_COVERAGE.md)
 
 ## Main findings
 

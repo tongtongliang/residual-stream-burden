@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Residual-Stream Burden</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<script>
+if(/^#embed/.test(location.hash)) document.documentElement.classList.add('embed');
+if(/-solo$/.test(location.hash)) document.documentElement.classList.add('solo');
+</script>
+<script>
+window.MathJax = { tex:{ inlineMath:[['\\(','\\)']] }, svg:{ fontCache:'global' }, startup:{ typeset:false } };
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.min.js"></script>
+<style>
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#17202c; --muted:#586476; --line:#d5dbe4;
+  --clean:#2458c6; --noise:#db7128; --cell:#e6ebf3; --ws:#4b5462; --dam:#8f99a6; --floor:#eef1f6;
+  --s1:#6d7fd9; --s2:#2f9f93; --s3:#a974d6; --s4:#c1912f;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d1219; --surface:#141b25; --ink:#e6eaf0; --muted:#98a4b5; --line:#2a3647;
+    --clean:#79a6ff; --noise:#f29a56; --cell:#1d2633; --ws:#b4bdca; --dam:#6c7787; --floor:#1a222e;
+    --s1:#8f9ef0; --s2:#4fc2b5; --s3:#c493ee; --s4:#e0b454;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0d1219; --surface:#141b25; --ink:#e6eaf0; --muted:#98a4b5; --line:#2a3647;
+  --clean:#79a6ff; --noise:#f29a56; --cell:#1d2633; --ws:#b4bdca; --dam:#6c7787; --floor:#1a222e;
+  --s1:#8f9ef0; --s2:#4fc2b5; --s3:#c493ee; --s4:#e0b454;
+  color-scheme: dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:16px;line-height:1.55}
+.wrap{max-width:1080px;margin:0 auto;padding-inline:20px;padding-block:44px 64px;display:flex;flex-direction:column;gap:32px}
+header{display:flex;flex-direction:column;gap:12px;max-width:760px}
+.eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:clamp(30px,4.6vw,46px);line-height:1.1;margin:0;text-wrap:balance}
+h3{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:21px;line-height:1.25;margin:0;text-wrap:balance}
+.lede{font-size:18px;color:var(--muted);margin:0;max-width:65ch}
+.lede strong{color:var(--ink);font-weight:600}
+.stage{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;padding:14px 14px 0}
+.tab{font:inherit;font-size:14px;font-weight:500;color:var(--muted);background:transparent;border:1px solid var(--line);border-radius:999px;padding:6px 13px;cursor:pointer}
+.tab:hover{border-color:var(--muted);color:var(--ink)}
+.tab[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--surface)}
+.tab .ours{font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;margin-left:6px;padding:1px 6px;border-radius:999px;background:var(--ws);color:var(--surface)}
+.play{margin-left:auto;font:inherit;font-size:14px;color:var(--ink);background:var(--cell);border:1px solid var(--line);border-radius:999px;padding:6px 14px;cursor:pointer}
+.tab:focus-visible,.play:focus-visible{outline:2px solid var(--clean);outline-offset:2px}
+.canvas-box{position:relative;width:100%}
+canvas{display:block;width:100%}
+.labels{position:absolute;inset:0;pointer-events:none;opacity:0;transition:opacity .25s}
+.labels.ready{opacity:1}
+.lab{position:absolute;white-space:nowrap;font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:12px;color:var(--muted);line-height:1.2}
+.lab.ink{color:var(--ink)}
+.lab.head{font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:13px;font-weight:600;color:var(--ink)}
+.lab.big{font-size:15px;color:var(--ink)}
+.lab mjx-container{margin:0!important}
+.lab.a-c{transform:translate(-50%,0)}
+.lab.a-r{transform:translate(-100%,0)}
+.lab.a-cm{transform:translate(-50%,-50%)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 22px;padding:2px 18px 14px;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.sw{display:inline-block}
+.sw.c{width:18px;height:4px;border-radius:2px;background:var(--clean)}
+.sw.n{width:6px;height:6px;border-radius:50%;background:var(--noise);box-shadow:8px 0 0 var(--noise);margin-right:8px}
+.sw.w{width:12px;height:12px;border-radius:3px;background:var(--ws)}
+.panel{display:flex;flex-direction:column;gap:8px;padding:18px 22px 22px;border-top:1px solid var(--line)}
+.panel p{margin:0;max-width:none}
+footer{font-size:13px;color:var(--muted);max-width:760px;margin:0}
+/* embedded in the blog: show only the interactive card */
+html.embed body{background:transparent}
+html.embed header, html.embed footer{display:none}
+html.embed .wrap{padding:0;gap:0;max-width:none}
+html.solo .tabs, html.solo .panel{display:none}
+html.solo .canvas-box{margin-top:6px}
+@media (max-width:640px){ .play{margin-left:0} .lab{font-size:10.5px} .lab.big{font-size:13px} .lab.head{font-size:12px} }
+</style>
+
+
+<style>body{margin:0}</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Residual-stream burden · Diffusion Transformers</div>
+    <h1>What the residual stream must carry decides what later layers can learn</h1>
+    <p class="lede">A Diffusion Transformer on large pixel patches trains well when it predicts the clean image and fails when it predicts the velocity. The two targets describe the same generative process. The difference is <strong>what the network has to keep in its residual stream until the readout</strong>.</p>
+  </header>
+
+  <div class="stage">
+    <div class="tabs" role="group" aria-label="Scenario">
+      <button class="tab" id="tab-0" data-i="0">Plain DiT</button>
+      <button class="tab" id="tab-1" data-i="1">Decoupled design</button>
+      <button class="tab" id="tab-2" data-i="2">Hyper-Connections</button>
+      <button class="tab" id="tab-3" data-i="3">Spatially Indexed Hyper-Connections<span class="ours">ours</span></button>
+      <button class="play" id="play" type="button">Play the story</button>
+    </div>
+    <div class="canvas-box">
+      <canvas id="cv" role="img" aria-label="Particles flow through residual streams and change direction wherever a layer's workspace writes its update."></canvas>
+      <div class="labels" id="labels"></div>
+    </div>
+    <div class="legend">
+      <span><i class="sw c"></i>clean image structure</span>
+      <span><i class="sw n"></i>noise-dependent variation</span>
+      <span><i class="sw w"></i>DiT block</span>
+    </div>
+    <div class="panel" aria-live="polite">
+      <h3 id="p-title"></h3>
+      <p id="p-text"></p>
+    </div>
+  </div>
+
+  <footer>Schematic. Each DiT block applies one update, so the carried variation changes direction where the update is written and moves straight between blocks. Layer, stream and particle counts are illustrative.</footer>
+</div>
+
+<script>
+(function(){
+  const S=[
+    {key:'plain', title:'One plain DiT, two targets',
+     text:'The same DiT is trained on the same noisy input with two prediction targets. Under v-prediction the target contains the noise itself, so the residual stream has to carry noise-dependent variation through every DiT block until the readout, and later blocks end up computing on noisy representations. Under x-prediction the conversion to velocity supplies the noisy input through an analytic long skip, leaving the backbone to predict only the clean image. Since clean patch variance concentrates in a few directions, the learned patch embedding suppresses the noise-dominated ones, and the stream carries concentrated image structure.'},
+    {key:'dec', title:'Decoupled designs: DeCo, PixelDiT, DiP, PixNerd, etc.',
+     text:'Decoupled designs give the noisy pixels their own path to the output, where a long-skip connection carries them, with their noise and their clean detail, to a decoder conditioned on the semantic stream of DiT blocks. Relieved of delivering the noise, the semantic stream filters its input through the learned patch embedding just as under x-prediction and stays concentrated, even though the model predicts velocity. In this sense, x-prediction is the simplest decoupled design, with an analytic conversion as its decoder.'},
+    {key:'hc', title:'Hyper-Connections',
+     text:'Hyper-Connections accommodate the burden inside the backbone instead of routing it elsewhere. They expand the residual stream into several persistent streams, each as wide as the plain stream and initialized by copy, while every DiT block keeps its width and simply reads its input from the streams and writes its update back. The wider residual stream gives the noise more room beside the features that later blocks build, which is why the added bandwidth helps v-prediction far more than x-prediction.'},
+    {key:'sihc', title:'Spatially Indexed Hyper-Connections (SiHC, ours)',
+     text:'SiHC assigns each stream one subpatch instead of copying the whole patch into every stream. The noise that a stream has to carry to the readout then comes only from its own small subpatch, which spreads over far fewer directions than the noise of a full patch, and identity carry keeps this local variation in its own stream through depth. The DiT blocks still read from all streams and write back to each, so attention and MLP compute on the whole image while the noise burden is split across the streams.'}
+  ];
+  const cv=document.getElementById('cv'), ctx=cv.getContext('2d'), labBox=document.getElementById('labels');
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let W=0,H=0,dpr=1,cur=0,G=null,parts=[],ghosts=[],T=0,acc=0,gacc=0,fade=1;
+  const N=6;
+  let col={};
+  function readColors(){ const cs=getComputedStyle(document.documentElement);
+    ['--ink','--muted','--line','--clean','--noise','--cell','--ws','--dam','--floor','--surface','--s1','--s2','--s3','--s4'].forEach(k=>col[k]=cs.getPropertyValue(k).trim()); }
+  readColors();
+  try{ matchMedia('(prefers-color-scheme: dark)').addEventListener('change',readColors);}catch(e){}
+  new MutationObserver(readColors).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+  const A=(hex,a)=>{const h=hex.replace('#','');const n=parseInt(h.length===3?h.split('').map(c=>c+c).join(''):h,16);return `rgba(${(n>>16)&255},${(n>>8)&255},${n&255},${Math.max(0,Math.min(1,a))})`;};
+  function rr(x,y,w,h,r){ r=Math.min(r,w/2,h/2); ctx.beginPath(); ctx.moveTo(x+r,y); ctx.arcTo(x+w,y,x+w,y+h,r); ctx.arcTo(x+w,y+h,x,y+h,r); ctx.arcTo(x,y+h,x,y,r); ctx.arcTo(x,y,x+w,y,r); ctx.closePath(); }
+  const line=(a,b,c,d)=>{ctx.beginPath();ctx.moveTo(a,b);ctx.lineTo(c,d);ctx.stroke();};
+  const curve=(a,b,c,d)=>{const m=(a+c)/2;ctx.beginPath();ctx.moveTo(a,b);ctx.bezierCurveTo(m,b,m,d,c,d);ctx.stroke();};
+  const dot=(x,y,r)=>{ctx.beginPath();ctx.arc(x,y,r,0,6.2832);ctx.fill();};
+  const poly=(pts)=>{ctx.beginPath();ctx.moveTo(pts[0][0],pts[0][1]);for(let i=1;i<pts.length;i++)ctx.lineTo(pts[i][0],pts[i][1]);ctx.closePath();};
+  function arrow(a,b,c,d){ line(a,b,c,d); const t=Math.atan2(d-b,c-a); ctx.beginPath(); ctx.moveTo(c,d); ctx.lineTo(c-7*Math.cos(t-.45),d-7*Math.sin(t-.45)); ctx.moveTo(c,d); ctx.lineTo(c-7*Math.cos(t+.45),d-7*Math.sin(t+.45)); ctx.stroke(); }
+  const randn=()=>{let u=0,v=0;while(!u)u=Math.random();while(!v)v=Math.random();return Math.sqrt(-2*Math.log(u))*Math.cos(6.2832*v);};
+  const clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+  const sc=['--s1','--s2','--s3','--s4'];
+
+  /* ================= geometry ================= */
+  function track(g,cy,mode){ // a single 2D stream
+    const t={cy,mode,w0:g.w0};
+    t.top=cy-g.w0/2; t.bot=cy+g.w0/2;
+    t.ps=g.narrow?30:40; t.px=g.narrow?10:20; t.py=cy-t.ps/2;
+    t.xIn=t.px+t.ps; t.xEmb=t.xIn+(g.narrow?16:26);
+    t.xEnd=W-(mode==='dec'? (g.narrow?96:190) : (g.narrow?70:120));
+    t.x0=t.xEmb+(g.narrow?12:22); t.x1=t.xEnd-(g.narrow?6:12);
+    t.lx=[...Array(N)].map((_,i)=>t.x0+(t.x1-t.x0)*(i+.5)/N);
+    t.cw=g.narrow?12:18; t.vbS=g.narrow?28:36;
+    if(mode==='dec'){ t.brY=t.top-(g.narrow?54:74); t.decW=g.narrow?34:44; t.decH=g.narrow?52:76;
+      t.decX=t.xEnd+(g.narrow?12:26); t.decY=(cy+t.brY)/2-t.decH/2+4; t.vbX=W-t.vbS-(g.narrow?8:18); t.vbY=t.decY+t.decH/2-t.vbS/2; }
+    else { t.vbX=W-t.vbS-(g.narrow?8:22); t.vbY=cy-t.vbS/2; }
+    return t;
+  }
+  function layout(){
+    const r=cv.parentElement.getBoundingClientRect(); W=Math.max(320,r.width);
+    const narrow=W<640, k=S[cur].key;
+    H = narrow? 300 : 380;
+    dpr=Math.min(2,devicePixelRatio||1); cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); cv.style.height=H+'px'; ctx.setTransform(dpr,0,0,dpr,0,0);
+    const g={k,narrow,w0:narrow?24:36};
+    if(k==='plain'){ g.tracks=[track(g,H*0.25,'v'), track(g,H*0.64,'x')]; }
+    else if(k==='dec'){ g.tracks=[track(g,H*0.6,'dec')]; }
+    else {
+      // 3D: world (x along depth of the network, z across streams, y height) -> screen
+      g.w0=narrow?26:40; g.gap=narrow?5:8; g.pitch=g.w0+g.gap; g.Z=4*g.w0+3*g.gap; g.ox=.5; g.oz=.72;
+      g.base=H*(narrow?.84:.8);
+      g.ps=narrow?30:40; g.px=narrow?8:16;
+      g.xEmb=g.px+g.ps+(narrow?20:34);
+      g.xEnd=W-(narrow?80:140)-g.Z*g.ox;
+      g.x0=g.xEmb+(narrow?14:24); g.x1=g.xEnd-(narrow?10:18);
+      g.lx=[...Array(N)].map((_,i)=>g.x0+(g.x1-g.x0)*(i+.5)/N);
+      const gap=(g.x1-g.x0)/N;
+      g.rd=gap*.34; g.wd=gap*.2; g.deckL=gap*.13; g.deckY=narrow?62:86; g.deckT=narrow?7:10;
+      g.zc=g.Z/2;
+      g.vbS= k==='sihc'? (narrow?42:56) : (narrow?30:38);
+      const mid=P3(g,g.xEnd,g.zc,0);
+      g.vbX=W-g.vbS-(narrow?8:18); g.vbY=mid[1]-g.vbS/2;
+      g.mx=g.xEnd+g.Z*g.ox*.5+(g.vbX-(g.xEnd+g.Z*g.ox*.5))*.45;
+      g.py=mid[1]-g.ps/2;
+    }
+    G=g; placeLabels();
+  }
+  function P3(g,x,z,y){ return [x+z*g.ox, g.base - z*g.oz - (y||0)]; }
+  const laneZ=(g,l,u)=> (g.pitch||g.w0)*l+g.w0*.5+u*g.w0*.4;
+
+  /* ================= particles ================= */
+  // 2D path: points [x,y]; noise alpha follows a rule
+  function path2D(t,o){
+    const P=[]; const push=(x,y)=>P.push([x,y]);
+    const own=u=>t.cy+u*t.w0*.42;
+    if(o.route==='branch'){ const y0=t.py+(0.25+0.5*Math.random())*t.ps, yb=t.brY+(Math.random()-.5)*t.w0*.5;
+      push(t.xIn,y0); push(t.xIn+26,yb); push(t.decX-40,yb+(Math.random()-.5)*6); push(t.decX+4,t.decY+t.decH*(.15+.3*Math.random())); return P; }
+    push(t.xIn, t.py+(0.2+0.6*Math.random())*t.ps);
+    let u=o.u, y=own(u); push(t.xEmb,y);
+    if(o.route==='drain'){ // filtered at the embedding: flows downward and fades
+      const d=24+Math.random()*28; push(t.xEmb+8,y); push(t.xEmb+30+Math.random()*20, t.bot+d); push(t.xEmb+90+Math.random()*70, t.bot+d+14+Math.random()*16); return P; }
+    const u0=u, kink= t.mode==='v'? (o.c?.3:.75) : (o.c?.12:.35);
+    for(let i=0;i<N;i++){ const x=t.lx[i]; push(x-t.cw/2,y); u=clamp(u+randn()*kink,-1,1); if(o.c) u=u*.6+u0*.4; y=own(u); push(x+t.cw/2,y); }
+    push(t.xEnd,y);
+    if(t.mode==='dec') push(t.decX+2,t.decY+t.decH*(.58+.25*Math.random()));
+    else push(t.vbX+4,t.cy+(y-t.cy)*.25);
+    return P;
+  }
+  // 3D path: points [x,z]; kinks at the dams
+  function path3D(g,o){
+    const Q=[]; let {c,lane,u}=o;
+    Q.push([g.xEmb,laneZ(g,lane,u)]);
+    const u0=u, kink=c?.32:.62;
+    for(let i=0;i<N;i++){
+      const xd=g.lx[i]+g.wd; Q.push([xd,laneZ(g,lane,u)]);
+      if(g.k==='hc' && Math.random()<.5) lane=Math.floor(Math.random()*4);
+      u=clamp(u+randn()*kink*.8,-1,1); if(c) u=u*.6+u0*.4;
+    }
+    Q.push([g.xEnd,laneZ(g,lane,u)]); o.last=lane; return Q;
+  }
+  function spawn(){
+    const g=G,k=g.k; const pick=()=>[-.45,0,.45][Math.floor(Math.random()*3)]+randn()*.05;
+    const v=()=>(68+Math.random()*18)*(W/1000+.45);
+    if(k==='plain'||k==='dec'){
+      for(const t of g.tracks){
+        const add=o=>{ const P=path2D(t,o); parts.push({t,c:o.c,P,x:P[0][0],v:v(),route:o.route||'',fac:[...Array(N)].map(()=>.62+Math.random()*.3)}); };
+        const r=Math.random();
+        if(t.mode==='v'){ if(r<.18) add({c:1,u:pick()}); else add({c:0,u:Math.random()*2-1}); }
+        else if(t.mode==='x'){ if(r<.18) add({c:1,u:pick()}); else if(r<.26) add({c:0,u:Math.random()*2-1}); else add({c:0,u:Math.random()*2-1,route:'drain'}); }
+        else { if(r<.18) add({c:1,u:pick()}); else if(r<.26) add({c:0,u:Math.random()*2-1}); else if(r<.62) add({c:0,u:Math.random()*2-1,route:'drain'}); else add({c:Math.random()<.12?1:0,u:0,route:'branch'}); }
+      }
+    } else {
+      const add=o=>{ const Q=path3D(g,o); parts.push({c:o.c,Q,x:Q[0][0],v:v(),lane0:o.lane,last:o.last}); };
+      if(k==='hc'){ const c=Math.random()<.22, u=c?pick():Math.random()*2-1; for(let l=0;l<4;l++) add({c,lane:l,u}); }
+      else { const l=Math.floor(Math.random()*4), r=Math.random(); if(r<.2) add({c:1,lane:l,u:pick()}); else if(r<.47) add({c:0,lane:l,u:Math.random()*2-1}); }
+    }
+  }
+  function spawnGhost(){ // 3D only: reads rise into the deck (noise shrinks), writes fall to the dam
+    const g=G; const i=Math.floor(Math.random()*N), x=g.lx[i];
+    const up=Math.random()<.5;
+    if(up){ const c=Math.random()<.8; ghosts.push({c,up,s:0,v:.9+Math.random()*.35, a:[x-g.rd, Math.random()*g.Z, 0], b:[x-g.deckL*.35, g.zc+(Math.random()-.5)*g.w0*.8, g.deckY]}); }
+    else { const l=Math.floor(Math.random()*4); ghosts.push({c:1,up,s:0,v:.9+Math.random()*.35, a:[x+g.deckL*.35, g.zc+(Math.random()-.5)*g.w0*.6, g.deckY], b:[x+g.wd, laneZ(g,l,(Math.random()-.5)*1.4), 0]}); }
+  }
+  function at1(P,x){ let i=1; while(i<P.length-1 && P[i][0]<x) i++; const a=P[i-1],b=P[i]; const s=b[0]===a[0]?1:clamp((x-a[0])/(b[0]-a[0]),0,1); return [a[1]+(b[1]-a[1])*s, i, s]; }
+  function step(dt){
+    T+=dt; fade=Math.min(1,fade+dt*3);
+    const rate={plain:38,dec:38,hc:13,sihc:35}[G.k]*(W/1000+.4);
+    acc+=dt*rate; while(acc>1){ spawn(); acc--; }
+    if(G.k==='hc'||G.k==='sihc'){ gacc+=dt*40*(W/1000+.4); while(gacc>1){ spawnGhost(); gacc--; } }
+    for(const p of parts) p.x+=p.v*dt;
+    parts=parts.filter(p=>{ const E=p.P||p.Q; return p.x<E[E.length-1][0]; });
+    for(const q of ghosts) q.s+=q.v*dt; ghosts=ghosts.filter(q=>q.s<1);
+    if(parts.length>2600) parts.splice(0,parts.length-2600);
+  }
+
+  /* ================= drawing ================= */
+  const patch=[]; for(let i=0;i<64;i++){ const r=i>>3; patch.push({n:Math.random()<.55,a:Math.random()*.6+(r<4?.3:0)}); }
+  function drawPatch(x,y,s,quads){
+    for(let i=0;i<8;i++)for(let j=0;j<8;j++){ const v=patch[i*8+j], cw=s/8;
+      ctx.fillStyle=v.n?A(col['--noise'],.28+.45*v.a):A(col['--clean'],.22+.55*v.a); ctx.fillRect(x+j*cw,y+i*cw,cw-.6,cw-.6); }
+    ctx.strokeStyle=col['--line']; ctx.lineWidth=1; ctx.strokeRect(x-.5,y-.5,s+1,s+1);
+    if(quads) for(let q=0;q<4;q++){ ctx.strokeStyle=col[sc[q]]; ctx.lineWidth=1.6; ctx.strokeRect(x+(q&1)*s/2+1,y+(q>>1)*s/2+1,s/2-2,s/2-2); }
+  }
+  function drawTrack(t){
+    drawPatch(t.px,t.py,t.ps,false);
+    ctx.strokeStyle=A(col['--muted'],.5); ctx.lineWidth=1.1; line(t.xIn,t.cy,t.xEmb,t.cy);
+    ctx.fillStyle=A(col['--ink'],.035); ctx.strokeStyle=col['--line']; ctx.lineWidth=1; rr(t.xEmb,t.top,t.xEnd-t.xEmb,t.w0,8); ctx.fill(); ctx.stroke();
+    ctx.fillStyle=A(col['--dam'],.55); rr(t.xEmb-4,t.top-6,9,t.w0+12,2); ctx.fill();   // patch embedding
+    ctx.fillStyle=A(col['--dam'],.55); rr(t.xEnd-5,t.top-6,9,t.w0+12,2); ctx.fill();   // readout
+    for(const x of t.lx){ ctx.fillStyle=A(col['--ws'],.3); rr(x-t.cw/2,t.top+2,t.cw,t.w0-4,4); ctx.fill(); ctx.strokeStyle=A(col['--ws'],.9); ctx.lineWidth=1; ctx.stroke(); }
+    ctx.lineWidth=1.2;
+    if(t.mode==='dec'){
+      ctx.strokeStyle=A(col['--muted'],.45); ctx.setLineDash([4,4]);
+      ctx.beginPath(); ctx.moveTo(t.xIn,t.cy-t.ps*.3); ctx.bezierCurveTo(t.xIn+20,t.brY,t.xIn+30,t.brY,t.xIn+60,t.brY); ctx.lineTo(t.decX-40,t.brY); ctx.bezierCurveTo(t.decX-10,t.brY,t.decX-10,t.decY+t.decH*.3,t.decX,t.decY+t.decH*.3); ctx.stroke(); ctx.setLineDash([]);
+      ctx.strokeStyle=A(col['--clean'],.7); curve(t.xEnd,t.cy,t.decX,t.decY+t.decH*.7);
+      ctx.fillStyle=col['--surface']; ctx.strokeStyle=col['--muted']; rr(t.decX,t.decY,t.decW,t.decH,6); ctx.fill(); ctx.stroke();
+      ctx.fillStyle=A(col['--muted'],.85); for(let a=0;a<2;a++)for(let b=0;b<4;b++) dot(t.decX+t.decW*(.34+.32*a),t.decY+t.decH*(.2+.2*b),1.6);
+      ctx.strokeStyle=col['--muted']; arrow(t.decX+t.decW,t.decY+t.decH/2,t.vbX-3,t.vbY+t.vbS/2);
+    } else { ctx.strokeStyle=col['--muted']; arrow(t.xEnd,t.cy,t.vbX-3,t.cy); }
+    ctx.fillStyle=col['--surface']; ctx.strokeStyle=col['--muted']; ctx.lineWidth=1.2; rr(t.vbX,t.vbY,t.vbS,t.vbS,6); ctx.fill(); ctx.stroke();
+  }
+  function drawParts2D(){
+    for(const p of parts){
+      const t=p.t, [y,seg,s]=at1(p.P,p.x); const P=p.P, end=P[P.length-1][0];
+      let a=1;
+      if(p.route==='drain'){ const st=P[1][0]; a=clamp(1-(p.x-st)/(end-st),0,1)*.9; }
+      else if(end-p.x<14) a=(end-p.x)/14;
+      if(p.c){ const [y2]=at1(P,p.x-8); ctx.strokeStyle=A(col['--clean'],.95*a); ctx.lineWidth=2.3; line(p.x-8,y2,p.x,y); }
+      else { ctx.fillStyle=A(col['--noise'],.85*a); dot(p.x,y,1.9); }
+    }
+  }
+  function draw3D(){
+    const g=G,k=g.k, Z=g.Z;
+    const p3=(x,z,y)=>P3(g,x,z,y);
+    // floor ribbons, back to front
+    // one ribbon per stream with a gap between them: dashed lanes (HC, crossable) or solid lanes (SiHC)
+    for(let l=3;l>=0;l--){ const z0=l*g.pitch, z1=z0+g.w0;
+      ctx.fillStyle= k==='sihc'? A(col[sc[l]],.16) : A(col['--ink'],.045);
+      poly([p3(g.xEmb,z0),p3(g.xEnd,z0),p3(g.xEnd,z1),p3(g.xEmb,z1)]); ctx.fill();
+      ctx.strokeStyle= k==='hc'? A(col['--muted'],.65) : A(col['--muted'],.75); ctx.lineWidth= k==='hc'?1:1.4;
+      if(k==='hc') ctx.setLineDash([6,5]);
+      for(const zz of [z0,z1]){ const a=p3(g.xEmb,zz), b=p3(g.xEnd,zz); line(a[0],a[1],b[0],b[1]); }
+      ctx.setLineDash([]); }
+    if(k==='sihc') for(let l=0;l<4;l++){ const z0=l*g.pitch; ctx.strokeStyle=col[sc[l]]; ctx.lineWidth=3; const a=p3(g.xEmb-3,z0+4), b=p3(g.xEmb-3,z0+g.w0-4); line(a[0],a[1],b[0],b[1]); const c=p3(g.xEnd+3,z0+4), d=p3(g.xEnd+3,z0+g.w0-4); line(c[0],c[1],d[0],d[1]); }
+    // embedding edge
+    { ctx.strokeStyle=col['--muted']; ctx.lineWidth=2; const a=p3(g.xEmb,-3), b=p3(g.xEmb,Z+3); line(a[0],a[1],b[0],b[1]); }
+    // dams on the floor
+    for(let i=0;i<N;i++){ const xd=g.lx[i]+g.wd;
+      ctx.save(); ctx.shadowColor=A(col['--ws'],.8); ctx.shadowBlur=10;
+      ctx.fillStyle=A(col['--ws'],.35); poly([p3(xd-3,0),p3(xd+3,0),p3(xd+3,Z),p3(xd-3,Z)]); ctx.fill();
+      ctx.strokeStyle=A(col['--ws'],.9); ctx.lineWidth=1.4; const a=p3(xd,0), b=p3(xd,Z); line(a[0],a[1],b[0],b[1]); ctx.restore();
+      // matching strip where the read is taken, same strength as the write
+      const xr0=g.lx[i]-g.rd; ctx.save(); ctx.shadowColor=A(col['--ws'],.8); ctx.shadowBlur=10;
+      ctx.fillStyle=A(col['--ws'],.35); poly([p3(xr0-3,0),p3(xr0+3,0),p3(xr0+3,Z),p3(xr0-3,Z)]); ctx.fill();
+      ctx.strokeStyle=A(col['--ws'],.9); ctx.lineWidth=1.4; const c=p3(xr0,0), d=p3(xr0,Z); line(c[0],c[1],d[0],d[1]); ctx.restore(); }
+    // input wiring and patch
+    const pmid=p3(g.xEmb,g.zc);
+    drawPatch(g.px,g.py,g.ps,k==='sihc');
+    ctx.lineWidth=1.1;
+    if(k==='hc'){ const fx=g.px+g.ps+(g.xEmb-g.px-g.ps)*.35; ctx.strokeStyle=A(col['--muted'],.5); line(g.px+g.ps,g.py+g.ps/2,fx,g.py+g.ps/2); for(let l=0;l<4;l++){ const e=p3(g.xEmb,laneZ(g,l,0)); curve(fx,g.py+g.ps/2,e[0],e[1]); } }
+    else for(let l=0;l<4;l++){ ctx.strokeStyle=A(col[sc[l]],.85); const e=p3(g.xEmb,laneZ(g,l,0)); curve(g.px+g.ps, g.py+g.ps*((l>>1)+.5)/2, e[0],e[1]); }
+    // outputs
+    if(k==='hc'){ ctx.strokeStyle=A(col['--muted'],.55); for(let l=0;l<4;l++){ const e=p3(g.xEnd,laneZ(g,l,0)); curve(e[0],e[1],g.mx,g.vbY+g.vbS/2);} ctx.fillStyle=col['--muted']; dot(g.mx,g.vbY+g.vbS/2,2.6); ctx.strokeStyle=col['--muted']; arrow(g.mx,g.vbY+g.vbS/2,g.vbX-3,g.vbY+g.vbS/2); }
+    else for(let l=0;l<4;l++){ ctx.strokeStyle=A(col[sc[l]],.75); const e=p3(g.xEnd,laneZ(g,l,0)); curve(e[0],e[1],g.vbX,g.vbY+g.vbS*((l>>1)+.5)/2); }
+    ctx.fillStyle=col['--surface']; ctx.strokeStyle=col['--muted']; ctx.lineWidth=1.2; rr(g.vbX,g.vbY,g.vbS,g.vbS,6); ctx.fill(); ctx.stroke();
+    if(k==='sihc') for(let q=0;q<4;q++){ ctx.strokeStyle=col[sc[q]]; ctx.lineWidth=1.6; ctx.strokeRect(g.vbX+(q&1)*g.vbS/2+2,g.vbY+(q>>1)*g.vbS/2+2,g.vbS/2-4,g.vbS/2-4); }
+    // floor particles
+    for(const p of parts){
+      const [z]=at1(p.Q,p.x); const [x,y]=p3(p.x,z,0); const E=p.Q[p.Q.length-1][0]; const a= E-p.x<14? (E-p.x)/14:1;
+      let hit=0; for(const lx of g.lx){ const d=p.x-(lx+g.wd); if(d>-3 && d<16) hit=Math.max(hit,1-Math.abs(d-4)/12); }
+      if(hit>0){ ctx.fillStyle=A(col['--ws'],.22*hit); dot(x,y,4); }
+      if(p.c){ const [z2]=at1(p.Q,p.x-9); const [x2,y2]=p3(p.x-9,z2,0); ctx.strokeStyle=A(col['--clean'],.95*a); ctx.lineWidth=2.4; line(x2,y2,x,y); }
+      else { ctx.fillStyle=A(col['--noise'],.85*a); dot(x,y,2); }
+    }
+    // intakes (read, narrowing upward), write fans, decks
+    for(let i=0;i<N;i++){ const x=g.lx[i], h=g.deckY, zl=g.zc-g.w0*.3, zr=g.zc+g.w0*.3, xl=x-g.deckL/2, xr=x+g.deckL/2;
+      // read intake: full floor width at the bottom, one stream wide at the top
+      ctx.save(); ctx.shadowColor=A(col['--ws'],.85); ctx.shadowBlur=9; ctx.fillStyle=A(col['--ws'],.15); poly([p3(x-g.rd,0,0),p3(x-g.rd,Z,0),p3(xl,zr,h),p3(xl,zl,h)]); ctx.fill(); ctx.restore();
+      ctx.strokeStyle=A(col['--ws'],.85); ctx.lineWidth=1.3; const e1=p3(x-g.rd,0,0),e2=p3(xl,zl,h),e3=p3(x-g.rd,Z,0),e4=p3(xl,zr,h); line(e1[0],e1[1],e2[0],e2[1]); line(e3[0],e3[1],e4[0],e4[1]);
+      // write: thin lines fanning down onto every stream at the dam
+      { const xd=x+g.wd; ctx.save(); ctx.shadowColor=A(col['--ws'],.85); ctx.shadowBlur=9;
+        ctx.fillStyle=A(col['--ws'],.15); poly([p3(xr,zl,h),p3(xr,zr,h),p3(xd,Z,0),p3(xd,0,0)]); ctx.fill();
+        ctx.strokeStyle=A(col['--ws'],.85); ctx.lineWidth=1.3; const e1=p3(xr,zl,h),e2=p3(xd,0,0),e3=p3(xr,zr,h),e4=p3(xd,Z,0); line(e1[0],e1[1],e2[0],e2[1]); line(e3[0],e3[1],e4[0],e4[1]);
+        ctx.restore(); }
+      // deck: a box with a top face and a side face
+      const t=g.deckT;
+      const f=[p3(xl,zl,h),p3(xr,zl,h),p3(xr,zl,h+t),p3(xl,zl,h+t)];
+      const top=[p3(xl,zl,h+t),p3(xr,zl,h+t),p3(xr,zr,h+t),p3(xl,zr,h+t)];
+      const side=[p3(xr,zl,h),p3(xr,zr,h),p3(xr,zr,h+t),p3(xr,zl,h+t)];
+      ctx.fillStyle=A(col['--ws'],.95); poly(top); ctx.fill();
+      ctx.fillStyle=A(col['--ws'],.7); poly(side); ctx.fill();
+      ctx.fillStyle=A(col['--ws'],.85); poly(f); ctx.fill();
+    }
+    // ghosts
+    for(const q of ghosts){ const s=q.s; const x=q.a[0]+(q.b[0]-q.a[0])*s, z=q.a[1]+(q.b[1]-q.a[1])*s, y=q.a[2]+(q.b[2]-q.a[2])*s;
+      const [sx,sy]=p3(x,z,y); const a=Math.min(1,Math.sin(Math.PI*s)*1.5);
+      if(q.up){ ctx.save(); ctx.shadowColor=A(col['--ws'],.9); ctx.shadowBlur=6; if(q.c){ ctx.fillStyle=A(col['--clean'],a); dot(sx,sy,2.2); } else { ctx.fillStyle=A(col['--noise'],a*.9); dot(sx,sy,2.2*(1-.8*s)+.3); } ctx.restore(); }
+      else { ctx.save(); ctx.shadowColor=A(col['--ws'],.9); ctx.shadowBlur=6; ctx.fillStyle=A(col['--ws'],a); dot(sx,sy,2.2); ctx.restore(); }
+    }
+  }
+  function draw(){ ctx.clearRect(0,0,W,H); ctx.save(); ctx.globalAlpha=fade;
+    if(G.tracks){ G.tracks.forEach(drawTrack); drawParts2D();
+      if(G.k==='plain'){ const [v,x]=G.tracks, mx=v.xEmb+(G.narrow?30:44), my=(v.bot+x.top)/2;
+        ctx.strokeStyle=col['--muted']; ctx.lineWidth=1.1; arrow(mx-4,my-4,v.xEmb+6,v.bot+8); arrow(mx-4,my+4,x.xEmb+6,x.top-8); } }
+    else draw3D();
+    ctx.restore(); }
+
+  /* ================= labels ================= */
+  const labs=[]; let mjReady=false;
+  function L(id,tex,cls,fb){ let el=document.getElementById(id); if(!el){el=document.createElement('div');el.id=id;labBox.appendChild(el);} el.className='lab '+(cls||'');
+    const want=(mjReady||!fb)?tex:fb; if(el.dataset.src!==want){ el.innerHTML=want; el.dataset.src=want; el.dataset.typed=''; } el.hidden=false; labs.push(el); return el; }
+  const at=(el,x,y)=>{ el.style.left=x+'px'; el.style.top=y+'px'; };
+  function placeLabels(){
+    labs.length=0; [...labBox.children].forEach(c=>c.hidden=true);
+    const g=G,k=g.k;
+    if(k==='plain'){ const [v,x]=g.tracks;
+      at(L('l-hv','\\(\\mathbf{v}\\)-prediction','head a-c','v-prediction'), (v.xEmb+v.xEnd)/2, v.top-28);
+      at(L('l-hx','\\(\\mathbf{x}\\)-prediction','head a-c','x-prediction'), (x.xEmb+x.xEnd)/2, x.top-28);
+      at(L('l-xt1','\\(x_t\\)','a-c ink','xₜ'), v.px+v.ps/2, v.py+v.ps+5);
+      at(L('l-xt2','\\(x_t\\)','a-c ink','xₜ'), x.px+x.ps/2, x.py+x.ps+5);
+      at(L('l-o1','\\(\\hat{v}\\)','a-cm big','v̂'), v.vbX+v.vbS/2, v.vbY+v.vbS/2);
+      at(L('l-o2','\\(\\hat{x}\\)','a-cm big','x̂'), x.vbX+x.vbS/2, x.vbY+x.vbS/2);
+      at(L('l-n1','contains \\(-\\dfrac{x_t}{1-t}\\)','a-r','contains −xₜ/(1−t)'), W-8, v.vbY+v.vbS+8);
+      at(L('l-n2','clean image','a-r'), W-8, x.vbY+x.vbS+8);
+      at(L('l-pe','learned patch embedding','ink'), v.xEmb+(g.narrow?30:44), (v.bot+x.top)/2-8); }
+    if(k==='dec'){ const t=g.tracks[0];
+      at(L('l-hv','Semantic stream of DiT blocks','head a-c'), (t.xEmb+t.xEnd)/2, t.top-28);
+      at(L('l-xt1','\\(x_t\\)','a-c ink','xₜ'), t.px+t.ps/2, t.py+t.ps+5);
+      at(L('l-o1','\\(\\hat{v}\\)','a-cm big','v̂'), t.vbX+t.vbS/2, t.vbY+t.vbS/2);
+      at(L('l-br','long-skip connection','a-c'), (t.xIn+t.decX)/2, t.brY-34);
+      at(L('l-dec','decoder','a-c ink'), t.decX+t.decW/2, t.decY+t.decH+8); }
+    if(k==='hc'||k==='sihc'){
+      const d=P3(g,g.lx[0],g.zc,g.deckY+g.deckT);
+      const fl=P3(g,g.xEmb,0,0);
+      at(L('l-s', k==='hc'?'4 streams, initialized by copy':'one stream per subpatch'), fl[0]+6, fl[1]+8);
+      at(L('l-xt1','\\(x_t\\)','a-c ink','xₜ'), g.px+g.ps/2, g.py+g.ps+5);
+      if(k==='hc'){ at(L('l-o1','\\(\\hat{v}\\)','a-cm big','v̂'), g.vbX+g.vbS/2, g.vbY+g.vbS/2); at(L('l-m','mean','a-c'), g.mx, g.vbY+g.vbS/2+10); }
+      else at(L('l-o','\\(\\hat{v}\\) from local predictions','a-r','v̂ from local predictions'), W-8, g.vbY+g.vbS+8);
+    }
+    typeset();
+  }
+  function typeset(){ if(!mjReady){ labBox.classList.add('ready'); return; }
+    const todo=labs.filter(e=>!e.dataset.typed && e.innerHTML.includes('\\(')); todo.forEach(e=>e.dataset.typed='1');
+    MathJax.typesetPromise(todo).then(()=>labBox.classList.add('ready')).catch(()=>labBox.classList.add('ready')); }
+  (function waitMJ(n){ if(window.MathJax&&MathJax.startup&&MathJax.startup.promise){ MathJax.startup.promise.then(()=>{ mjReady=true; if(G) placeLabels(); }); } else if(n<60) setTimeout(()=>waitMJ(n+1),100); })(0);
+  setTimeout(()=>labBox.classList.add('ready'),2000);
+
+  /* ================= control ================= */
+  const tabs=[...document.querySelectorAll('.tab')];
+  function show(i){ cur=i; parts=[]; ghosts=[]; acc=0; gacc=0; fade=0;
+    tabs.forEach((t,j)=>t.setAttribute('aria-pressed',j===i?'true':'false'));
+    document.getElementById('p-title').textContent=S[i].title; document.getElementById('p-text').textContent=S[i].text;
+    layout(); for(let n=0;n<220;n++) step(1/20); fade=reduce?1:.15; if(reduce) draw(); }
+  let timer=null;
+  function stop(){ if(timer){clearInterval(timer);timer=null;} document.getElementById('play').textContent='Play the story'; }
+  function play(){ stop(); show(0); document.getElementById('play').textContent='Stop';
+    timer=setInterval(()=>{ if(cur>=S.length-1){ stop(); return; } show(cur+1); },8500); }
+  tabs.forEach(t=>t.addEventListener('click',()=>{ stop(); show(+t.dataset.i); }));
+  document.getElementById('play').addEventListener('click',()=>{ timer?stop():play(); });
+  let rz=null; addEventListener('resize',()=>{ clearTimeout(rz); rz=setTimeout(()=>show(cur),120); });
+  // The host page pauses frames that are off screen.
+  let running=true, scheduled=false;
+  addEventListener('message',e=>{ if(e.data && typeof e.data.rsbVisible==='boolean'){ running=e.data.rsbVisible; if(running && !scheduled && !reduce){ last=0; scheduled=true; requestAnimationFrame(loop); } } });
+  let last=0; function loop(ts){ scheduled=false; if(!running) return; const dt=Math.min(.05,(ts-last)/1000||.016); last=ts; step(dt); draw(); scheduled=true; requestAnimationFrame(loop); }
+  // #embed-N opens tab N; #embed-N-solo also hides the tabs and the caption.
+  const hm=location.hash.match(/^#embed-(\d)(-solo)?$/);
+  show(hm? Math.min(+hm[1],S.length-1) : 0);
+  if(!reduce){ scheduled=true; requestAnimationFrame(loop); if(!hm) play(); }
+  // When embedded, report the page height so the host can size the frame.
+  if(document.documentElement.classList.contains('embed')){
+    const post=()=>{ try{ parent.postMessage({rsbTeaserHeight:Math.ceil(document.querySelector('.wrap').getBoundingClientRect().height)},'*'); }catch(e){} };
+    try{ new ResizeObserver(post).observe(document.querySelector('.wrap')); }catch(e){ setInterval(post,1000); }
+    post();
+  }
+})();
+</script>
+
+</body>
+</html>
