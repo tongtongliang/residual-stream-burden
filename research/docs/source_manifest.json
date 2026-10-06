@@ -21,11 +21,343 @@
     },
     {
       "path": "README.md",
-      "bytes": 5568
+      "bytes": 5727
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "bytes": 2102
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0
+    },
+    {
+      "path": "docs/.project-page-files.json",
+      "bytes": 3715
+    },
+    {
+      "path": "docs/assets/decoupled-filtering.png",
+      "bytes": 344333
+    },
+    {
+      "path": "docs/assets/endpoint-spectra.png",
+      "bytes": 107440
+    },
+    {
+      "path": "docs/assets/hyper-connections.png",
+      "bytes": 102468
+    },
+    {
+      "path": "docs/assets/input-filtering.png",
+      "bytes": 293212
+    },
+    {
+      "path": "docs/assets/katex/LICENSE",
+      "bytes": 1107
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_AMS-Regular.ttf",
+      "bytes": 63632
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_AMS-Regular.woff",
+      "bytes": 33516
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_AMS-Regular.woff2",
+      "bytes": 28076
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Caligraphic-Bold.ttf",
+      "bytes": 12368
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Caligraphic-Bold.woff",
+      "bytes": 7716
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Caligraphic-Bold.woff2",
+      "bytes": 6912
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Caligraphic-Regular.ttf",
+      "bytes": 12344
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Caligraphic-Regular.woff",
+      "bytes": 7656
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Caligraphic-Regular.woff2",
+      "bytes": 6908
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Fraktur-Bold.ttf",
+      "bytes": 19584
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Fraktur-Bold.woff",
+      "bytes": 13296
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Fraktur-Bold.woff2",
+      "bytes": 11348
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Fraktur-Regular.ttf",
+      "bytes": 19572
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Fraktur-Regular.woff",
+      "bytes": 13208
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Fraktur-Regular.woff2",
+      "bytes": 11316
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Bold.ttf",
+      "bytes": 51336
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Bold.woff",
+      "bytes": 29912
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Bold.woff2",
+      "bytes": 25324
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-BoldItalic.ttf",
+      "bytes": 32968
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-BoldItalic.woff",
+      "bytes": 19412
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-BoldItalic.woff2",
+      "bytes": 16780
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Italic.ttf",
+      "bytes": 33580
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Italic.woff",
+      "bytes": 19676
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Italic.woff2",
+      "bytes": 16988
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Regular.ttf",
+      "bytes": 53580
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Regular.woff",
+      "bytes": 30772
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Main-Regular.woff2",
+      "bytes": 26272
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Math-BoldItalic.ttf",
+      "bytes": 31196
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Math-BoldItalic.woff",
+      "bytes": 18668
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Math-BoldItalic.woff2",
+      "bytes": 16400
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Math-Italic.ttf",
+      "bytes": 31308
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Math-Italic.woff",
+      "bytes": 18748
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Math-Italic.woff2",
+      "bytes": 16440
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Bold.ttf",
+      "bytes": 24504
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Bold.woff",
+      "bytes": 14408
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Bold.woff2",
+      "bytes": 12216
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Italic.ttf",
+      "bytes": 22364
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Italic.woff",
+      "bytes": 14112
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Italic.woff2",
+      "bytes": 12028
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Regular.ttf",
+      "bytes": 19436
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Regular.woff",
+      "bytes": 12316
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_SansSerif-Regular.woff2",
+      "bytes": 10344
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Script-Regular.ttf",
+      "bytes": 16648
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Script-Regular.woff",
+      "bytes": 10588
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Script-Regular.woff2",
+      "bytes": 9644
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size1-Regular.ttf",
+      "bytes": 12228
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size1-Regular.woff",
+      "bytes": 6496
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size1-Regular.woff2",
+      "bytes": 5468
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size2-Regular.ttf",
+      "bytes": 11508
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size2-Regular.woff",
+      "bytes": 6188
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size2-Regular.woff2",
+      "bytes": 5208
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size3-Regular.ttf",
+      "bytes": 7588
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size3-Regular.woff",
+      "bytes": 4420
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size3-Regular.woff2",
+      "bytes": 3624
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size4-Regular.ttf",
+      "bytes": 10364
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size4-Regular.woff",
+      "bytes": 5980
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Size4-Regular.woff2",
+      "bytes": 4928
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Typewriter-Regular.ttf",
+      "bytes": 27556
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Typewriter-Regular.woff",
+      "bytes": 16028
+    },
+    {
+      "path": "docs/assets/katex/fonts/KaTeX_Typewriter-Regular.woff2",
+      "bytes": 13568
+    },
+    {
+      "path": "docs/assets/katex/katex.min.css",
+      "bytes": 23352
+    },
+    {
+      "path": "docs/assets/learned-long-skip.png",
+      "bytes": 340417
+    },
+    {
+      "path": "docs/assets/linear-probes-plain.png",
+      "bytes": 114268
+    },
+    {
+      "path": "docs/assets/patch-spectra.png",
+      "bytes": 102986
+    },
+    {
+      "path": "docs/assets/plain-residual-blog.svg",
+      "bytes": 12658
+    },
+    {
+      "path": "docs/assets/plain-residual.png",
+      "bytes": 47782
+    },
+    {
+      "path": "docs/assets/reconstruction-original.png",
+      "bytes": 245609
+    },
+    {
+      "path": "docs/assets/reconstruction-rank-128.png",
+      "bytes": 213603
+    },
+    {
+      "path": "docs/assets/reconstruction-rank-16.png",
+      "bytes": 125296
+    },
+    {
+      "path": "docs/assets/reconstruction-rank-32.png",
+      "bytes": 151113
+    },
+    {
+      "path": "docs/assets/reconstruction-rank-64.png",
+      "bytes": 178010
+    },
+    {
+      "path": "docs/assets/reconstruction-rank-8.png",
+      "bytes": 101915
+    },
+    {
+      "path": "docs/assets/residual-stream-teaser.html",
+      "bytes": 33253
+    },
+    {
+      "path": "docs/assets/sihc.png",
+      "bytes": 127729
+    },
+    {
+      "path": "docs/assets/toy-residual-rank.png",
+      "bytes": 142355
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 148465
     },
     {
       "path": "pyproject.toml",
@@ -3652,6 +3984,10 @@
       "bytes": 4511
     },
     {
+      "path": "sihc/docs/PROJECT_PAGE.md",
+      "bytes": 1029
+    },
+    {
       "path": "sihc/docs/REPRODUCIBILITY.md",
       "bytes": 2032
     },
@@ -3830,6 +4166,10 @@
     {
       "path": "sihc/tools/download_checkpoint.py",
       "bytes": 1305
+    },
+    {
+      "path": "sihc/tools/sync_project_page.py",
+      "bytes": 2951
     },
     {
       "path": "sihc/training/README.md",

@@ -65,3 +65,5 @@ The command produces a small preview grid. For the reported FID/IS, use the 50K 
 Checkpoint architectures, states and sampling settings are recorded in the [catalog](sihc/pretrained/checkpoints.json). Historical blockwise models retain separate identities from paper sublayerwise models.
 
 [MIT license](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Preparation checks](research/docs/RELEASE_VALIDATION.md)
+
+Project-page updates: [publishing instructions](sihc/docs/PROJECT_PAGE.md).

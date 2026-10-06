@@ -7,7 +7,6 @@ Then review, commit and push docs/. GitHub Pages deploys main:/docs automaticall
 import argparse
 import json
 import re
-import shutil
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
