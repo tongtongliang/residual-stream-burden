@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Late Materialization</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@600&display=swap">
+<script>if(/^#embed/.test(location.hash)) document.documentElement.classList.add('embed');</script>
+<style>
+:root{
+  --bg:#f3f5f8; --surface:#ffffff; --ink:#17202c; --muted:#7a8495; --line:#d5dbe4;
+  --hbm:#eef1f6; --chip:#e9eff8; --blk:#ffffff; --blkb:#cfd6e0; --on:#3b4352; --ws:#8f99a6; --done:#2f9f6b;
+  --s1:#6d7fd9; --s2:#2f9f93; --s3:#a974d6; --s4:#c1912f;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0d1219; --surface:#141b25; --ink:#e6eaf0; --muted:#8793a5; --line:#2a3647;
+    --hbm:#1a222e; --chip:#16202e; --blk:#141b25; --blkb:#344154; --on:#c3cad5; --ws:#7d8898; --done:#5cc796;
+    --s1:#8f9ef0; --s2:#4fc2b5; --s3:#c493ee; --s4:#e0b454; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0d1219; --surface:#141b25; --ink:#e6eaf0; --muted:#8793a5; --line:#2a3647;
+  --hbm:#1a222e; --chip:#16202e; --blk:#141b25; --blkb:#344154; --on:#c3cad5; --ws:#7d8898; --done:#5cc796;
+  --s1:#8f9ef0; --s2:#4fc2b5; --s3:#c493ee; --s4:#e0b454; color-scheme: dark;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg)}
+.wrap{max-width:900px;margin:40px auto;padding:0 20px}
+.stage{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 20px 14px}
+svg{display:block;width:100%;height:auto;cursor:pointer}
+svg text{font-family:"IBM Plex Mono",ui-monospace,monospace;font-size:13px;fill:var(--muted)}
+svg text.lane{font-family:"IBM Plex Sans",system-ui,sans-serif;font-weight:600;font-size:17px;fill:var(--ink)}
+html.embed body{background:transparent}
+html.embed .wrap{margin:0;padding:0;max-width:none}
+</style>
+</head>
+<body>
+<div class="wrap"><div class="stage">
+<svg id="sv" viewBox="0 0 880 320" role="img" aria-label="Eight updates of one SiHC stage. In literal execution, every update reads the wide residual state from HBM and writes a new one back. In the fused stage, the updates pass only the compact workspace along, and the wide state is written to HBM once at the end, so the stage finishes earlier."></svg>
+</div></div>
+<script>
+(function(){
+const NS='http://www.w3.org/2000/svg', sv=document.getElementById('sv');
+const T=8, COLS=['--s1','--s2','--s3','--s4'];
+const X0=108, STEP=82, BW=42, BH=42, SW=30, SH=7, SG=2, STACK=4*SH+3*SG;
+const MOVE=520, COMP=620, HOP=300, HOLD=3000;
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+function el(tag,a,p){ const e=document.createElementNS(NS,tag); for(const k in a) e.setAttribute(k,a[k]); (p||sv).appendChild(e); return e; }
+function txt(x,y,s,cls,p){ const t=el('text',{x,y},p); if(cls) t.setAttribute('class',cls); t.textContent=s; return t; }
+function stack(p,x,y){ const g=el('g',{transform:`translate(${x},${y})`},p);
+  COLS.forEach((c,i)=>el('rect',{x:0,y:i*(SH+SG),width:SW,height:SH,rx:2,fill:`var(${c})`},g)); return g; }
+
+// HBM slots X_0 ... X_8 sit between the updates; update i reads slot i and writes slot i+1
+const slotX=k=>X0+k*STEP-SW/2, blockX=i=>X0+(i+.5)*STEP-BW/2;
+function lane(y,name){
+  const g=el('g',{}), L={g,y};
+  L.hy=y+12; L.by=y+STACK+56;
+  txt(0,L.by+BH/2+6,name,'lane',g);
+  el('rect',{x:X0-36,y,width:T*STEP+72,height:STACK+24,rx:8,fill:'var(--hbm)'},g);
+  el('rect',{x:X0-36,y:L.by-10,width:T*STEP+72,height:BH+20,rx:8,fill:'var(--chip)'},g);
+  txt(X0+T*STEP+46,L.hy+STACK/2+5,'HBM','',g);
+  txt(X0+T*STEP+46,L.by+BH/2+5,'on chip','',g);
+  for(let i=0;i<T-1;i++) el('line',{x1:blockX(i)+BW,y1:L.by+BH/2,x2:blockX(i+1),y2:L.by+BH/2,stroke:'var(--blkb)','stroke-width':2},g);
+  L.blocks=[]; for(let i=0;i<T;i++) L.blocks.push(el('rect',{x:blockX(i),y:L.by,width:BW,height:BH,rx:7,fill:'var(--blk)',stroke:'var(--blkb)','stroke-width':1.5},g));
+  L.layer=el('g',{},g);
+  stack(L.layer,slotX(0),L.hy);                                   // the stage input X_0
+  L.ws=el('rect',{x:blockX(0)+(BW-SW)/2,y:L.by+BH/2-4,width:SW,height:8,rx:3,fill:'var(--ws)',opacity:0},L.layer);
+  L.check=el('path',{d:`M${blockX(T-1)+BW+14} ${L.by+BH/2} l5 5 l10 -11`,fill:'none',stroke:'var(--done)','stroke-width':2.6,'stroke-linecap':'round','stroke-linejoin':'round',opacity:0},g);
+  return L;
+}
+
+let token=0, paused=false;
+function tick(tk,ms,fn){ return new Promise((res,rej)=>{ let t=0,last=performance.now();
+  (function f(now){ if(tk!==token) return rej(0); if(!paused) t+=(now-last)/ms; last=now; const u=Math.min(1,t); fn&&fn(u); if(u<1) requestAnimationFrame(f); else res(); })(last); }); }
+const ease=u=>u<.5?2*u*u:1-Math.pow(-2*u+2,2)/2;
+const pos=(g,x,y)=>g.setAttribute('transform',`translate(${x},${y})`);
+
+const inBlockX=i=>blockX(i)+(BW-SW)/2, inBlockY=L=>L.by+(BH-STACK)/2;
+async function read(L,i,tk){        // copy the wide state from slot i down into update i
+  const s=stack(L.layer,slotX(i),L.hy), x0=slotX(i), y0=L.hy, x1=inBlockX(i), y1=inBlockY(L);
+  await tick(tk,MOVE,u=>{ const e=ease(u); pos(s,x0+(x1-x0)*e,y0+(y1-y0)*e); });
+  await tick(tk,160,u=>s.style.opacity=1-u); s.remove();        // reduced to the compact workspace
+}
+async function write(L,i,tk){       // the new wide state leaves update i and is stored in slot i+1
+  const s=stack(L.layer,inBlockX(i),inBlockY(L)), x0=inBlockX(i), y0=inBlockY(L), x1=slotX(i+1), y1=L.hy; s.style.opacity=0;
+  await tick(tk,160,u=>s.style.opacity=u);
+  await tick(tk,MOVE,u=>{ const e=ease(u); pos(s,x0+(x1-x0)*e,y0+(y1-y0)*e); });
+}
+async function compute(L,i,tk){
+  L.blocks[i].setAttribute('stroke','var(--on)'); L.blocks[i].setAttribute('stroke-width',2.5);
+  L.ws.setAttribute('x',blockX(i)+(BW-SW)/2); L.ws.setAttribute('opacity',1);
+  await tick(tk,COMP);
+  L.blocks[i].setAttribute('fill','var(--on)'); L.blocks[i].setAttribute('stroke-width',1.5); L.blocks[i].setAttribute('stroke','var(--blkb)');
+}
+async function hop(L,i,tk){         // the compact workspace passes on to the next update
+  const x0=blockX(i)+(BW-SW)/2, x1=blockX(i+1)+(BW-SW)/2;
+  await tick(tk,HOP,u=>L.ws.setAttribute('x',x0+(x1-x0)*ease(u)));
+}
+async function literal(L,tk){
+  for(let i=0;i<T;i++){
+    await read(L,i,tk);
+    await compute(L,i,tk);
+    L.ws.setAttribute('opacity',0);
+    await write(L,i,tk);
+  }
+  L.check.setAttribute('opacity',1);
+}
+async function fused(L,tk){
+  await read(L,0,tk);
+  for(let i=0;i<T;i++){
+    await compute(L,i,tk);
+    if(i<T-1) await hop(L,i,tk);
+  }
+  L.ws.setAttribute('opacity',0);
+  await write(L,T-1,tk);
+  L.check.setAttribute('opacity',1);
+}
+async function run(){
+  const tk=++token;
+  try{ while(true){
+    sv.innerHTML='';
+    const A=lane(8,'Literal'), B=lane(166,'Fused');
+    await tick(tk,800);
+    await Promise.all([literal(A,tk),fused(B,tk)]);
+    await tick(tk,HOLD);
+  } }catch(e){}
+}
+sv.addEventListener('click',()=>{ if(started) paused=!paused; });
+addEventListener('message',e=>{ if(e.data&&typeof e.data.rsbVisible==='boolean') paused=!e.data.rsbVisible; });
+function staticView(){            // the finished comparison, drawn without motion
+  sv.innerHTML='';
+  const A=lane(8,'Literal'), B=lane(166,'Fused');
+  for(const L of [A,B]) L.blocks.forEach(b=>b.setAttribute('fill','var(--on)'));
+  for(let k=1;k<=T;k++) stack(A.layer,slotX(k),A.hy);
+  stack(B.layer,slotX(T),B.hy);
+  A.check.setAttribute('opacity',1); B.check.setAttribute('opacity',1);
+  const g=el('g',{style:'cursor:pointer'}); el('rect',{x:376,y:142,width:128,height:34,rx:17,fill:'var(--on)'},g);
+  const t=txt(440,164,'▶  Play','',g); t.setAttribute('text-anchor','middle'); t.style.fill='var(--surface)';
+}
+let started=false;
+if(reduce){ staticView(); } else { started=true; run(); }
+sv.addEventListener('click',e=>{ if(!started){ e.stopImmediatePropagation(); started=true; paused=false; run(); } },true);
+if(document.documentElement.classList.contains('embed')){
+  const post=()=>{ try{ parent.postMessage({rsbTeaserHeight:Math.ceil(document.querySelector('.wrap').getBoundingClientRect().height)},'*'); }catch(e){} };
+  addEventListener('load',post); addEventListener('resize',post); new ResizeObserver(post).observe(document.querySelector('.wrap')); post();
+}
+})();
+</script>
+</body>
+</html>
